@@ -51,7 +51,7 @@ export default function Home() {
                     <Zap size={18} className="mt-1" />
                     <h3 className="font-bold">Segurança</h3>
                   </div>
-                  <p className="text-gray-300 text-[14px] pt-1">Oferecemos uma solução completa com proteção Cloudflare, firewall premium para proteger seu site contra ataques e acessos não autorizados, além de um serviço DNS de alta performance, garantindo conexões rápidas e confiáveis para seus usuários.</p>
+                  <p className="text-gray-300 text-[14px] pt-1">Proteção com Cloudflare, firewall premium e DNS de alta performance para conexões seguras e rápidas.</p>
                 </div>
               </CardBody>
             </Card>
@@ -62,7 +62,7 @@ export default function Home() {
                     <Zap size={18} className="mt-1" />
                     <h3 className="font-bold">Uptime 99,9%</h3>
                   </div>
-                  <p className="text-gray-300 text-[14px] pt-1">Com nossos serviços, você pode contar com uma disponibilidade de 99,9% de uptime, garantindo que seus sites e jogos estejam sempre no ar. Nosso compromisso é oferecer uma experiência estável e sem interrupções para todos os nossos clientes..</p>
+                  <p className="text-gray-300 text-[14px] pt-1">Garantimos 99,9% de uptime, mantendo seus sites e jogos sempre online e sem interrupções.                  </p>
                 </div>
               </CardBody>
             </Card>
@@ -73,7 +73,7 @@ export default function Home() {
                     <Zap size={18} className="mt-1" />
                     <h3 className="font-bold">Suporte rápido</h3>
                   </div>
-                  <p className="text-gray-300 text-[14px] pt-1">Nosso suporte é ágil e amigável, pronto para resolver qualquer dúvida ou problema que você possa ter. Com uma equipe dedicada e sempre disponível, garantimos uma experiência tranquila e eficiente para nossos clientes.</p>
+                  <p className="text-gray-300 text-[14px] pt-1">Suporte ágil e eficiente, pronto para ajudar você a qualquer hora, com atendimento rápido e amigável.                  </p>
                 </div>
               </CardBody>
             </Card>
