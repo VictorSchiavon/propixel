@@ -6,10 +6,10 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
     title: {
-        default: "Proteção Anti-DDoS | RazeHost",
+        default: "Painel de Jogos  | RazeHost",
         template: `%s - ${siteConfig.name}`,
     },
-    description: "Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.",
+    description: "Gerencie seu servidor de jogos com facilidade e eficiência. Nosso painel intuitivo oferece instalação rápida, monitoramento em tempo real e controle total para você configurar e personalizar sua experiência de jogo sem complicações.",
     keywords: [
         "host de FiveM",
         "host de Minecraft",
@@ -41,16 +41,16 @@ export const metadata: Metadata = {
         "anti DDoS"
     ],
     openGraph: {
-        title: 'Proteção Anti-DDoS | RazeHost',
-        description: 'Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.',
+        title: 'Painel de Jogos  | RazeHost',
+        description: 'Gerencie seu servidor de jogos com facilidade e eficiência. Nosso painel intuitivo oferece instalação rápida, monitoramento em tempo real e controle total para você configurar e personalizar sua experiência de jogo sem complicações.',
         url: 'https://raze.host/',
         siteName: 'Raze Host',
         images: ['/banner.png']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Proteção Anti-DDoS | RazeHost',
-        description: 'Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.',
+        title: 'Painel de Jogos  | RazeHost',
+        description: 'Gerencie seu servidor de jogos com facilidade e eficiência. Nosso painel intuitivo oferece instalação rápida, monitoramento em tempo real e controle total para você configurar e personalizar sua experiência de jogo sem complicações.',
         images: ['/banner.png'],
     },
     icons: {

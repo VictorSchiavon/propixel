@@ -1,15 +1,13 @@
+import { siteConfig } from "@/config/site";
 import "@/styles/globals.css";
 import { Metadata } from "next";
 
-
-import { siteConfig } from "@/config/site";
-
 export const metadata: Metadata = {
     title: {
-        default: "Proteção Anti-DDoS | RazeHost",
+        default: "Hospedagem de Jogos no Brasil | RazeHost",
         template: `%s - ${siteConfig.name}`,
     },
-    description: "Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.",
+    description: "VPS Gamer com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",
     keywords: [
         "host de FiveM",
         "host de Minecraft",
@@ -41,16 +39,16 @@ export const metadata: Metadata = {
         "anti DDoS"
     ],
     openGraph: {
-        title: 'Proteção Anti-DDoS | RazeHost',
-        description: 'Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.',
+        title: 'Hospedagem de Jogos no Brasil | RazeHost',
+        description: 'Desempenho, estabilidade e baixa latência. Com infraestrutura no Brasil, armazenamento NVMe e proteção anti-DDoS, garantimos uma experiência de jogo fluida para Minecraft, FiveM e mais. Hospede com RazeHost e jogue sem interrupções!',
         url: 'https://raze.host/',
         siteName: 'Raze Host',
         images: ['/banner.png']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Proteção Anti-DDoS | RazeHost',
-        description: 'Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.',
+        title: 'Hospedagem de Jogos no Brasil | RazeHost',
+        description: 'Desempenho, estabilidade e baixa latência. Com infraestrutura no Brasil, armazenamento NVMe e proteção anti-DDoS, garantimos uma experiência de jogo fluida para Minecraft, FiveM e mais. Hospede com RazeHost e jogue sem interrupções!',
         images: ['/banner.png'],
     },
     icons: {

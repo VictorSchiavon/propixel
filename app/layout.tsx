@@ -1,20 +1,63 @@
-import "@/styles/globals.css";
-import { Metadata, Viewport } from "next";
-import clsx from "clsx";
-import { Providers } from "./providers";
-import { siteConfig } from "@/config/site";
-import { NavbarComponent } from "@/components/navbar";
 import Footer from "@/components/footer";
+import { NavbarComponent } from "@/components/navbar";
+import { siteConfig } from "@/config/site";
+import "@/styles/globals.css";
+import clsx from "clsx";
+import { Metadata, Viewport } from "next";
 import { Inter } from 'next/font/google';
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+      default: "Plataforma de servidores de jogos e VPS no Brasil | RazeHost",
+      template: `%s - ${siteConfig.name}`,
   },
-  description: siteConfig.description,
+  description: "Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. Tenha desempenho, proteção e suporte de primeira!",
+  keywords: [
+      "host de FiveM",
+      "host de Minecraft",
+      "hospedagem de jogo",
+      "RazeHost",
+      "FiveM host",
+      "Terraria",
+      "Satisfactory",
+      "hospedagem de Tibia",
+      "Tibia",
+      "MU Online",
+      "VPS Brasil",
+      "VPS gamer",
+      "servidores dedicados",
+      "cloud",
+      "hospedagem de FiveM",
+      "FiveM Brasil",
+      "Minecraft",
+      "Minecraft Brasil",
+      "anti DDoS",
+      "VPS no Brasil",
+      "VPS gamer com anti DDoS",
+      "VPS para FiveM",
+      "host 7 Days to Die",
+      "Project Zomboid",
+      "VPS jogos",
+      "host de jogos",
+      "Cloudflare",
+      "anti DDoS"
+  ],
+  openGraph: {
+      title: "Plataforma de servidores de jogos e VPS no Brasil | RazeHost",
+      description: "Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. Tenha desempenho, proteção e suporte de primeira!",
+      url: 'https://raze.host/',
+      siteName: 'Raze Host',
+      images: ['/banner.png']
+  },
+  twitter: {
+      card: 'summary_large_image',
+      title: "Plataforma de servidores de jogos e VPS no Brasil | RazeHost",
+      description: "Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. Tenha desempenho, proteção e suporte de primeira!",
+      images: ['/banner.png'],
+  },
   icons: {
-    icon: "/favicon.ico",
+      icon: "/favicon.ico",
   },
 };
 

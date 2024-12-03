@@ -13,7 +13,10 @@ export const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activePopover, setActivePopover] = useState(null);
 
-  const handlePopover = (popoverKey: any) => setActivePopover(popoverKey);
+  const handlePopover = (popoverKey:any) => {
+    setActivePopover((prev) => (prev === popoverKey ? null : popoverKey));
+  };
+  
   const closePopover = () => setActivePopover(null);
 
   return (
@@ -56,13 +59,13 @@ export const NavbarComponent = () => {
                       { href: "/semidedicado", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." },
                       { href: "/colocation", title: "Colocation", description: "Hospedeu seu próprio servidor em nossa infraestrutura" }
                     ].map((item, index) => (
-                        <Link href={item.href} key={index}>
-                          <div className="p-2 hover:bg-[#303030] rounded-lg">
-                            <p className="text-lg">{item.title}</p>
-                            <p className="text-md text-gray-500">{item.description}</p>
-                          </div>
-                        </Link>
-                      ))}
+                      <Link href={item.href} key={index}>
+                        <div className="p-2 hover:bg-[#303030] rounded-lg">
+                          <p className="text-lg">{item.title}</p>
+                          <p className="text-md text-gray-500">{item.description}</p>
+                        </div>
+                      </Link>
+                    ))}
                   </div>
                 </div>
                 <div className="mt-5">
@@ -83,7 +86,7 @@ export const NavbarComponent = () => {
               <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("gamers")}>Outros jogos</Button>
             </PopoverTrigger>
             <PopoverContent className="w-[570px] p-0" onMouseLeave={closePopover}>
-            <div className="w-full p-5">
+              <div className="w-full p-5">
                 <p className="text-xs text-gray-400">POPULAR GAMES</p>
                 <div className="mt-5 grid grid-cols-2 gap-4">
                   {games.slice(0, 4).map((item, index) => (
@@ -154,22 +157,20 @@ export const NavbarComponent = () => {
                 </div>
               </div>
             </PopoverContent>
-
-
           </Popover>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent className="flex mt-5 sm:flex" justify="end">
         <NavbarItem>
           <NextLink href="https://painel.raze.host/login">
-            <Button variant="flat" size="sm" className="text-sm font-normal bg-[#FC7D00] border-0 text-white rounded-full">Acessar minha conta</Button>
+            <Button variant="flat" size="sm" className="text-sm font-normal bg-orange-500 border-0 text-white rounded-full">Acessar minha conta</Button>
           </NextLink>
         </NavbarItem>
         <NavbarItem className="sm:block hidden">
-    <div className="p-2 border border-gray-600 rounded-lg">
-        <Image src={logo_br} alt="br-logo" width={20} height={20} /> 
-    </div>
-</NavbarItem>
+          <div className="p-2 border border-gray-600 rounded-lg">
+            <Image src={logo_br} alt="br-logo" width={20} height={20} />
+          </div>
+        </NavbarItem>
 
       </NavbarContent>
       <NavbarMenu>
@@ -181,7 +182,7 @@ export const NavbarComponent = () => {
         <NavbarItem className="mt-4">
           <Popover placement="bottom" offset={20} showArrow isOpen={activePopover === "servers-mobile"}>
             <PopoverTrigger>
-              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("servers-mobile")}>Servidores</Button>
+              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onClick={() => handlePopover("servers-mobile")}>Servidores</Button>
             </PopoverTrigger>
             <PopoverContent className="w-[370px] p-0" onMouseLeave={closePopover}>
               <div className="w-full p-5">
@@ -202,13 +203,13 @@ export const NavbarComponent = () => {
                       { href: "/semidedicado", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." },
                       { href: "/colocation", title: "Colocation", description: "Hospedeu seu próprio servidor em nossa infraestrutura" }
                     ].map((item, index) => (
-                        <Link href={item.href} key={index}>
-                          <div className="p-2 hover:bg-[#303030] rounded-lg">
-                            <p className="text-lg">{item.title}</p>
-                            <p className="text-md text-gray-500">{item.description}</p>
-                          </div>
-                        </Link>
-                      ))}
+                      <Link href={item.href} key={index}>
+                        <div className="p-2 hover:bg-[#303030] rounded-lg">
+                          <p className="text-lg">{item.title}</p>
+                          <p className="text-md text-gray-500">{item.description}</p>
+                        </div>
+                      </Link>
+                    ))}
                   </div>
                 </div>
                 <div className="mt-5">
@@ -226,10 +227,10 @@ export const NavbarComponent = () => {
         <NavbarItem className="mt-4">
           <Popover placement="bottom" offset={20} showArrow isOpen={activePopover === "gamers-mobile"}>
             <PopoverTrigger>
-              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("gamers-mobile")}>Outros jogos</Button>
+              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onClick={() => handlePopover("gamers-mobile")}>Outros jogos</Button>
             </PopoverTrigger>
             <PopoverContent className="w-[370px] p-0" onMouseLeave={closePopover}>
-            <div className="w-full p-5">
+              <div className="w-full p-5">
                 <p className="text-xs text-gray-400">POPULAR GAMES</p>
                 <div className="mt-5 grid grid-cols-2 gap-4">
                   {games.slice(0, 4).map((item, index) => (
@@ -255,7 +256,7 @@ export const NavbarComponent = () => {
         <NavbarItem className="mt-4">
           <Popover placement="bottom" offset={20} showArrow isOpen={activePopover === "platform-mobile"}>
             <PopoverTrigger>
-              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("platform-mobile")}>Plataforma</Button>
+              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onClick={() => handlePopover("platform-mobile")}>Plataforma</Button>
             </PopoverTrigger>
             <PopoverContent className="w-[370px] p-0" onMouseLeave={closePopover}>
               <div className="w-full p-5">
