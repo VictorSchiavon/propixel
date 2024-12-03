@@ -20,7 +20,7 @@ export default function Home() {
             </Button>
           </center>
           <h1 className="text-6xl font-bold text-center pt-4">VPS Gamer e Host de Jogos</h1>
-          <p className="text-muted pt-5 pb-5 text-center">A RazeHost oferece serviços para potencializar seus serviços <br /> digitais para tudo que seu projeto precisa e uma equipe que está sempre disposta a te levar ao sucesso.</p>
+          <p className="text-muted pt-5 pb-5 text-center">Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. <br /> Ferramentas para tudo que seu projeto precisa e uma equipe que está sempre disposta a te levar ao sucesso..</p>
           <div className="flex gap-3 justify-center pt-10 pb-10">
             <Button className="rounded-md bg-orange-500 text-white">Começar agora</Button>
             <Button className="rounded-md bg-transparent text-white bg-[#18181B]">Entrar em contato</Button>
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="flex items-center justify-center">
             <div>
               <h1 className="text-md text-center">
-                Com a confiança de milhares de empresas em todo o mundo
+                Usamos as melhores empresas do mundo
               </h1>
               <div className="pt-3">
                 <Image src={logo_companies} alt="logo_companies" />
@@ -49,9 +49,9 @@ export default function Home() {
                 <div className="p-4">
                   <div className="flex gap-2">
                     <Zap size={18} className="mt-1" />
-                    <h3 className="font-bold">Sem taxas de ingresso</h3>
+                    <h3 className="font-bold">Segurança</h3>
                   </div>
-                  <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                  <p className="text-gray-300 text-[14px] pt-1">Oferecemos uma solução completa com proteção Cloudflare, firewall premium para proteger seu site contra ataques e acessos não autorizados, além de um serviço DNS de alta performance, garantindo conexões rápidas e confiáveis para seus usuários.</p>
                 </div>
               </CardBody>
             </Card>
@@ -60,9 +60,9 @@ export default function Home() {
                 <div className="p-4">
                   <div className="flex gap-2">
                     <Zap size={18} className="mt-1" />
-                    <h3 className="font-bold">Sem taxas de ingresso</h3>
+                    <h3 className="font-bold">Uptime 99,9%</h3>
                   </div>
-                  <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                  <p className="text-gray-300 text-[14px] pt-1">Com nossos serviços, você pode contar com uma disponibilidade de 99,9% de uptime, garantindo que seus sites e jogos estejam sempre no ar. Nosso compromisso é oferecer uma experiência estável e sem interrupções para todos os nossos clientes..</p>
                 </div>
               </CardBody>
             </Card>
@@ -71,9 +71,9 @@ export default function Home() {
                 <div className="p-4">
                   <div className="flex gap-2">
                     <Zap size={18} className="mt-1" />
-                    <h3 className="font-bold">Sem taxas de ingresso</h3>
+                    <h3 className="font-bold">Suporte rápido</h3>
                   </div>
-                  <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                  <p className="text-gray-300 text-[14px] pt-1">Nosso suporte é ágil e amigável, pronto para resolver qualquer dúvida ou problema que você possa ter. Com uma equipe dedicada e sempre disponível, garantimos uma experiência tranquila e eficiente para nossos clientes.</p>
                 </div>
               </CardBody>
             </Card>
@@ -93,8 +93,8 @@ export default function Home() {
                 <CardBody>
                   <div>
                     <h3 className="font-bold text-center">Latência</h3>
-                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">15<span className="text-3xl font-bold">/ms</span></h1>
-                    <p className="text-gray-300 text-[14px] pt-1 text-center">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">20<span className="text-3xl font-bold">/ms</span></h1>
+                    <p className="text-gray-300 text-[14px] pt-1 text-center">Com uma latência extremamente baixa, nossos servidores garantem uma experiência de navegação e jogo sem interrupções, proporcionando uma resposta rápida para seus usuários.</p>
                   </div>
                 </CardBody>
               </Card>
@@ -103,7 +103,7 @@ export default function Home() {
                   <div>
                     <h3 className="font-bold text-center">Redes</h3>
                     <h1 className="text-6xl font-bold text-center pt-5 pb-5">15<span className="text-3xl font-bold">/ms</span></h1>
-                    <p className="text-gray-300 text-[14px] pt-1 text-center">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                    <p className="text-gray-300 text-[14px] pt-1 text-center">Utilizamos redes de alta performance para assegurar uma conexão estável e veloz, garantindo que seus serviços permaneçam sempre rápidos e disponíveis, independentemente da demanda.</p>
                   </div>
                 </CardBody>
               </Card>
@@ -112,7 +112,7 @@ export default function Home() {
                   <div>
                     <h3 className="font-bold text-center">Suporte 24/7</h3>
                     <h1 className="text-6xl font-bold text-center pt-5 pb-5">15<span className="text-3xl font-bold">/ms</span></h1>
-                    <p className="text-gray-300 text-[14px] pt-1 text-center">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                    <p className="text-gray-300 text-[14px] pt-1 text-center">Nosso suporte está disponível 24/7, pronto para resolver qualquer questão com rapidez e eficiência, oferecendo a assistência necessária a qualquer hora do dia ou da noite.</p>
                   </div>
                 </CardBody>
               </Card>
@@ -121,7 +121,7 @@ export default function Home() {
                   <div>
                     <h3 className="font-bold text-center">Datacenter</h3>
                     <h1 className="text-6xl font-bold text-center pt-5 pb-5">15<span className="text-3xl font-bold">/ms</span></h1>
-                    <p className="text-gray-300 text-[14px] pt-1 text-center">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                    <p className="text-gray-300 text-[14px] pt-1 text-center">Com proteção DDoS integrada, nossos sistemas defendem seus serviços contra ataques, garantindo a continuidade e segurança do seu site e servidores sem preocupações.</p>
                   </div>
                 </CardBody>
               </Card>
