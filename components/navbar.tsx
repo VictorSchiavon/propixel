@@ -84,7 +84,7 @@ export const NavbarComponent = () => {
             </PopoverTrigger>
             <PopoverContent className="w-[570px] p-0" onMouseLeave={closePopover}>
             <div className="w-full p-5">
-                <p className="text-xs text-gray-400">POPULAR GAMES</p>
+                <p className="text-xs text-gray-500">JOGOS POPULARES</p>
                 <div className="mt-5 grid grid-cols-2 gap-4">
                   {games.slice(0, 4).map((item, index) => (
                     <Link href={item.link} key={index}>
@@ -230,7 +230,7 @@ export const NavbarComponent = () => {
             </PopoverTrigger>
             <PopoverContent className="w-[370px] p-0" onMouseLeave={closePopover}>
             <div className="w-full p-5">
-                <p className="text-xs text-gray-400">POPULAR GAMES</p>
+                <p className="text-xs text-gray-500">JOGOS POPULARES</p>
                 <div className="mt-5 grid grid-cols-2 gap-4">
                   {games.slice(0, 4).map((item, index) => (
                     <Link href={item.link} key={index}>
