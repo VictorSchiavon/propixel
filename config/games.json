@@ -86,6 +86,23 @@
     },
     {
       "id": 6,
+      "name": "Rust",
+      "img": "/games/rust.webp",
+      "logo": "/games/logos/rust.png",
+      "link": "/game/rust",
+      "price": "R$ 120,00",
+      "discountPrice": "R$ 99,00",
+      "new": true,
+      "wallpaper": "/wallpapers/rust.png",
+      "contents": {
+        "description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
+        "platform": "PC",
+        "developer": "Facepunch Studios",
+        "refundType": "Full Refund within 14 days"
+      }
+    },
+    {
+      "id": 7,
       "name": "Unturned",
       "img": "/games/unturned.png",
       "logo": "/games/logos/unturned_logo.png",
@@ -98,23 +115,6 @@
         "description": "Unturned é um jogo de sobrevivência em mundo aberto com gráficos de estilo simplificado, onde você deve lutar contra zumbis e outros jogadores.",
         "platform": "PC",
         "developer": "Smartly Dressed Games",
-        "refundType": "Full Refund within 14 days"
-      }
-    },
-    {
-      "id": 7,
-      "name": "Rust",
-      "img": "/games/rust.webp",
-      "logo": "/games/logos/rust.png",
-      "link": "/game/rust",
-      "price": "R$ 120,00",
-      "discountPrice": "R$ 99,00",
-      "new": true,
-      "wallpaper": "/wallpapers/rust.wepb",
-      "contents": {
-        "description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
-        "platform": "PC",
-        "developer": "Facepunch Studios",
         "refundType": "Full Refund within 14 days"
       }
     },
