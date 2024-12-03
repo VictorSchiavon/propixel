@@ -86,16 +86,16 @@
     },
     {
       "id": 6,
-      "name": "Unturned",
-      "img": "/games/unturned.png",
-      "logo": "/games/logos/unturned_logo.png",
-      "link": "/game/unturned",
+      "name": "Rust",
+      "img": "/games/rust.webp",
+      "logo": "/games/logos/rust.png",
+      "link": "/game/rust",
       "price": "R$ 15,00",
       "discountPrice": null,
       "new": false,
-      "wallpaper": "/wallpapers/unturned.jpeg",
+      "wallpaper": "/wallpapers/rust.wepb",
       "contents": {
-        "description": "Unturned é um jogo de sobrevivência em mundo aberto com gráficos de estilo simplificado, onde você deve lutar contra zumbis e outros jogadores.",
+        "description": "Rust é um jogo de sobrevivência em mundo aberto com gráficos elevados, onde você deve lutar contra o mundo e outros jogadores.",
         "platform": "PC",
         "developer": "Smartly Dressed Games",
         "refundType": "Full Refund within 14 days"
