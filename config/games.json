@@ -8,7 +8,7 @@
       "price": "R$ 79,99",
       "discountPrice": "R$ 69,99",
       "new": true,
-      "wallpaper": "/wallpapers/fivem.jpeg",
+      "wallpaper": "/wallpapers/fivem.jpg",
       "contents": {
         "description": "FiveM é uma modificação para GTA V que permite jogar em servidores personalizados com modos e regras únicos.",
         "platform": "PC",
@@ -86,23 +86,6 @@
     },
     {
       "id": 6,
-      "name": "Unturned",
-      "img": "/games/unturned.png",
-      "logo": "/games/logos/unturned_logo.png",
-      "link": "/game/unturned",
-      "price": "R$ 15,00",
-      "discountPrice": null,
-      "new": false,
-      "wallpaper": "/wallpapers/unturned.jpeg",
-      "contents": {
-        "description": "Unturned é um jogo de sobrevivência em mundo aberto com gráficos de estilo simplificado, onde você deve lutar contra zumbis e outros jogadores.",
-        "platform": "PC",
-        "developer": "Smartly Dressed Games",
-        "refundType": "Full Refund within 14 days"
-      }
-    },
-    {
-      "id": 7,
       "name": "Rust",
       "img": "/games/rust.webp",
       "logo": "/games/logos/rust.png",
@@ -110,13 +93,30 @@
       "price": "R$ 120,00",
       "discountPrice": "R$ 99,00",
       "new": true,
-      "wallpaper": "/wallpapers/rust.wepb",
+      "wallpaper": "/wallpapers/rust.png",
       "contents": {
         "description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
         "platform": "PC",
         "developer": "Facepunch Studios",
         "refundType": "Full Refund within 14 days"
       }
+      {
+        "id": 7,
+        "name": "Unturned",
+        "img": "/games/unturned.png",
+        "logo": "/games/logos/unturned_logo.png",
+        "link": "/game/unturned",
+        "price": "R$ 15,00",
+        "discountPrice": null,
+        "new": false,
+        "wallpaper": "/wallpapers/unturned.jpeg",
+        "contents": {
+          "description": "Unturned é um jogo de sobrevivência em mundo aberto com gráficos de estilo simplificado, onde você deve lutar contra zumbis e outros jogadores.",
+          "platform": "PC",
+          "developer": "Smartly Dressed Games",
+          "refundType": "Full Refund within 14 days"
+        }
+    },
     },
     {
       "id": 8,
