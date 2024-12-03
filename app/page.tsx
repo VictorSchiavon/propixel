@@ -86,7 +86,7 @@ export default function Home() {
         <div className="container mx-auto px-6 flex-grow">
           <section>
             <h1 className="text-4xl font-bold text-center pt-[5%]">Potencialize seu negócio com <br /> <span className="text-orange-400">soluções de ponta</span> em hospedagem.</h1>
-            <p className="text-muted pt-2 pb-5 text-center">A RazeHost oferece serviços para potencializar seus serviços <br /> digitais para tudo que seu projeto precisa e uma equipe que está sempre disposta a te levar ao sucesso.</p>
+            <p className="text-muted pt-2 pb-5 text-center">Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-[5%]">
               <Card className="bg-[#0A0C10] rounded-sm">
@@ -94,7 +94,7 @@ export default function Home() {
                   <div>
                     <h3 className="font-bold text-center">Latência</h3>
                     <h1 className="text-6xl font-bold text-center pt-5 pb-5">20<span className="text-3xl font-bold">/ms</span></h1>
-                    <p className="text-gray-300 text-[14px] pt-1 text-center">Com uma latência extremamente baixa, nossos servidores garantem uma experiência de navegação e jogo sem interrupções, proporcionando uma resposta rápida para seus usuários.</p>
+                    <p className="text-gray-300 text-[14px] pt-1 text-center">Experiência de jogo fluida e resposta rápida com latência mínima.</p>
                   </div>
                 </CardBody>
               </Card>
@@ -103,7 +103,7 @@ export default function Home() {
                   <div>
                     <h3 className="font-bold text-center">Redes</h3>
                     <h1 className="text-6xl font-bold text-center pt-5 pb-5">10<span className="text-3xl font-bold">GBPS</span></h1>
-                    <p className="text-gray-300 text-[14px] pt-1 text-center">Utilizamos redes de alta performance para assegurar uma conexão estável e veloz, garantindo que seus serviços permaneçam sempre rápidos e disponíveis, independentemente da demanda.</p>
+                    <p className="text-gray-300 text-[14px] pt-1 text-center">Conexão estável e rápida, garantindo serviços sempre disponíveis.</p>
                   </div>
                 </CardBody>
               </Card>
@@ -112,16 +112,16 @@ export default function Home() {
                   <div>
                     <h3 className="font-bold text-center">Suporte 24/7</h3>
                     <h1 className="text-6xl font-bold text-center pt-5 pb-5">24<span className="text-3xl font-bold">Horas</span></h1>
-                    <p className="text-gray-300 text-[14px] pt-1 text-center">Nosso suporte está disponível 24/7, pronto para resolver qualquer questão com rapidez e eficiência, oferecendo a assistência necessária a qualquer hora do dia ou da noite.</p>
+                    <p className="text-gray-300 text-[14px] pt-1 text-center">Assistência rápida e eficiente a qualquer hora, todos os dias.</p>
                   </div>
                 </CardBody>
               </Card>
               <Card className="bg-[#0A0C10] rounded-sm">
                 <CardBody>
                   <div>
-                    <h3 className="font-bold text-center">Datacenter</h3>
-                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">100<span className="text-3xl font-bold">%</span></h1>
-                    <p className="text-gray-300 text-[14px] pt-1 text-center">Com proteção DDoS integrada, nossos sistemas defendem seus serviços contra ataques, garantindo a continuidade e segurança do seu site e servidores sem preocupações.</p>
+                    <h3 className="font-bold text-center">Proteção DDoS</h3>
+                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">296<span className="text-3xl font-bold">Tbps</span></h1>
+                    <p className="text-gray-300 text-[14px] pt-1 text-center">Defesa integrada contra ataques, mantendo seus serviços seguros e estáveis.</p>
                   </div>
                 </CardBody>
               </Card>
