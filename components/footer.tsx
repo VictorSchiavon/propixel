@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className="container mx-auto max-w-8xl flex flex-col px-2 py-4 justify-between">
                     <div className="grid grid-cols-2 md:grid-cols-6 py-8">
                         <div className="col-span-2 pt-8 md:pt-2">
-                            <h1 className="text-4xl font-bold">DEMOCRATIZANDO SONHOS</h1>
+                            <h1 className="text-4xl font-bold">PROJETANDO IDEIAS</h1>
                             <p>Feito com ❤️ no Brasil</p>
                         </div>
                         {sections.map((section, index) => (
@@ -66,7 +66,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container mx-auto max-w-8xl flex flex-col px-2 py-4 justify-between sm:flex-row">
-                <p className="py-4 text-sm">Square Cloud LTDA <br /> CNPJ: 51.893.307/0001-08</p>
+                <p className="py-4 text-sm">RazeHost <br /> CNPJ: 41.460.733/0001-96</p>
                 <div className="flex justify-between sm:w-[150px] pt-4 text-lg">
                     {socialMedia.map((social, index) => {
                         const Icon = social.icon;
