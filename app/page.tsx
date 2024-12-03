@@ -16,14 +16,19 @@ export default function Home() {
           <center>
             <Button className="rounded-full border border-orange-400 text-sm p-4 bg-transparent" size="sm">
               <div className="h-3 w-3 bg-orange-500 rounded-full"></div>
-              Raze Host - Referência no Mercado Nacional
+              RazeHost
             </Button>
           </center>
-          <h1 className="text-6xl font-bold text-center pt-4">VPS Gamer e Host de Jogos</h1>
+          <h1 className="text-6xl font-bold text-center pt-4">Datacenter no Brasil</h1>
           <p className="text-muted pt-5 pb-5 text-center">Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. <br /> Ferramentas para tudo que seu projeto precisa e uma equipe que está sempre disposta a te levar ao sucesso.</p>
           <div className="flex gap-3 justify-center pt-10 pb-10">
-            <Button className="rounded-md bg-orange-500 text-white">Começar agora</Button>
-            <Button className="rounded-md bg-transparent text-white bg-[#18181B]">Entrar em contato</Button>
+          <a href="/vps" target="_blank" rel="noopener noreferrer">
+  <Button className="rounded-md bg-orange-500 text-white">Começar agora</Button>
+</a>
+
+<a href="/games" target="_blank" rel="noopener noreferrer">
+  <Button className="rounded-md bg-transparent text-white bg-[#18181B]">Hospedagem de Jogos</Button>
+</a>
           </div>
         </section>
 
