@@ -53,7 +53,7 @@
     {
       "id": 4,
       "name": "Project Zomboid",
-      "img": "/games/zomboid.jpg",
+      "img": "/games/zomboid.png",
       "logo": "/games/logos/zomboid.png",
       "link": "/game/projectzomboid",
       "price": "R$ 35,00",
@@ -93,7 +93,7 @@
       "price": "R$ 120,00",
       "discountPrice": "R$ 99,00",
       "new": true,
-      "wallpaper": "/wallpapers/rust.png",
+      "wallpaper": "/wallpapers/rust.jpg",
       "contents": {
         "description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
         "platform": "PC",
@@ -110,7 +110,7 @@
       "price": "R$ 15,00",
       "discountPrice": null,
       "new": false,
-      "wallpaper": "/wallpapers/unturned.jpeg",
+      "wallpaper": "/wallpapers/unturned.jpg",
       "contents": {
         "description": "Unturned é um jogo de sobrevivência em mundo aberto com gráficos de estilo simplificado, onde você deve lutar contra zumbis e outros jogadores.",
         "platform": "PC",
