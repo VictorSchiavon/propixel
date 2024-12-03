@@ -80,7 +80,7 @@ export const NavbarComponent = () => {
         <NavbarItem className="mt-4">
           <Popover placement="bottom" offset={20} showArrow isOpen={activePopover === "gamers"}>
             <PopoverTrigger>
-              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("gamers")}>Outros jogos</Button>
+              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("gamers")}>Jogos</Button>
             </PopoverTrigger>
             <PopoverContent className="w-[570px] p-0" onMouseLeave={closePopover}>
             <div className="w-full p-5">
@@ -226,7 +226,7 @@ export const NavbarComponent = () => {
         <NavbarItem className="mt-4">
           <Popover placement="bottom" offset={20} showArrow isOpen={activePopover === "gamers-mobile"}>
             <PopoverTrigger>
-              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("gamers-mobile")}>Outros jogos</Button>
+              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("gamers-mobile")}>Jogos</Button>
             </PopoverTrigger>
             <PopoverContent className="w-[370px] p-0" onMouseLeave={closePopover}>
             <div className="w-full p-5">
