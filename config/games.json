@@ -93,7 +93,7 @@
       "price": "R$ 15,00",
       "discountPrice": null,
       "new": false,
-      "wallpaper": "/wallpapers/rust.wepb",
+      "wallpaper": "/wallpapers/rust.png",
       "contents": {
         "description": "Rust é um jogo de sobrevivência em mundo aberto com gráficos elevados, onde você deve lutar contra o mundo e outros jogadores.",
         "platform": "PC",
@@ -103,14 +103,14 @@
     },
     {
       "id": 7,
-      "name": "Rust",
-      "img": "/games/rust.webp",
-      "logo": "/games/logos/rust.png",
-      "link": "/game/rust",
+      "name": "Unturned",
+      "img": "/games/unturned.png",
+      "logo": "/games/logos/unturned.png",
+      "link": "/game/unbturned",
       "price": "R$ 120,00",
       "discountPrice": "R$ 99,00",
       "new": true,
-      "wallpaper": "/wallpapers/rust.wepb",
+      "wallpaper": "/wallpapers/rust.png",
       "contents": {
         "description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
         "platform": "PC",
