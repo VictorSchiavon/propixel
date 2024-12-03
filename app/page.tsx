@@ -102,7 +102,7 @@ export default function Home() {
                 <CardBody>
                   <div>
                     <h3 className="font-bold text-center">Redes</h3>
-                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">15<span className="text-3xl font-bold">/ms</span></h1>
+                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">10<span className="text-3xl font-bold">GBPS</span></h1>
                     <p className="text-gray-300 text-[14px] pt-1 text-center">Utilizamos redes de alta performance para assegurar uma conexão estável e veloz, garantindo que seus serviços permaneçam sempre rápidos e disponíveis, independentemente da demanda.</p>
                   </div>
                 </CardBody>
@@ -111,7 +111,7 @@ export default function Home() {
                 <CardBody>
                   <div>
                     <h3 className="font-bold text-center">Suporte 24/7</h3>
-                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">15<span className="text-3xl font-bold">/ms</span></h1>
+                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">24<span className="text-3xl font-bold">Horas</span></h1>
                     <p className="text-gray-300 text-[14px] pt-1 text-center">Nosso suporte está disponível 24/7, pronto para resolver qualquer questão com rapidez e eficiência, oferecendo a assistência necessária a qualquer hora do dia ou da noite.</p>
                   </div>
                 </CardBody>
@@ -120,7 +120,7 @@ export default function Home() {
                 <CardBody>
                   <div>
                     <h3 className="font-bold text-center">Datacenter</h3>
-                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">15<span className="text-3xl font-bold">/ms</span></h1>
+                    <h1 className="text-6xl font-bold text-center pt-5 pb-5">100<span className="text-3xl font-bold">%</span></h1>
                     <p className="text-gray-300 text-[14px] pt-1 text-center">Com proteção DDoS integrada, nossos sistemas defendem seus serviços contra ataques, garantindo a continuidade e segurança do seu site e servidores sem preocupações.</p>
                   </div>
                 </CardBody>
