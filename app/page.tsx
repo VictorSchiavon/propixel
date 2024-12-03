@@ -16,7 +16,7 @@ export default function Home() {
           <center>
             <Button className="rounded-full border border-orange-400 text-sm p-4 bg-transparent" size="sm">
               <div className="h-3 w-3 bg-orange-500 rounded-full"></div>
-              Raze Host - Referência no Mercado Nacional
+              Plataforma de Servidores
             </Button>
           </center>
           <h1 className="text-6xl font-bold text-center pt-4">VPS Gamer e Host de Jogos</h1>
