@@ -216,22 +216,22 @@ export default function Games() {
                 </div>
                 <div className="col-span-8">
                     <Accordion>
-                        <AccordionItem key="1" aria-label="Accordion 1" subtitle="Press to expand" title="Accordion 1">
+                        <AccordionItem key="1" aria-label="Ping" subtitle="Pressione" title="Ping">
                             {defaultContent}
                         </AccordionItem>
                         <AccordionItem
                             key="2"
-                            aria-label="Accordion 2"
+                            aria-label="Uptime"
                             subtitle={
                                 <span>
-                                    Press to expand <strong>key 2</strong>
+                                    Pressione
                                 </span>
                             }
-                            title="Accordion 2"
+                            title="Uptime"
                         >
                             {defaultContent}
                         </AccordionItem>
-                        <AccordionItem key="3" aria-label="Accordion 3" subtitle="Press to expand" title="Accordion 3">
+                        <AccordionItem key="3" aria-label="Datacenter" subtitle="Pressione" title="Datacenter">
                             {defaultContent}
                         </AccordionItem>
                     </Accordion>
