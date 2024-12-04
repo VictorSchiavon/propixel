@@ -239,7 +239,7 @@ export default function Games() {
                             </div>
                             <div className="col-span-1">
                                 <Image src="/vps/ubuntu.png" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">Linux</p>
+                                <p className="text-sm font-bold pt-5">VPS Linux</p>
                                 <p className="pt-1 text-xs">
                                 Nos servidores VPS da RazeHost, você pode criar uma VPS Linux ou Ubuntu e aproveitar todos os recursos.
                                 </p>

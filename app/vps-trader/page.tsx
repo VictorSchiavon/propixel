@@ -244,31 +244,31 @@ export default function Games() {
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps/windows.png" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">XP Investimentos</p>
+                                <Image src="/vps-trader/metatrader.png" alt="logo_xp" width={50} height={50} />
+                                <p className="text-sm font-bold pt-5">Meta Trader</p>
                                 <p className="pt-1 text-xs">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Você gosta de operar seus ativos no Metatrader 4, Metatrader 5? Com nossa VPS Trader com AMD Ryzen você consegue rodar qualquer aplicação que desejar.
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps/ubuntu.png" alt="logo_xp" width={50} height={50} />
+                                <Image src="/vps-trader/xp.png" alt="logo_xp" width={50} height={50} />
                                 <p className="text-sm font-bold pt-5">XP Investimentos</p>
                                 <p className="pt-1 text-xs">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Você gosta de operar seus ativos na Binance? Com nossa VPS Trader com AMD Ryzen você consegue rodar qualquer aplicação que desejar.
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps/amd.png" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">XP Investimentos</p>
+                                <Image src="/vps-trader/binance.png" alt="logo_xp" width={50} height={50} />
+                                <p className="text-sm font-bold pt-5">Binance</p>
                                 <p className="pt-1 text-xs">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    Você gosta de operar seus ativos na Binance? Com nossa VPS Trader com AMD Ryzen você consegue rodar qualquer aplicação que desejar.
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps/brasil.png" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">XP Investimentos</p>
+                                <Image src="/vps-trader/brasil.png" alt="logo_xp" width={50} height={50} />
+                                <p className="text-sm font-bold pt-5">Rico</p>
                                 <p className="pt-1 text-xs">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Você gosta de operar seus ativos na Rico? Com nossa VPS Trader com AMD Ryzen você consegue rodar qualquer aplicação que desejar.
                                 </p>
                             </div>
                         </div>
