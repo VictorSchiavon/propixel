@@ -21,7 +21,7 @@ export default function Games() {
         <section className="container mx-auto px-6 flex-grow pt-[2%]">
             <div className="flex w-full flex-col">
                 {displayGame ? <>
-                    <TabsComponent displayGame={{...displayGame, name:"vintage_story"}} />
+                    <TabsComponent displayGame={{...displayGame, name:"Vintage Story"}} />
                 </> : ""}
             </div>
 
