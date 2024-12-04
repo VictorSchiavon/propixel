@@ -10,7 +10,7 @@ const vps = [
     {
         "name": "Semi-dedicado - L1",
         "price": "R$500,00",
-        "link": "https://painel.raze.host/store/vps/semi-dedicado-l1",
+        "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l1",
         "description": {
             "ram": "16 GB",
             "ssd": "120 GB",
@@ -21,7 +21,7 @@ const vps = [
     {
         "name": "Semi-dedicado - L2",
         "price": "R$650,00",
-        "link": "https://painel.raze.host/store/vps/semi-dedicado-l2",
+        "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l2",
         "description": {
             "ram": "24 GB",
             "ssd": "120 GB",
@@ -32,7 +32,7 @@ const vps = [
     {
         "name": "Semi-dedicado - L3",
         "price": "R$790,00",
-        "link": "https://painel.raze.host/store/vps/semi-dedicado-l3",
+        "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l3",
         "description": {
             "ram": "32 GB",
             "ssd": "120 GB",

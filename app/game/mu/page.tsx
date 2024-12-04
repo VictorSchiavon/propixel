@@ -9,7 +9,7 @@ const vps = [
     {
         "name": "VPS Hermes",
         "price": "R$39,90",
-        "link": "https://painel.raze.host/store/vps/vps-hermes",
+        "link": "https://app.razehost.com.br/store/vps/vps-hermes",
         "description": {
             "ram": "1 GB",
             "ssd": "30 GB",
@@ -21,7 +21,7 @@ const vps = [
     {
         "name": "VPS Hera",
         "price": "R$74,90",
-        "link": "https://painel.raze.host/store/vps/vps-l1",
+        "link": "https://app.razehost.com.br/store/vps/vps-l1",
         "description": {
             "ram": "2 GB",
             "ssd": "40 GB",
@@ -32,7 +32,7 @@ const vps = [
     {
         "name": "VPS Ares",
         "price": "R$139,90",
-        "link": "https://painel.raze.host/store/vps/vps-l2",
+        "link": "https://app.razehost.com.br/store/vps/vps-l2",
         "description": {
             "ram": "4 GB",
             "ssd": "50 GB",
@@ -43,7 +43,7 @@ const vps = [
     {
         "name": "VPS Athena",
         "price": "R$209,90",
-        "link": "https://painel.raze.host/store/vps/vps-l3",
+        "link": "https://app.razehost.com.br/store/vps/vps-l3",
         "description": {
             "ram": "6 GB",
             "ssd": "60 GB",
@@ -54,7 +54,7 @@ const vps = [
     {
         "name": "VPS Hades",
         "price": "R$249,90",
-        "link": "https://painel.raze.host/store/vps/vps-l4",
+        "link": "https://app.razehost.com.br/store/vps/vps-l4",
         "description": {
             "ram": "8 GB",
             "ssd": "70 GB",
@@ -65,7 +65,7 @@ const vps = [
     {
         "name": "VPS Poseidon",
         "price": "R$309,90",
-        "link": "https://painel.raze.host/store/vps/vps-l5",
+        "link": "https://app.razehost.com.br/store/vps/vps-l5",
         "description": {
             "ram": "10 GB",
             "ssd": "80 GB",
@@ -76,7 +76,7 @@ const vps = [
     {
         "name": "VPS Zeus",
         "price": "R$369,00",
-        "link": "https://painel.raze.host/store/vps/vps-poseidon",
+        "link": "https://app.razehost.com.br/store/vps/vps-poseidon",
         "description": {
             "ram": "12 GB",
             "ssd": "90 GB",
@@ -87,7 +87,7 @@ const vps = [
     {
         "name": "VPS Mestre do Olimpo",
         "price": "R$419,00",
-        "link": "https://painel.raze.host/store/vps/vps-mestre",
+        "link": "https://app.razehost.com.br/store/vps/vps-mestre",
         "description": {
             "ram": "16 GB",
             "ssd": "100 GB",

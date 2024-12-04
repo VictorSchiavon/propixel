@@ -10,7 +10,7 @@ const vps = [
     {
         "name": "VPS Fox",
         "price": "R$29,56",
-        "link": "https://painel.raze.host/store/vps/vps-fox",
+        "link": "https://app.razehost.com.br/store/vps/vps-fox",
         "description": {
             "ram": "2 GB",
             "ssd": "30 GB",
@@ -21,7 +21,7 @@ const vps = [
     {
         "name": "VPS Wolf",
         "price": "R$59,12",
-        "link": "https://painel.raze.host/store/vps/vps-wolf",
+        "link": "https://app.razehost.com.br/store/vps/vps-wolf",
         "description": {
             "ram": "4 GB",
             "ssd": "50 GB",
@@ -32,7 +32,7 @@ const vps = [
     {
         "name": "VPS Lion",
         "price": "R$88,68",
-        "link": "https://painel.raze.host/store/vps/vps-lion",
+        "link": "https://app.razehost.com.br/store/vps/vps-lion",
         "description": {
             "ram": "6 GB",
             "ssd": "60 GB",
@@ -43,7 +43,7 @@ const vps = [
     {
         "name": "VPS Dragon",
         "price": "R$118,24",
-        "link": "https://painel.raze.host/store/vps/vps-dragon",
+        "link": "https://app.razehost.com.br/store/vps/vps-dragon",
         "description": {
             "ram": "8 GB",
             "ssd": "60 GB",
@@ -54,7 +54,7 @@ const vps = [
     {
         "name": "VPS Tiger",
         "price": "R$147,80",
-        "link": "https://painel.raze.host/store/vps/vps-tiger",
+        "link": "https://app.razehost.com.br/store/vps/vps-tiger",
         "description": {
             "ram": "10 GB",
             "ssd": "80 GB",
@@ -65,7 +65,7 @@ const vps = [
     {
         "name": "VPS Eagle",
         "price": "R$177,80",
-        "link": "https://painel.raze.host/store/vps/vps-eagle",
+        "link": "https://app.razehost.com.br/store/vps/vps-eagle",
         "description": {
             "ram": "10 GB",
             "ssd": "80 GB",
@@ -76,7 +76,7 @@ const vps = [
     {
         "name": "VPS Phoenix",
         "price": "R$236,48",
-        "link": "https://painel.raze.host/store/vps/vps-phoenix",
+        "link": "https://app.razehost.com.br/store/vps/vps-phoenix",
         "description": {
             "ram": "16 GB",
             "ssd": "100 GB",

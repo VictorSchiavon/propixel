@@ -162,7 +162,7 @@ export const NavbarComponent = () => {
       </NavbarContent>
       <NavbarContent className="flex mt-5 sm:flex" justify="end">
         <NavbarItem>
-          <NextLink href="https://painel.raze.host/login">
+          <NextLink href="https://app.razehost.com.br/login">
             <Button variant="flat" size="sm" className="text-sm font-normal bg-orange-500 border-0 text-white rounded-full">Acessar minha conta</Button>
           </NextLink>
         </NavbarItem>
