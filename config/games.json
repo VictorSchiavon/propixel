@@ -10,8 +10,7 @@
       "new": true,
       "wallpaper": "/wallpapers/fivem.webp",
       "contents": {
-        "description": "FiveM é uma modificação para GTA V que permite jogar em servidores personalizados com modos e regras únicos.",
-        "platform": "PC",
+        "description": "FiveM é uma plataforma que permite criar servidores personalizados para o jogo Grand Theft Auto V, com modos de jogo exclusivos, scripts personalizados e conteúdo modificado. Com servidores otimizados pela RazeHost, você terá baixa latência, alta disponibilidade e proteção contra DDoS. Oferecemos suporte para modding e scripts personalizados, garantindo uma experiência única de GTA V para você e sua comunidade.",        "platform": "PC",
         "developer": "Rockstar Games",
         "mods": "Permitido",
         "refundType": "None"
@@ -46,8 +45,7 @@
       "new": true,
       "wallpaper": "/wallpapers/7daystodie.webp",
       "contents": {
-        "description": "7 Days to Die é um jogo de sobrevivência em mundo aberto, ambientado em um apocalipse zumbi, com elementos de RPG e construção.",
-        "platform": "PC, PS4, Xbox One",
+        "description": "7 Days to Die é um jogo de sobrevivência em mundo aberto com elementos de construção, exploração e combate contra zumbis. Os jogadores devem explorar o mundo, coletar recursos e construir fortificações para sobreviver aos ataques constantes de zumbis. Na RazeHost, nossos servidores otimizados oferecem alta performance, proteção contra DDoS e recursos de instalação automática de modpacks, garantindo a melhor experiência de jogo.",        "platform": "PC, PS4, Xbox One",
         "developer": "The Fun Pimps",
         "mods": "Permitido",
         "refundType": "Reembolso em até 7 dias"
