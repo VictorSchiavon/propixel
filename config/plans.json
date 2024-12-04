@@ -94,7 +94,7 @@
     "fivem": [
         {
             "game": "FiveM",
-            "img": "/games/lester.webp",
+            "img": "/games/cards/lester.webp",
             "name": "Plano Lester",
             "price": "R$38,90",
             "discountPrice": "R$27,80",
@@ -109,7 +109,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/tommy.webp",
+            "img": "/games/cards/tommy.webp",
             "name": "Plano Tommy Vercetti",
             "price": "R$78,90",
             "discountPrice": "R$55,60",
@@ -124,7 +124,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/nikobellic.jpg",
+            "img": "/games/cards/nikobellic.jpg",
             "name": "Plano Niko Bellic",
             "price": "R$128,90",
             "discountPrice": "R$83,40",
@@ -139,7 +139,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/michael.jpg",
+            "img": "/games/cards/michael.jpg",
             "name": "Plano Michael",
             "price": "R$149,90",
             "discountPrice": "R$111,20",
@@ -154,7 +154,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/trevor.webp",
+            "img": "/games/cards/trevor.webp",
             "name": "Plano Trevor",
             "price": "R$184,90",
             "discountPrice": "R$139,00",
@@ -169,7 +169,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/franklin.webp",
+            "img": "/games/cards/franklin.webp",
             "name": "Plano Franklin",
             "price": "R$249,90",
             "discountPrice": "R$222,40",
@@ -184,7 +184,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/bigsmoke.jpg",
+            "img": "/games/cards/bigsmoke.jpg",
             "name": "Plano BigSmoke",
             "price": "R$439,82",
             "discountPrice": "R$334,80",
@@ -199,7 +199,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/cj.jpg",
+            "img": "/games/cards/cj.jpg",
             "name": "Plano CJ",
             "price": "R$639,82",
             "discountPrice": "R$447,20",
