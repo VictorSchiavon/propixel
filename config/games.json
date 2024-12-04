@@ -145,7 +145,7 @@
       "price": "R$ 30,00",
       "discountPrice": null,
       "new": true,
-      "wallpaper": "/wallpapers/terraria.jpeg",
+      "wallpaper": "/wallpapers/terraria.jpg",
       "contents": {
         "description": "Terraria é um jogo de ação e aventura em 2D, onde você pode explorar, minerar, lutar e construir em um mundo gerado aleatoriamente.",
         "platform": "PC, Xbox, PlayStation, Switch",
@@ -179,7 +179,7 @@
       "price": "R$ 89,90",
       "discountPrice": null,
       "new": true,
-      "wallpaper": "/wallpapers/satisfactory.png",
+      "wallpaper": "/wallpapers/satisfactory.jpg",
       "contents": {
         "description": "Satisfactory é um jogo de construção e automação, onde você cria fábricas para explorar um planeta e produzir recursos de forma eficiente.",
         "platform": "PC",
@@ -230,7 +230,7 @@
       "price": "R$ 70,00",
       "discountPrice": "R$ 60,00",
       "new": false,
-      "wallpaper": "/wallpapers/palworld.png",
+      "wallpaper": "/wallpapers/palworld.jpg",
       "contents": {
         "description": "Palworld é um jogo de aventura onde você pode capturar, treinar e lutar ao lado de criaturas chamadas 'Pals', enquanto explora um mundo vasto e dinâmico.",
         "platform": "PC",
