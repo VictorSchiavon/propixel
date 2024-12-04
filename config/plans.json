@@ -17,7 +17,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/minecraft.png",
+            "img": "/games/game1.webp",
             "name": "Plano Basic",
             "price": "R$69,99",
             "discountPrice": "R$ 33,90",
@@ -32,7 +32,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/control.png",
+            "img": "/games/game2.jpg",
             "name": "Plano Advanced",
             "price": "R$69,90",
             "discountPrice": "R$ 49,90",

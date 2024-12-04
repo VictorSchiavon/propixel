@@ -237,7 +237,7 @@ export const NavbarComponent = () => {
                     <Link href={item.link} key={index}>
                       <div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg flex items-center h-18 h-full">
                         <div className="flex items-center space-x-2">
-                        <Image src="/games/ark.png" alt="Imagem padrão" width={48} height={48} className="w-12 h-12 object-cover rounded-lg hover:animate-pulse" />
+                          <Image src={item.img} alt={item.name} width={48} height={48} className="w-12 h-12 object-cover rounded-lg hover:animate-pulse" />
                           <h3 className="text-md font-bold">{item.name}</h3>
                         </div>
                       </div>
