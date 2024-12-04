@@ -15,18 +15,19 @@ interface CardGamePlansComponentProps {
 export const CardGamePlansComponent: React.FC<CardGamePlansComponentProps> = ({ title, img, link, price, features, priceDiscount }) => {
     return (
         <Link href={link}>
-            <Card className="bg-[#202024] border-none rounded-lg h-[700px]">
-                <CardBody className="overflow-visible p-0 border-none bg-[#0E131D] h-full flex flex-col">
-                    <div className="h-[250px]">
-                        <Image
-                            width="100%"
-                            height={250}
-                            radius="none"
-                            alt={title}
-                            className="w-full"
-                            src={img}
-                        />
-                    </div>
+      <Card className="bg-[#202024] border-none rounded-lg h-[700px]">
+  <CardBody className="overflow-visible p-0 border-none bg-[#0E131D] h-full flex flex-col">
+    <div className="h-[250px]">
+      <Image
+        width="100%"
+        height={250}
+        alt={title}
+        className="w-full h-full object-cover" // Ajuste importante aqui
+        src={img}
+      />
+    </div>
+  </CardBody>
+</Card>
 
                     <div className="pt-5 p-4 flex-grow">
                         <h1 className="text-lg font-bold">{title}</h1>
