@@ -208,7 +208,7 @@ export default function Games() {
                             <div>
                                 <Zap color="orange" size={26} />
                                 <h3 className="font-bold pt-3">Exitlag</h3>
-                                <p className="text-gray-300 text-[14px] pt-1">Adquira a melhor plataforma de solução de lags do mercado, juntamente com a RazeHost.</p>
+                                <p className="text-gray-300 text-[14px] pt-1">Adquira a melhor plataforma de solução de lags do mercado, você pode incluir a Exitlag adicional no seu serviço, juntamente com a RazeHost.</p>
                             </div>
                         </CardBody>
                     </Card>
