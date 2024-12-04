@@ -130,7 +130,7 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({ displayGame }) => 
                                                 <p>{displayGame.contents.developer}</p>
                                             </div>
                                             <div className="flex justify-between pt-3 text-sm">
-                                                <p className="text-gray-400">Mods: O jogo é permitido mods ou alterações</p>
+                                                <p className="text-gray-400">Mods:</p>
                                                 <p>{displayGame.contents.mods}</p>
                                             </div>
                                             <div className="flex justify-between pt-3 text-sm">
