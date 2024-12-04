@@ -10,7 +10,8 @@
       "new": true,
       "wallpaper": "/wallpapers/fivem.webp",
       "contents": {
-        "description": "FiveM é uma plataforma que permite criar servidores personalizados para o jogo Grand Theft Auto V, com modos de jogo exclusivos, scripts personalizados e conteúdo modificado. Com servidores otimizados pela RazeHost, você terá baixa latência, alta disponibilidade e proteção contra DDoS. Oferecemos suporte para modding e scripts personalizados, garantindo uma experiência única de GTA V para você e sua comunidade.",        "platform": "PC",
+        "description": "FiveM é uma plataforma que permite criar servidores personalizados para o jogo Grand Theft Auto V, com modos de jogo exclusivos, scripts personalizados e conteúdo modificado.",        
+        "platform": "PC",
         "developer": "Rockstar Games",
         "mods": "Permitido",
         "refundType": "None"
@@ -27,7 +28,7 @@
   "new": false,
   "wallpaper": "/wallpapers/minecraft.webp",
   "contents": {
-    "description": "Minecraft é um jogo de sandbox que permite criar, explorar e sobreviver em mundos gerados aleatoriamente usando blocos. Com modos como Survival e Creative, os jogadores podem minerar recursos, construir estruturas e enfrentar criaturas como Creepers e Endermen. Na RazeHost, oferecemos servidores otimizados para baixa latência, alta disponibilidade e proteção contra DDoS. Instalamos automaticamente versões populares como Vanilla, Forge, Mohist, Paper e Bedrock Edition, além de modpacks como Pixelmon, SkyFactory e RLCraft.",
+    "description": "Minecraft é um jogo de sandbox que permite criar, explorar e sobreviver em mundos gerados aleatoriamente usando blocos. Na RazeHost, oferecemos servidores populares como Vanilla, Forge, Mohist, Paper e Bedrock Edition, além de modpacks como Pixelmon, SkyFactory e RLCraft.",
     "platform": "PC, Xbox, PlayStation, Switch",
     "developer": "Mojang Studios",
     "mods": "Permitido",
@@ -45,7 +46,8 @@
       "new": true,
       "wallpaper": "/wallpapers/7daystodie.webp",
       "contents": {
-        "description": "7 Days to Die é um jogo de sobrevivência em mundo aberto com elementos de construção, exploração e combate contra zumbis. Os jogadores devem explorar o mundo, coletar recursos e construir fortificações para sobreviver aos ataques constantes de zumbis. Na RazeHost, nossos servidores otimizados oferecem alta performance, proteção contra DDoS e recursos de instalação automática de modpacks, garantindo a melhor experiência de jogo.",        "platform": "PC, PS4, Xbox One",
+        "description": "7 Days to Die é um jogo de sobrevivência em mundo aberto com elementos de construção, exploração e combate contra zumbis. Os jogadores devem explorar o mundo, coletar recursos e construir fortificações para sobreviver aos ataques constantes de zumbis. Na RazeHost",       
+         "platform": "PC, PS4, Xbox One",
         "developer": "The Fun Pimps",
         "mods": "Permitido",
         "refundType": "Reembolso em até 7 dias"
