@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Tibia - Hospedagem de Host de Tibia | RazeHost",
+    title: "Host de Tibia",
     description: "A melhor hospedagem de Tibia no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
  keywords: [
     "RazeHost.com.br",

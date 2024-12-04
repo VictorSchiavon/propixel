@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
     title: {
-        default: "Proteção Anti-DDoS | RazeHost",
+        default: "Proteção Anti-DDoS",
         template: `%s - ${siteConfig.name}`,
     },
     description: "Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.",

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de RedM | RazeHost",
+    title: "Host de RedM",
     description: "A melhor hospedagem de RedM no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
  keywords: [
     "RazeHost.com.br",

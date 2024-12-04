@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de 7Days To Die | RazeHost",
+    title: "Host de 7Days To Die",
     description: "A melhor hospedagem de 7 Days To Die no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
  keywords: [
     "RazeHost.com.br",
