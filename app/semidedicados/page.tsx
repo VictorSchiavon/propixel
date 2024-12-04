@@ -194,21 +194,21 @@ export default function Games() {
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps-trader/rico.jpg" alt="logo_xp" width={50} height={50} />
+                                <Image src="/vps/ubuntu.png" alt="logo_xp" width={50} height={50} />
                                 <p className="text-sm font-bold pt-5">XP Investimentos</p>
                                 <p className="pt-1 text-xs">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps-trader/toro.png" alt="logo_xp" width={50} height={50} />
+                                <Image src="/vps/amd.png" alt="logo_xp" width={50} height={50} />
                                 <p className="text-sm font-bold pt-5">XP Investimentos</p>
                                 <p className="pt-1 text-xs">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps-trader/binance.png" alt="logo_xp" width={50} height={50} />
+                                <Image src="/vps/brasil.png" alt="logo_xp" width={50} height={50} />
                                 <p className="text-sm font-bold pt-5">XP Investimentos</p>
                                 <p className="pt-1 text-xs">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
