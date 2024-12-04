@@ -111,7 +111,7 @@ export const metadata: Metadata = {
         title: 'Semidedicados no Brasil com Anti DDoS | RazeHost',
         description: 'Semidedicados no Brasil com proteção Anti DDoS, e hardware de nova geração, garantindo seu servidor sem lag.',
         url: 'https://raze.host/',
-        siteName: '',
+        siteName: 'RazeHost',
         images: ['/banner.png']
     },
     twitter: {

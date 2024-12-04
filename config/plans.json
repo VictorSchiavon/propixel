@@ -2,7 +2,7 @@
     "minecraft": [
         {
             "game": "Minecraft",
-            "img": "/games/minecraft.png",
+            "img": "/games/control2.png",
             "name": "Plano Simples",
             "price": "R$29,99",
             "discountPrice": "R$ 13,90",
@@ -17,7 +17,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/game1.webp",
+            "img": "/games/controle.png",
             "name": "Plano Basic",
             "price": "R$69,99",
             "discountPrice": "R$ 33,90",
