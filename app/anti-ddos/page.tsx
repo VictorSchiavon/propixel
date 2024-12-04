@@ -13,7 +13,7 @@ export default function Home() {
                 <section className="pt-[5%]">
                     <h1 className="text-6xl font-bold pt-4">Localização e Anti DDoS</h1>
                     <p className="text-muted pt-5 pb-5">
-                        Proteção Anti DDoS com capacidade total de até 248TB/s. Mitigação a tempo real, sempre ativa, garantido o tempo de resposta mais rápido contra qualquer ameaças/ataques. Todos nossos servidores são em São Paulo, e também contamos com o modelo de proteção Cloudflare Magic Transit. Com 296TB/s. de capacidade de rede, 23x vezes maior que os maiores ataques DDoS já registrados, a Cloudflare pode mitigar ataques de qualquer tamanho.
+                        Proteção Anti DDoS com capacidade total de até 296TB/s. Mitigação a tempo real, sempre ativa, garantido o tempo de resposta mais rápido contra qualquer ameaças/ataques. Todos nossos servidores são em São Paulo, e também contamos com o modelo de proteção Cloudflare. Com 296TB/s. de capacidade de rede, 23x vezes maior que os maiores ataques DDoS já registrados, a Cloudflare pode mitigar ataques de qualquer tamanho.
                     </p>
                     <div className="pt-5 flex gap-3">
                         <Button className="rounded-md bg-transparent text-white border">Começar agora</Button>
