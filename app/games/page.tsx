@@ -70,7 +70,7 @@ export default function Games() {
                                 <h3 className="font-bold uppercase text-xs">Já disponível</h3>
                                 <p className="text-gray-300 text-sm w-[280px] pt-2">{displayGame.contents.description}</p>
                                 <div className="pt-3 flex gap-4">
-                                <Link href={displayGame.link}><Button className="text-white bg-orange-400 px-8 py-4">Comprar agora</Button></Link>
+                                    <Button className="text-white bg-orange-400 px-8 py-4">Comprar agora</Button>
                                     {!displayGame.discountPrice ? (
                                         <Link href={displayGame.link}>
                                             <Button variant="bordered">{displayGame.price}</Button>
@@ -249,7 +249,7 @@ export default function Games() {
                             <Card className="bg-[#0B0E13] border-none">
                                 <CardBody className="overflow-visible p-0 border-none bg-[#0B0E13]">
                                     <div>
-                                        <Image width={250} height={500} alt={item.name} className="w-full object-cover h-64" src={item.img} />
+                                        <Image width={500} height={500} alt={item.name} className="w-full object-cover h-64" src={item.img} />
                                     </div>
                                     <div className="bg-gradient-to-r from-orange-500 to-orange-700 rounded-b-lg">
                                         <h1 className="font-bold pb-2 text-center p-2">Jogo novo</h1>
