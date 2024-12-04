@@ -47,7 +47,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/minecraft.png",
+            "img": "/games/control2.png",
             "name": "Plano Pro",
             "price": "R$92,90",
             "discountPrice": "R$73,90",
@@ -62,7 +62,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/minecraft.png",
+            "img": "/games/control.png",
             "name": "Plano Ultra",
             "price": "R$124,90",
             "discountPrice": "R$94,90",
