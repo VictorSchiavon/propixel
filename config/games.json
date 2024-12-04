@@ -28,14 +28,13 @@
       "new": false,
       "wallpaper": "/wallpapers/minecraft.webp",
       "contents": {
-        "description": "Minecraft é um jogo de sandbox que permite criar, explorar e sobreviver em mundos gerados aleatoriamente usando blocos.\\n\\nCom modos como Survival e Creative, os jogadores podem minerar recursos, construir estruturas incríveis e enfrentar criaturas desafiadoras como Creepers e Endermen.\\n\\nNa RazeHost, oferecemos servidores otimizados para garantir baixa latência, alta disponibilidade e proteção contra DDoS. Além disso, nossos servidores contam com instalação automática de versões populares como:\\n- Vanilla: Para uma experiência clássica de Minecraft.\\n- Forge: Perfeito para instalar mods e personalizar a jogabilidade.\\n- Mohist: Uma combinação poderosa de mods e plugins para servidores híbridos.\\n- Paper: Ideal para servidores de alto desempenho com suporte a plugins.\\n- Bedrock Edition: Para jogadores em dispositivos móveis e consoles.\\n\\nTambém suportamos modpacks automáticos, como Pixelmon, SkyFactory e RLCraft, para que você possa iniciar sua aventura rapidamente, sem complicações.\\n\\nExperimente a liberdade de criar, explorar e sobreviver com a melhor infraestrutura para Minecraft",
+        "description": "Minecraft é um jogo de sandbox que permite criar e explorar mundos gerados aleatoriamente com blocos e sobreviver contra criaturas.",
         "platform": "PC, Xbox, PlayStation, Switch",
         "developer": "Mojang Studios",
         "mods": "Permitido",
         "refundType": "Reembolso em até 7 dias"
       }
-    }
-    
+    },
     {
       "id": 3,
       "name": "7 Days to Die",
