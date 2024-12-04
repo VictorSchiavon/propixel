@@ -13,7 +13,7 @@ export default function Games() {
     const [displayGame, setDisplayGame] = useState<any>();
 
     useEffect(() => {
-        const findGame = games.filter((item) => item.id === 6);
+        const findGame = games.filter((item) => item.id === 7);
         setDisplayGame(findGame[0]);
     }, []);
 
