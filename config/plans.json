@@ -663,6 +663,7 @@
     "projectzomboid": [
         {
             "game": "Project Zomboid",
+            "img": "/games/zomboid.png",
             "name": "Project Zomboid - Sobrevivente",
             "price": "R$55,00",
             "discountPrice": "R$35,00",
@@ -677,6 +678,7 @@
         },
         {
             "game": "Project Zomboid",
+            "img": "/games/zomboid.png",
             "name": "Project Zomboid - The Walking Dead",
             "price": "R$105,00",
             "discountPrice": "R$65,00",
@@ -691,6 +693,7 @@
         },
         {
             "game": "Project Zomboid",
+            "img": "/games/zomboid.png",
             "name": "Project Zomboid - Resident Evil",
             "price": "R$200,00",
             "discountPrice": "R$100,00",
