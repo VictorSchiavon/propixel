@@ -265,7 +265,7 @@ export default function Games() {
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps-trader/brasil.png" alt="logo_xp" width={50} height={50} />
+                                <Image src="/vps-trader/rico.png" alt="logo_xp" width={50} height={50} />
                                 <p className="text-sm font-bold pt-5">Rico</p>
                                 <p className="pt-1 text-xs">
                                 Você gosta de operar seus ativos na Rico? Com nossa VPS Trader com AMD Ryzen você consegue rodar qualquer aplicação que desejar.

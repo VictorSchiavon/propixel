@@ -104,7 +104,7 @@ export default function Games() {
             <section>
                 <div>
                     <h1 className="text-5xl font-bold pt-2 text-center">
-                        Preço acessível e sem surpresas
+                        Host de RedM no Brasil
                     </h1>
                     <p className="text-muted pt-2 pb-2 text-center">
                         Escolha o plano ideal para seu negócio e evolua conforme suas necessidades.
@@ -176,8 +176,8 @@ export default function Games() {
                         <CardBody>
                             <div>
                                 <Zap color="orange" size={26} />
-                                <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                <h3 className="font-bold pt-3">AMD Ryzen</h3>
+                                <p className="text-gray-300 text-[14px] pt-1">Ofereça a melhor experiência de jogo com nossos servidores VPS equipados com processadores AMD Ryzen, otimizados para jogos exigentes e altas cargas de trabalho, garantindo desempenho superior.</p>
                             </div>
                         </CardBody>
                     </Card>
@@ -185,8 +185,8 @@ export default function Games() {
                         <CardBody>
                             <div>
                                 <BrainCircuit color="orange" size={26} />
-                                <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                <h3 className="font-bold pt-3">SSD NVMe</h3>
+                                <p className="text-gray-300 text-[14px] pt-1">Aproveite a velocidade do SSD NVMe em nossa VPS Gamer, proporcionando tempos de carregamento rápidos e a melhor performance para servidores de jogos e aplicações pesadas..</p>
                             </div>
                         </CardBody>
                     </Card>
@@ -194,8 +194,8 @@ export default function Games() {
                         <CardBody>
                             <div>
                                 <ShieldCheck color="orange" size={26} />
-                                <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                <h3 className="font-bold pt-3">Proteção DDoS</h3>
+                                <p className="text-gray-300 text-[14px] pt-1">Mantenha seus servidores de jogos seguros com nossa proteção DDoS avançada. Garantimos que seu servidor esteja sempre protegido contra ataques, proporcionando uma jogabilidade sem interrupções.</p>
                             </div>
                         </CardBody>
                     </Card>
@@ -206,8 +206,8 @@ export default function Games() {
                         <CardBody>
                             <div>
                                 <Zap color="orange" size={26} />
-                                <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                <h3 className="font-bold pt-3">Exitlag</h3>
+                                <p className="text-gray-300 text-[14px] pt-1">Adquira a melhor plataforma de solução de lags do mercado, você pode incluir a Exitlag adicional no seu serviço, juntamente com a RazeHost.</p>
                             </div>
                         </CardBody>
                     </Card>
@@ -215,8 +215,8 @@ export default function Games() {
                         <CardBody>
                             <div>
                                 <BrainCircuit color="orange" size={26} />
-                                <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                <h3 className="font-bold pt-3">Baixa latência</h3>
+                                <p className="text-gray-300 text-[14px] pt-1">Com servidores VPS em São Paulo, garantimos baixa latência e conexão rápida para jogadores em todo o Brasil, oferecendo uma experiência de jogo sem lag e com alto desempenho.</p>
                             </div>
                         </CardBody>
                     </Card>
@@ -224,8 +224,8 @@ export default function Games() {
                         <CardBody>
                             <div>
                                 <ShieldCheck color="orange" size={26} />
-                                <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                <h3 className="font-bold pt-3">Suporte</h3>
+                                <p className="text-gray-300 text-[14px] pt-1">Com 99,9% de uptime, seus servidores estarão sempre online, permitindo que você aproveite seus jogos e aplicações sem falhas, dia e noite.</p>
                             </div>
                         </CardBody>
                     </Card>
@@ -243,30 +243,30 @@ export default function Games() {
                             </div>
                             <div className="col-span-1">
                                 <Image src="/vps/windows.png" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">XP Investimentos</p>
+                                <p className="text-sm font-bold pt-5">VPS Windows</p>
                                 <p className="pt-1 text-xs">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    Nos servidores VPS da RazeHost, você pode criar uma VPS Windows e aproveitar todos os recursos.
                                 </p>
                             </div>
                             <div className="col-span-1">
                                 <Image src="/vps/ubuntu.png" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">XP Investimentos</p>
+                                <p className="text-sm font-bold pt-5">VPS Linux</p>
                                 <p className="pt-1 text-xs">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Nos servidores VPS da RazeHost, você pode criar uma VPS Linux ou Ubuntu e aproveitar todos os recursos.
                                 </p>
                             </div>
                             <div className="col-span-1">
                                 <Image src="/vps/amd.png" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">XP Investimentos</p>
+                                <p className="text-sm font-bold pt-5">VPS Ryzen</p>
                                 <p className="pt-1 text-xs">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    Em todos os nossos servidores VPS contamos com os melhores e mais atuais processadores AMD Ryzen.
                                 </p>
                             </div>
                             <div className="col-span-1">
                                 <Image src="/vps/brasil.png" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">XP Investimentos</p>
+                                <p className="text-sm font-bold pt-5">VPS Brasil</p>
                                 <p className="pt-1 text-xs">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    Servidores localizados em São Paulo, com a menor latência do país, garantindo um serviço sem lags e com baixa latência.
                                 </p>
                             </div>
                         </div>
