@@ -242,48 +242,36 @@ export default function Games() {
             </div>
 
             <div className="pt-[5%]">
-    <h1 className="text-xl font-bold pt-2" id="jogosnovos">Jogos Novos</h1>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-5 pt-4">
-        {newGames.slice(0, 3).map((item, index) => (
-            <Link href={item.link} key={index}>
-                <Card className="bg-[#0B0E13] border-none hover:scale-105 transition-transform duration-300">
-                    <CardBody className="overflow-hidden p-0 border-none bg-[#0B0E13]">
-                        <div className="relative w-full aspect-w-16 aspect-h-9">
-                            {/* Tornando a imagem responsiva com proporção fixa */}
-                            <Image 
-                                width={500} 
-                                height={500} 
-                                alt={item.name} 
-                                className="object-cover w-full h-full rounded-t-lg" 
-                                src={item.img} 
-                            />
-                        </div>
-                        <div className="bg-gradient-to-r from-orange-500 to-orange-700 rounded-b-lg">
-                            <h1 className="font-bold pb-2 text-center p-2">Jogo novo</h1>
-                        </div>
-                        <div className="pt-2 px-4">
-                            <h1 className="font-bold pb-2 text-sm sm:text-base">{item.name}</h1>
-                            {!item.discountPrice ? (
-                                <p className="text-sm">a partir de {item.price}</p>
-                            ) : (
-                                <div className="flex gap-2 items-center">
-                                    <Chip 
-                                        className="text-white text-xs sm:text-sm" 
-                                        size="sm" 
-                                        color="warning">
-                                        -{calculateDiscountPercentage(
-                                            parseFloat(item.price.replace("R$", "")), 
-                                            parseFloat(item.discountPrice.replace("R$", ""))
-                                        )}%
-                                    </Chip>
-                                    <p className="line-through text-xs sm:text-sm text-gray-400">{item.price}</p>
-                                    <p className="text-sm sm:text-base">{item.discountPrice}</p>
-                                </div>
-                            )}
-                        </div>
-                    </CardBody>
-                </Card>
-            </Link>
-        ))}
-    </div>
-</div>
+                <h1 className="text-xl font-bold pt-2" id="jogosnovos">Jogos Novos</h1>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-5 pt-4">
+                    {newGames.slice(0, 3).map((item, index) => (
+                        <Link href={item.link} key={index}>
+                            <Card className="bg-[#0B0E13] border-none">
+                                <CardBody className="overflow-visible p-0 border-none bg-[#0B0E13]">
+                                    <div>
+                                    <Image width={500} height={500} alt={item.name} className="w-full object-cover h-64" src={item.img} />
+                                    </div>
+                                    <div className="bg-gradient-to-r from-orange-500 to-orange-700 rounded-b-lg">
+                                        <h1 className="font-bold pb-2 text-center p-2">Jogo novo</h1>
+                                    </div>
+                                    <div className="pt-2">
+                                        <h1 className="font-bold pb-2">{item.name}</h1>
+                                        {!item.discountPrice ? (
+                                            <p> a partir de {item.price}</p>
+                                        ) : (
+                                            <div className="flex gap-2">
+                                                <Chip className="text-white" size="sm" color="warning">-{calculateDiscountPercentage(parseFloat(item.price.replace("R$", "")), parseFloat(item.discountPrice.replace("R$", "")))}%</Chip>
+                                                <p className="line-through text-xs text-gray-400 pt-1">{item.price}</p>
+                                                <p>{item.discountPrice}</p>
+                                            </div>
+                                        )}
+                                    </div>
+                                </CardBody>
+                            </Card>
+                        </Link>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+}
