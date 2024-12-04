@@ -108,7 +108,7 @@ export const metadata: Metadata = {
         title: 'Host de Project Zomboid | RazeHost',
         description: 'A melhor hospedagem de Project Zomboid no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://raze.host/',
-        siteName: 'Raze Host',
+        siteName: ''
         images: ['/banner.png']
     },
     twitter: {
