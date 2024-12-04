@@ -390,7 +390,7 @@
     "terraria": [
         {
             "game": "Terraria",
-            "img": "/games/terraria.png",
+            "img": "/games/cards/terria.jpg",
             "name": "Terraria 2GB",
             "price": "R$60,00",
             "discountPrice": "R$40,00",
@@ -404,7 +404,7 @@
         },
         {
             "game": "Terraria",
-            "img": "/games/terraria.png",
+            "img": "/games/cards/terria.jpg",
             "name": "Terraria 4GB",
             "price": "R$90,00",
             "discountPrice": "R$70,00",
@@ -418,7 +418,7 @@
         },
         {
             "game": "Terraria",
-            "img": "/games/terraria.png",
+            "img": "/games/cards/terria.jpg",
             "name": "Terraria 6GB",
             "price": "R$150,00",
             "discountPrice": "R$100,00",
@@ -432,7 +432,7 @@
         },
         {
             "game": "Terraria",
-            "img": "/games/terraria.png",
+            "img": "/games/cards/terria.jpg",
             "name": "Terraria 10GB",
             "price": "R$180,00",
             "discountPrice": "R$130,00",
@@ -448,7 +448,7 @@
     "palworld": [
         {
             "game": "Palworld",
-            "img": "/games/palworld.png",
+            "img": "/games/cards/palworld.jpg",
             "name": "Plano 1",
             "price": "R$123,90",
             "discountPrice": "R$95,90",
@@ -464,7 +464,7 @@
         },
         {
             "game": "Palworld",
-            "img": "/games/palworld.png",
+            "img": "/games/cards/palworld.jpg",
             "name": "Plano 2",
             "price": "R$179,90",
             "discountPrice": "R$129,90",
@@ -480,7 +480,7 @@
         },
         {
             "game": "Palworld",
-            "img": "/games/palworld.png",
+            "img": "/games/cards/palworld.jpg",
             "name": "Plano 3",
             "price": "R$250,90",
             "discountPrice": "R$190,90",
@@ -496,7 +496,7 @@
         },
         {
             "game": "Palworld",
-            "img": "/games/palworld.png",    
+            "img": "/games/cards/palworld.jpg",
             "name": "Plano 4",
             "price": "R$429,90",
             "discountPrice": "R$279,90",
@@ -514,6 +514,7 @@
     "vrising": [
         {
             "game": "V Rising",
+            "img": "/games/cards/vrising.jpg",
             "name": "Plano 1 - Vampiro",
             "price": "R$89,00",
             "discountPrice": "R$59,90",
@@ -529,6 +530,7 @@
         },
         {
             "game": "V Rising",
+            "img": "/games/cards/vrising.jpg",
             "name": "Plano 2 - Drácula",
             "price": "R$149,90",
             "discountPrice": "R$119,90",
@@ -544,6 +546,7 @@
         },
         {
             "game": "V Rising",
+            "img": "/games/cards/vrising.jpg",
             "name": "Plano 3 - Hardcore Survival",
             "price": "R$189,90",
             "discountPrice": "R$139,90",
@@ -560,6 +563,7 @@
     "rust": [
         {
             "game": "Rust",
+            "img": "/games/cards/rust.jpg",
             "name": "RUST - PLANO SURVIVAL",
             "price": "R$125,00",
             "discountPrice": "R$85,00",
@@ -573,6 +577,7 @@
         },
         {
             "game": "Rust",
+            "img": "/games/cards/rust.jpg",
             "name": "RUST - EVIL SURVIVAL",
             "price": "R$175,00",
             "discountPrice": "R$135,00",
@@ -586,6 +591,7 @@
         },
         {
             "game": "Rust",
+            "img": "/games/cards/rust.jpg",
             "name": "RUST - HARDCORE SURVIVAL",
             "price": "R$319,90",
             "discountPrice": "R$200,00",
@@ -601,7 +607,7 @@
     "7daystodie": [
         {
             "game": "7 Days to Die",
-            "img": "/games/7daystoDie.png",
+            "img": "/games/cards/7daystodie.jpg",
             "name": "BÁSICO - 7 DAYS TO DIE",
             "price": "R$94,00",
             "discountPrice": "R$64,00",
@@ -616,7 +622,7 @@
         },
         {
             "game": "7 Days to Die",
-            "img": "/games/7daystoDie.png",
+            "img": "/games/cards/7daystodie.jpg",
             "name": "AVANÇADO - 7 DAYS TO DIE",
             "price": "R$144,00",
             "discountPrice": "R$104,00",
@@ -631,7 +637,7 @@
         },
         {
             "game": "7 Days to Die",
-            "img": "/games/7daystoDie.png",
+            "img": "/games/cards/7daystodie.jpg",
             "name": "SOBREVIVENTE - 7 DAYS TO DIE",
             "price": "R$195,00",
             "discountPrice": "R$145,00",
@@ -646,7 +652,7 @@
         },
         {
             "game": "7 Days to Die",
-            "img": "/games/7daystoDie.png",
+            "img": "/games/cards/7daystodie.jpg",
             "name": "WALKER - 7 DAYS TO DIE",
             "price": "R$299,00",
             "discountPrice": "R$199,00",
@@ -663,7 +669,7 @@
     "projectzomboid": [
         {
             "game": "Project Zomboid",
-            "img": "/games/zomboid.png",
+            "img": "/games/cards/zomboid.jpg",
             "name": "Project Zomboid - Sobrevivente",
             "price": "R$55,00",
             "discountPrice": "R$35,00",
@@ -678,7 +684,7 @@
         },
         {
             "game": "Project Zomboid",
-            "img": "/games/zomboid.png",
+            "img": "/games/cards/zomboid.jpg",
             "name": "Project Zomboid - The Walking Dead",
             "price": "R$105,00",
             "discountPrice": "R$65,00",
@@ -693,7 +699,7 @@
         },
         {
             "game": "Project Zomboid",
-            "img": "/games/zomboid.png",
+            "img": "/games/cards/zomboid.jpg",
             "name": "Project Zomboid - Resident Evil",
             "price": "R$200,00",
             "discountPrice": "R$100,00",
@@ -710,7 +716,7 @@
     "unturned": [
         {
             "game": "Unturned",
-            "img": "/games/unturned.png",
+            "img": "/games/cards/unturned.jpg",
             "name": "BÁSICO - UNTURNED",
             "price": "R$49,90",
             "discountPrice": "R$34,90",
@@ -724,7 +730,7 @@
         },
         {
             "game": "Unturned",
-            "img": "/games/unturned.png",
+            "img": "/games/cards/unturned.jpg",
             "name": "AVANÇADO - UNTURNED",
             "price": "R$95,99",
             "discountPrice": "R$74,99",
@@ -738,7 +744,7 @@
         },
         {
             "game": "Unturned",
-            "img": "/games/unturned.png",
+            "img": "/games/cards/unturned.jpg",
             "name": "ULTIMATE - UNTURNED",
             "price": "R$158,99",
             "discountPrice": "R$118,99",
@@ -795,7 +801,7 @@
     "valheim": [
         {
             "game": "Valheim",
-            "img": "/games/valheim.png",
+            "img": "/games/cards/valheim.jpg",
             "name": "Valheim 3GB",
             "price": "R$45,00",
             "discountPrice": "R$30,00",
@@ -810,7 +816,7 @@
         },
         {
             "game": "Valheim",
-            "img": "/games/valheim.png",
+            "img": "/games/cards/valheim.jpg",
             "name": "Valheim 6GB",
             "price": "R$65,00",
             "discountPrice": "R$50,00",
@@ -825,7 +831,7 @@
         },
         {
             "game": "Valheim",
-            "img": "/games/valheim.png",
+            "img": "/games/cards/valheim.jpg",
             "name": "Valheim 8GB",
             "price": "R$124,00",
             "discountPrice": "R$80,00",
@@ -840,7 +846,7 @@
         },
         {
             "game": "Valheim",
-            "img": "/games/valheim.png",
+            "img": "/games/cards/valheim.jpg",
             "name": "Valheim 10GB",
             "price": "R$180,00",
             "discountPrice": "R$120,00",
