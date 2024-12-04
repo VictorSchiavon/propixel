@@ -89,7 +89,7 @@ export const NavbarComponent = () => {
               <div className="w-full p-5">
                 <p className="text-xs text-gray-500">JOGOS POPULARES</p>
                 <div className="mt-5 grid grid-cols-2 gap-4">
-                  {games.slice(0, 4).map((item, index) => (
+                  {games.slice(1, 2, 3, 14).map((item, index) => (
                     <Link href={item.link} key={index}>
                       <div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg flex items-center h-18 h-full">
                         <div className="flex items-center space-x-2">
