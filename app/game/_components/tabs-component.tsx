@@ -69,7 +69,7 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({ displayGame }) => 
                                         <div className="pt-10 grid grid-cols-1 md:grid-cols-12 gap-8">
                                             {/* Gêneros */}
                                             <div className="col-span-1 md:col-span-6">
-                                                <p className="text-gray-500 text-sm">Gêneros</p>
+                                                <p className="text-gray-500 text-sm">Sistemas</p>
                                                 <div className="pt-2 flex flex-wrap gap-2">
                                                     <Button size="sm">Mods e Plugins</Button>
                                                     <Button size="sm">Modpacks</Button>
@@ -79,10 +79,10 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({ displayGame }) => 
 
                                             {/* Sistemas */}
                                             <div className="col-span-1 md:col-span-6 md:border-l-2 border-gray-600">
-                                                <p className="text-gray-500 text-sm md:pl-4">Sistemas</p>
+                                                <p className="text-gray-500 text-sm md:pl-4">Informações</p>
                                                 <div className="pt-2 flex flex-wrap gap-2 md:pl-4">
-                                                    <Button size="sm">Linux</Button>
-                                                    <Button size="sm">Windows</Button>
+                                                    <Button size="sm">Proteção DDoS</Button>
+                                                    <Button size="sm">São Paulo</Button>
                                                     <Button size="sm">Multiplataforma</Button>
                                                 </div>
                                             </div>
