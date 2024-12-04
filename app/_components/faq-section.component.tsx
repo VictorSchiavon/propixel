@@ -6,25 +6,17 @@ export const FaqSectionComponent = () => {
     // Array containing FAQ questions and answers
     const faqs = [
         {
-            title: "O que é Lorem Ipsum?",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            title: "Qual é o ping?",
+            content: "Os servidores da RazeHost oferecem uma média de ping de 20ms em todo o Brasil, proporcionando uma latência mínima e 99,9% de uptime garantido."
         },
         {
-            title: "Como posso usar o Lorem Ipsum?",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            title: "Qual o tempo de ativação?",
+            content: "Assim que o pagamento for confirmado, seu plano será ativado de forma automática. Em situações excepcionais, a ativação pode levar até 2 horas para ser concluída."
         },
         {
-            title: "Qual é o propósito do Lorem Ipsum?",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            title: "Posso solicitar reembolso?",
+            content: "Se não ficar satisfeito com os nossos serviços, garantimos a devolução do seu pagamento em até 7 dias após a contratação."
         },
-        {
-            title: "O Lorem Ipsum é seguro para uso?",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        },
-        {
-            title: "Quais são as alternativas ao Lorem Ipsum?",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        }
     ];
 
     return (
