@@ -227,7 +227,7 @@ export default function Games() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-14">
                             <div className="col-span-1 md:col-span-4">
                                 <p className="font-bold text-gray-300 text-xl pt-1">
-                                    Oferecemos diversos planos para projetos, <br /> com opções de memória de 2 GB a 1 TB de RAM.
+                                   Você pode hospedar qualquer projeto, <br /> seja servidor de jogo, BOT, site e outras aplicações.
                                 </p>
                             </div>
                             <div className="col-span-1">
