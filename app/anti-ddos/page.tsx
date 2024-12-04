@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="container mx-auto px-6 flex-grow pt-10">
                     <section>
                         <h1 className="text-4xl font-bold">Qual a capacidade?</h1>
-                        <p className="text-muted pt-2 pb-5">Garantimos toda a segurança e estabilidade da proteção DDoS com capacidade de até <span className="text-orange-400">248 TB/s.</span></p>
+                        <p className="text-muted pt-2 pb-5">Garantimos toda a segurança e estabilidade da proteção DDoS com capacidade de até <span className="text-orange-400">296 TB/s.</span></p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-5 pb-10">
                             <Card className="bg-[#0A0C10] rounded-sm">
