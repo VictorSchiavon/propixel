@@ -103,12 +103,12 @@ export default function Games() {
     }
 
     const defaultContent =
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+        "Os servidores da RazeHost oferecem uma média de ping de 20ms em todo o Brasil, proporcionando uma latência mínima e 99,9% de uptime garantido.";
 
     return (
         <section className="container mx-auto px-6 flex-grow pt-[2%]">
             <section>
-                <h1 className="text-2xl text-gray-400 font-semibold">Confira a bare metal <br /> stack disponível na Meteor</h1>
+                <h1 className="text-2xl text-gray-400 font-semibold">Confira configurações <br /> baremetal disponível na RazeHost.</h1>
 
                 <section className="pt-10">
                     <div>
