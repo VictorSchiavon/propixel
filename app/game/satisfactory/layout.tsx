@@ -108,7 +108,7 @@ export const metadata: Metadata = {
         title: 'Host de Satisfactory | RazeHost',
         description: 'A melhor hospedagem de Satisfactory no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://raze.host/',
-        siteName: ''
+        siteName: 'Datacenter no Brasil'
         images: ['/banner.png']
     },
     twitter: {
