@@ -30,9 +30,9 @@ const Footer = () => {
                     <CardBody className="p-0">
                         <div className="grid h-full gap-12 px-4 sm:px-6 md:grid-cols-2">
                             <div className="flex flex-col items-center justify-between gap-6 px-4 py-8 md:items-start">
-                                <h3 className="font-bold text-3xl">Vamos fazer seu sonho acontecer</h3>
+                                <h3 className="font-bold text-3xl">Seu sonho, nossa missão!</h3>
                                 <p className="text-gray-300 text-[15px] pt-4 pb-4">
-                                    Oferecemos diversos planos para projetos pequenos e grandes, com opções de memória de 2 GB a 1 TB de RAM. Nossas soluções escaláveis ​​e econômicas garantem desempenho e confiabilidade, atendendo às suas necessidades e orçamento, seja para um projeto modesto ou para uma carga de trabalho substancial.
+                                    Oferecemos uma ampla gama de planos para atender a diversos tipos de projetos, desde hospedagem de servidores de Minecraft, FiveM e outros jogos, até VPS para aplicações de sites, bots e soluções digitais em geral. Nossas opções escaláveis e econômicas garantem desempenho e confiabilidade, atendendo tanto a pequenas iniciativas quanto a grandes demandas de infraestrutura
                                 </p>
                                 <Button className='bg-orange-400 text-white rounded-md px-8 py-4'>Confira os planos</Button>
                             </div>
