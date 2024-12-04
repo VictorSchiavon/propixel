@@ -2,7 +2,7 @@
     "minecraft": [
         {
             "game": "Minecraft",
-            "img": "/games/control2.png",
+            "img": "/games/mine.webp",
             "name": "Plano Simples",
             "price": "R$29,99",
             "discountPrice": "R$ 13,90",
@@ -17,7 +17,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/controle.png",
+            "img": "/games/mine.webp",
             "name": "Plano Basic",
             "price": "R$69,99",
             "discountPrice": "R$ 33,90",
@@ -32,7 +32,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/control3.png",
+            "img": "/games/mine.webp",
             "name": "Plano Advanced",
             "price": "R$69,90",
             "discountPrice": "R$ 49,90",
@@ -47,7 +47,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/controle2.png",
+            "img": "/games/mine2.webp",
             "name": "Plano Pro",
             "price": "R$92,90",
             "discountPrice": "R$73,90",
@@ -62,7 +62,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/controle.png",
+            "img": "/games/mine2.webp",
             "name": "Plano Ultra",
             "price": "R$124,90",
             "discountPrice": "R$94,90",

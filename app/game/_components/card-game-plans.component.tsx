@@ -20,7 +20,7 @@ export const CardGamePlansComponent: React.FC<CardGamePlansComponentProps> = ({ 
                     <CardBody className="overflow-visible p-0 border-none bg-[#0E131D] h-full flex flex-col">
                         <div className="h-[250px]">
                             <Image
-                                width="80%"
+                                width="100%"
                                 height={250}
                                 alt={title}
                                 className="w-full h-full object-cover"
