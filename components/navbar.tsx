@@ -56,7 +56,7 @@ export const NavbarComponent = () => {
                     {[
                       { href: "/vps-trader", title: "VPS Trader", description: "Servidor veloz para traders." },
                       { href: "/vps-flex", title: "VPS Flex", description: "Servidores custo-benefício único." },
-                      { href: "/semidedicado", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." },
+                      { href: "/semidedicados", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." },
                       { href: "/colocation", title: "Colocation", description: "Hospedeu seu próprio servidor em nossa infraestrutura" }
                     ].map((item, index) => (
                       <Link href={item.href} key={index}>
@@ -200,7 +200,7 @@ export const NavbarComponent = () => {
                     {[
                       { href: "/vps-trader", title: "VPS Trader", description: "Servidor veloz para traders." },
                       { href: "/vps-flex", title: "VPS Flex", description: "Servidores custo-benefício único." },
-                      { href: "/semidedicado", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." },
+                      { href: "/semidedicados", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." },
                       { href: "/colocation", title: "Colocation", description: "Hospedeu seu próprio servidor em nossa infraestrutura" }
                     ].map((item, index) => (
                       <Link href={item.href} key={index}>
