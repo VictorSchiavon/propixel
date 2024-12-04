@@ -395,7 +395,7 @@
     "terraria": [
         {
             "game": "Terraria",
-            "img": "/games/cards/terria.webp",
+            "img": "/games/cards/terraria.webp",
             "name": "Terraria 2GB",
             "price": "R$60,00",
             "discountPrice": "R$40,00",
@@ -409,7 +409,7 @@
         },
         {
             "game": "Terraria",
-            "img": "/games/cards/terria.webp",
+            "img": "/games/cards/terraria.webp",
             "name": "Terraria 4GB",
             "price": "R$90,00",
             "discountPrice": "R$70,00",
@@ -423,7 +423,7 @@
         },
         {
             "game": "Terraria",
-            "img": "/games/cards/terria.webp",
+            "img": "/games/cards/terraria.webp",
             "name": "Terraria 6GB",
             "price": "R$150,00",
             "discountPrice": "R$100,00",
@@ -437,7 +437,7 @@
         },
         {
             "game": "Terraria",
-            "img": "/games/cards/terria.webp",
+            "img": "/games/cards/terraria.webp",
             "name": "Terraria 10GB",
             "price": "R$180,00",
             "discountPrice": "R$130,00",
