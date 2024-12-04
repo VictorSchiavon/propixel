@@ -2,7 +2,7 @@
     "minecraft": [
         {
             "game": "Minecraft",
-            "img": "/games/mine.webp",
+            "img": "/games/cards/mine.webp",
             "name": "Plano Simples",
             "price": "R$29,99",
             "discountPrice": "R$ 13,90",
@@ -17,7 +17,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/mine.webp",
+            "img": "/games/cards/mine.webp",
             "name": "Plano Basic",
             "price": "R$69,99",
             "discountPrice": "R$ 33,90",
@@ -32,7 +32,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/mine.webp",
+            "img": "/games/cards/mine.webp",
             "name": "Plano Advanced",
             "price": "R$69,90",
             "discountPrice": "R$ 49,90",
@@ -47,7 +47,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/mine2.webp",
+            "img": "/games/cards/mine.webp",
             "name": "Plano Pro",
             "price": "R$92,90",
             "discountPrice": "R$73,90",
@@ -62,7 +62,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/mine2.webp",
+            "img": "/games/cards/mine.webp",
             "name": "Plano Ultra",
             "price": "R$124,90",
             "discountPrice": "R$94,90",
@@ -77,7 +77,7 @@
         },
         {
             "game": "Minecraft",
-            "img": "/games/minecraft.png",
+            "img": "/games/cards/mine.webp",
             "name": "Plano Plus+",
             "price": "R$169,90",
             "discountPrice": "R$129,90",
@@ -94,7 +94,7 @@
     "fivem": [
         {
             "game": "FiveM",
-            "img": "/games/FiveM.png",
+            "img": "/games/lester.webp",
             "name": "Plano Lester",
             "price": "R$38,90",
             "discountPrice": "R$27,80",
@@ -109,7 +109,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/FiveM.png",
+            "img": "/games/tommy.webp",
             "name": "Plano Tommy Vercetti",
             "price": "R$78,90",
             "discountPrice": "R$55,60",
@@ -124,7 +124,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/FiveM.png",
+            "img": "/games/nikobellic.jpg",
             "name": "Plano Niko Bellic",
             "price": "R$128,90",
             "discountPrice": "R$83,40",
@@ -139,7 +139,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/FiveM.png",
+            "img": "/games/michael.jpg",
             "name": "Plano Michael",
             "price": "R$149,90",
             "discountPrice": "R$111,20",
@@ -154,7 +154,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/FiveM.png",
+            "img": "/games/trevor.webp",
             "name": "Plano Trevor",
             "price": "R$184,90",
             "discountPrice": "R$139,00",
@@ -169,7 +169,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/FiveM.png",
+            "img": "/games/franklin.webp",
             "name": "Plano Franklin",
             "price": "R$249,90",
             "discountPrice": "R$222,40",
@@ -184,7 +184,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/FiveM.png",
+            "img": "/games/bigsmoke.jpg",
             "name": "Plano BigSmoke",
             "price": "R$439,82",
             "discountPrice": "R$334,80",
@@ -199,7 +199,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/FiveM.png",
+            "img": "/games/cj.jpg",
             "name": "Plano CJ",
             "price": "R$639,82",
             "discountPrice": "R$447,20",
