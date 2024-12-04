@@ -29,15 +29,15 @@ export default function Games() {
                 <div className="flex gap-8 pt-5">
                     <div>
                         <CircularProgress percentage={100} />
-                        <p className="text-center text-sm text-gray-500">Críticos recomendam</p>
+                        <p className="text-center text-sm text-gray-500">Classificação do Google</p>
                     </div>
                     <div>
                         <CircularProgress percentage={100} />
-                        <p className="text-center text-sm text-gray-500">Média dos principais cŕiticos</p>
+                        <p className="text-center text-sm text-gray-500">Classificação do Trustpilot</p>
                     </div>
                     <div>
                         <CircularProgress percentage={100} />
-                        <p className="text-center text-sm text-gray-500">Classificação da OpenCritic</p>
+                        <p className="text-center text-sm text-gray-500">Classificação do Discord</p>
                     </div>
                 </div>
 
