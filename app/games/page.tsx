@@ -70,7 +70,7 @@ export default function Games() {
                                 <h3 className="font-bold uppercase text-xs">Já disponível</h3>
                                 <p className="text-gray-300 text-sm w-[280px] pt-2">{displayGame.contents.description}</p>
                                 <div className="pt-3 flex gap-4">
-                                    <Button className="text-white bg-orange-400 px-8 py-4">Comprar agora</Button>
+                                <Link href={displayGame.link}><Button className="text-white bg-orange-400 px-8 py-4">Comprar agora</Button></Link>
                                     {!displayGame.discountPrice ? (
                                         <Link href={displayGame.link}>
                                             <Button variant="bordered">{displayGame.price}</Button>
