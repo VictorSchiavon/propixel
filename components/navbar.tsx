@@ -120,15 +120,15 @@ export const NavbarComponent = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
                   {[
                     {
-                      href: "/colocation",
-                      title: "Colocation",
-                      description: "Configurações para aplicações maiores.",
+                      href: "https://suporte.razehost.com.br",
+                      title: "Tutoriais",
+                      description: "Dicas, soluções e tutoriais.",
                       icon: <GlobeLock />
                     },
                     {
                       href: "/painel",
                       title: "Painel de Jogos",
-                      description: "Tenha seu próprio servidor, não divida.",
+                      description: "Poderoso arsenal para gerenciamento dos jogos.",
                       icon: <Gamepad2 />
                     },
                     {
