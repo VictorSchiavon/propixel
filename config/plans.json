@@ -94,7 +94,7 @@
     "fivem": [
         {
             "game": "FiveM",
-            "img": "/games/cards/lester.webp",
+            "img": "/games/cards/bigsmoke.jpg",
             "name": "Plano Lester",
             "price": "R$38,90",
             "discountPrice": "R$27,80",
@@ -109,7 +109,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/cards/tommy.webp",
+            "img": "/games/cards/bigsmoke.jpg",
             "name": "Plano Tommy Vercetti",
             "price": "R$78,90",
             "discountPrice": "R$55,60",
@@ -124,7 +124,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/cards/nikobellic.jpg",
+            "img": "/games/cards/bigsmoke.jpg",
             "name": "Plano Niko Bellic",
             "price": "R$128,90",
             "discountPrice": "R$83,40",
@@ -139,7 +139,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/cards/michael.jpg",
+            "img": "/games/cards/bigsmoke.jpg",
             "name": "Plano Michael",
             "price": "R$149,90",
             "discountPrice": "R$111,20",
@@ -154,7 +154,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/cards/trevor.webp",
+            "img": "/games/cards/bigsmoke.jpg",
             "name": "Plano Trevor",
             "price": "R$184,90",
             "discountPrice": "R$139,00",
@@ -169,7 +169,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/cards/franklin.webp",
+            "img": "/games/cards/bigsmoke.jpg",
             "name": "Plano Franklin",
             "price": "R$249,90",
             "discountPrice": "R$222,40",
@@ -199,7 +199,7 @@
         },
         {
             "game": "FiveM",
-            "img": "/games/cards/Cj.jpg",
+            "img": "/games/cards/bigsmoke.jpg",
             "name": "Plano CJ",
             "price": "R$639,82",
             "discountPrice": "R$447,20",
