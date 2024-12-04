@@ -90,7 +90,7 @@ export default function Home() {
       <section className="bg-[#07090c] mt-10 p-5">
         <div className="container mx-auto px-6 flex-grow">
           <section>
-            <h1 className="text-4xl font-bold text-center pt-[5%]">Potencialize seu negócio com <br /> <span className="text-orange-400">soluções de ponta</span> em hospedagem.</h1>
+            <h1 className="text-4xl font-bold text-center pt-[5%]">Impulsione seu negócio com <br /> <span className="text-orange-400">soluções de hospedagem de </span> alto desempenho.</h1>
             <p className="text-muted pt-2 pb-5 text-center">Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-[5%]">
