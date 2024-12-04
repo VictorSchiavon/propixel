@@ -279,7 +279,7 @@
     "vintagestory": [
         {
             "game": "Vintage Story",
-            "img": "/games/vintagestory.webp",
+            "img": "/games/cards/vintagestory.webp",
             "name": "Vintage Story 2GB",
             "price": "R$60,00",
             "discountPrice": "R$40,00",
@@ -293,7 +293,7 @@
         },
         {
             "game": "Vintage Story",
-            "img": "/games/vintagestory.webp",
+            "img": "/games/cards/vintagestory.webp",
             "name": "Vintage Story 4GB",
             "price": "R$1200,00",
             "discountPrice": "R$700,00",
@@ -307,7 +307,7 @@
         },
         {
             "game": "Vintage Story",
-            "img": "/games/vintagestory.webp",
+            "img": "/games/cards/vintagestory.webp",
             "name": "Vintage Story 6GB",
             "price": "R$160,00",
             "discountPrice": "R$100,00",
@@ -321,7 +321,7 @@
         },
         {
             "game": "Vintage Story",
-            "img": "/games/vintagestory.webp",
+            "img": "/games/cards/vintagestory.webp",
             "name": "Vintage Story 10GB",
             "price": "R$180,00",
             "discountPrice": "R$130,00",
@@ -765,6 +765,7 @@
     "conanexiles": [
         {
             "game": "Conan Exiles",
+            "img": "/games/cards/conanexiles.webp",
             "name": "Conan Exiles 10GB",
             "price": "R$150,00",
             "discountPrice": "R$100,00",
@@ -778,6 +779,7 @@
         },
         {
             "game": "Conan Exiles",
+            "img": "/games/cards/conanexiles.webp",
             "name": "Conan Exiles 12GB",
             "price": "R$175,00",
             "discountPrice": "R$140,00",
@@ -791,6 +793,7 @@
         },
         {
             "game": "Conan Exiles",
+            "img": "/games/cards/conanexiles.webp",
             "name": "Conan Exiles 16GB",
             "price": "R$350,00",
             "discountPrice": "R$280,00",
