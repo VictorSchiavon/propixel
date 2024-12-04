@@ -108,7 +108,7 @@ export const metadata: Metadata = {
         title: 'Host de Ark: Survival Evolved | RazeHost',
         description: 'A melhor hospedagem de Ark: Survival Evolved no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://www.razehost.com.br/',
-        siteName: 'Datacenter no Brasil',
+        siteName: '',
         images: ['/banner.png']
     },
     twitter: {

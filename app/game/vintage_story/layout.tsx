@@ -108,7 +108,7 @@ export const metadata: Metadata = {
         title: 'Host de Vintage Story - Hospedagem de Vintage Story | RazeHost',
         description: 'A melhor hospedagem de Valheim no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://raze.host/',
-        siteName: 'Datacenter no Brasil',
+        siteName: '',
         images: ['/banner.png']
     },
     twitter: {

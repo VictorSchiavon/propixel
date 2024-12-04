@@ -9,7 +9,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: {
-      default: "Plataforma de servidores de jogos e VPS no Brasil | RazeHost",
+      default: "Plataforma de servidores de jogos e VPS no Brasil",
       template: `%s - ${siteConfig.name}`,
   },
   description: "Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. Tenha desempenho, proteção e suporte de primeira!",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
       title: "Plataforma de servidores de jogos e VPS no Brasil | RazeHost",
       description: "Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. Tenha desempenho, proteção e suporte de primeira!",
       url: 'https://raze.host/',
-      siteName: 'Raze Host',
+      siteName: 'RazeHost',
       images: ['/banner.png']
   },
   twitter: {

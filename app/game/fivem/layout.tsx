@@ -108,7 +108,7 @@ export const metadata: Metadata = {
         title: 'Host de FiveM | RazeHost',
         description: 'A melhor hospedagem de FiveM no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://www.razehost.com.br/',
-        siteName: 'Datacenter no Brasil',
+        siteName: '',
         images: ['/banner.png']
     },
     twitter: {
