@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: {
-        default: "VPS Flex no Brasil com Anti DDoS | RazeHost",
+        default: "VPS Flex no Brasil com Anti DDoS",
         template: `%s - ${siteConfig.name}`,
     },
     description: "VPS Flex com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",

@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: {
-        default: "Hospedagem de Jogos no Brasil | RazeHost",
+        default: "Hospedagem de Jogos no Brasil",
         template: `%s - ${siteConfig.name}`,
     },
     description: "VPS Gamer com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",

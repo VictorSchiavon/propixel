@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: {
-        default: "Semidedicados no Brasil com Anti DDoS | RazeHost",
+        default: "Semidedicados no Brasil com Anti DDoS",
         template: `%s - ${siteConfig.name}`,
     },
     description: "Semidedicados no Brasil com proteção Anti DDoS, e hardware de nova geração, garantindo seu servidor sem lag.",

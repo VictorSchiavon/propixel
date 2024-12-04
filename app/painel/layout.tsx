@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
     title: {
-        default: "Painel de Jogos  | RazeHost",
+        default: "Painel de Jogos",
         template: `%s - ${siteConfig.name}`,
     },
     description: "Gerencie seu servidor de jogos com facilidade e eficiência. Nosso painel intuitivo oferece instalação rápida, monitoramento em tempo real e controle total para você configurar e personalizar sua experiência de jogo sem complicações.",
