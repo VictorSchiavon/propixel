@@ -1,6 +1,6 @@
 "use client";
 
-import dashboard_footer from "@/public/1.png";
+import dashboard_footer from "@/public/1.webp";
 import { Button } from '@nextui-org/button';
 import { Card, CardBody } from '@nextui-org/react';
 import Image from "next/image";

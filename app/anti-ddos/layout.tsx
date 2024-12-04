@@ -114,13 +114,13 @@ export const metadata: Metadata = {
         description: 'Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.',
         url: 'https://raze.host/',
         siteName: 'RazeHost',
-        images: ['/banner.png']
+        images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Proteção Anti-DDoS | RazeHost',
         description: 'Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.',
-        images: ['/banner.png'],
+        images: ['/banner.webp'],
     },
     icons: {
         icon: "/favicon.ico",

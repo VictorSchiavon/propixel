@@ -1,5 +1,5 @@
 'use client'
-import logo_companies from "@/public/logos_companies.png";
+import logo_companies from "@/public/logos_companies.webp";
 import { Button } from "@nextui-org/button";
 import { Card, CardBody, Divider } from "@nextui-org/react";
 import { Zap } from "lucide-react";

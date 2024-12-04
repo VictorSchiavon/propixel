@@ -1,9 +1,9 @@
-import pix_icon from "@/public/icons/pix.png"
+import pix_icon from "@/public/icons/pix.webp"
 import visa_icon from "@/public/icons/visa.webp"
 import mastercard_icon from "@/public/icons/mastercard.webp"
-import picpay_icon from "@/public/icons/picpay.png"
+import picpay_icon from "@/public/icons/picpay.webp"
 import paypal_icon from "@/public/icons/paypal.webp"
-import mercadopago_icon from "@/public/icons/mercadopago.png"
+import mercadopago_icon from "@/public/icons/mercadopago.webp"
 import Image from 'next/image'
 import { Button } from "@nextui-org/button"
 

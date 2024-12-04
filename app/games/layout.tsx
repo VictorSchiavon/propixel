@@ -112,13 +112,13 @@ export const metadata: Metadata = {
         description: 'Desempenho, estabilidade e baixa latência. Com infraestrutura no Brasil, armazenamento NVMe e proteção anti-DDoS, garantimos uma experiência de jogo fluida para Minecraft, FiveM e mais. Hospede com RazeHost e jogue sem interrupções!',
         url: 'https://raze.host/',
         siteName: 'RazeHost',
-        images: ['/banner.png']
+        images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Hospedagem de Jogos no Brasil | RazeHost',
         description: 'Desempenho, estabilidade e baixa latência. Com infraestrutura no Brasil, armazenamento NVMe e proteção anti-DDoS, garantimos uma experiência de jogo fluida para Minecraft, FiveM e mais. Hospede com RazeHost e jogue sem interrupções!',
-        images: ['/banner.png'],
+        images: ['/banner.webp'],
     },
     icons: {
         icon: "/favicon.ico",

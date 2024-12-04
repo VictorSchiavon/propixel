@@ -48,13 +48,13 @@ export const metadata: Metadata = {
       description: "Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. Tenha desempenho, proteção e suporte de primeira!",
       url: 'https://raze.host/',
       siteName: 'RazeHost',
-      images: ['/banner.png']
+      images: ['/banner.webp']
   },
   twitter: {
       card: 'summary_large_image',
       title: "Plataforma de servidores de jogos e VPS no Brasil | RazeHost",
       description: "Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. Tenha desempenho, proteção e suporte de primeira!",
-      images: ['/banner.png'],
+      images: ['/banner.webp'],
   },
   icons: {
       icon: "/favicon.ico",

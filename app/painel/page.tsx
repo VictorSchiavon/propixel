@@ -1,8 +1,8 @@
 // src/components/Header.js
 'use client';
 
-import painel2 from '@/public/painel/ftpfilezilla.png';
-import painel from '@/public/painel/painel1.png';
+import painel2 from '@/public/painel/ftpfilezilla.webp';
+import painel from '@/public/painel/painel1.webp';
 import Image from 'next/image';
 import { BiCog, BiShield } from 'react-icons/bi';
 import CardBenefitsComponent from './_components/card-benefitis.component';

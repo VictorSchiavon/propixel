@@ -112,13 +112,13 @@ export const metadata: Metadata = {
         description: 'VPS Gamer com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.',
         url: 'https://raze.host/',
         siteName: 'RazeHost',
-        images: ['/banner.png']
+        images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
         title: 'VPS Gamer no Brasil com Anti DDoS | RazeHost',
         description: 'VPS Gamer com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.',
-        images: ['/banner.png'],
+        images: ['/banner.webp'],
     },
     icons: {
         icon: "/favicon.ico",

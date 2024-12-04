@@ -114,13 +114,13 @@ export const metadata: Metadata = {
         description: 'Gerencie seu servidor de jogos com facilidade e eficiência. Nosso painel intuitivo oferece instalação rápida, monitoramento em tempo real e controle total para você configurar e personalizar sua experiência de jogo sem complicações.',
         url: 'https://raze.host/',
         siteName: 'RazeHost',
-        images: ['/banner.png']
+        images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Painel de Jogos  | RazeHost',
         description: 'Gerencie seu servidor de jogos com facilidade e eficiência. Nosso painel intuitivo oferece instalação rápida, monitoramento em tempo real e controle total para você configurar e personalizar sua experiência de jogo sem complicações.',
-        images: ['/banner.png'],
+        images: ['/banner.webp'],
     },
     icons: {
         icon: "/favicon.ico",

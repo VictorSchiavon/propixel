@@ -1,6 +1,6 @@
 "use client";
 import games from "@/config/games.json";
-import logo_br from "@/public/br.png";
+import logo_br from "@/public/br.webp";
 import { Button } from "@nextui-org/button";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuToggle } from "@nextui-org/navbar";
 import { Popover, PopoverContent, PopoverTrigger } from "@nextui-org/react";
@@ -25,7 +25,7 @@ export const NavbarComponent = () => {
         <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="sm:hidden mt-4" />
         <NavbarBrand as="li" className="gap-3 max-w-fit pt-4">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Image src="/logo.png" alt="logo" height="80" width="80" />
+            <Image src="/logo.webp" alt="logo" height="80" width="80" />
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
@@ -46,7 +46,7 @@ export const NavbarComponent = () => {
                   <Link href="/vps">
                     <div className="relative bg-gradient-to-b from-orange-500 to-yellow-600 h-72 rounded-lg">
                       <div className="absolute bottom-0 left-0 right-0 p-4">
-                        <Image src="/logo_icon.png" alt="logo" height="120" width="50" />
+                        <Image src="/logo_icon.webp" alt="logo" height="120" width="50" />
                         <p className="text-lg font-bold">VPS Gamer</p>
                         <p>Servidores localizados em São Paulo.</p>
                       </div>
@@ -190,7 +190,7 @@ export const NavbarComponent = () => {
                   <Link href="/vps">
                     <div className="relative bg-gradient-to-b from-orange-500 to-yellow-600 h-72 rounded-lg">
                       <div className="absolute bottom-0 left-0 right-0 p-4">
-                        <Image src="/logo_icon.png" alt="logo" height="120" width="50" />
+                        <Image src="/logo_icon.webp" alt="logo" height="120" width="50" />
                         <p className="text-lg font-bold">VPS Gamer</p>
                         <p>Servidores localizados em São Paulo.</p>
                       </div>

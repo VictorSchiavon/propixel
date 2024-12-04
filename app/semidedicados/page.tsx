@@ -187,28 +187,28 @@ export default function Games() {
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps/windows.png" alt="logo_xp" width={50} height={50} />
+                                <Image src="/vps/windows.webp" alt="logo_xp" width={50} height={50} />
                                 <p className="text-sm font-bold pt-5">VPS Windows</p>
                                 <p className="pt-1 text-xs">
                                     Nos servidores VPS da RazeHost, você pode criar uma VPS Windows e aproveitar todos os recursos.
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps/ubuntu.png" alt="logo_xp" width={50} height={50} />
+                                <Image src="/vps/ubuntu.webp" alt="logo_xp" width={50} height={50} />
                                 <p className="text-sm font-bold pt-5">VPS Linux</p>
                                 <p className="pt-1 text-xs">
                                 Nos servidores VPS da RazeHost, você pode criar uma VPS Linux ou Ubuntu e aproveitar todos os recursos.
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps/amd.png" alt="logo_xp" width={50} height={50} />
+                                <Image src="/vps/amd.webp" alt="logo_xp" width={50} height={50} />
                                 <p className="text-sm font-bold pt-5">VPS Ryzen</p>
                                 <p className="pt-1 text-xs">
                                     Em todos os nossos servidores VPS contamos com os melhores e mais atuais processadores AMD Ryzen.
                                 </p>
                             </div>
                             <div className="col-span-1">
-                                <Image src="/vps/brasil.png" alt="logo_xp" width={50} height={50} />
+                                <Image src="/vps/brasil.webp" alt="logo_xp" width={50} height={50} />
                                 <p className="text-sm font-bold pt-5">VPS Brasil</p>
                                 <p className="pt-1 text-xs">
                                     Servidores localizados em São Paulo, com a menor latência do país, garantindo um serviço sem lags e com baixa latência.

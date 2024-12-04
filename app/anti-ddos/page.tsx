@@ -1,6 +1,6 @@
 'use client'
 import { Button } from "@nextui-org/button";
-import logo_companies from "@/public/logos_companies.png"
+import logo_companies from "@/public/logos_companies.webp"
 import Image from "next/image";
 import { Card, CardBody } from "@nextui-org/react";
 import { BrainCircuit, EarthLock, ShieldCheck, SquareMousePointer, Zap } from "lucide-react";
