@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Rust- Hospedagem de Host de Rust | RazeHost",
-    description: "A melhor hospedagem de Host de Rust no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: "Host de Rust | RazeHost",
+    description: "A melhor hospedagem de Rust no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
  keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -105,7 +105,7 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de Rust - Hospedagem de Rust | RazeHost',
+        title: 'Host de Rust | RazeHost',
         description: 'A melhor hospedagem de Rust no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://raze.host/',
         siteName: 'Raze Host',
@@ -113,7 +113,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de Rust - Hospedagem de Rust | RazeHost',
+        title: 'Host de Rust | RazeHost',
         description: 'A melhor hospedagem de Rust no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.png'],
     },

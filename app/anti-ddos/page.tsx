@@ -27,8 +27,8 @@ export default function Home() {
                             <CardBody>
                                 <div>
                                     <Zap color="orange" size={26} />
-                                    <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                    <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                    <h3 className="font-bold pt-3">Migitação InLine</h3>
+                                    <p className="text-gray-300 text-[14px] pt-1">Mitigação sempre ativa, garantindo o melhor tempo de resposta contra qualquer ameaça.</p>
                                 </div>
                             </CardBody>
                         </Card>
@@ -36,8 +36,8 @@ export default function Home() {
                             <CardBody>
                                 <div>
                                     <BrainCircuit color="orange" size={26} />
-                                    <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                    <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                    <h3 className="font-bold pt-3">Monitoramente 24/7</h3>
+                                    <p className="text-gray-300 text-[14px] pt-1">Monitoramento e equipe dedicada a solução de qualquer situação.</p>
                                 </div>
                             </CardBody>
                         </Card>
@@ -45,8 +45,8 @@ export default function Home() {
                             <CardBody>
                                 <div>
                                     <ShieldCheck color="orange" size={26} />
-                                    <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                    <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                    <h3 className="font-bold pt-3">Proteção Incluida</h3>
+                                    <p className="text-gray-300 text-[14px] pt-1">Todos os serviços no Brasil incluem a mitigação DDoS.</p>
                                 </div>
                             </CardBody>
                         </Card>

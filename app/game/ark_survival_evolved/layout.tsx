@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Ark: Survival Evolved - Hospedagem de Ark: Survival Evolved | RazeHost",
+    title: "Host de Ark: Survival Evolved | RazeHost",
     description: "A melhor hospedagem de Ark: Survival Evolved no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
  keywords: [
     "RazeHost.com.br",
@@ -105,7 +105,7 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de Ark: Survival Evolved - Hospedagem de Ark: Survival Evolved | RazeHost',
+        title: 'Host de Ark: Survival Evolved | RazeHost',
         description: 'A melhor hospedagem de Ark: Survival Evolved no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://www.razehost.com.br/',
         siteName: 'Raze Host',
@@ -113,7 +113,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de Ark: Survival Evolved - Hospedagem de Ark: Survival Evolved | RazeHost',
+        title: 'Host de Ark: Survival Evolved | RazeHost',
         description: 'A melhor hospedagem de Ark: Survival Evolved no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.png'],
     },

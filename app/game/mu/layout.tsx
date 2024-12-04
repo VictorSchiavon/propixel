@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de MU - Hospedagem de Host de MU | RazeHost",
-    description: "A melhor hospedagem de Host de MU no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: "Host de MU | RazeHost",
+    description: "A melhor hospedagem de MU no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
  keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -105,7 +105,7 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de MU - Hospedagem de MU | RazeHost',
+        title: 'Host de MU | RazeHost',
         description: 'A melhor hospedagem de MU no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://www.razehost.com.br/',
         siteName: 'Raze Host',
@@ -113,7 +113,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de MU - Hospedagem de MU | RazeHost',
+        title: 'Host de MU | RazeHost',
         description: 'A melhor hospedagem de MU no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.png'],
     },

@@ -4,7 +4,7 @@ import React from "react";
 
 export const metadata: Metadata = {
     title: "Host de Dayz | RazeHost",
-    description: "A melhor hospedagem de Host de Dayz no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    description: "A melhor hospedagem de Dayz no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
     keywords: [
         "RazeHost.com.br",
         "RazeHost",

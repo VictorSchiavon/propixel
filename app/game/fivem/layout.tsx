@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de FiveM - Hospedagem de Host de FiveM | RazeHost",
-    description: "A melhor hospedagem de Host de FiveM no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: "Host de FiveM | RazeHost",
+    description: "A melhor hospedagem de FiveM no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
  keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -105,15 +105,15 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de FiveM - Hospedagem de Minecraft | RazeHost',
-        description: 'A melhor hospedagem de Minecraft no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        title: 'Host de FiveM | RazeHost',
+        description: 'A melhor hospedagem de FiveM no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://www.razehost.com.br/',
         siteName: 'Raze Host',
         images: ['/banner.png']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de FiveM - Hospedagem de FiveM | RazeHost',
+        title: 'Host de FiveM | RazeHost',
         description: 'A melhor hospedagem de FiveM no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.png'],
     },

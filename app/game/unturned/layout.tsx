@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Unturned - Hospedagem de Host de Unturned | RazeHost",
-    description: "A melhor hospedagem de Host de Unturned no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: "Host de Unturned | RazeHost",
+    description: "A melhor hospedagem de Unturned no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
  keywords: [
     "RazeHost.com.br",
     "RazeHost",

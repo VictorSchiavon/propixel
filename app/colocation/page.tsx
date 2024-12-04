@@ -27,8 +27,8 @@ export default function Home() {
                             <CardBody>
                                 <div>
                                     <Zap color="orange" size={26} />
-                                    <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                    <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                    <h3 className="font-bold pt-3">Equipamentos de alto nível</h3>
+                                    <p className="text-gray-300 text-[14px] pt-1">Redundância total de equipamentos para garantir que sua operação funcione 24/7/365 sem falhas.</p>
                                 </div>
                             </CardBody>
                         </Card>
@@ -36,8 +36,8 @@ export default function Home() {
                             <CardBody>
                                 <div>
                                     <BrainCircuit color="orange" size={26} />
-                                    <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                    <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                    <h3 className="font-bold pt-3">Segurança</h3>
+                                    <p className="text-gray-300 text-[14px] pt-1">Datacenter projetado para oferecer o melhor aos nossos clientes, com estrutura construída para zero comprometimentos, garantindo máxima estabilidade e segurança.</p>
                                 </div>
                             </CardBody>
                         </Card>
@@ -45,8 +45,8 @@ export default function Home() {
                             <CardBody>
                                 <div>
                                     <ShieldCheck color="orange" size={26} />
-                                    <h3 className="font-bold pt-3">Sem taxas de ingresso</h3>
-                                    <p className="text-gray-300 text-[14px] pt-1">Com taxas ZERO para tráfego de entrada, torna-se simples e econômico armazenar e servir seus arquivos.</p>
+                                    <h3 className="font-bold pt-3">1u até CageRack</h3>
+                                    <p className="text-gray-300 text-[14px] pt-1">Opções de colocation variando de 1U até Cage Rack, adaptadas para atender suas necessidades específicas.</p>
                                 </div>
                             </CardBody>
                         </Card>

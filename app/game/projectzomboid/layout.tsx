@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Project Zomboid - Hospedagem de Host de Project Zomboid | RazeHost",
-    description: "A melhor hospedagem de Host de Project Zomboid no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: "Host de Project Zomboid | RazeHost",
+    description: "A melhor hospedagem de Project Zomboid no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
  keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -105,7 +105,7 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de Project Zomboid - Hospedagem de Project Zomboid | RazeHost',
+        title: 'Host de Project Zomboid | RazeHost',
         description: 'A melhor hospedagem de Project Zomboid no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://raze.host/',
         siteName: 'Raze Host',
@@ -113,7 +113,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de Project Zomboid - Hospedagem de Project Zomboide | RazeHost',
+        title: 'Host de Project Zomboid | RazeHost',
         description: 'A melhor hospedagem de Project Zomboid no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.png'],
     },
