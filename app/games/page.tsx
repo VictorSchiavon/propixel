@@ -257,7 +257,7 @@ export default function Games() {
                                     <div className="pt-2">
                                         <h1 className="font-bold pb-2">{item.name}</h1>
                                         {!item.discountPrice ? (
-                                            <p> a partir de {item.price}</p>
+                                            <p> A partir de {item.price}</p>
                                         ) : (
                                             <div className="flex gap-2">
                                                 <Chip className="text-white" size="sm" color="warning">-{calculateDiscountPercentage(parseFloat(item.price.replace("R$", "")), parseFloat(item.discountPrice.replace("R$", "")))}%</Chip>
