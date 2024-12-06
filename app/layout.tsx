@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
       title: "Plataforma de servidores de jogos e VPS no Brasil | RazeHost",
       description: "Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. Tenha desempenho, proteção e suporte de primeira!",
-      url: 'https://raze.host/',
+      url: 'https://razehost.com.br/',
       siteName: 'RazeHost',
       images: ['/banner.webp']
   },

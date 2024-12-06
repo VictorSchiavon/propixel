@@ -110,7 +110,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Semidedicados no Brasil com Anti DDoS | RazeHost',
         description: 'Semidedicados no Brasil com proteção Anti DDoS, e hardware de nova geração, garantindo seu servidor sem lag.',
-        url: 'https://raze.host/',
+        url: 'https://razehost.com.br/',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },

@@ -110,7 +110,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'VPS Gamer no Brasil com Anti DDoS | RazeHost',
         description: 'VPS Gamer com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.',
-        url: 'https://raze.host/',
+        url: 'https://razehost.com.br/',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },

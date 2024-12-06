@@ -110,7 +110,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Hospedagem de Jogos no Brasil | RazeHost',
         description: 'Desempenho, estabilidade e baixa latência. Com infraestrutura no Brasil, armazenamento NVMe e proteção anti-DDoS, garantimos uma experiência de jogo fluida para Minecraft, FiveM e mais. Hospede com RazeHost e jogue sem interrupções!',
-        url: 'https://raze.host/',
+        url: 'https://razehost.com.br/',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },

@@ -107,7 +107,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Host de Conan Exiles | RazeHost',
         description: 'A melhor hospedagem de Conan Exiles no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://raze.host/',
+        url: 'https://razehost.com.br/',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
