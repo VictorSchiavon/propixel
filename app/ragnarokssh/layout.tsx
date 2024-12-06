@@ -1,10 +1,13 @@
+import { siteConfig } from "@/config/site";
 import "@/styles/globals.css";
 import { Metadata } from "next";
-import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Ragnarok SSH",
-    description: "A melhor hospedagem de Ragnarok SSH no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: {
+        default: "Host de Ragnarok SSH no Brasil",
+        template: `%s - ${siteConfig.name}`,
+    },
+    description: "Host de Ragnarok SSH com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",
  keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -40,9 +43,9 @@ export const metadata: Metadata = {
     "hospedagem de Tibia",
     "servidor dedicado para Tibia",
     "servidor de MU Online",
-    "host de Ragnarok SSH",
-    "servidor de Ragnarok SSH",
-    "Ragnarok SSH Brasil",
+    "host de V Rising",
+    "servidor de V Rising",
+    "V Rising Brasil",
     "host de ARK",
     "hospedagem de ARK",
     "ARK Survival Evolved server",
@@ -50,9 +53,7 @@ export const metadata: Metadata = {
     "host de Unturned",
     "Unturned server",
     "hospedagem de Unturned",
-    "host de ragnarok",
-    "hospedagem ragnarok brasil",
-    "VPS gamer",
+    "Host de Ragnarok SSH",
     "VPS gamer Brasil",
     "VPS gamer com anti DDoS",
     "VPS Brasil",
@@ -96,7 +97,7 @@ export const metadata: Metadata = {
     "servidor de Counter Strike",
     "servidor de CS:GO",
     "servidor de RedM",
-    "servidor de Ragnarok SSH",
+    "servidor de V Rising",
     "servidor de Unturned",
     "cloud server",
     "cloud hosting",
@@ -107,22 +108,23 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de Ragnarok SSH - Hospedagem de Ragnarok SSH | RazeHost',
-        description: 'A melhor hospedagem de Valheim no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://www.razehost.com.br/',
+        title: 'Host de Ragnarok SSH no Brasil com Anti DDoS | RazeHost',
+        description: 'Host de Ragnarok SSH com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.',
+        url: 'https://razehost.com.br/',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de Ragnarok SSH - Hospedagem de Ragnarok SSH | RazeHost',
-        description: 'A melhor hospedagem de Ragnarok SSH no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        title: 'Host de Ragnarok SSH no Brasil com Anti DDoS | RazeHost',
+        description: 'Host de Ragnarok SSH com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.',
         images: ['/banner.webp'],
     },
     icons: {
         icon: "/favicon.ico",
     },
 };
+
 export default function Layout({ children }: { children: React.ReactNode; }) {
     return (
         <>
