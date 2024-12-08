@@ -10,7 +10,7 @@ export const metadata: Metadata = {
         template: `%s - ${siteConfig.name}`,
     },
     description: "Gerencie seu servidor de jogos com facilidade e eficiência. Nosso painel intuitivo oferece instalação rápida, monitoramento em tempo real e controle total para você configurar e personalizar sua experiência de jogo sem complicações.",
- keywords: [
+  keywords: [
     "RazeHost.com.br",
     "RazeHost",
     "Raze Host",
@@ -103,6 +103,12 @@ export const metadata: Metadata = {
     "servidor de Unturned",
     "cloud server",
     "cloud hosting",
+    "host de mta",
+    "host rust brasil",
+    "fivem brasil",
+    "servidor de minecraft",
+    "minecraft bedrock",
+    "bedrock host",
     "cloud gaming",
     "hospedagem web gamer",
     "hospedagem para site de jogos",

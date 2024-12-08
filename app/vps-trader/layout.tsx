@@ -8,7 +8,7 @@ export const metadata: Metadata = {
         template: `%s - ${siteConfig.name}`,
     },
     description: "VPS Trader com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",
- keywords: [
+  keywords: [
     "RazeHost.com.br",
     "RazeHost",
     "Raze Host",
@@ -101,6 +101,12 @@ export const metadata: Metadata = {
     "servidor de Unturned",
     "cloud server",
     "cloud hosting",
+    "host de mta",
+    "host rust brasil",
+    "fivem brasil",
+    "servidor de minecraft",
+    "minecraft bedrock",
+    "bedrock host",
     "cloud gaming",
     "hospedagem web gamer",
     "hospedagem para site de jogos",

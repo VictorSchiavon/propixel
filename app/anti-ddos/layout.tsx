@@ -10,7 +10,7 @@ export const metadata: Metadata = {
         template: `%s - ${siteConfig.name}`,
     },
     description: "Mantenha seu servidor sempre online com nossa proteção Anti-DDoS avançada. Detectamos e mitigamos ataques em tempo real, garantindo estabilidade, segurança e uma experiência de jogo sem interrupções.",
- keywords: [
+  keywords: [
     "RazeHost.com.br",
     "RazeHost",
     "Raze Host",
@@ -103,6 +103,12 @@ export const metadata: Metadata = {
     "servidor de Unturned",
     "cloud server",
     "cloud hosting",
+    "host de mta",
+    "host rust brasil",
+    "fivem brasil",
+    "servidor de minecraft",
+    "minecraft bedrock",
+    "bedrock host",
     "cloud gaming",
     "hospedagem web gamer",
     "hospedagem para site de jogos",
