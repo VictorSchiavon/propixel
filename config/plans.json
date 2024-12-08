@@ -806,6 +806,50 @@
             ]
         }
     ],
+    "mta": [
+        {
+            "game": "MTA",
+            "img": "/games/cards/conanexiles.webp",
+            "name": "Conan Exiles 10GB",
+            "price": "R$150,00",
+            "discountPrice": "R$100,00",
+            "link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-10gb",
+            "description": [
+                "10GB de RAM",
+                "AMD Ryzen",
+                "Mods e Plugins",
+                "20GB SSD NVMe M.2"
+            ]
+        },
+        {
+            "game": "Conan Exiles",
+            "img": "/games/cards/conanexiles.webp",
+            "name": "Conan Exiles 12GB",
+            "price": "R$175,00",
+            "discountPrice": "R$140,00",
+            "link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-12gb",
+            "description": [
+                "12GB de RAM",
+                "AMD Ryzen",
+                "Mods e Plugins",
+                "25GB SSD NVMe M.2"
+            ]
+        },
+        {
+            "game": "Conan Exiles",
+            "img": "/games/cards/conanexiles.webp",
+            "name": "Conan Exiles 16GB",
+            "price": "R$350,00",
+            "discountPrice": "R$280,00",
+            "link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-16gb",
+            "description": [
+                "16GB de RAM",
+                "AMD Ryzen Ilimitado",
+                "Mods e Plugins",
+                "25GB SSD NVMe M.2"
+            ]
+        }
+    ],
     "valheim": [
         {
             "game": "Valheim",
