@@ -9,7 +9,7 @@ import Script from 'next/script';
 import { FaDiscord, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const sections = [
-    { title: "Servidores", links: [{ name: "Servidores VPS", url: "/vps" }, { name: "Semidedicados", url: "/semidedicados" }, { name: "Servidores Dedicados", url: "/dedicados" }] },
+    { title: "Servidores", links: [{ name: "Servidores VPS", url: "/vps" }, { name: "Semidedicados", url: "/semidedicados" }, { name: "Servidores Dedicados", url: "/dedicados" }, { name: "VPS Trader", url: "/vps-trader" }] },
     { title: "Recursos", links: [{ name: "Painel de jogos", url: "/painel" }, { name: "Proteção Anti DDoS", url: "/anti-ddos" }, { name: "Afilie-se", url: "#" }] },
     { title: "Integração", links: [{ name: "Documentação", url: "https://docs.raze.host/product-docs" }, { name: "Suporte", url: "https://suporte.razehost.com.br/" }] },
     { title: "Legal", links: [{ name: "Termos e Condições", url: "https://drive.google.com/file/d/1u89J-ACHVAsE8nTUwe9zWOaw06Eaqo16/view" }, { name: "Privacidade", url: "https://drive.google.com/file/d/1u89J-ACHVAsE8nTUwe9zWOaw06Eaqo16/view" }] },
