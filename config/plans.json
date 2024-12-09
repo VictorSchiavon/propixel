@@ -810,43 +810,57 @@
         {
             "game": "MTA",
             "img": "/games/cards/mta.webp",
-            "name": "Conan Exiles 10GB",
-            "price": "R$150,00",
-            "discountPrice": "R$100,00",
-            "link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-10gb",
+            "name": "MTA - Plano 1",
+            "price": "R$25,00",
+            "discountPrice": "R$10,00",
+            "link": "https://app.razehost.com.br/store/mta/plano-50-slots",
             "description": [
-                "10GB de RAM",
+                "50 slots",
                 "AMD Ryzen",
-                "Mods e Plugins",
-                "20GB SSD NVMe M.2"
+                "Banco de Dados MYSQL",
+                "Acelerador e Compactador"
             ]
         },
         {
-            "game": "Conan Exiles",
+            "game": "MTA",
             "img": "/games/cards/mta.webp",
-            "name": "Conan Exiles 12GB",
-            "price": "R$175,00",
-            "discountPrice": "R$140,00",
-            "link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-12gb",
+            "name": "MTA - Plano 2",
+            "price": "R$50,00",
+            "discountPrice": "R$20,00",
+            "link": "https://app.razehost.com.br/store/mta/plano-100-slots",
             "description": [
-                "12GB de RAM",
+                "100 slots",
                 "AMD Ryzen",
-                "Mods e Plugins",
-                "25GB SSD NVMe M.2"
+                "Banco de Dados MYSQL",
+                "Acelerador e Compactador"
             ]
         },
         {
-            "game": "Conan Exiles",
+            "game": "MTA",
             "img": "/games/cards/mta.webp",
-            "name": "Conan Exiles 16GB",
-            "price": "R$350,00",
-            "discountPrice": "R$280,00",
-            "link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-16gb",
+            "name": "MTA - Plano 3",
+            "price": "R$75,00",
+            "discountPrice": "R$35,00",
+            "link": "https://app.razehost.com.br/store/mta/plano-200-slots",
             "description": [
-                "16GB de RAM",
-                "AMD Ryzen Ilimitado",
-                "Mods e Plugins",
-                "25GB SSD NVMe M.2"
+                "200 slots",
+                "AMD Ryzen",
+                "Banco de Dados MYSQL",
+                "Acelerador e Compactador"
+            ]
+        },
+        {
+            "game": "MTA",
+            "img": "/games/cards/mta.webp",
+            "name": "MTA - Plano 4",
+            "price": "R$100,00",
+            "discountPrice": "R$55,00",
+            "link": "https://app.razehost.com.br/store/mta/plano-300-slots",
+            "description": [
+                "300 slots",
+                "AMD Ryzen",
+                "Banco de Dados MYSQL",
+                "Acelerador e Compactador"
             ]
         }
     ],
