@@ -16,7 +16,7 @@ export default function Home() {
                         Estrutura montada com toda dedicação, qualidade e comprometimento. Estamos fornecendo a estrutura que você montaria <br /> para sua empresa, podendo ter certeza que seu servidor estará em boas mãos.
                     </p>
                     <div className="pt-5 flex gap-3">
-                    <a href="https://discord.gg/p8YXcEuKdH " className="rounded-md bg-transparent text-white border">Começar agora</a>
+                    <Button className="rounded-md bg-transparent text-white border" onClick={() => window.location.href = 'https://discord.gg/p8YXcEuKdH'}>Começar agora</Button>
          <a href="https://discord.gg/p8YXcEuKdH " className="rounded-md bg-transparent text-white bg-[#18181B]"> Entrar em contato</a>
 
                     </div>
