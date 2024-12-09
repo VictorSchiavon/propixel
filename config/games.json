@@ -259,7 +259,7 @@
       "link": "/game/valheim",
       "price": "R$ 30,00",
       "discountPrice": null,
-      "new": true,
+      "new": false,
       "wallpaper": "/wallpapers/valheim.webp",
       "contents": {
         "description": "Valheim é um jogo de sobrevivência inspirado na mitologia nórdica, onde você deve explorar, construir e lutar contra monstros em um mundo aberto.",
