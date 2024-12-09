@@ -809,7 +809,7 @@
     "mta": [
         {
             "game": "MTA",
-            "img": "/games/cards/conanexiles.webp",
+            "img": "/games/cards/mta.webp",
             "name": "Conan Exiles 10GB",
             "price": "R$150,00",
             "discountPrice": "R$100,00",
@@ -823,7 +823,7 @@
         },
         {
             "game": "Conan Exiles",
-            "img": "/games/cards/conanexiles.webp",
+            "img": "/games/cards/mta.webp",
             "name": "Conan Exiles 12GB",
             "price": "R$175,00",
             "discountPrice": "R$140,00",
@@ -837,7 +837,7 @@
         },
         {
             "game": "Conan Exiles",
-            "img": "/games/cards/conanexiles.webp",
+            "img": "/games/cards/mta.webp",
             "name": "Conan Exiles 16GB",
             "price": "R$350,00",
             "discountPrice": "R$280,00",
