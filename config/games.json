@@ -43,7 +43,7 @@
       "link": "/game/7daystodie",
       "price": "R$ 79,90",
       "discountPrice": "R$ 64,00",
-      "new": true,
+      "new": false,
       "wallpaper": "/wallpapers/7daystodie.webp",
       "contents": {
         "description": "7 Days to Die é um jogo de sobrevivência em mundo aberto com elementos de construção, exploração e combate contra zumbis. Os jogadores devem explorar o mundo, coletar recursos e construir fortificações para sobreviver aos ataques constantes de zumbis. Na RazeHost",       
@@ -79,7 +79,7 @@
       "link": "/game/vrising",
       "price": "R$ 59,00",
       "discountPrice": null,
-      "new": true,
+      "new": false,
       "wallpaper": "/wallpapers/vrising.webp",
       "contents": {
         "description": "V Rising é um jogo de ação e sobrevivência onde você assume o papel de um vampiro em um mundo sombrio, caçando e construindo seu império.",
@@ -151,7 +151,7 @@
       "link": "/game/terraria",
       "price": "R$ 40,00",
       "discountPrice": null,
-      "new": true,
+      "new": false,
       "wallpaper": "/wallpapers/terraria.webp",
       "contents": {
         "description": "Terraria é um jogo de ação e aventura em 2D, onde você pode explorar, minerar, lutar e construir em um mundo gerado aleatoriamente.",
@@ -187,7 +187,7 @@
       "link": "/game/satisfactory",
       "price": "R$ 50,00",
       "discountPrice": null,
-      "new": true,
+      "new": false,
       "wallpaper": "/wallpapers/satisfactory.webp",
       "contents": {
         "description": "Satisfactory é um jogo de construção e automação, onde você cria fábricas para explorar um planeta e produzir recursos de forma eficiente.",
@@ -223,7 +223,7 @@
       "link": "/game/conan_exiles",
       "price": "R$ 100,00",
       "discountPrice": null,
-      "new": true,
+      "new": false,
       "wallpaper": "/wallpapers/conanexiles.webp",
       "contents": {
         "description": "Conan Exiles é um jogo de sobrevivência ambientado no universo de Conan, onde você deve construir, caçar e lutar para sobreviver em um mundo brutal.",
@@ -295,7 +295,7 @@
       "link": "/game/tibia",
       "price": "R$ 79,90",
       "discountPrice": null,
-      "new": true,
+      "new": false,
       "wallpaper": "/wallpapers/tibia.webp",
       "contents": {
         "description": "Tibia é um clássico MMORPG onde você aventura-se em um mundo medieval, enfrentando monstros, completando missões e interagindo com outros jogadores.",
@@ -329,13 +329,13 @@
       "img": "/games/multiteftauto.webp",
       "logo": "/games/logos/mta.webp",
       "link": "/game/mta",
-      "price": "R$ 120,00",
-      "discountPrice": "R$ 95,90",
-      "new": false,
+      "price": "R$ 30,00",
+      "discountPrice": "R$ 10,00",
+      "new": true,
       "wallpaper": "/wallpapers/multitheftauto.webp",
       "contents": {
         "description": "MTA é uma plataforma que permite criar servidores personalizados para o jogo GTA San Andreas, com modos de jogo exclusivos, scripts personalizados e conteúdo modificado. ",
-        "platform": "PC",
+        "platform": "PC, Celular",
         "developer": "Rockstar Games",
         "mods": "Permitido",
         "refundType": "Reembolso em até 7 dias"
