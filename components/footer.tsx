@@ -11,7 +11,7 @@ import { FaDiscord, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 const sections = [
     { title: "Servidores", links: [{ name: "Servidores VPS", url: "/vps" }, { name: "Semidedicados", url: "/semidedicados" }, { name: "Servidores Dedicados", url: "/dedicados" }, { name: "VPS Trader", url: "/vps-trader" }] },
     { title: "Recursos", links: [{ name: "Painel de jogos", url: "/painel" }, { name: "Proteção Anti DDoS", url: "/anti-ddos" }, { name: "Afilie-se", url: "#" }] },
-    { title: "Integração", links: [{ name: "Documentação", url: "https://docs.raze.host/product-docs" }, { name: "Suporte", url: "https://suporte.razehost.com.br/" }] },
+    { title: "Jogos", links: [{ name: "Host de FiveM", url: "/game/fivem" }, { name: "Host de FiveM", url: "/game/minecraft" }],{ name: "Host de 7 Days to Die", url: "/game/7daystodie" }] },
     { title: "Legal", links: [{ name: "Termos e Condições", url: "https://drive.google.com/file/d/1u89J-ACHVAsE8nTUwe9zWOaw06Eaqo16/view" }, { name: "Privacidade", url: "https://drive.google.com/file/d/1u89J-ACHVAsE8nTUwe9zWOaw06Eaqo16/view" }] },
 ];
 
