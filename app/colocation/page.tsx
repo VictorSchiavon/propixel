@@ -17,7 +17,7 @@ export default function Home() {
                     </p>
                     <div className="pt-5 flex gap-3">
                     <Button className="rounded-md bg-transparent text-white border" onClick={() => window.location.href = 'https://discord.gg/p8YXcEuKdH'}>Começar agora</Button>
-         <a href="https://discord.gg/p8YXcEuKdH " className="rounded-md bg-transparent text-white bg-[#18181B]"> Entrar em contato</a>
+                    <Button className="rounded-md bg-transparent text-white bg-[#18181B]" onClick={() => window.location.href = 'https://discord.gg/p8YXcEuKdH'}>Entrar em contato</Button>
 
                     </div>
                 </section>
