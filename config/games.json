@@ -326,13 +326,13 @@
     {
       "id": 19,
       "name": "MTA",
-      "img": "/games/tibia.webp",
-      "logo": "/games/logos/tibia_logo.webp",
+      "img": "/games/mta.webp",
+      "logo": "/games/logos/mta.webp",
       "link": "/game/tibia",
-      "price": "R$ 79,90",
+      "price": "R$ 10,00",
       "discountPrice": null,
       "new": true,
-      "wallpaper": "/wallpapers/tibia.webp",
+      "wallpaper": "/wallpapers/mta.webp",
       "contents": {
         "description": "Tibia é um clássico MMORPG onde você aventura-se em um mundo medieval, enfrentando monstros, completando missões e interagindo com outros jogadores.",
         "platform": "PC",
