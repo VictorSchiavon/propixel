@@ -326,17 +326,17 @@
     {
       "id": 19,
       "name": "MTA",
-      "img": "/games/mta.webp",
-      "logo": "/games/logos/mta.webp",
-      "link": "/game/mta",
-      "price": "R$ 10,00",
-      "discountPrice": null,
-      "new": true,
-      "wallpaper": "/wallpapers/mta.webp",
+      "img": "/games/palworld.webp",
+      "logo": "/games/logos/palworld.webp",
+      "link": "/game/palworld",
+      "price": "R$ 120,00",
+      "discountPrice": "R$ 95,90",
+      "new": false,
+      "wallpaper": "/wallpapers/palworld.webp",
       "contents": {
-        "description": "MTA é um GTA San Andreas modificando, podendo criar servidores de MTA com mods, favelas, entre outros. Jogue agora com a maior host de jogos no Brasil.",
+        "description": "Palworld é um jogo de aventura onde você pode capturar, treinar e lutar ao lado de criaturas chamadas 'Pals', enquanto explora um mundo vasto e dinâmico.",
         "platform": "PC",
-        "developer": "Rockstar Games",
+        "developer": "Pocketpair, Inc.",
         "mods": "Permitido",
         "refundType": "Reembolso em até 7 dias"
       }
