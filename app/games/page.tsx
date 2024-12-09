@@ -249,7 +249,7 @@ export default function Games() {
                             <Card className="bg-[#0B0E13] border-none">
                                 <CardBody className="overflow-visible p-0 border-none bg-[#0B0E13]">
                                     <div>
-                                    <Image width={500} height={500} alt={item.name} className="w-full h-64 object-cover rounded-lg" src={item.img} />
+                                    <Image width={800} height={450} alt={item.name} className="w-full h-auto object-cover rounded-lg" src={item.img} />
                                     </div>
                                     <div className="bg-gradient-to-r from-orange-500 to-orange-700 rounded-b-lg">
                                         <h1 className="font-bold pb-2 text-center p-2">Jogo novo</h1>
