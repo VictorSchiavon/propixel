@@ -326,9 +326,9 @@
     {
       "id": 19,
       "name": "MTA",
-      "img": "/games/palworld.webp",
+      "img": "/games/mta.webp",
       "logo": "/games/logos/mta.webp",
-      "link": "/game/palworld",
+      "link": "/game/mta",
       "price": "R$ 120,00",
       "discountPrice": "R$ 95,90",
       "new": false,
