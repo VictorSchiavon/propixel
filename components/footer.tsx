@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className="container mx-auto max-w-8xl flex flex-col px-2 py-4 justify-between">
                     <div className="grid grid-cols-2 md:grid-cols-6 py-8">
                         <div className="col-span-2 pt-8 md:pt-2">
-                            <h1 className="text-4xl font-bold">PROJETANDO IDEIAS</h1>
+                            <span className="text-4xl font-bold">PROJETANDO IDEIAS</span>
                             <p>Feito com ❤️ no Brasil</p>
                         </div>
                         {sections.map((section, index) => (
