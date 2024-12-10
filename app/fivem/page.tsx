@@ -105,7 +105,7 @@ export default function Games() {
             <section>
                 <div>
                     <h1 className="text-5xl font-bold pt-2 text-center">
-                        A melhor Host de FiveM no Brasil
+                        VPS FiveM no Brasil com Anti DDoS Incluso
                     </h1>
                     <p className="text-muted pt-2 pb-2 text-center">
                         Escolha o plano ideal para seu negócio e evolua conforme suas necessidades.
@@ -244,7 +244,7 @@ export default function Games() {
                             </div>
                             <div className="col-span-1">
                                 <Image src="/vps/windows.webp" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">VPS Windows</p>
+                                <p className="text-sm font-bold pt-5">VPS FiveM Windows</p>
                                 <p className="pt-1 text-xs">
                                     Nos servidores VPS da RazeHost, você pode criar uma VPS Windows e aproveitar todos os recursos.
                                 </p>
@@ -258,7 +258,7 @@ export default function Games() {
                             </div>
                             <div className="col-span-1">
                                 <Image src="/vps/amd.webp" alt="logo_xp" width={50} height={50} />
-                                <p className="text-sm font-bold pt-5">VPS Ryzen</p>
+                                <p className="text-sm font-bold pt-5">VPS FiveM Ryzen</p>
                                 <p className="pt-1 text-xs">
                                     Em todos os nossos servidores VPS contamos com os melhores e mais atuais processadores AMD Ryzen.
                                 </p>
