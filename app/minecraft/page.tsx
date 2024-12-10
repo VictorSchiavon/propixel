@@ -57,7 +57,7 @@ export default function Home() {
             <section className="bg-[#07090c] mt-10 p-5">
                 <div className="container mx-auto px-6 flex-grow pt-10">
                     <section>
-                        <h2 className="text-4xl font-bold">Minecraft Java e Bedrock em um Só Lugar</h1>
+                        <h2 className="text-4xl font-bold">Minecraft Java e Bedrock em um Só Lugar</h2>
                         <p className="text-muted pt-2 pb-5">Configure servidores para Java Edition e Bedrock Edition em um único painel, com fácil gerenciamento e recursos avançados. <span className="text-orange-400">Jogue JAVA e BEDROCK juntos.</span></p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-5 pb-10">
