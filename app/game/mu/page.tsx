@@ -103,7 +103,7 @@ export default function Games() {
             <section>
                 <div>
                     <h1 className="text-5xl font-bold pt-2 text-center">
-                        Host de Mu no Brasil
+                        Host de MU Online no Brasil
                     </h1>
                     <p className="text-muted pt-2 pb-2 text-center">
                         Escolha o plano ideal para seu negócio e evolua conforme suas necessidades.
