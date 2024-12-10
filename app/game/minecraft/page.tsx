@@ -20,7 +20,8 @@ export default function Games() {
     return (
         <section className="container mx-auto px-6 flex-grow pt-[2%]">
             <div className="flex w-full flex-col">
-                {displayGame ? <><TabsComponent displayGame={displayGame}/></> : ""}
+            {displayGame ? <TabsComponent displayGame={{ ...displayGame, displayName: displayGame.displayName || "Crie seu servidor de Minecraft", name: displayGame.name || "Minecraft" }} /> : ""}
+
             </div>
 
             <section className="pt-10">
