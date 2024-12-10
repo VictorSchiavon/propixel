@@ -84,6 +84,21 @@ const Footer = () => {
                     app_id: "sephaq3d",
                 };
             `}</Script>
+           <Script id="google-analytics">{`
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtag/js?id=G-DRZ3S40SFS';f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','G-DRZ3S40SFS');
+    
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DRZ3S40SFS');
+`}</Script>
+
+
             <Script id="intercom2">{`
                 (function(){
                     var w=window;var ic=w.Intercom;if(typeof ic==="function"){
