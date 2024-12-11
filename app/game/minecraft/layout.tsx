@@ -153,16 +153,7 @@ export default function Layout({ children }: { children: React.ReactNode; }) {
                     }),
                 }}
             />
-            <section className="mt-10">
-                <h1 className="text-3xl font-bold">Hospedagem de Minecraft no Brasil</h1>
-                <p className="text-gray-600 mt-4">
-                    Na RazeHost, oferecemos a melhor hospedagem para servidores de Minecraft com suporte para Java e Bedrock.
-                    Com desempenho otimizado, painel de fácil uso, instalação de mods e proteção Anti-DDoS, nossos servidores são ideais para jogadores que buscam qualidade e confiabilidade.
-                </p>
-                <p className="text-gray-600 mt-4">
-                    Descubra a razão pela qual somos líderes no mercado e por que nossos clientes confiam na RazeHost para gerenciar seus servidores de jogos.
-                </p>
-            </section>
+           
             {children}
         </>
     );
