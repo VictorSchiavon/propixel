@@ -1,11 +1,10 @@
 'use client'
-
 import games from "@/config/games.json";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { useEffect, useState } from 'react';
-import { Card, CardBody, Divider } from "@nextui-org/react";
+import { Card, CardBody, Divider, Tab, Tabs } from "@nextui-org/react";
 import Link from "next/link";
 import CircularProgress from "../_components/circular-progress.component";
 import { TabsComponent } from "../_components/tabs-component";
@@ -21,17 +20,8 @@ export default function Games() {
     return (
         <section className="container mx-auto px-6 flex-grow pt-[2%]">
             <div className="flex w-full flex-col">
-                {displayGame && <TabsComponent displayGame={displayGame} />}
+                {displayGame ? <><TabsComponent displayGame={displayGame}/></> : ""}
             </div>
-
-            {displayGame && (
-                <section className="mt-10">
-                    <h2 className="text-2xl font-bold">{`Hospedagem para ${displayGame.name}`}</h2>
-                    <p className="text-gray-600 mt-2">
-                        {`Hospede seu servidor de ${displayGame.name} com o melhor desempenho no Brasil. Suporte completo para mods, proteção Anti-DDoS e fácil gerenciamento.`}
-                    </p>
-                </section>
-            )}
 
             <section className="pt-10">
                 <h3 className="font-bold text-2xl">Notas e avaliações:</h3>
