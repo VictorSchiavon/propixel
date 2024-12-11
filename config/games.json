@@ -14,6 +14,7 @@
         "platform": "PC",
         "developer": "Rockstar Games",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -32,6 +33,7 @@
     "platform": "PC, Xbox, PlayStation, Switch",
     "developer": "Mojang Studios",
     "mods": "Permitido",
+        "processador": "AMD Ryzen",
     "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -50,6 +52,7 @@
          "platform": "PC, PS4, Xbox One",
         "developer": "The Fun Pimps",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -68,6 +71,7 @@
         "platform": "PC",
         "developer": "The Indie Stone",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -86,6 +90,7 @@
         "platform": "PC",
         "developer": "Stunlock Studios",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -104,6 +109,7 @@
         "platform": "PC",
         "developer": "Facepunch Studios",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -122,6 +128,7 @@
         "platform": "PC",
         "developer": "Smartly Dressed Games",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -140,6 +147,7 @@
         "platform": "PC, PS4, Xbox One",
         "developer": "Bohemia Interactive",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -158,6 +166,7 @@
         "platform": "PC, Xbox, PlayStation, Switch",
         "developer": "Re-Logic",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -176,6 +185,7 @@
         "platform": "PC",
         "developer": "Anego Studios",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -194,6 +204,7 @@
         "platform": "PC",
         "developer": "Coffee Stain Studios",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -212,6 +223,7 @@
         "platform": "PC, PS4, Xbox One",
         "developer": "Studio Wildcard",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -230,6 +242,7 @@
         "platform": "PC, PS4, Xbox One",
         "developer": "Funcom",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -248,6 +261,7 @@
         "platform": "PC",
         "developer": "Pocketpair, Inc.",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -266,6 +280,7 @@
         "platform": "PC",
         "developer": "Iron Gate Studio",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -284,6 +299,7 @@
         "platform": "PC",
         "developer": "Rockstar Games",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -302,6 +318,8 @@
         "platform": "PC",
         "developer": "CipSoft",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -320,6 +338,7 @@
         "platform": "PC",
         "developer": "Webzen",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
@@ -338,6 +357,7 @@
         "platform": "PC, Celular",
         "developer": "Rockstar Games",
         "mods": "Permitido",
+        "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     }

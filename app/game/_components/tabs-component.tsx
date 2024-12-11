@@ -18,6 +18,7 @@ interface DisplayGame {
         refundType: string;
         developer: string;
         mods: string;
+        processador: string;
         platform: string;
     };
 }
@@ -132,6 +133,10 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({ displayGame }) => 
                                             <div className="flex justify-between pt-3 text-sm">
                                                 <p className="text-gray-400">Mods:</p>
                                                 <p>{displayGame.contents.mods}</p>
+                                            </div>
+                                            <div className="flex justify-between pt-3 text-sm">
+                                                <p className="text-gray-400">Processador:</p>
+                                                <p>{displayGame.contents.processador}</p>
                                             </div>
                                             <div className="flex justify-between pt-3 text-sm">
                                                 <p className="text-gray-400">Plataforma:</p>
