@@ -23,7 +23,7 @@ export default function Home() {
           <p className="text-muted pt-5 pb-5 text-center">Potencialize sua presença online com a RazeHost, especialista em servidores VPS para jogos e aplicações no Brasil. <br /> Ferramentas para tudo que seu projeto precisa e uma equipe que está sempre disposta a te levar ao sucesso.</p>
           <div className="flex gap-3 justify-center pt-10 pb-10">
           <a href="/vps" target="_blank" rel="noopener noreferrer">
-  <Button className="rounded-md bg-orange-500 text-white">Começar agora</Button>
+  <Button className="rounded-md bg-orange-500 text-white">VPS</Button>
 </a>
 
 <a href="/games" target="_blank" rel="noopener noreferrer">
