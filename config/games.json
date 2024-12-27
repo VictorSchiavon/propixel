@@ -96,18 +96,18 @@
     },
     {
       "id": 6,
-      "name": "Palworld",
-      "img": "/games/palworld.webp",
-      "logo": "/games/logos/palworld.webp",
-      "link": "/game/palworld",
+      "name": "Rust",
+      "img": "/games/rust.webp",
+      "logo": "/games/logos/rust.webp",
+      "link": "/game/rust",
       "price": "R$ 120,00",
-      "discountPrice": "R$ 95,90",
-      "new": true,
-      "wallpaper": "/wallpapers/palworld.webp",
+      "discountPrice": "R$ 85,00",
+      "new": false,
+      "wallpaper": "/wallpapers/rust.webp",
       "contents": {
-        "description": "Palworld é um jogo de aventura onde você pode capturar, treinar e lutar ao lado de criaturas chamadas 'Pals', enquanto explora um mundo vasto e dinâmico.",
+        "description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
         "platform": "PC",
-        "developer": "Pocketpair, Inc.",
+        "developer": "Facepunch Studios",
         "mods": "Permitido",
         "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
@@ -246,26 +246,26 @@
         "refundType": "Reembolso em até 7 dias"
       }
     },
-
     {
       "id": 14,
-      "name": "Rust",
-      "img": "/games/rust.webp",
-      "logo": "/games/logos/rust.webp",
-      "link": "/game/rust",
+      "name": "Palworld",
+      "img": "/games/palworld.webp",
+      "logo": "/games/logos/palworld.webp",
+      "link": "/game/palworld",
       "price": "R$ 120,00",
-      "discountPrice": "R$ 85,00",
-      "new": false,
-      "wallpaper": "/wallpapers/rust.webp",
+      "discountPrice": "R$ 95,90",
+      "new": true,
+      "wallpaper": "/wallpapers/palworld.webp",
       "contents": {
-        "description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
+        "description": "Palworld é um jogo de aventura onde você pode capturar, treinar e lutar ao lado de criaturas chamadas 'Pals', enquanto explora um mundo vasto e dinâmico.",
         "platform": "PC",
-        "developer": "Facepunch Studios",
+        "developer": "Pocketpair, Inc.",
         "mods": "Permitido",
         "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     },
+
     {
       "id": 15,
       "name": "Valheim",
