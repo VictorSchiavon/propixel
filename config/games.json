@@ -95,14 +95,14 @@
       }
     },
     {
-      "id": 14,
+      "id": 6,
       "name": "Rust",
       "img": "/games/rust.webp",
       "logo": "/games/logos/rust.webp",
       "link": "/game/rust",
       "price": "R$ 120,00",
       "discountPrice": "R$ 85,00",
-      "new": true,
+      "new": false,
       "wallpaper": "/wallpapers/rust.webp",
       "contents": {
         "description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
@@ -247,14 +247,14 @@
       }
     },
     {
-      "id": 6,
+      "id": 14,
       "name": "Palworld",
       "img": "/games/palworld.webp",
       "logo": "/games/logos/palworld.webp",
       "link": "/game/palworld",
       "price": "R$ 120,00",
       "discountPrice": "R$ 95,90",
-      "new": false,
+      "new": true,
       "wallpaper": "/wallpapers/palworld.webp",
       "contents": {
         "description": "Palworld é um jogo de aventura onde você pode capturar, treinar e lutar ao lado de criaturas chamadas 'Pals', enquanto explora um mundo vasto e dinâmico.",
