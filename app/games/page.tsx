@@ -155,7 +155,7 @@ export default function Games() {
                                 spaceBetween: 50,
                             },
                             1536: {
-                                slidesPerView: 14,
+                                slidesPerView: 6,
                                 spaceBetween: 30,
                             },
                         }}
