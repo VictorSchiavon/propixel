@@ -95,7 +95,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 14,
       "name": "Rust",
       "img": "/games/rust.webp",
       "logo": "/games/logos/rust.webp",
@@ -247,7 +247,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 6,
       "name": "Palworld",
       "img": "/games/palworld.webp",
       "logo": "/games/logos/palworld.webp",
