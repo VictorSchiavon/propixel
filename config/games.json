@@ -38,25 +38,6 @@
       }
     },
     {
-      "id": 6,
-      "name": "Palworld",
-      "img": "/games/palworld.webp",
-      "logo": "/games/logos/palworld.webp",
-      "link": "/game/palworld",
-      "price": "R$ 120,00",
-      "discountPrice": "R$ 95,90",
-      "new": true,
-      "wallpaper": "/wallpapers/palworld.webp",
-      "contents": {
-        "description": "Palworld é um jogo de aventura onde você pode capturar, treinar e lutar ao lado de criaturas chamadas 'Pals', enquanto explora um mundo vasto e dinâmico.",
-        "platform": "PC",
-        "developer": "Pocketpair, Inc.",
-        "mods": "Permitido",
-        "processador": "AMD Ryzen",
-        "refundType": "Reembolso em até 7 dias"
-      }
-    },
-    {
       "id": 3,
       "name": "7 Days to Die",
       "img": "/games/7daystoDie.webp",
