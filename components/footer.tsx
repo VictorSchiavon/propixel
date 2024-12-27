@@ -84,6 +84,7 @@ const Footer = () => {
                     app_id: "sephaq3d",
                 };
             `}</Script>
+            <Script id="ahrefs-analytics" src="https://analytics.ahrefs.com/analytics.js" data-key="BnN5UiGRCrViwc2OGU9mjQ" defer={true}></Script>
            <Script id="google-analytics">{`
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
