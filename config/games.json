@@ -38,7 +38,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 6,
       "name": "Palworld",
       "img": "/games/palworld.webp",
       "logo": "/games/logos/palworld.webp",
@@ -56,7 +56,25 @@
         "refundType": "Reembolso em até 7 dias"
       }
     },
-
+    {
+      "id": 3,
+      "name": "7 Days to Die",
+      "img": "/games/7daystoDie.webp",
+      "logo": "/games/logos/7dtd.webp",
+      "link": "/game/7daystodie",
+      "price": "R$ 79,90",
+      "discountPrice": "R$ 64,00",
+      "new": false,
+      "wallpaper": "/wallpapers/7daystodie.webp",
+      "contents": {
+        "description": "7 Days to Die é um jogo de sobrevivência em mundo aberto com elementos de construção, exploração e combate contra zumbis. Os jogadores devem explorar o mundo, coletar recursos e construir fortificações para sobreviver aos ataques constantes de zumbis. Na RazeHost",       
+         "platform": "PC, PS4, Xbox One",
+        "developer": "The Fun Pimps",
+        "mods": "Permitido",
+        "processador": "AMD Ryzen",
+        "refundType": "Reembolso em até 7 dias"
+      }
+    },
     {
       "id": 4,
       "name": "Project Zomboid",
@@ -97,18 +115,18 @@
     },
     {
       "id": 6,
-      "name": "7 Days to Die",
-      "img": "/games/7daystoDie.webp",
-      "logo": "/games/logos/7dtd.webp",
-      "link": "/game/7daystodie",
-      "price": "R$ 79,90",
-      "discountPrice": "R$ 64,00",
-      "new": false,
-      "wallpaper": "/wallpapers/7daystodie.webp",
+      "name": "Palworld",
+      "img": "/games/palworld.webp",
+      "logo": "/games/logos/palworld.webp",
+      "link": "/game/palworld",
+      "price": "R$ 120,00",
+      "discountPrice": "R$ 95,90",
+      "new": true,
+      "wallpaper": "/wallpapers/palworld.webp",
       "contents": {
-        "description": "7 Days to Die é um jogo de sobrevivência em mundo aberto com elementos de construção, exploração e combate contra zumbis. Os jogadores devem explorar o mundo, coletar recursos e construir fortificações para sobreviver aos ataques constantes de zumbis. Na RazeHost",       
-         "platform": "PC, PS4, Xbox One",
-        "developer": "The Fun Pimps",
+        "description": "Palworld é um jogo de aventura onde você pode capturar, treinar e lutar ao lado de criaturas chamadas 'Pals', enquanto explora um mundo vasto e dinâmico.",
+        "platform": "PC",
+        "developer": "Pocketpair, Inc.",
         "mods": "Permitido",
         "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
