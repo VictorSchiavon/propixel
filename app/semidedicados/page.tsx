@@ -12,10 +12,10 @@ const vps = [
         "price": "R$500,00",
         "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l1",
         "description": {
-            "ram": "16 GB",
+            "ram": "16 GB DDR5",
             "ssd": "120 GB",
             "cores": "6 núcleos",
-            "attrs": ["Anti DDoS Incluso", "AMD Ryzen", ]
+            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X", ]
         }
     },
     {
@@ -23,10 +23,10 @@ const vps = [
         "price": "R$650,00",
         "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l2",
         "description": {
-            "ram": "24 GB",
+            "ram": "24 GB DDR5",
             "ssd": "120 GB",
             "cores": "7 núcleos",
-            "attrs": ["Anti DDoS Incluso", "AMD Ryzen", ]
+            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X", ]
         }
     },
     {
@@ -34,10 +34,10 @@ const vps = [
         "price": "R$790,00",
         "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l3",
         "description": {
-            "ram": "32 GB",
+            "ram": "32 GB DDR5",
             "ssd": "120 GB",
             "cores": "8 núcleos",
-            "attrs": ["Anti DDoS Incluso", "AMD Ryzen", ]
+            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X", ]
         }
     }
 ]
