@@ -14,7 +14,7 @@ const vps = [
         "description": {
             "ram": "16 GB DDR5",
             "ssd": "120 GB",
-            "cores": "6 núcleos",
+            "cores": "8 núcleos",
             "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X", ]
         }
     },
@@ -24,8 +24,8 @@ const vps = [
         "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l2",
         "description": {
             "ram": "24 GB DDR5",
-            "ssd": "120 GB",
-            "cores": "7 núcleos",
+            "ssd": "160 GB",
+            "cores": "9 núcleos",
             "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X", ]
         }
     },
@@ -35,8 +35,8 @@ const vps = [
         "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l3",
         "description": {
             "ram": "32 GB DDR5",
-            "ssd": "120 GB",
-            "cores": "8 núcleos",
+            "ssd": "200 GB",
+            "cores": "10 núcleos",
             "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X", ]
         }
     }
