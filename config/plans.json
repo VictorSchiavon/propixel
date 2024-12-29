@@ -450,90 +450,90 @@
             ]
         }
     ],
-    "palworld": [
+"palworld": [
+    {
+        "game": "Palworld",
+        "img": "/games/cards/palworld.webp",
+        "name": "Plano 1",
+        "price": "R$104,90",
+        "discountPrice": "R$69,90",
+        "link": "https://app.razehost.com.br/store/palworld/plano-starter-palworld",
+        "description": [
+            "Processadores AMD Ryzen",
+            "8 GB RAM",
+            "10 GB SSD",
+            "Mods e Plugins",
+            "Anti DDoS Incluso",
+            "Recomendado máximo 4 players",
+            "Anticheat incluído"
+        ]
+    },
+    {
+        "game": "Palworld",
+        "img": "/games/cards/palworld.webp",
+        "name": "Plano 1",
+        "price": "R$123,90",
+        "discountPrice": "R$95,90",
+        "link": "https://app.razehost.com.br/store/palworld/plano-1-palworld-host",
+        "description": [
+            "Processadores AMD Ryzen",
+            "12 GB RAM",
+            "20 GB SSD",
+            "Mods e Plugins",
+            "Anti DDoS Incluso",
+            "Anticheat incluído"
+        ]
+    },
+    {
+        "game": "Palworld",
+        "img": "/games/cards/palworld.webp",
+        "name": "Plano 2",
+        "price": "R$179,90",
+        "discountPrice": "R$129,90",
+        "link": "https://app.razehost.com.br/store/palworld/plano-2-palworld-host",
+        "description": [
+            "Processadores AMD Ryzen",
+            "16 GB RAM",
+            "25 GB SSD",
+            "Mods e Plugins",
+            "Anti DDoS Incluso",
+            "Anticheat incluído"
+        ]
+    },
+    {
+        "game": "Palworld",
+        "img": "/games/cards/palworld.webp",
+        "name": "Plano 3",
+        "price": "R$250,90",
+        "discountPrice": "R$190,90",
+        "link": "https://app.razehost.com.br/store/palworld/plano-3-palworld-host",
+        "description": [
+            "Processadores AMD Ryzen",
+            "20 GB RAM",
+            "30 GB SSD",
+            "Mods e Plugins",
+            "Anti DDoS Incluso",
+            "Anticheat incluído"
+        ]
+    },
+    {
+        "game": "Palworld",
+        "img": "/games/cards/palworld.webp",
+        "name": "Plano 4",
+        "price": "R$429,90",
+        "discountPrice": "R$279,90",
+        "link": "https://app.razehost.com.br/store/palworld/plano-4-palworld-host",
+        "description": [
+            "Processadores AMD Ryzen",
+            "32 GB RAM",
+            "40 GB SSD",
+            "Mods e Plugins",
+            "Anti DDoS Incluso",
+            "Anticheat incluído"
+        ]
+    }
+]
 
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano 1",
-            "price": "R$104,90",
-            "discountPrice": "R$69,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-starter-palworld",
-            "description": [
-                "Processadores AMD Ryzen",
-                "8 GB RAM",
-                "10 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Recomendado máximo 4 players"
-                "Anticheat incluído"
-            ]
-        },
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano 1",
-            "price": "R$123,90",
-            "discountPrice": "R$95,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-1-palworld-host",
-            "description": [
-                "Processadores AMD Ryzen",
-                "12 GB RAM",
-                "20 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Anticheat incluído"
-            ]
-        },
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano 2",
-            "price": "R$179,90",
-            "discountPrice": "R$129,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-2-palworld-host",
-            "description": [
-                "Processadores AMD Ryzen",
-                "16 GB RAM",
-                "25 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Anticheat incluído"
-            ]
-        },
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano 3",
-            "price": "R$250,90",
-            "discountPrice": "R$190,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-3-palworld-host",
-            "description": [
-                "Processadores AMD Ryzen",
-                "20 GB RAM",
-                "30 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Anticheat incluído"
-            ]
-        },
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano 4",
-            "price": "R$429,90",
-            "discountPrice": "R$279,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-4-palworld-host",
-            "description": [
-                "Processadores AMD Ryzen",
-                "32 GB RAM",
-                "40 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Anticheat incluído"
-            ]
-        }
-    ],
     "vrising": [
         {
             "game": "V Rising",
