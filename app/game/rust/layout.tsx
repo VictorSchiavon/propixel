@@ -128,7 +128,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Hospedagem de Rust no Brasil | RazeHost',
         description: 'Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
-        url: 'https://razehost.com.br/',
+        url: 'https://razehost.com.br/game/rust',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
