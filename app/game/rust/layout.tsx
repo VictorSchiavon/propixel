@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Rust no Brasil | Hospedagem de Alta Performance",
-    description: "A melhor hospedagem de servidores Rust no Brasil, com alto desempenho, painel de gerenciamento fácil e proteção anti-DDoS. Instale mods, jogue com seus amigos e aproveite uma infraestrutura otimizada para o melhor desempenho de Rust.",
+    title: "Host de Rust no Brasil | Alta Performance e Proteção DDoS",
+    description: "Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.",
     keywords: [
         "RazeHost.com.br",
         "RazeHost",
@@ -28,6 +28,21 @@ export const metadata: Metadata = {
         "VPS Rust",
         "Hospedagem de Rust",
         "Host Rust",
+        "Rust Brasil",
+        "servidor de Rust",
+        "servidor Rust DDoS",
+        "servidor Rust Brasil",
+        "servidor dedicado Rust",
+        "servidor Rust com proteção DDoS",
+        "hospedagem de Rust com painel",
+        "servidor Rust barato",
+        "Rust server",
+        "Rust server hosting",
+        "servidor dedicado para Rust",
+        "servidor para Rust com mods",
+        "servidor Rust com painel",
+        "servidor de Rust online",
+        "servidor Rust com mods",
         "VPS para jogos",
         "host de Project Zomboid",
         "Project Zomboid server",
@@ -108,39 +123,25 @@ export const metadata: Metadata = {
         "hospedagem web gamer",
         "hospedagem para site de jogos",
         "registro de domínio gamer",
-        "domínio para site de jogos",
-        "Rust server",
-        "servidor de Rust",
-        "servidor dedicado Rust",
-        "servidor Rust Brasil",
-        "servidor de Rust com DDoS protection",
-        "Rust game hosting",
-        "hospedagem Rust",
-        "VPS Rust com anti DDoS",
-        "servidor Rust com alta performance",
-        "host de Rust com SSD NVMe"
-      ]      
+        "domínio para site de jogos"
+    ],
     openGraph: {
-        title: 'Host de Rust no Brasil | RazeHost',
-        description: 'Hospedagem de servidores Rust no Brasil com alto desempenho, painel de fácil gerenciamento e proteção anti-DDoS. Jogue com seus amigos e aproveite a infraestrutura otimizada para Rust.',
-        url: 'https://razehost.com.br/game/rust',
+        title: 'Hospedagem de Rust no Brasil | RazeHost',
+        description: 'Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
+        url: 'https://razehost.com.br/',
         siteName: 'RazeHost',
-        images: ['/banner.webp'],
-        type: 'website',
-        locale: 'pt_BR',
+        images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de Rust no Brasil | RazeHost',
-        description: 'A melhor hospedagem de Rust no Brasil com painel de gerenciamento intuitivo, alta performance e proteção anti-DDoS. Instale mods, jogue com amigos e aproveite a infraestrutura otimizada para Rust.',
+        title: 'Hospedagem de Rust no Brasil | RazeHost',
+        description: 'Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
         images: ['/banner.webp'],
-        creator: '@RazeHostBR',
     },
     icons: {
         icon: "/favicon.ico",
     },
 };
-
 
 export default function Layout({ children }: { children: React.ReactNode; }) {
     return (
