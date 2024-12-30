@@ -206,7 +206,11 @@ export default function Games() {
 
                 <center>
                     <div className="pt-5">
-                        <Button className="bg-orange-400 text-white font-bold w-44">Entrar em contato</Button>
+                    <a href="https://wa.me/5511968927685?text=Gostaria%20de%20saber%20sobre%20dedicados" target="_blank" rel="noopener noreferrer">
+    <Button className="bg-orange-400 text-white font-bold w-44">
+        Entrar em contato
+    </Button>
+</a>
                     </div>
                 </center>
             </section>
