@@ -148,9 +148,12 @@ export default function Games() {
                                             <h4 className="text-3xl font-bold">
                                                 R$ {plano.preco} <span className="text-sm">/mês</span>
                                             </h4>
-                                            <Button className="text-white bg-orange-400 w-[200px] mt-3 font-bold">
-                                                <Star /> Contratar
-                                            </Button>
+                                            <a href="https://wa.me/5511968927685?text=Gostaria%20de%20saber%20sobre%20dedicados" target="_blank" rel="noopener noreferrer">
+    <Button className="text-white bg-orange-400 w-[200px] mt-3 font-bold">
+        <Star /> Contratar
+    </Button>
+</a>
+
                                         </div>
                                     </div>
                                 </CardBody>
