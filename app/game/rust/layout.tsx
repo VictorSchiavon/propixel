@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Rust no Brasil - RazeHost | Hospedagem de Alta Performance",
+    title: "Host de Rust no Brasil | Hospedagem de Alta Performance",
     description: "A melhor hospedagem de servidores Rust no Brasil, com alto desempenho, painel de gerenciamento fácil e proteção anti-DDoS. Instale mods, jogue com seus amigos e aproveite uma infraestrutura otimizada para o melhor desempenho de Rust.",
     keywords: [
         "RazeHost.com.br",
