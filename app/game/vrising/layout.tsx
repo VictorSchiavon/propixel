@@ -112,7 +112,7 @@ export const metadata: Metadata = {
     ],
     openGraph: {
         title: 'Host de VRising - Hospedagem de VRising | RazeHost',
-        description: 'A melhor hospedagem de Valheim no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        description: 'A melhor hospedagem de V Rising no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://www.razehost.com.br/',
         siteName: 'RazeHost',
         images: ['/banner.webp']
