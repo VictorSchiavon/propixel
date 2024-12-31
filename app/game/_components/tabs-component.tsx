@@ -119,7 +119,13 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({ displayGame }) => 
                                             >
                                                 Visualizar planos
                                             </Button>
-                                            <Button className="text-white bg-slate-800 w-full mt-2">Comunidade</Button>
+                                            <a href="https://seulink.com" target="_blank" rel="noopener noreferrer">
+  <Button className="text-white bg-slate-800 w-full mt-2">Comunidade</Button>
+</a>
+<a href="https://seulink.com" target="_blank" rel="noopener noreferrer">
+  <Button className="text-white bg-slate-800 w-full mt-2">Comunidade</Button>
+</a>
+
                                         </div>
                                         <div className="pt-10">
                                             <div className="flex justify-between text-sm">
