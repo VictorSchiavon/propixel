@@ -119,11 +119,11 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({ displayGame }) => 
                                             >
                                                 Visualizar planos
                                             </Button>
-                                            <a href="https://seulink.com" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://discord.gg/p8YXcEuKdH" target="_blank" rel="noopener noreferrer">
   <Button className="text-white bg-slate-800 w-full mt-2">Comunidade</Button>
 </a>
-<a href="https://seulink.com" target="_blank" rel="noopener noreferrer">
-  <Button className="text-white bg-slate-800 w-full mt-2">Comunidade</Button>
+<a href="/vps" target="_blank" rel="noopener noreferrer">
+  <Button className="text-white bg-slate-800 w-full mt-2">VPS</Button>
 </a>
 
                                         </div>
