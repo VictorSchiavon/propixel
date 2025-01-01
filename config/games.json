@@ -351,7 +351,7 @@
       "link": "/game/mta",
       "price": "R$ 30,00",
       "discountPrice": "R$ 10,00",
-      "new": true,
+      "new": false,
       "wallpaper": "/wallpapers/multitheftauto.webp",
       "contents": {
         "description": "MTA é uma plataforma que permite criar servidores personalizados para o jogo GTA San Andreas, com modos de jogo exclusivos, scripts personalizados e conteúdo modificado. ",
@@ -374,12 +374,31 @@
       "wallpaper": "/wallpapers/armareforger.webp",
       "contents": {
         "description": "Arma Reforger é um jogo de simulação militar que oferece uma experiência imersiva com gráficos de última geração, cenários realistas e suporte para criação de mods.",
-        "platform": "PC",
+        "platform": "PC, PS5, Xbox",
         "developer": "Bohemia Interactive",
         "mods": "Permitido",
         "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
     }    
+    {
+      "id": 21,
+      "name": "The Forest",
+      "img": "/games/theforest.webp",
+      "logo": "/games/logos/theforest.webp",
+      "link": "/game/theforest",
+      "price": "R$ 99,00",
+      "discountPrice": "R$ 49,90",
+      "new": true,
+      "wallpaper": "/wallpapers/theforest.webp",
+      "contents": {
+        "description": "The Forest é um jogo de sobrevivência em mundo aberto, onde o jogador deve lutar para sobreviver após um acidente de avião em uma ilha desabitada. O jogo apresenta uma mistura de construção, exploração e combate com criaturas mutantes.",
+        "platform": "PC, PlayStation 4",
+        "developer": "Endnight Games",
+        "mods": "Permitido",
+        "processador": "AMD Ryzen",
+        "refundType": "Reembolso em até 7 dias"
+      }
+    },
   ]
   
