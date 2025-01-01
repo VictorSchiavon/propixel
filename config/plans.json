@@ -926,11 +926,11 @@
             ]
         }
     ],
-    "armareforger": [
+    "theforest": [
     {
-        "game": "Arma Reforger",
-        "img": "/games/cards/armareforger.webp",
-        "name": "Arma Reforger 6GB",
+        "game": "The Forest",
+        "img": "/games/cards/theforest.webp",
+        "name": "The Forest 6GB",
         "price": "R$79,90",
         "discountPrice": "R$49,90",
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-1",
@@ -943,9 +943,9 @@
         ]
     },
     {
-        "game": "Arma Reforger",
-        "img": "/games/cards/armareforger.webp",
-        "name": "Arma Reforger 10GB",
+        "game": "The Forest",
+        "img": "/games/cards/theforest.webp",
+        "name": "The Forest 10GB",
         "price": "R$119,90",
         "discountPrice": "R$89,90",
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-2",
@@ -958,9 +958,9 @@
         ]
     },
     {
-        "game": "Arma Reforger",
-        "img": "/games/cards/armareforger.webp",
-        "name": "Arma Reforger 16GB",
+        "game": "The Forest",
+        "img": "/games/cards/theforest.webp",
+        "name": "The Forest 16GB",
         "price": "R$199,90",
         "discountPrice": "R$149,90",
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-3",
@@ -973,9 +973,71 @@
         ]
     },
     {
-        "game": "Arma Reforger",
-        "img": "/games/cards/armareforger.webp",
-        "name": "Arma Reforger 32GB",
+        "game": "The Forest",
+        "img": "/games/cards/theforest.webp",
+        "name": "The Forest 32GB",
+        "price": "R$299,90",
+        "discountPrice": "R$249,90",
+        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-war",
+        "description": [
+            "32GB de RAM",
+            "4 núcleos AMD Ryzen",
+            "50GB SSD NVMe",
+            "Anti DDoS Incluso",
+            "Recomendado até 50 slots/jogadores"
+        ]
+    }
+],
+"theforest": [
+    {
+        "game": "The Forest",
+        "img": "/games/cards/theforest.webp",
+        "name": "The Forest 6GB",
+        "price": "R$79,90",
+        "discountPrice": "R$49,90",
+        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-1",
+        "description": [
+            "6GB de RAM",
+            "1 núcleo AMD Ryzen",
+            "20GB SSD NVMe",
+            "Anti DDoS Incluso",
+            "Recomendado até 10 slots/jogadores"
+        ]
+    },
+    {
+        "game": "The Forest",
+        "img": "/games/cards/theforest.webp",
+        "name": "The Forest 10GB",
+        "price": "R$119,90",
+        "discountPrice": "R$89,90",
+        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-2",
+        "description": [
+            "10GB de RAM",
+            "2 núcleos AMD Ryzen",
+            "30GB SSD NVMe",
+            "Anti DDoS Incluso",
+            "Recomendado até 20 slots/jogadores"
+        ]
+    },
+    {
+        "game": "The Forest",
+        "img": "/games/cards/theforest.webp",
+        "name": "The Forest 16GB",
+        "price": "R$199,90",
+        "discountPrice": "R$149,90",
+        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-3",
+        "description": [
+            "16GB de RAM",
+            "3 núcleos AMD Ryzen",
+            "40GB SSD NVMe",
+            "Anti DDoS Incluso",
+            "Recomendado até 30 slots/jogadores"
+        ]
+    },
+    {
+        "game": "The Forest",
+        "img": "/games/cards/theforest.webp",
+        "name": "The Forest 32GB",
         "price": "R$299,90",
         "discountPrice": "R$249,90",
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-war",
