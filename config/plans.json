@@ -937,7 +937,7 @@
         "description": [
             "6GB de RAM",
             "AMD Ryzen",
-            "20GB SSD NVMe",
+            "15GB SSD NVMe",
             "Anti DDoS Incluso"
         ]
     },
@@ -951,7 +951,7 @@
         "description": [
             "10GB de RAM",
             "AMD Ryzen",
-            "25GB SSD NVMe",
+            "20GB SSD NVMe",
             "Anti DDoS Incluso"
         ]
     },
@@ -965,7 +965,7 @@
         "description": [
             "16GB de RAM",
             "AMD Ryzen",
-            "30GB SSD NVMe",
+            "25GB SSD NVMe",
             "Anti DDoS Incluso"
         ]
     },
@@ -979,7 +979,7 @@
         "description": [
             "32GB de RAM",
             "AMD Ryzen",
-            "50GB SSD NVMe"
+            "30GB SSD NVMe"
         ]
     }
 ],
@@ -990,11 +990,11 @@
         "name": "The Forest 6GB",
         "price": "R$79,90",
         "discountPrice": "R$49,90",
-        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-1",
+        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-1",
         "description": [
             "6GB de RAM",
-            "1 núcleo AMD Ryzen",
-            "20GB SSD NVMe",
+            "AMD Ryzen",
+            "15GB SSD NVMe",
             "Anti DDoS Incluso"
         ]
     },
@@ -1004,11 +1004,11 @@
         "name": "The Forest 10GB",
         "price": "R$119,90",
         "discountPrice": "R$89,90",
-        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-2",
+        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-2",
         "description": [
             "10GB de RAM",
             "AMD Ryzen",
-            "25GB SSD NVMe",
+            "20GB SSD NVMe",
             "Anti DDoS Incluso"
         ]
     },
@@ -1018,7 +1018,7 @@
         "name": "The Forest 16GB",
         "price": "R$199,90",
         "discountPrice": "R$149,90",
-        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-3",
+        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-3",
         "description": [
             "16GB de RAM",
             "AMD Ryzen",
@@ -1032,11 +1032,11 @@
         "name": "The Forest 32GB",
         "price": "R$299,90",
         "discountPrice": "R$249,90",
-        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-war",
+        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-4",
         "description": [
             "32GB de RAM",
             "AMD Ryzen",
-            "25GB SSD NVMe",
+            "30GB SSD NVMe",
             "Anti DDoS Incluso"
         ]
     }
