@@ -954,7 +954,6 @@
             "2 núcleos AMD Ryzen",
             "30GB SSD NVMe",
             "Anti DDoS Incluso",
-            "Recomendado até 20 slots/jogadores"
         ]
     },
     {
@@ -968,8 +967,7 @@
             "16GB de RAM",
             "3 núcleos AMD Ryzen",
             "40GB SSD NVMe",
-            "Anti DDoS Incluso",
-            "Recomendado até 30 slots/jogadores"
+            "Anti DDoS Incluso"
         ]
     },
     {
@@ -983,8 +981,7 @@
             "32GB de RAM",
             "4 núcleos AMD Ryzen",
             "50GB SSD NVMe",
-            "Anti DDoS Incluso",
-            "Recomendado até 50 slots/jogadores"
+            "Anti DDoS Incluso"
         ]
     }
 ],
@@ -1000,8 +997,7 @@
             "6GB de RAM",
             "1 núcleo AMD Ryzen",
             "20GB SSD NVMe",
-            "Anti DDoS Incluso",
-            "Recomendado até 10 slots/jogadores"
+            "Anti DDoS Incluso"
         ]
     },
     {
@@ -1013,10 +1009,9 @@
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-2",
         "description": [
             "10GB de RAM",
-            "2 núcleos AMD Ryzen",
-            "30GB SSD NVMe",
-            "Anti DDoS Incluso",
-            "Recomendado até 20 slots/jogadores"
+            "AMD Ryzen",
+            "25GB SSD NVMe",
+            "Anti DDoS Incluso"
         ]
     },
     {
@@ -1028,10 +1023,9 @@
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-3",
         "description": [
             "16GB de RAM",
-            "3 núcleos AMD Ryzen",
-            "40GB SSD NVMe",
-            "Anti DDoS Incluso",
-            "Recomendado até 30 slots/jogadores"
+            "AMD Ryzen",
+            "25GB SSD NVMe",
+            "Anti DDoS Incluso"
         ]
     },
     {
@@ -1043,10 +1037,9 @@
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-war",
         "description": [
             "32GB de RAM",
-            "4 núcleos AMD Ryzen",
-            "50GB SSD NVMe",
-            "Anti DDoS Incluso",
-            "Recomendado até 50 slots/jogadores"
+            "AMD Ryzen",
+            "25GB SSD NVMe",
+            "Anti DDoS Incluso"
         ]
     }
 ]
