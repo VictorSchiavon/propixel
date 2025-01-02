@@ -936,10 +936,9 @@
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-1",
         "description": [
             "6GB de RAM",
-            "1 núcleo AMD Ryzen",
+            "AMD Ryzen",
             "20GB SSD NVMe",
-            "Anti DDoS Incluso",
-            "Recomendado até 10 slots/jogadores"
+            "Anti DDoS Incluso"
         ]
     },
     {
@@ -951,9 +950,9 @@
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-2",
         "description": [
             "10GB de RAM",
-            "2 núcleos AMD Ryzen",
-            "30GB SSD NVMe",
-            "Anti DDoS Incluso",
+            "AMD Ryzen",
+            "25GB SSD NVMe",
+            "Anti DDoS Incluso"
         ]
     },
     {
@@ -965,8 +964,8 @@
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-3",
         "description": [
             "16GB de RAM",
-            "3 núcleos AMD Ryzen",
-            "40GB SSD NVMe",
+            "AMD Ryzen",
+            "30GB SSD NVMe",
             "Anti DDoS Incluso"
         ]
     },
@@ -979,9 +978,8 @@
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-war",
         "description": [
             "32GB de RAM",
-            "4 núcleos AMD Ryzen",
-            "50GB SSD NVMe",
-            "Anti DDoS Incluso"
+            "AMD Ryzen",
+            "50GB SSD NVMe"
         ]
     }
 ],
