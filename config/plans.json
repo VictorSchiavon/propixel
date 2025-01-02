@@ -1040,5 +1040,63 @@
             "Anti DDoS Incluso"
         ]
     }
+],
+"enshrouded": [
+    {
+        "game": "Enshrouded",
+        "img": "/games/cards/theforest.webp",
+        "name": "Enshrouded 6GB",
+        "price": "R$79,90",
+        "discountPrice": "R$49,90",
+        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-1",
+        "description": [
+            "6GB de RAM",
+            "AMD Ryzen",
+            "15GB SSD NVMe",
+            "Anti DDoS Incluso"
+        ]
+    },
+    {
+        "game": "Enshrouded",
+        "img": "/games/cards/theforest.webp",
+        "name": "Enshrouded 10GB",
+        "price": "R$119,90",
+        "discountPrice": "R$89,90",
+        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-2",
+        "description": [
+            "10GB de RAM",
+            "AMD Ryzen",
+            "20GB SSD NVMe",
+            "Anti DDoS Incluso"
+        ]
+    },
+    {
+        "game": "Enshrouded",
+        "img": "/games/cards/theforest.webp",
+        "name": "Enshrouded 16GB",
+        "price": "R$199,90",
+        "discountPrice": "R$149,90",
+        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-3",
+        "description": [
+            "16GB de RAM",
+            "AMD Ryzen",
+            "25GB SSD NVMe",
+            "Anti DDoS Incluso"
+        ]
+    },
+    {
+        "game": "Enshrouded",
+        "img": "/games/cards/theforest.webp",
+        "name": "Enshrouded 32GB",
+        "price": "R$299,90",
+        "discountPrice": "R$249,90",
+        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-4",
+        "description": [
+            "32GB de RAM",
+            "AMD Ryzen",
+            "30GB SSD NVMe",
+            "Anti DDoS Incluso"
+        ]
+    }
 ]
 }

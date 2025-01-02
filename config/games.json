@@ -399,6 +399,25 @@
         "processador": "AMD Ryzen",
         "refundType": "Reembolso em até 7 dias"
       }
+    },
+    {
+      "id": 21,
+      "name": "Enshrouded",
+      "img": "/games/enshrouded.webp",
+      "logo": "/games/logos/enshrouded.webp",
+      "link": "/game/enshrouded",
+      "price": "R$ 169,00",
+      "discountPrice": "R$ 109,90",
+      "new": true,
+      "wallpaper": "/wallpapers/enshrouded.webp",
+      "contents": {
+        "description": "Enshrouded é um jogo de sobrevivência em mundo aberto, onde o jogador deve explorar um mundo misterioso coberto por uma névoa mortal, enfrentar desafios e construir uma base para sobreviver. O jogo combina elementos de exploração, construção, combate e mistério enquanto os jogadores enfrentam inimigos e tentam descobrir os segredos do mundo.",
+        "platform": "PC",
+        "developer": "Keen Games",
+        "mods": "Permitido",
+        "processador": "AMD Ryzen",
+        "refundType": "Reembolso em até 7 dias"
+      }
     }
   ]
   
