@@ -609,7 +609,7 @@
             ]
         }
     ],
-    "7daystodie": [
+   "7daystodie": [
         {
             "game": "7 Days to Die",
             "img": "/games/cards/7daystodie.webp",
@@ -621,7 +621,6 @@
                 "6 GB RAM",
                 "20 GB de armazenamento SSD NVME",
                 "Mods e Plugins",
-                "Recomendado para até 6 players",
                 "Subdomínio personalizado"
             ]
         },
@@ -636,7 +635,6 @@
                 "8 GB RAM",
                 "30 GB de armazenamento SSD NVME",
                 "Mods e Plugins",
-                "Recomendado para até 25 players",
                 "Subdomínio personalizado"
             ]
         },
@@ -651,7 +649,6 @@
                 "12 GB RAM",
                 "30 GB de armazenamento SSD NVME",
                 "Mods e Plugins",
-                "Recomendado para até 25/30 players",
                 "Subdomínio personalizado"
             ]
         },
@@ -666,7 +663,20 @@
                 "16 GB RAM",
                 "35 GB de armazenamento SSD NVME",
                 "Mods e Plugins",
-                "Recomendado para até +30 players",
+                "Subdomínio personalizado"
+            ]
+        },
+        {
+            "game": "7 Days to Die",
+            "img": "/games/cards/7daystodie.webp",
+            "name": "MATADOR - 7 DAYS TO DIE",
+            "price": "R$399,00",
+            "discountPrice": "R$299,00",
+            "link": "https://app.razehost.com.br/store/7-days-to-die/matador-7-days-to-die",
+            "description": [
+                "24 GB RAM",
+                "35 GB de armazenamento SSD NVME",
+                "Mods e Plugins",
                 "Subdomínio personalizado"
             ]
         }
