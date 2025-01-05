@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: {
-        default: "VPS Gamer no Brasil com Anti DDoS",
+        default: "VPS Ryzen no Brasil com Anti DDoS",
         template: `%s - ${siteConfig.name}`,
     },
     description: "VPS Ryzen com Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",
