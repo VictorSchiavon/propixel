@@ -38,7 +38,15 @@ export const NavbarComponent = () => {
         <NavbarItem className="mt-4">
           <Popover placement="bottom" offset={20} showArrow isOpen={activePopover === "servers"}>
             <PopoverTrigger>
-              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("servers")}>Servidores</Button>
+              <Button
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300"
+                radius="sm"
+                variant="light"
+                endContent={<BiChevronDown />}
+                onMouseEnter={() => handlePopover("servers")}
+              >
+                Servidores
+              </Button>
             </PopoverTrigger>
             <PopoverContent className="w-[570px] p-0" onMouseLeave={closePopover}>
               <div className="w-full p-5">
@@ -57,7 +65,7 @@ export const NavbarComponent = () => {
                       { href: "/vps-trader", title: "VPS Trader", description: "Servidor veloz para traders." },
                       { href: "/vps-flex", title: "VPS Flex", description: "Servidores custo-benefício único." },
                       { href: "/semidedicados", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." },
-                      { href: "/colocation", title: "Colocation", description: "Hospedeu seu próprio servidor em nossa infraestrutura" }
+                      { href: "/colocation", title: "Colocation", description: "Hospede seu próprio servidor em nossa infraestrutura" }
                     ].map((item, index) => (
                       <Link href={item.href} key={index}>
                         <div className="p-2 hover:bg-[#303030] rounded-lg">
@@ -83,7 +91,15 @@ export const NavbarComponent = () => {
         <NavbarItem className="mt-4">
           <Popover placement="bottom" offset={20} showArrow isOpen={activePopover === "gamers"}>
             <PopoverTrigger>
-              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("gamers")}>Jogos</Button>
+              <Button
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300"
+                radius="sm"
+                variant="light"
+                endContent={<BiChevronDown />}
+                onMouseEnter={() => handlePopover("gamers")}
+              >
+                Jogos
+              </Button>
             </PopoverTrigger>
             <PopoverContent className="w-[570px] p-0" onMouseLeave={closePopover}>
               <div className="w-full p-5">
@@ -93,7 +109,13 @@ export const NavbarComponent = () => {
                     <Link href={item.link} key={index}>
                       <div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg flex items-center h-18 h-full">
                         <div className="flex items-center space-x-2">
-                          <Image src={item.img} alt={item.name} width={48} height={48} className="w-12 h-12 object-cover rounded-lg hover:animate-pulse" />
+                          <Image
+                            src={item.img}
+                            alt={item.name}
+                            width={48}
+                            height={48}
+                            className="w-12 h-12 object-cover rounded-lg hover:animate-pulse"
+                          />
                           <h3 className="text-md font-bold">{item.name}</h3>
                         </div>
                       </div>
@@ -112,9 +134,16 @@ export const NavbarComponent = () => {
         <NavbarItem className="mt-4">
           <Popover placement="bottom" offset={20} showArrow isOpen={activePopover === "platform"}>
             <PopoverTrigger>
-              <Button className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300" radius="sm" variant="light" endContent={<BiChevronDown />} onMouseEnter={() => handlePopover("platform")}>Plataforma</Button>
+              <Button
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300"
+                radius="sm"
+                variant="light"
+                endContent={<BiChevronDown />}
+                onMouseEnter={() => handlePopover("platform")}
+              >
+                Plataforma
+              </Button>
             </PopoverTrigger>
-
             <PopoverContent className="w-[700px] p-0" onMouseLeave={closePopover}>
               <div className="w-full p-5">
                 <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
@@ -146,7 +175,7 @@ export const NavbarComponent = () => {
                   ].map((item, index) => (
                     <Link href={item.href} key={index}>
                       <div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg flex items-center h-18 h-full">
-                        <div className="mr-3">{item.icon}</div> {/* Ícone à esquerda */}
+                        <div className="mr-3">{item.icon}</div>
                         <div>
                           <h3 className="text-md font-bold">{item.title}</h3>
                           <p>{item.description}</p>
@@ -158,6 +187,12 @@ export const NavbarComponent = () => {
               </div>
             </PopoverContent>
           </Popover>
+        </NavbarItem>
+        {/* Novo Menu Contato */}
+        <NavbarItem className="mt-4">
+          <NextLink href="/contato" className="p-0">
+            <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">Contato</p>
+          </NextLink>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent className="flex mt-5 sm:flex" justify="end">
