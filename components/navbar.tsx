@@ -64,8 +64,8 @@ export const NavbarComponent = () => {
                     {[
                       { href: "/vps-trader", title: "VPS Trader", description: "Servidor veloz para traders." },
                       { href: "/vps-flex", title: "VPS Flex", description: "Servidores custo-benefício único." },
-                      { href: "/semidedicados", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." },
-                      { href: "/colocation", title: "Colocation", description: "Hospede seu próprio servidor em nossa infraestrutura" }
+                      { href: "/semidedicados", title: "VPS FiveM", description: "Servidores pra FiveM e base grátis.." },
+                      { href: "/semidedicados", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." }
                     ].map((item, index) => (
                       <Link href={item.href} key={index}>
                         <div className="p-2 hover:bg-[#303030] rounded-lg">
@@ -190,8 +190,8 @@ export const NavbarComponent = () => {
         </NavbarItem>
         {/* Novo Menu Contato */}
         <NavbarItem className="mt-4">
-          <NextLink href="/contato" className="p-0">
-            <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">Contato</p>
+          <NextLink href="/colocation" className="p-0">
+            <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">Colocation</p>
           </NextLink>
         </NavbarItem>
       </NavbarContent>
