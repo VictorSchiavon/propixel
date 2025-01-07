@@ -161,9 +161,9 @@ export const NavbarComponent = () => {
                       icon: <Gamepad2 />
                     },
                     {
-                      href: "/colocation",
-                      title: "Colocation",
-                      description: "Hospede seu servidor com a RazeHost.",
+                      href: "https://drive.google.com/file/d/1u89J-ACHVAsE8nTUwe9zWOaw06Eaqo16/view",
+                      title: "Termos de Serviço",
+                      description: "Para garantir a melhor experiência, recomendamos a leitura completa dos termos.",
                       icon: <Handshake />
                     },
                     {
@@ -188,6 +188,13 @@ export const NavbarComponent = () => {
             </PopoverContent>
           </Popover>
         </NavbarItem>
+        {/* Novo Menu Contato */}
+        <NavbarItem className="mt-4">
+          <NextLink href="/colocation" className="p-0">
+            <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">Colocation</p>
+          </NextLink>
+        </NavbarItem>
+      </NavbarContent>
       <NavbarContent className="flex mt-5 sm:flex" justify="end">
         <NavbarItem>
           <NextLink href="https://app.razehost.com.br/login">
