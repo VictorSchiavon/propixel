@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Satisfactory",
+    title: "Host de Satisfactory no Brasil",
     description: "A melhor hospedagem de Satisfactory no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "RazeHost Brasil",
     "RazeHost Games",
     "RazeHost VPS",
+    "host satisfactory brasil",
+    "hospedagme de satisfactory",
+    "servidor satisfactory brasil",
     "host de FiveM",
     "hospedagem de FiveM",
     "FiveM Brasil",
@@ -113,7 +116,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Host de Satisfactory | RazeHost',
         description: 'A melhor hospedagem de Satisfactory no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://razehost.com.br/',
+        url: 'https://razehost.com.br/game/satisfactory',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },

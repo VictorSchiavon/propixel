@@ -3,13 +3,15 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de MU Online",
+    title: "Host de MU Online no Brasil",
     description: "A melhor hospedagem de MU no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
     "Raze Host",
     "RazeHost Brasil",
+    "vps mu online",
+    "host mu online brasil",
     "RazeHost Games",
     "RazeHost VPS",
     "host de FiveM",
@@ -113,7 +115,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Host de MU | RazeHost',
         description: 'A melhor hospedagem de MU no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://www.razehost.com.br/',
+        url: 'https://www.razehost.com.br/game/mu',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },

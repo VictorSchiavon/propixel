@@ -3,13 +3,16 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de 7Days To Die",
+    title: "Host de 7Days To Die no Brasil",
     description: "A melhor hospedagem de 7 Days To Die no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
     "Raze Host",
     "RazeHost Brasil",
+    "host 7 days to die brasil",
+    "host de 7 days to die",
+    "7 days to die servidor",
     "RazeHost Games",
     "RazeHost VPS",
     "host de FiveM",
@@ -113,7 +116,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Host de 7Days To Die| RazeHost',
         description: 'A melhor hospedagem de 7 Days To Die no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://razehost.com.br/',
+        url: 'https://razehost.com.br/game/7daystodie',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Valheim",
+    title: "Host de Valheim no Brasil",
     description: "A melhor hospedagem de Valheim no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
@@ -104,6 +104,8 @@ export const metadata: Metadata = {
     "servidor de minecraft",
     "minecraft bedrock",
     "bedrock host",
+    "host valheim brasil",
+    "hospedagem de valheim",
     "cloud gaming",
     "hospedagem web gamer",
     "hospedagem para site de jogos",
@@ -113,7 +115,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Host de Valheim - Hospedagem de Valheim | RazeHost',
         description: 'A melhor hospedagem de Valheim no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://www.razehost.com.br/',
+        url: 'https://www.razehost.com.br/game/valheim',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
