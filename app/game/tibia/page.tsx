@@ -8,7 +8,7 @@ import { PaymentsSectionsComponent } from "@/app/_components/payments-section.co
 
 const vps = [
     {
-        "name": "VPS Hermes",
+        "name": "VPS Tibia",
         "price": "R$39,90",
         "link": "https://app.razehost.com.br/store/vps/vps-hermes",
         "description": {
@@ -20,7 +20,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Hera",
+        "name": "VPS Tibia",
         "price": "R$74,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l1",
         "description": {
@@ -31,7 +31,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Ares",
+        "name": "VPS Tibia",
         "price": "R$139,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l2",
         "description": {
@@ -42,7 +42,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Athena",
+        "name": "VPS Tibia",
         "price": "R$209,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l3",
         "description": {
@@ -53,7 +53,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Hades",
+        "name": "VPS Tibia",
         "price": "R$249,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l4",
         "description": {
@@ -64,7 +64,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Poseidon",
+        "name": "VPS Tibia",
         "price": "R$309,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l5",
         "description": {
@@ -75,7 +75,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Zeus",
+        "name": "VPS Tibia",
         "price": "R$369,00",
         "link": "https://app.razehost.com.br/store/vps/vps-poseidon",
         "description": {
@@ -86,7 +86,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Mestre do Olimpo",
+        "name": "VPS Tibia",
         "price": "R$419,00",
         "link": "https://app.razehost.com.br/store/vps/vps-mestre",
         "description": {
@@ -105,7 +105,7 @@ export default function Games() {
             <section>
                 <div>
                     <h1 className="text-5xl font-bold pt-2 text-center">
-                        Host de Tibia no Brasil
+                        Hospedagem de Tibia no Brasil
                     </h1>
                     <p className="text-muted pt-2 pb-2 text-center">
                         Escolha o plano ideal para seu negócio e evolua conforme suas necessidades.
