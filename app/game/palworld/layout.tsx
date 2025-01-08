@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Palworld",
+    title: "Host de Palworld no Brasil",
     description: "A melhor hospedagem de Palworld no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "RazeHost Brasil",
     "RazeHost Games",
     "RazeHost VPS",
+    "host palworld brasil",
+    "hospedagem palworld brasil",
+    "host de palworld",
     "host de FiveM",
     "hospedagem de FiveM",
     "FiveM Brasil",
@@ -113,7 +116,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Host de Palworld | RazeHost',
         description: 'A melhor hospedagem de Palworld no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://www.razehost.com.br/',
+        url: 'https://www.razehost.com.br/game/palworld',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
