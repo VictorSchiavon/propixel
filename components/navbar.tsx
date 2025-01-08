@@ -202,10 +202,21 @@ export const NavbarComponent = () => {
           </NextLink>
         </NavbarItem>
         <NavbarItem className="sm:block hidden">
-          <div className="p-2 border border-gray-600 rounded-lg">
-            <Image src={logo_br} alt="br-logo" width={20} height={20} />
-          </div>
-        </NavbarItem>
+           <a 
+    href="https://discord.gg/seu-link-aqui" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="p-2 border border-gray-600 rounded-lg"
+  >
+    <Image 
+      src="/discord.png" 
+      alt="Discord" 
+      width={20} 
+      height={20} 
+    />
+  </a>
+</NavbarItem>
+
 
       </NavbarContent>
       <NavbarMenu>
