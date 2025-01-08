@@ -15,7 +15,7 @@ const vps = [
             "ram": "16 GB DDR5",
             "ssd": "120 GB",
             "cores": "8 núcleos",
-            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X, 7 770X, 9 5900X", ]
+            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X, 7 7700X, 9 5900X", ]
         }
     },
     {
@@ -26,7 +26,7 @@ const vps = [
             "ram": "24 GB DDR5",
             "ssd": "160 GB",
             "cores": "9 núcleos",
-            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X, 7 770X, 9 5900X", ]
+            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X, 7 7700X, 9 5900X", ]
         }
     },
     {
@@ -37,7 +37,7 @@ const vps = [
             "ram": "32 GB DDR5",
             "ssd": "200 GB",
             "cores": "10 núcleos",
-            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X, 7 770X, 9 5900X", ]
+            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X, 7 7700X, 9 5900X", ]
         }
     }
 ]
