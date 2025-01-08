@@ -969,27 +969,28 @@
         "game": "Arma Reforger",
         "img": "/games/cards/theforest.webp",
         "name": "Arma Reforger 16GB",
-        "price": "R$199,90",
-        "discountPrice": "R$149,90",
+        "price": "R$249,90",
+        "discountPrice": "R$179,90",
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-3",
         "description": [
             "16GB de RAM",
-            "AMD Ryzen",
+            "AMD Ryzen 9 7950X",
             "25GB SSD NVMe",
-            "Anti DDoS Incluso"
+             "Para servidores grandes"
         ]
     },
     {
         "game": "Arma Reforger",
         "img": "/games/cards/theforest.webp",
         "name": "Arma Reforger 32GB",
-        "price": "R$299,90",
-        "discountPrice": "R$249,90",
+        "price": "R$429,90",
+        "discountPrice": "R$329,90",
         "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-war",
         "description": [
             "32GB de RAM",
-            "AMD Ryzen",
-            "30GB SSD NVMe"
+            "AMD Ryzen 9 7950X",
+            "30GB SSD NVMe",
+            "Para servidores grandes"
         ]
     }
 ],
