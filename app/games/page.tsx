@@ -28,7 +28,7 @@ export default function Games() {
     }
 
     useEffect(() => {
-        const findGame = games.filter((item) => item.id == 1)
+        const findGame = games.filter((item) => item.id == 14)
         setDisplayGame(findGame[0])
     }, [])
 
