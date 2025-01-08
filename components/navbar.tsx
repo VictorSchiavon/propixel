@@ -202,17 +202,18 @@ export const NavbarComponent = () => {
           </NextLink>
         </NavbarItem>
         <NavbarItem className="sm:block hidden">
-           <a 
-    href="https://discord.gg/seu-link-aqui" 
+  <a 
+    href="https://discord.gg/p8YXcEuKdH" 
     target="_blank" 
     rel="noopener noreferrer" 
-    className="p-2 border border-gray-600 rounded-lg"
+    className="flex items-center justify-center p-0 m-0"
   >
     <Image 
       src="/discord.png" 
       alt="Discord" 
       width={20} 
       height={20} 
+      className="p-0 m-0"
     />
   </a>
 </NavbarItem>
