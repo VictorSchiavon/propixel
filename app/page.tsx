@@ -33,8 +33,7 @@ export default function Home() {
 							Sua plataforma de servidores de jogos
 						</h1>
 						<p className="text-lg leading-8 max-w-full font-medium text-zinc-300 lg:max-w-4xl">
-						Com a nossa plataforma prática e eficiente, você configura seu servidor de jogos online em instantes e sem complicações.
-						</p>
+						Com nossa plataforma, você cria servidores de jogo online com facilidade. </br>Oferecemos VPS de alto desempenho para garantir a melhor experiência.</p>
 					</div>
 					<div className="flex flex-col xl:flex-row items-center gap-16">
 						<div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
