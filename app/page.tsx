@@ -21,7 +21,8 @@ export default function Home() {
 	);
 
 	const handleGameSelect = (game: keyof typeof plansGames) => {
-		setIsGameActive(game.replace(/\s+/g, "").toLocaleLowerCase());
+		const formattedGame = game.replace(/\s+/g, "").toLocaleLowerCase() as keyof typeof plansGames;
+		setIsGameActive(formattedGame);
 	};
 	return (
 		<>
