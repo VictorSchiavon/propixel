@@ -127,7 +127,7 @@ export default function Home() {
 					</div>
 				</section>
 
-				<Divider className="mt-36" />
+				<Divider className="mt-32" />
 				<section className="pt-[4%]">
 					<div className="flex items-center justify-center">
 						<div>
