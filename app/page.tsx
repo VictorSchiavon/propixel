@@ -91,7 +91,7 @@ export default function Home() {
 													<a
 														href={plan.link}
 														key={`${index + 1}`}
-														className="overflow-hidden border border-zinc-800 bg-zinc-900 p-6 rounded-lg text-center flex h-[96px] w-[270px] md:w-[500px] items-center justify-between"
+														className="overflow-hidden border border-zinc-800 bg-zinc-900 p-6 rounded-lg text-center flex h-[96px] w-[270px] md:w-[500px] items-center justify-between hover:opacity-85"
 													>
 														<img
 															src={plan.img}
@@ -127,12 +127,11 @@ export default function Home() {
 					</div>
 				</section>
 
-				<Divider className="mt-28" />
+				<Divider className="mt-24" />
 				<section className="pt-[4%]">
 					<div className="flex items-center justify-center">
 						<div>
 							<h1 className="text-md text-center">
-								Usamos as melhores empresas do mundo
 							</h1>
 							<div className="pt-3">
 								<Image src={logo_companies} alt="logo_companies" />
