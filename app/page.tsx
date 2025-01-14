@@ -30,12 +30,10 @@ export default function Home() {
 				<section className="pt-[5%] flex flex-col">
 					<div className="mb-6 flex flex-col">
 						<h1 className="text-5xl font-bold mb-4">
-							Seu próximo servidor de jogo online
+							Sua plataforma de servidores de jogos
 						</h1>
 						<p className="text-lg leading-8 max-w-full font-medium text-zinc-300 lg:max-w-4xl">
-							É a hora de evoluir e criar seu servidor de jogo online. Com a
-							nossa plataforma, você pode criar seu servidor de jogo online em
-							poucos cliques.
+						Com a nossa plataforma prática e eficiente, você configura seu servidor de jogos online em instantes e sem complicações.
 						</p>
 					</div>
 					<div className="flex flex-col xl:flex-row items-center gap-16">
@@ -130,7 +128,7 @@ export default function Home() {
 					</div>
 				</section>
 
-				<Divider className="mt-44" />
+				<Divider className="mt-40" />
 				<section className="pt-[4%]">
 					<div className="flex items-center justify-center">
 						<div>
