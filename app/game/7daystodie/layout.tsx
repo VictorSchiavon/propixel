@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de 7 Days To Die no Brasil",
+    title: "Host de 7Days To Die no Brasil",
     description: "A melhor hospedagem de 7 Days To Die no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
@@ -114,7 +114,7 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de 7 Days To Die| RazeHost',
+        title: 'Host de 7Days To Die| RazeHost',
         description: 'A melhor hospedagem de 7 Days To Die no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://razehost.com.br/game/7daystodie',
         siteName: 'RazeHost',
@@ -122,7 +122,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de 7 Days To Die | RazeHost',
+        title: 'Host de 7Days To Die | RazeHost',
         description: 'A melhor hospedagem de 7 Days To Die no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.webp'],
     },

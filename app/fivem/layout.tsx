@@ -15,8 +15,6 @@ export const metadata: Metadata = {
     "RazeHost Brasil",
     "RazeHost Games",
     "RazeHost VPS",
-    "vps fivem",
-    "vps fivem brasil",
     "host de FiveM",
     "hospedagem de FiveM",
     "FiveM Brasil",

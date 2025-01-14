@@ -1,1101 +1,1145 @@
 {
-    "minecraft": [
-        {
-            "game": "Minecraft",
-            "img": "/games/cards/mine.webp",
-            "name": "Plano Simples",
-            "price": "R$29,99",
-            "discountPrice": "R$ 13,90",
-            "link": "https://app.razehost.com.br/store/minecraft/plano-simples",
-            "description": [
-                "1 GB RAM",
-                "10 GB SSD",
-                "Jogadores ilimitados",
-                "Bungecoord/Proxy",
-                "AMD Ryzen"
-            ]
-        },
-        {
-            "game": "Minecraft",
-            "img": "/games/cards/mine.webp",
-            "name": "Plano Basic",
-            "price": "R$69,99",
-            "discountPrice": "R$ 33,90",
-            "link": "https://app.razehost.com.br/store/minecraft/plano-basic",
-            "description": [
-                "3 GB RAM",
-                "Mods e Plugins",
-                "FTP Web/Filezilla",
-                "Bedrock & Java",
-                "Subdomínio GRÁTIS",
-                "SSD NVMe"
-            ]
-        },
-        {
-            "game": "Minecraft",
-            "img": "/games/cards/mine.webp",
-            "name": "Plano Advanced",
-            "price": "R$69,90",
-            "discountPrice": "R$ 49,90",
-            "link": "https://app.razehost.com.br/store/minecraft/plano-advanced",
-            "description": [
-                "6 GB RAM",
-                "Mods e Plugins",
-                "FTP Web/Filezilla",
-                "Bedrock & Java",
-                "Subdomínio GRÁTIS",
-                "SSD NVMe"
-            ]
-        },
-        {
-            "game": "Minecraft",
-            "img": "/games/cards/mine.webp",
-            "name": "Plano Pro",
-            "price": "R$92,90",
-            "discountPrice": "R$73,90",
-            "link": "https://app.razehost.com.br/store/minecraft/plano-pro",
-            "description": [
-                "10 GB RAM",
-                "Mods e Plugins",
-                "FTP Web/Filezilla",
-                "Bedrock & Java",
-                "Subdomínio GRÁTIS",
-                "SSD NVMe"
-            ]
-        },
-        {
-            "game": "Minecraft",
-            "img": "/games/cards/mine.webp",
-            "name": "Plano Ultra",
-            "price": "R$124,90",
-            "discountPrice": "R$94,90",
-            "link": "https://app.razehost.com.br/store/minecraft/plano-ultra",
-            "description": [
-                "16 GB RAM",
-                "Mods e Plugins",
-                "FTP Web/Filezilla",
-                "Bedrock & Java",
-                "Subdomínio GRÁTIS",
-                "SSD NVMe"
-            ]
-        },
-        {
-            "game": "Minecraft",
-            "img": "/games/cards/mine.webp",
-            "name": "Plano Plus+",
-            "price": "R$169,90",
-            "discountPrice": "R$129,90",
-            "link": "https://app.razehost.com.br/store/minecraft/plano-pluss",
-            "description": [
-                "20 GB RAM",
-                "Mods e Plugins",
-                "FTP Web/Filezilla",
-                "Bedrock & Java",
-                "Subdomínio GRÁTIS",
-                "SSD NVMe"
-            ]
-        }
-    ],
-    "fivem": [
-        {
-            "game": "FiveM",
-            "img": "/games/cards/bigsmoke.webp",
-            "name": "Plano Lester",
-            "price": "R$38,90",
-            "discountPrice": "R$27,80",
-            "link": "https://app.razehost.com.br/store/fivem/plano-lester-crest",
-            "description": [
-                "2GB",
-                "AMD Ryzen",
-                "Jogadores ilimitados",
-                "30GB SSD NVMe M.2",
-                "Gamepanel"
-            ]
-        },
-        {
-            "game": "FiveM",
-            "img": "/games/cards/bigsmoke.webp",
-            "name": "Plano Tommy Vercetti",
-            "price": "R$78,90",
-            "discountPrice": "R$55,60",
-            "link": "https://app.razehost.com.br/store/fivem/plano-tommy-vercetti",
-            "description": [
-                "4GB",
-                "AMD Ryzen",
-                "Jogadores ilimitados",
-                "40GB SSD NVMe M.2",
-                "Gamepanel"
-            ]
-        },
-        {
-            "game": "FiveM",
-            "img": "/games/cards/bigsmoke.webp",
-            "name": "Plano Niko Bellic",
-            "price": "R$128,90",
-            "discountPrice": "R$83,40",
-            "link": "https://app.razehost.com.br/store/fivem/plano-niko-bellic",
-            "description": [
-                "6GB",
-                "AMD Ryzen",
-                "Jogadores ilimitados",
-                "50GB SSD NVMe M.2",
-                "Gamepanel"
-            ]
-        },
-        {
-            "game": "FiveM",
-            "img": "/games/cards/bigsmoke.webp",
-            "name": "Plano Michael",
-            "price": "R$149,90",
-            "discountPrice": "R$111,20",
-            "link": "https://app.razehost.com.br/store/fivem/plano-michael",
-            "description": [
-                "8GB",
-                "AMD Ryzen",
-                "Jogadores ilimitados",
-                "60GB SSD NVMe M.2",
-                "Gamepanel"
-            ]
-        },
-        {
-            "game": "FiveM",
-            "img": "/games/cards/bigsmoke.webp",
-            "name": "Plano Trevor",
-            "price": "R$184,90",
-            "discountPrice": "R$139,00",
-            "link": "https://app.razehost.com.br/store/fivem/plano-trevor",
-            "description": [
-                "10GB",
-                "AMD Ryzen",
-                "Jogadores ilimitados",
-                "70GB SSD NVMe M.2",
-                "Gamepanel"
-            ]
-        },
-        {
-            "game": "FiveM",
-            "img": "/games/cards/bigsmoke.webp",
-            "name": "Plano Franklin",
-            "price": "R$249,90",
-            "discountPrice": "R$222,40",
-            "link": "https://app.razehost.com.br/store/fivem/plano-franklin",
-            "description": [
-                "16GB",
-                "AMD Ryzen",
-                "Jogadores ilimitados",
-                "100GB SSD NVMe M.2",
-                "Gamepanel"
-            ]
-        },
-        {
-            "game": "FiveM",
-            "img": "/games/cards/bigsmoke.webp",
-            "name": "Plano BigSmoke",
-            "price": "R$439,82",
-            "discountPrice": "R$334,80",
-            "link": "https://app.razehost.com.br/store/fivem/plano-bigsmoke",
-            "description": [
-                "24GB",
-                "AMD Ryzen",
-                "Jogadores ilimitados",
-                "200GB SSD NVMe M.2",
-                "Gamepanel"
-            ]
-        },
-        {
-            "game": "FiveM",
-            "img": "/games/cards/bigsmoke.webp",
-            "name": "Plano CJ",
-            "price": "R$639,82",
-            "discountPrice": "R$447,20",
-            "link": "https://app.razehost.com.br/store/fivem/plano-cj",
-            "description": [
-                "32GB",
-                "AMD Ryzen",
-                "Jogadores ilimitados",
-                "250GB SSD NVMe M.2",
-                "Gamepanel"
-            ]
-        }
-    ],
-    "satisfactory": [
-        {
-            "game": "Satisfactory",
-            "img": "/games/satisfactory.webp",
-            "name": "Satisfactory 6GB",
-            "price": "R$90,00",
-            "discountPrice": "R$50,00",
-            "link": "https://app.razehost.com.br/store/satisfactory/satisfactory-6gb",
-            "description": [
-                "6GB de RAM",
-                "Mods e Plugins",
-                "AMD Ryzen",
-                "25GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Satisfactory",
-            "img": "/games/satisfactory.webp",
-            "name": "Satisfactory 8GB",
-            "price": "R$120,00",
-            "discountPrice": "R$80,00",
-            "link": "https://app.razehost.com.br/store/satisfactory/satisfactory-8gb",
-            "description": [
-                "8GB de RAM",
-                "Mods e Plugins",
-                "AMD Ryzen",
-                "25GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Satisfactory",
-            "img": "/games/satisfactory.webp",
-            "name": "Satisfactory 12GB",
-            "price": "R$189,00",
-            "discountPrice": "R$120,00",
-            "link": "https://app.razehost.com.br/store/satisfactory/satisfactory-12gb",
-            "description": [
-                "12GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "25GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Satisfactory",
-            "img": "/games/satisfactory.webp",
-            "name": "Satisfactory 16GB",
-            "price": "R$280,00",
-            "discountPrice": "R$180,00",
-            "link": "https://app.razehost.com.br/store/satisfactory/satisfactory-16gb-1",
-            "description": [
-                "16GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "30GB SSD NVMe M.2"
-            ]
-        }
-    ],
-    "vintagestory": [
-        {
-            "game": "Vintage Story",
-            "img": "/games/cards/vintagestory.webp",
-            "name": "Vintage Story 2GB",
-            "price": "R$60,00",
-            "discountPrice": "R$40,00",
-            "link": "https://app.razehost.com.br/store/vintage-story/vintage-story-2gb",
-            "description": [
-                "2GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "10GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Vintage Story",
-            "img": "/games/cards/vintagestory.webp",
-            "name": "Vintage Story 4GB",
-            "price": "R$1200,00",
-            "discountPrice": "R$700,00",
-            "link": "https://app.razehost.com.br/store/vintage-story/vintage-story-4gb",
-            "description": [
-                "4GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "20GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Vintage Story",
-            "img": "/games/cards/vintagestory.webp",
-            "name": "Vintage Story 6GB",
-            "price": "R$160,00",
-            "discountPrice": "R$100,00",
-            "link": "https://app.razehost.com.br/store/vintage-story/vintage-story-6gb",
-            "description": [
-                "6GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "20GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Vintage Story",
-            "img": "/games/cards/vintagestory.webp",
-            "name": "Vintage Story 10GB",
-            "price": "R$180,00",
-            "discountPrice": "R$130,00",
-            "link": "https://app.razehost.com.br/store/vintage-story/vintage-story-10gb",
-            "description": [
-                "10GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "30GB SSD NVMe M.2"
-            ]
-        }
-    ],
-    "arksurvivalevolved": [
-        {
-            "game": "Ark: Survival Evolved",
-            "img": "/games/ark.webp",
-            "name": "Ark: Survival Evolved 6GB",
-            "price": "R$160,00",
-            "discountPrice": "R$100,00",
-            "link": "https://app.razehost.com.br/store/ark-survival-evolved/ark-survival-evolved-2gb",
-            "description": [
-                "6GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "10GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Ark: Survival Evolved",
-            "img": "/games/ark.webp",
-            "name": "Ark: Survival Evolved 8GB",
-            "price": "R$170,00",
-            "discountPrice": "R$130,00",
-            "link": "https://app.razehost.com.br/store/ark-survival-evolved/ark-survival-evolved-4gb",
-            "description": [
-                "8GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "20GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Ark: Survival Evolved",
-            "img": "/games/ark.webp",
-            "name": "Ark: Survival Evolved 10GB",
-            "price": "R$265,00",
-            "discountPrice": "R$165,00",
-            "link": "https://app.razehost.com.br/store/ark-survival-evolved/ark-survival-evolved-6gb",
-            "description": [
-                "10GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "30GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Ark: Survival Evolved",
-            "img": "/games/ark.webp",
-            "name": "Ark: Survival Evolved 16GB",
-            "price": "R$350,00",
-            "discountPrice": "R$270,00",
-            "link": "https://app.razehost.com.br/store/ark-survival-evolved/ark-survival-evolved-10gb",
-            "description": [
-                "16GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "40GB SSD NVMe M.2"
-            ]
-        }
-    ],
-    "terraria": [
-        {
-            "game": "Terraria",
-            "img": "/games/cards/terraria.webp",
-            "name": "Terraria 2GB",
-            "price": "R$60,00",
-            "discountPrice": "R$40,00",
-            "link": "https://app.razehost.com.br/store/terraria/terraria-2gb",
-            "description": [
-                "2GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "10GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Terraria",
-            "img": "/games/cards/terraria.webp",
-            "name": "Terraria 4GB",
-            "price": "R$90,00",
-            "discountPrice": "R$70,00",
-            "link": "https://app.razehost.com.br/store/terraria/terraria-4gb",
-            "description": [
-                "4GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "20GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Terraria",
-            "img": "/games/cards/terraria.webp",
-            "name": "Terraria 6GB",
-            "price": "R$150,00",
-            "discountPrice": "R$100,00",
-            "link": "https://app.razehost.com.br/store/terraria/terraria-6gb",
-            "description": [
-                "6GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "20GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Terraria",
-            "img": "/games/cards/terraria.webp",
-            "name": "Terraria 10GB",
-            "price": "R$180,00",
-            "discountPrice": "R$130,00",
-            "link": "https://app.razehost.com.br/store/terraria/terraria-10gb",
-            "description": [
-                "10GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "30GB SSD NVMe M.2"
-            ]
-        }
-    ],
-    "palworld": [
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano Starter",
-            "price": "R$123,90",
-            "discountPrice": "R$79,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-starter-palworld",
-            "description": [
-                "Processadores AMD Ryzen",
-                "8 GB RAM",
-                "15 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Xbox Gamepass e Steam"
-            ]
-        },
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano 1",
-            "price": "R$123,90",
-            "discountPrice": "R$95,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-1-palworld-host",
-            "description": [
-                "Processadores AMD Ryzen",
-                "12 GB RAM",
-                "20 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Xbox Gamepass e Steam"
-            ]
-        },
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano 2",
-            "price": "R$179,90",
-            "discountPrice": "R$129,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-2-palworld-host",
-            "description": [
-                "Processadores AMD Ryzen",
-                "15 GB RAM",
-                "25 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Anticheat incluído"
-            ]
-        },
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano 3",
-            "price": "R$250,90",
-            "discountPrice": "R$190,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-3-palworld-host",
-            "description": [
-                "Processadores AMD Ryzen",
-                "20 GB RAM",
-                "30 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Xbox Gamepass e Steam"
-            ]
-        },
-        {
-            "game": "Palworld",
-            "img": "/games/cards/palworld.webp",
-            "name": "Plano 4",
-            "price": "R$429,90",
-            "discountPrice": "R$279,90",
-            "link": "https://app.razehost.com.br/store/palworld/plano-4",
-            "description": [
-                "Processadores AMD Ryzen",
-                "32 GB RAM",
-                "40 GB SSD",
-                "Mods e Plugins",
-                "Anti DDoS Incluso",
-                "Xbox Gamepass e Steam"
-            ]
-        }
-    ],
-    "vrising": [
-        {
-            "game": "V Rising",
-            "img": "/games/cards/vrising.webp",
-            "name": "Plano 1 - Vampiro",
-            "price": "R$89,00",
-            "discountPrice": "R$59,90",
-            "link": "https://app.razehost.com.br/store/vrising/plano-vampiro",
-            "description": [
-                "6 GB RAM",
-                "Processadores Ryzen",
-                "Recomendado até 20 slots/jogadores",
-                "Suporte VOIP",
-                "Mods e Plugins",
-                "Anti DDoS Incluso"
-            ]
-        },
-        {
-            "game": "V Rising",
-            "img": "/games/cards/vrising.webp",
-            "name": "Plano 2 - Drácula",
-            "price": "R$149,90",
-            "discountPrice": "R$119,90",
-            "link": "https://app.razehost.com.br/store/vrising/plano-dracula",
-            "description": [
-                "12 GB RAM",
-                "Processadores Ryzen",
-                "40 players",
-                "Suporte VOIP",
-                "Mods e Plugins",
-                "Anti DDoS Incluso"
-            ]
-        },
-        {
-            "game": "V Rising",
-            "img": "/games/cards/vrising.webp",
-            "name": "Plano 3 - Hardcore Survival",
-            "price": "R$189,90",
-            "discountPrice": "R$139,90",
-            "link": "https://app.razehost.com.br/store/vrising/plano-hardcore-survival",
-            "description": [
-                "16 GB RAM",
-                "Processadores Ryzen",
-                "Suporte VOIP",
-                "Mods e Plugins",
-                "Anti DDoS Incluso"
-            ]
-        }
-    ],
-    "rust": [
-        {
-            "game": "Rust",
-            "img": "/games/cards/rust.webp",
-            "name": "RUST - PLANO SURVIVAL",
-            "price": "R$125,00",
-            "discountPrice": "R$85,00",
-            "link": "https://app.razehost.com.br/store/rust/rust-plano-survival",
-            "description": [
-                "8 GB RAM",
-                "Mods e Plugins",
-                "FTP Web/Filezilla",
-                "25 GB SSD"
-            ]
-        },
-        {
-            "game": "Rust",
-            "img": "/games/cards/rust.webp",
-            "name": "RUST - EVIL SURVIVAL",
-            "price": "R$175,00",
-            "discountPrice": "R$135,00",
-            "link": "https://app.razehost.com.br/store/rust/rust-evil-survival",
-            "description": [
-                "12 GB RAM",
-                "Mods e Plugins",
-                "FTP Web/Filezilla",
-                "25 GB SSD"
-            ]
-        },
-        {
-            "game": "Rust",
-            "img": "/games/cards/rust.webp",
-            "name": "RUST - HARDCORE SURVIVAL",
-            "price": "R$319,90",
-            "discountPrice": "R$200,00",
-            "link": "https://app.razehost.com.br/store/rust/rust-hardcore-survival",
-            "description": [
-                "16 GB RAM",
-                "Mods e Plugins",
-                "FTP Web/Filezilla",
-                "30 GB SSD"
-            ]
-        }
-    ],
-   "7daystodie": [
-        {
-            "game": "7 Days to Die",
-            "img": "/games/cards/7daystodie.webp",
-            "name": "BÁSICO - 7 DAYS TO DIE",
-            "price": "R$94,00",
-            "discountPrice": "R$64,00",
-            "link": "https://app.razehost.com.br/store/7-days-to-die/basico",
-            "description": [
-                "6 GB RAM",
-                "20 GB de armazenamento SSD NVME",
-                "Mods e Plugins",
-                "Subdomínio personalizado"
-            ]
-        },
-        {
-            "game": "7 Days to Die",
-            "img": "/games/cards/7daystodie.webp",
-            "name": "AVANÇADO - 7 DAYS TO DIE",
-            "price": "R$144,00",
-            "discountPrice": "R$104,00",
-            "link": "https://app.razehost.com.br/store/7-days-to-die/avancado",
-            "description": [
-                "8 GB RAM",
-                "30 GB de armazenamento SSD NVME",
-                "Mods e Plugins",
-                "Subdomínio personalizado"
-            ]
-        },
-        {
-            "game": "7 Days to Die",
-            "img": "/games/cards/7daystodie.webp",
-            "name": "SOBREVIVENTE - 7 DAYS TO DIE",
-            "price": "R$195,00",
-            "discountPrice": "R$145,00",
-            "link": "https://app.razehost.com.br/store/7-days-to-die/sobrevivente",
-            "description": [
-                "12 GB RAM",
-                "30 GB de armazenamento SSD NVME",
-                "Mods e Plugins",
-                "Subdomínio personalizado"
-            ]
-        },
-        {
-            "game": "7 Days to Die",
-            "img": "/games/cards/7daystodie.webp",
-            "name": "WALKER - 7 DAYS TO DIE",
-            "price": "R$299,00",
-            "discountPrice": "R$199,00",
-            "link": "https://app.razehost.com.br/store/7-days-to-die/walker",
-            "description": [
-                "16 GB RAM",
-                "35 GB de armazenamento SSD NVME",
-                "Mods e Plugins",
-                "Subdomínio personalizado"
-            ]
-        },
-        {
-            "game": "7 Days to Die",
-            "img": "/games/cards/7daystodie.webp",
-            "name": "MATADOR - 7 DAYS TO DIE",
-            "price": "R$399,00",
-            "discountPrice": "R$299,00",
-            "link": "https://app.razehost.com.br/store/7-days-to-die/matador-7-days-to-die",
-            "description": [
-                "24 GB RAM",
-                "35 GB de armazenamento SSD NVME",
-                "Mods e Plugins",
-                "Subdomínio personalizado"
-            ]
-        }
-    ],
-    "projectzomboid": [
-        {
-            "game": "Project Zomboid",
-            "img": "/games/cards/zomboid.webp",
-            "name": "Project Zomboid - Sobrevivente",
-            "price": "R$55,00",
-            "discountPrice": "R$35,00",
-            "link": "https://app.razehost.com.br/store/project-zomboid/project-zomboid-sobrevivente",
-            "description": [
-                "4 GB RAM",
-                "15 GB de Armazenamento",
-                "5 GB de Armazenamento para Backups",
-                "Slots Ilimitados",
-                "Não recomendado para Mods"
-            ]
-        },
-        {
-            "game": "Project Zomboid",
-            "img": "/games/cards/zomboid.webp",
-            "name": "Project Zomboid - The Walking Dead",
-            "price": "R$105,00",
-            "discountPrice": "R$65,00",
-            "link": "https://app.razehost.com.br/store/project-zomboid/project-zomboid-the-walking-dead",
-            "description": [
-                "6 GB RAM",
-                "25 GB de Armazenamento",
-                "5 GB de Armazenamento para Backups",
-                "Slots Ilimitados",
-                "Recomendado poucos Mods"
-            ]
-        },
-        {
-            "game": "Project Zomboid",
-            "img": "/games/cards/zomboid.webp",
-            "name": "Project Zomboid - Resident Evil",
-            "price": "R$200,00",
-            "discountPrice": "R$100,00",
-            "link": "https://app.razehost.com.br/store/project-zomboid/project-zomboid-resident-evil",
-            "description": [
-                "10 GB RAM",
-                "40 GB de Armazenamento",
-                "5 GB de Armazenamento para Backups",
-                "Slots Ilimitados",
-                "Mods ilimitados"
-            ]
-        }
-    ],
-    "unturned": [
-        {
-            "game": "Unturned",
-            "img": "/games/cards/unturned.webp",
-            "name": "BÁSICO - UNTURNED",
-            "price": "R$49,90",
-            "discountPrice": "R$34,90",
-            "link": "https://app.razehost.com.br/store/unturned/basico",
-            "description": [
-                "3 GB RAM",
-                "10 GB de armazenamento SSD NVME",
-                "Recomendado para até 10 players",
-                "Subdomínio personalizado"
-            ]
-        },
-        {
-            "game": "Unturned",
-            "img": "/games/cards/unturned.webp",
-            "name": "AVANÇADO - UNTURNED",
-            "price": "R$95,99",
-            "discountPrice": "R$74,99",
-            "link": "https://app.razehost.com.br/store/unturned/avancado",
-            "description": [
-                "5 GB RAM",
-                "10 GB de armazenamento SSD NVME",
-                "Recomendado para até 30 players",
-                "Subdomínio personalizado"
-            ]
-        },
-        {
-            "game": "Unturned",
-            "img": "/games/cards/unturned.webp",
-            "name": "ULTIMATE - UNTURNED",
-            "price": "R$158,99",
-            "discountPrice": "R$118,99",
-            "link": "https://app.razehost.com.br/store/unturned/ultimate",
-            "description": [
-                "8 GB RAM",
-                "10 GB de armazenamento SSD NVME",
-                "Recomendado para até 100 players",
-                "Subdomínio personalizado"
-            ]
-        }
-    ],
-    "conanexiles": [
-        {
-            "game": "Conan Exiles",
-            "img": "/games/cards/conanexiles.webp",
-            "name": "Conan Exiles 10GB",
-            "price": "R$150,00",
-            "discountPrice": "R$100,00",
-            "link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-10gb",
-            "description": [
-                "10GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "20GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Conan Exiles",
-            "img": "/games/cards/conanexiles.webp",
-            "name": "Conan Exiles 12GB",
-            "price": "R$175,00",
-            "discountPrice": "R$140,00",
-            "link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-12gb",
-            "description": [
-                "12GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "25GB SSD NVMe M.2"
-            ]
-        },
-        {
-            "game": "Conan Exiles",
-            "img": "/games/cards/conanexiles.webp",
-            "name": "Conan Exiles 16GB",
-            "price": "R$350,00",
-            "discountPrice": "R$280,00",
-            "link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-16gb",
-            "description": [
-                "16GB de RAM",
-                "AMD Ryzen Ilimitado",
-                "Mods e Plugins",
-                "25GB SSD NVMe M.2"
-            ]
-        }
-    ],
-    "mta": [
-        {
-            "game": "MTA",
-            "img": "/games/cards/mta.webp",
-            "name": "MTA - Plano 1",
-            "price": "R$25,00",
-            "discountPrice": "R$10,00",
-            "link": "https://app.razehost.com.br/store/mta/plano-50-slots",
-            "description": [
-                "50 slots",
-                "AMD Ryzen",
-                "Banco de Dados MYSQL",
-                "Acelerador e Compactador"
-            ]
-        },
-        {
-            "game": "MTA",
-            "img": "/games/cards/mta.webp",
-            "name": "MTA - Plano 2",
-            "price": "R$50,00",
-            "discountPrice": "R$20,00",
-            "link": "https://app.razehost.com.br/store/mta/plano-100-slots",
-            "description": [
-                "100 slots",
-                "AMD Ryzen",
-                "Banco de Dados MYSQL",
-                "Acelerador e Compactador"
-            ]
-        },
-        {
-            "game": "MTA",
-            "img": "/games/cards/mta.webp",
-            "name": "MTA - Plano 3",
-            "price": "R$75,00",
-            "discountPrice": "R$35,00",
-            "link": "https://app.razehost.com.br/store/mta/plano-200-slots",
-            "description": [
-                "200 slots",
-                "AMD Ryzen",
-                "Banco de Dados MYSQL",
-                "Acelerador e Compactador"
-            ]
-        },
-        {
-            "game": "MTA",
-            "img": "/games/cards/mta.webp",
-            "name": "MTA - Plano 4",
-            "price": "R$100,00",
-            "discountPrice": "R$55,00",
-            "link": "https://app.razehost.com.br/store/mta/plano-300-slots",
-            "description": [
-                "300 slots",
-                "AMD Ryzen",
-                "Banco de Dados MYSQL",
-                "Acelerador e Compactador"
-            ]
-        }
-    ],
-    "valheim": [
-        {
-            "game": "Valheim",
-            "img": "/games/cards/valheim.webp",
-            "name": "Valheim 3GB",
-            "price": "R$45,00",
-            "discountPrice": "R$30,00",
-            "link": "https://app.razehost.com.br/store/valheim/valheim-3gb",
-            "description": [
-                "3GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "15GB SSD NVMe M.2",
-                "Suporte a crossplay Xbox/PC"
-            ]
-        },
-        {
-            "game": "Valheim",
-            "img": "/games/cards/valheim.webp",
-            "name": "Valheim 6GB",
-            "price": "R$65,00",
-            "discountPrice": "R$50,00",
-            "link": "https://app.razehost.com.br/store/valheim/valheim-6gb",
-            "description": [
-                "6GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "15GB SSD NVMe M.2",
-                "Suporte a crossplay Xbox/PC"
-            ]
-        },
-        {
-            "game": "Valheim",
-            "img": "/games/cards/valheim.webp",
-            "name": "Valheim 8GB",
-            "price": "R$124,00",
-            "discountPrice": "R$80,00",
-            "link": "https://app.razehost.com.br/store/valheim/valheim-8gb",
-            "description": [
-                "8GB de RAM",
-                "AMD Ryzen",
-                "Mods e Plugins",
-                "20GB SSD NVMe M.2",
-                "Suporte a crossplay Xbox/PC"
-            ]
-        },
-        {
-            "game": "Valheim",
-            "img": "/games/cards/valheim.webp",
-            "name": "Valheim 10GB",
-            "price": "R$180,00",
-            "discountPrice": "R$120,00",
-            "link": "https://app.razehost.com.br/store/valheim/valheim-10gb",
-            "description": [
-                "10GB de RAM",
-                "Mods e Plugins",
-                "AMD Ryzen",
-                "25GB SSD NVMe M.2",
-                "Suporte a crossplay Xbox/PC"
-            ]
-        }
-    ],
-    "armareforger": [
-    {
-        "game": "Arma Reforger",
-        "img": "/games/cards/armareforger.webp",
-        "name": "Arma Reforger 6GB",
-        "price": "R$79,90",
-        "discountPrice": "R$49,90",
-        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-1",
-        "description": [
-            "6GB de RAM",
-            "AMD Ryzen",
-            "15GB SSD NVMe",
-            "Anti DDoS Incluso"
-        ]
-    },
-    {
-        "game": "Arma Reforger",
-        "img": "/games/cards/armareforger.webp",
-        "name": "Arma Reforger 10GB",
-        "price": "R$119,90",
-        "discountPrice": "R$89,90",
-        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-2",
-        "description": [
-            "10GB de RAM",
-            "AMD Ryzen",
-            "20GB SSD NVMe",
-            "Anti DDoS Incluso"
-        ]
-    },
-    {
-        "game": "Arma Reforger",
-        "img": "/games/cards/armareforger.webp",
-        "name": "Arma Reforger 16GB",
-        "price": "R$249,90",
-        "discountPrice": "R$179,90",
-        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-3",
-        "description": [
-            "16GB de RAM",
-            "AMD Ryzen 9 7950X",
-            "25GB SSD NVMe",
-             "Para servidores grandes"
-        ]
-    },
-    {
-        "game": "Arma Reforger",
-        "img": "/games/cards/armareforger.webp",
-        "name": "Arma Reforger 32GB",
-        "price": "R$429,90",
-        "discountPrice": "R$329,90",
-        "link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-war",
-        "description": [
-            "32GB de RAM",
-            "AMD Ryzen 9 7950X",
-            "30GB SSD NVMe",
-            "Para servidores grandes"
-        ]
-    }
-],
-"theforest": [
-    {
-        "game": "The Forest",
-        "img": "/games/cards/theforest.webp",
-        "name": "The Forest 6GB",
-        "price": "R$79,90",
-        "discountPrice": "R$49,90",
-        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-1",
-        "description": [
-            "6GB de RAM",
-            "AMD Ryzen",
-            "15GB SSD NVMe",
-            "Anti DDoS Incluso"
-        ]
-    },
-    {
-        "game": "The Forest",
-        "img": "/games/cards/theforest.webp",
-        "name": "The Forest 10GB",
-        "price": "R$119,90",
-        "discountPrice": "R$89,90",
-        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-2",
-        "description": [
-            "10GB de RAM",
-            "AMD Ryzen",
-            "20GB SSD NVMe",
-            "Anti DDoS Incluso"
-        ]
-    },
-    {
-        "game": "The Forest",
-        "img": "/games/cards/theforest.webp",
-        "name": "The Forest 16GB",
-        "price": "R$199,90",
-        "discountPrice": "R$149,90",
-        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-3",
-        "description": [
-            "16GB de RAM",
-            "AMD Ryzen",
-            "25GB SSD NVMe",
-            "Anti DDoS Incluso"
-        ]
-    },
-    {
-        "game": "The Forest",
-        "img": "/games/cards/theforest.webp",
-        "name": "The Forest 32GB",
-        "price": "R$299,90",
-        "discountPrice": "R$249,90",
-        "link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-4",
-        "description": [
-            "32GB de RAM",
-            "AMD Ryzen",
-            "30GB SSD NVMe",
-            "Anti DDoS Incluso"
-        ]
-    }
-],
-"enshrouded": [
-    {
-        "game": "Enshrouded",
-        "img": "/games/cards/enshrouded.webp",
-        "name": "Host de Enshrouded",
-        "price": "R$189,90",
-        "discountPrice": "R$109,90",
-        "link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-2-enshrouded-host",
-        "description": [
-            "2 a 4 players",
-            "AMD Ryzen",
-            "30GB SSD NVMe",
-            "Anti DDoS Incluso"
-        ]
-    },
-    {
-        "game": "Enshrouded",
-        "img": "/games/cards/enshrouded.webp",
-        "name": "Host de Enshrouded",
-        "price": "R$249,90",
-        "discountPrice": "R$159,90",
-        "link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-3-enshrouded-host",
-        "description": [
-            "4 a 6 pessoas",
-            "AMD Ryzen",
-            "40GB SSD NVMe",
-            "Anti DDoS Incluso"
-        ]
-    }
-]
+	"minecraft": [
+		{
+			"game": "Minecraft",
+			"img": "/games/cards/mine.webp",
+			"name": "Plano Simples",
+			"price": "R$29,99",
+			"discountPrice": "R$ 13,90",
+			"link": "https://app.razehost.com.br/store/minecraft/plano-simples",
+			"description": [
+				"1 GB RAM",
+				"10 GB SSD",
+				"Jogadores ilimitados",
+				"Bungecoord/Proxy",
+				"AMD Ryzen"
+			]
+		},
+		{
+			"game": "Minecraft",
+			"img": "/games/cards/mine.webp",
+			"name": "Plano Basic",
+			"price": "R$69,99",
+			"discountPrice": "R$ 33,90",
+			"link": "https://app.razehost.com.br/store/minecraft/plano-basic",
+			"description": [
+				"3 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"Bedrock & Java",
+				"Subdomínio GRÁTIS",
+				"SSD NVMe"
+			]
+		},
+		{
+			"game": "Minecraft",
+			"img": "/games/cards/mine.webp",
+			"name": "Plano Advanced",
+			"price": "R$69,90",
+			"discountPrice": "R$ 49,90",
+			"link": "https://app.razehost.com.br/store/minecraft/plano-advanced",
+			"description": [
+				"6 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"Bedrock & Java",
+				"Subdomínio GRÁTIS",
+				"SSD NVMe"
+			]
+		},
+		{
+			"game": "Minecraft",
+			"img": "/games/cards/mine.webp",
+			"name": "Plano Pro",
+			"price": "R$92,90",
+			"discountPrice": "R$73,90",
+			"link": "https://app.razehost.com.br/store/minecraft/plano-pro",
+			"description": [
+				"10 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"Bedrock & Java",
+				"Subdomínio GRÁTIS",
+				"SSD NVMe"
+			]
+		},
+		{
+			"game": "Minecraft",
+			"img": "/games/cards/mine.webp",
+			"name": "Plano Ultra",
+			"price": "R$124,90",
+			"discountPrice": "R$94,90",
+			"link": "https://app.razehost.com.br/store/minecraft/plano-ultra",
+			"description": [
+				"16 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"Bedrock & Java",
+				"Subdomínio GRÁTIS",
+				"SSD NVMe"
+			]
+		},
+		{
+			"game": "Minecraft",
+			"img": "/games/cards/mine.webp",
+			"name": "Plano Plus+",
+			"price": "R$169,90",
+			"discountPrice": "R$129,90",
+			"link": "https://app.razehost.com.br/store/minecraft/plano-pluss",
+			"description": [
+				"20 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"Bedrock & Java",
+				"Subdomínio GRÁTIS",
+				"SSD NVMe"
+			]
+		}
+	],
+	"fivem": [
+		{
+			"game": "FiveM",
+			"img": "/games/cards/bigsmoke.webp",
+			"name": "Plano Lester",
+			"price": "R$38,90",
+			"discountPrice": "R$27,80",
+			"link": "https://app.razehost.com.br/store/fivem/plano-lester-crest",
+			"description": [
+				"2GB",
+				"AMD Ryzen",
+				"Jogadores ilimitados",
+				"30GB SSD NVMe M.2",
+				"Gamepanel"
+			]
+		},
+		{
+			"game": "FiveM",
+			"img": "/games/cards/bigsmoke.webp",
+			"name": "Plano Tommy Vercetti",
+			"price": "R$78,90",
+			"discountPrice": "R$55,60",
+			"link": "https://app.razehost.com.br/store/fivem/plano-tommy-vercetti",
+			"description": [
+				"4GB",
+				"AMD Ryzen",
+				"Jogadores ilimitados",
+				"40GB SSD NVMe M.2",
+				"Gamepanel"
+			]
+		},
+		{
+			"game": "FiveM",
+			"img": "/games/cards/bigsmoke.webp",
+			"name": "Plano Niko Bellic",
+			"price": "R$128,90",
+			"discountPrice": "R$83,40",
+			"link": "https://app.razehost.com.br/store/fivem/plano-niko-bellic",
+			"description": [
+				"6GB",
+				"AMD Ryzen",
+				"Jogadores ilimitados",
+				"50GB SSD NVMe M.2",
+				"Gamepanel"
+			]
+		},
+		{
+			"game": "FiveM",
+			"img": "/games/cards/bigsmoke.webp",
+			"name": "Plano Michael",
+			"price": "R$149,90",
+			"discountPrice": "R$111,20",
+			"link": "https://app.razehost.com.br/store/fivem/plano-michael",
+			"description": [
+				"8GB",
+				"AMD Ryzen",
+				"Jogadores ilimitados",
+				"60GB SSD NVMe M.2",
+				"Gamepanel"
+			]
+		},
+		{
+			"game": "FiveM",
+			"img": "/games/cards/bigsmoke.webp",
+			"name": "Plano Trevor",
+			"price": "R$184,90",
+			"discountPrice": "R$139,00",
+			"link": "https://app.razehost.com.br/store/fivem/plano-trevor",
+			"description": [
+				"10GB",
+				"AMD Ryzen",
+				"Jogadores ilimitados",
+				"70GB SSD NVMe M.2",
+				"Gamepanel"
+			]
+		},
+		{
+			"game": "FiveM",
+			"img": "/games/cards/bigsmoke.webp",
+			"name": "Plano Franklin",
+			"price": "R$249,90",
+			"discountPrice": "R$222,40",
+			"link": "https://app.razehost.com.br/store/fivem/plano-franklin",
+			"description": [
+				"16GB",
+				"AMD Ryzen",
+				"Jogadores ilimitados",
+				"100GB SSD NVMe M.2",
+				"Gamepanel"
+			]
+		},
+		{
+			"game": "FiveM",
+			"img": "/games/cards/bigsmoke.webp",
+			"name": "Plano BigSmoke",
+			"price": "R$439,82",
+			"discountPrice": "R$334,80",
+			"link": "https://app.razehost.com.br/store/fivem/plano-bigsmoke",
+			"description": [
+				"24GB",
+				"AMD Ryzen",
+				"Jogadores ilimitados",
+				"200GB SSD NVMe M.2",
+				"Gamepanel"
+			]
+		},
+		{
+			"game": "FiveM",
+			"img": "/games/cards/bigsmoke.webp",
+			"name": "Plano CJ",
+			"price": "R$639,82",
+			"discountPrice": "R$447,20",
+			"link": "https://app.razehost.com.br/store/fivem/plano-cj",
+			"description": [
+				"32GB",
+				"AMD Ryzen",
+				"Jogadores ilimitados",
+				"250GB SSD NVMe M.2",
+				"Gamepanel"
+			]
+		}
+	],
+	"satisfactory": [
+		{
+			"game": "Satisfactory",
+			"img": "/games/satisfactory.webp",
+			"name": "Satisfactory 6GB",
+			"price": "R$90,00",
+			"discountPrice": "R$50,00",
+			"link": "https://app.razehost.com.br/store/satisfactory/satisfactory-6gb",
+			"description": [
+				"6GB de RAM",
+				"Mods e Plugins",
+				"AMD Ryzen",
+				"25GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Satisfactory",
+			"img": "/games/satisfactory.webp",
+			"name": "Satisfactory 8GB",
+			"price": "R$120,00",
+			"discountPrice": "R$80,00",
+			"link": "https://app.razehost.com.br/store/satisfactory/satisfactory-8gb",
+			"description": [
+				"8GB de RAM",
+				"Mods e Plugins",
+				"AMD Ryzen",
+				"25GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Satisfactory",
+			"img": "/games/satisfactory.webp",
+			"name": "Satisfactory 12GB",
+			"price": "R$189,00",
+			"discountPrice": "R$120,00",
+			"link": "https://app.razehost.com.br/store/satisfactory/satisfactory-12gb",
+			"description": [
+				"12GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"25GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Satisfactory",
+			"img": "/games/satisfactory.webp",
+			"name": "Satisfactory 16GB",
+			"price": "R$280,00",
+			"discountPrice": "R$180,00",
+			"link": "https://app.razehost.com.br/store/satisfactory/satisfactory-16gb-1",
+			"description": [
+				"16GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"30GB SSD NVMe M.2"
+			]
+		}
+	],
+	"vintagestory": [
+		{
+			"game": "Vintage Story",
+			"img": "/games/cards/vintagestory.webp",
+			"name": "Vintage Story 2GB",
+			"price": "R$60,00",
+			"discountPrice": "R$40,00",
+			"link": "https://app.razehost.com.br/store/vintage-story/vintage-story-2gb",
+			"description": [
+				"2GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"10GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Vintage Story",
+			"img": "/games/cards/vintagestory.webp",
+			"name": "Vintage Story 4GB",
+			"price": "R$120,00",
+			"discountPrice": "R$70,00",
+			"link": "https://app.razehost.com.br/store/vintage-story/vintage-story-4gb",
+			"description": [
+				"4GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"20GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Vintage Story",
+			"img": "/games/cards/vintagestory.webp",
+			"name": "Vintage Story 6GB",
+			"price": "R$160,00",
+			"discountPrice": "R$100,00",
+			"link": "https://app.razehost.com.br/store/vintage-story/vintage-story-6gb",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"20GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Vintage Story",
+			"img": "/games/cards/vintagestory.webp",
+			"name": "Vintage Story 10GB",
+			"price": "R$180,00",
+			"discountPrice": "R$130,00",
+			"link": "https://app.razehost.com.br/store/vintage-story/vintage-story-10gb",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"30GB SSD NVMe M.2"
+			]
+		}
+	],
+	"dayz": [
+		{
+			"game": "DayZ",
+			"img": "/games/cards/dayz.webp",
+			"name": "DayZ 6GB",
+			"price": "R$251,88",
+			"discountPrice": "R$209,90",
+			"link": "https://app.razehost.com.br/cart.php?a=confproduct&i=2",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"60GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "DayZ",
+			"img": "/games/cards/dayz.webp",
+			"name": "DayZ 8GB",
+			"price": "R$299,88",
+			"discountPrice": "R$249,90",
+			"link": "https://app.razehost.com.br/cart.php?a=confproduct&i=3",
+			"description": [
+				"8GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"70GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "DayZ",
+			"img": "/games/cards/dayz.webp",
+			"name": "DayZ 10GB",
+			"price": "R$371,88",
+			"discountPrice": "R$309,90",
+			"link": "https://app.razehost.com.br/cart.php?a=confproduct&i=4",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"80GB SSD NVMe M.2"
+			]
+		}
+	],
+	"arksurvivalevolved": [
+		{
+			"game": "Ark: Survival Evolved",
+			"img": "/games/ark.webp",
+			"name": "Ark: Survival Evolved 6GB",
+			"price": "R$160,00",
+			"discountPrice": "R$100,00",
+			"link": "https://app.razehost.com.br/store/ark-survival-evolved/ark-survival-evolved-2gb",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"10GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Ark: Survival Evolved",
+			"img": "/games/ark.webp",
+			"name": "Ark: Survival Evolved 8GB",
+			"price": "R$170,00",
+			"discountPrice": "R$130,00",
+			"link": "https://app.razehost.com.br/store/ark-survival-evolved/ark-survival-evolved-4gb",
+			"description": [
+				"8GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"20GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Ark: Survival Evolved",
+			"img": "/games/ark.webp",
+			"name": "Ark: Survival Evolved 10GB",
+			"price": "R$265,00",
+			"discountPrice": "R$165,00",
+			"link": "https://app.razehost.com.br/store/ark-survival-evolved/ark-survival-evolved-6gb",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"30GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Ark: Survival Evolved",
+			"img": "/games/ark.webp",
+			"name": "Ark: Survival Evolved 16GB",
+			"price": "R$350,00",
+			"discountPrice": "R$270,00",
+			"link": "https://app.razehost.com.br/store/ark-survival-evolved/ark-survival-evolved-10gb",
+			"description": [
+				"16GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"40GB SSD NVMe M.2"
+			]
+		}
+	],
+	"terraria": [
+		{
+			"game": "Terraria",
+			"img": "/games/cards/terraria.webp",
+			"name": "Terraria 2GB",
+			"price": "R$60,00",
+			"discountPrice": "R$40,00",
+			"link": "https://app.razehost.com.br/store/terraria/terraria-2gb",
+			"description": [
+				"2GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"10GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Terraria",
+			"img": "/games/cards/terraria.webp",
+			"name": "Terraria 4GB",
+			"price": "R$90,00",
+			"discountPrice": "R$70,00",
+			"link": "https://app.razehost.com.br/store/terraria/terraria-4gb",
+			"description": [
+				"4GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"20GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Terraria",
+			"img": "/games/cards/terraria.webp",
+			"name": "Terraria 6GB",
+			"price": "R$150,00",
+			"discountPrice": "R$100,00",
+			"link": "https://app.razehost.com.br/store/terraria/terraria-6gb",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"20GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Terraria",
+			"img": "/games/cards/terraria.webp",
+			"name": "Terraria 10GB",
+			"price": "R$180,00",
+			"discountPrice": "R$130,00",
+			"link": "https://app.razehost.com.br/store/terraria/terraria-10gb",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"30GB SSD NVMe M.2"
+			]
+		}
+	],
+	"palworld": [
+		{
+			"game": "Palworld",
+			"img": "/games/cards/palworld.webp",
+			"name": "Plano Starter",
+			"price": "R$123,90",
+			"discountPrice": "R$79,90",
+			"link": "https://app.razehost.com.br/store/palworld/plano-starter-palworld",
+			"description": [
+				"Processadores AMD Ryzen",
+				"8 GB RAM",
+				"15 GB SSD",
+				"Mods e Plugins",
+				"Anti DDoS Incluso",
+				"Xbox Gamepass e Steam"
+			]
+		},
+		{
+			"game": "Palworld",
+			"img": "/games/cards/palworld.webp",
+			"name": "Plano 1",
+			"price": "R$123,90",
+			"discountPrice": "R$95,90",
+			"link": "https://app.razehost.com.br/store/palworld/plano-1-palworld-host",
+			"description": [
+				"Processadores AMD Ryzen",
+				"12 GB RAM",
+				"20 GB SSD",
+				"Mods e Plugins",
+				"Anti DDoS Incluso",
+				"Xbox Gamepass e Steam"
+			]
+		},
+		{
+			"game": "Palworld",
+			"img": "/games/cards/palworld.webp",
+			"name": "Plano 2",
+			"price": "R$179,90",
+			"discountPrice": "R$129,90",
+			"link": "https://app.razehost.com.br/store/palworld/plano-2-palworld-host",
+			"description": [
+				"Processadores AMD Ryzen",
+				"15 GB RAM",
+				"25 GB SSD",
+				"Mods e Plugins",
+				"Anti DDoS Incluso",
+				"Anticheat incluído"
+			]
+		},
+		{
+			"game": "Palworld",
+			"img": "/games/cards/palworld.webp",
+			"name": "Plano 3",
+			"price": "R$250,90",
+			"discountPrice": "R$190,90",
+			"link": "https://app.razehost.com.br/store/palworld/plano-3-palworld-host",
+			"description": [
+				"Processadores AMD Ryzen",
+				"20 GB RAM",
+				"30 GB SSD",
+				"Mods e Plugins",
+				"Anti DDoS Incluso",
+				"Xbox Gamepass e Steam"
+			]
+		},
+		{
+			"game": "Palworld",
+			"img": "/games/cards/palworld.webp",
+			"name": "Plano 4",
+			"price": "R$429,90",
+			"discountPrice": "R$279,90",
+			"link": "https://app.razehost.com.br/store/palworld/plano-4",
+			"description": [
+				"Processadores AMD Ryzen",
+				"32 GB RAM",
+				"40 GB SSD",
+				"Mods e Plugins",
+				"Anti DDoS Incluso",
+				"Xbox Gamepass e Steam"
+			]
+		}
+	],
+	"vrising": [
+		{
+			"game": "V Rising",
+			"img": "/games/cards/vrising.webp",
+			"name": "Plano 1 - Vampiro",
+			"price": "R$89,00",
+			"discountPrice": "R$59,90",
+			"link": "https://app.razehost.com.br/store/vrising/plano-vampiro",
+			"description": [
+				"6 GB RAM",
+				"Processadores Ryzen",
+				"Recomendado até 20 slots/jogadores",
+				"Suporte VOIP",
+				"Mods e Plugins",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "V Rising",
+			"img": "/games/cards/vrising.webp",
+			"name": "Plano 2 - Drácula",
+			"price": "R$149,90",
+			"discountPrice": "R$119,90",
+			"link": "https://app.razehost.com.br/store/vrising/plano-dracula",
+			"description": [
+				"12 GB RAM",
+				"Processadores Ryzen",
+				"40 players",
+				"Suporte VOIP",
+				"Mods e Plugins",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "V Rising",
+			"img": "/games/cards/vrising.webp",
+			"name": "Plano 3 - Hardcore Survival",
+			"price": "R$189,90",
+			"discountPrice": "R$139,90",
+			"link": "https://app.razehost.com.br/store/vrising/plano-hardcore-survival",
+			"description": [
+				"16 GB RAM",
+				"Processadores Ryzen",
+				"Suporte VOIP",
+				"Mods e Plugins",
+				"Anti DDoS Incluso"
+			]
+		}
+	],
+	"rust": [
+		{
+			"game": "Rust",
+			"img": "/games/cards/rust.webp",
+			"name": "RUST - PLANO SURVIVAL",
+			"price": "R$125,00",
+			"discountPrice": "R$85,00",
+			"link": "https://app.razehost.com.br/store/rust/rust-plano-survival",
+			"description": [
+				"8 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"25 GB SSD"
+			]
+		},
+		{
+			"game": "Rust",
+			"img": "/games/cards/rust.webp",
+			"name": "RUST - EVIL SURVIVAL",
+			"price": "R$175,00",
+			"discountPrice": "R$135,00",
+			"link": "https://app.razehost.com.br/store/rust/rust-evil-survival",
+			"description": [
+				"12 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"25 GB SSD"
+			]
+		},
+		{
+			"game": "Rust",
+			"img": "/games/cards/rust.webp",
+			"name": "RUST - HARDCORE SURVIVAL",
+			"price": "R$319,90",
+			"discountPrice": "R$200,00",
+			"link": "https://app.razehost.com.br/store/rust/rust-hardcore-survival",
+			"description": [
+				"16 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"30 GB SSD"
+			]
+		}
+	],
+	"7daystodie": [
+		{
+			"game": "7 Days to Die",
+			"img": "/games/cards/7daystodie.webp",
+			"name": "BÁSICO - 7 DAYS TO DIE",
+			"price": "R$94,00",
+			"discountPrice": "R$64,00",
+			"link": "https://app.razehost.com.br/store/7-days-to-die/basico",
+			"description": [
+				"6 GB RAM",
+				"20 GB de armazenamento SSD NVME",
+				"Mods e Plugins",
+				"Subdomínio personalizado"
+			]
+		},
+		{
+			"game": "7 Days to Die",
+			"img": "/games/cards/7daystodie.webp",
+			"name": "AVANÇADO - 7 DAYS TO DIE",
+			"price": "R$144,00",
+			"discountPrice": "R$104,00",
+			"link": "https://app.razehost.com.br/store/7-days-to-die/avancado",
+			"description": [
+				"8 GB RAM",
+				"30 GB de armazenamento SSD NVME",
+				"Mods e Plugins",
+				"Subdomínio personalizado"
+			]
+		},
+		{
+			"game": "7 Days to Die",
+			"img": "/games/cards/7daystodie.webp",
+			"name": "SOBREVIVENTE - 7 DAYS TO DIE",
+			"price": "R$195,00",
+			"discountPrice": "R$145,00",
+			"link": "https://app.razehost.com.br/store/7-days-to-die/sobrevivente",
+			"description": [
+				"12 GB RAM",
+				"30 GB de armazenamento SSD NVME",
+				"Mods e Plugins",
+				"Subdomínio personalizado"
+			]
+		},
+		{
+			"game": "7 Days to Die",
+			"img": "/games/cards/7daystodie.webp",
+			"name": "WALKER - 7 DAYS TO DIE",
+			"price": "R$299,00",
+			"discountPrice": "R$199,00",
+			"link": "https://app.razehost.com.br/store/7-days-to-die/walker",
+			"description": [
+				"16 GB RAM",
+				"35 GB de armazenamento SSD NVME",
+				"Mods e Plugins",
+				"Subdomínio personalizado"
+			]
+		},
+		{
+			"game": "7 Days to Die",
+			"img": "/games/cards/7daystodie.webp",
+			"name": "MATADOR - 7 DAYS TO DIE",
+			"price": "R$399,00",
+			"discountPrice": "R$299,00",
+			"link": "https://app.razehost.com.br/store/7-days-to-die/matador-7-days-to-die",
+			"description": [
+				"24 GB RAM",
+				"35 GB de armazenamento SSD NVME",
+				"Mods e Plugins",
+				"Subdomínio personalizado"
+			]
+		}
+	],
+	"projectzomboid": [
+		{
+			"game": "Project Zomboid",
+			"img": "/games/cards/zomboid.webp",
+			"name": "Project Zomboid - Sobrevivente",
+			"price": "R$55,00",
+			"discountPrice": "R$35,00",
+			"link": "https://app.razehost.com.br/store/project-zomboid/project-zomboid-sobrevivente",
+			"description": [
+				"4 GB RAM",
+				"15 GB de Armazenamento",
+				"5 GB de Armazenamento para Backups",
+				"Slots Ilimitados",
+				"Não recomendado para Mods"
+			]
+		},
+		{
+			"game": "Project Zomboid",
+			"img": "/games/cards/zomboid.webp",
+			"name": "Project Zomboid - The Walking Dead",
+			"price": "R$105,00",
+			"discountPrice": "R$65,00",
+			"link": "https://app.razehost.com.br/store/project-zomboid/project-zomboid-the-walking-dead",
+			"description": [
+				"6 GB RAM",
+				"25 GB de Armazenamento",
+				"5 GB de Armazenamento para Backups",
+				"Slots Ilimitados",
+				"Recomendado poucos Mods"
+			]
+		},
+		{
+			"game": "Project Zomboid",
+			"img": "/games/cards/zomboid.webp",
+			"name": "Project Zomboid - Resident Evil",
+			"price": "R$200,00",
+			"discountPrice": "R$100,00",
+			"link": "https://app.razehost.com.br/store/project-zomboid/project-zomboid-resident-evil",
+			"description": [
+				"10 GB RAM",
+				"40 GB de Armazenamento",
+				"5 GB de Armazenamento para Backups",
+				"Slots Ilimitados",
+				"Mods ilimitados"
+			]
+		}
+	],
+	"unturned": [
+		{
+			"game": "Unturned",
+			"img": "/games/cards/unturned.webp",
+			"name": "BÁSICO - UNTURNED",
+			"price": "R$49,90",
+			"discountPrice": "R$34,90",
+			"link": "https://app.razehost.com.br/store/unturned/basico",
+			"description": [
+				"3 GB RAM",
+				"10 GB de armazenamento SSD NVME",
+				"Recomendado para até 10 players",
+				"Subdomínio personalizado"
+			]
+		},
+		{
+			"game": "Unturned",
+			"img": "/games/cards/unturned.webp",
+			"name": "AVANÇADO - UNTURNED",
+			"price": "R$95,99",
+			"discountPrice": "R$74,99",
+			"link": "https://app.razehost.com.br/store/unturned/avancado",
+			"description": [
+				"5 GB RAM",
+				"10 GB de armazenamento SSD NVME",
+				"Recomendado para até 30 players",
+				"Subdomínio personalizado"
+			]
+		},
+		{
+			"game": "Unturned",
+			"img": "/games/cards/unturned.webp",
+			"name": "ULTIMATE - UNTURNED",
+			"price": "R$158,99",
+			"discountPrice": "R$118,99",
+			"link": "https://app.razehost.com.br/store/unturned/ultimate",
+			"description": [
+				"8 GB RAM",
+				"10 GB de armazenamento SSD NVME",
+				"Recomendado para até 100 players",
+				"Subdomínio personalizado"
+			]
+		}
+	],
+	"conanexiles": [
+		{
+			"game": "Conan Exiles",
+			"img": "/games/cards/conanexiles.webp",
+			"name": "Conan Exiles 10GB",
+			"price": "R$150,00",
+			"discountPrice": "R$100,00",
+			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-10gb",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"20GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Conan Exiles",
+			"img": "/games/cards/conanexiles.webp",
+			"name": "Conan Exiles 12GB",
+			"price": "R$175,00",
+			"discountPrice": "R$140,00",
+			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-12gb",
+			"description": [
+				"12GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"25GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Conan Exiles",
+			"img": "/games/cards/conanexiles.webp",
+			"name": "Conan Exiles 16GB",
+			"price": "R$350,00",
+			"discountPrice": "R$280,00",
+			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-16gb",
+			"description": [
+				"16GB de RAM",
+				"AMD Ryzen Ilimitado",
+				"Mods e Plugins",
+				"25GB SSD NVMe M.2"
+			]
+		}
+	],
+	"mta": [
+		{
+			"game": "MTA",
+			"img": "/games/cards/mta.webp",
+			"name": "MTA - Plano 1",
+			"price": "R$25,00",
+			"discountPrice": "R$10,00",
+			"link": "https://app.razehost.com.br/store/mta/plano-50-slots",
+			"description": [
+				"50 slots",
+				"AMD Ryzen",
+				"Banco de Dados MYSQL",
+				"Acelerador e Compactador"
+			]
+		},
+		{
+			"game": "MTA",
+			"img": "/games/cards/mta.webp",
+			"name": "MTA - Plano 2",
+			"price": "R$50,00",
+			"discountPrice": "R$20,00",
+			"link": "https://app.razehost.com.br/store/mta/plano-100-slots",
+			"description": [
+				"100 slots",
+				"AMD Ryzen",
+				"Banco de Dados MYSQL",
+				"Acelerador e Compactador"
+			]
+		},
+		{
+			"game": "MTA",
+			"img": "/games/cards/mta.webp",
+			"name": "MTA - Plano 3",
+			"price": "R$75,00",
+			"discountPrice": "R$35,00",
+			"link": "https://app.razehost.com.br/store/mta/plano-200-slots",
+			"description": [
+				"200 slots",
+				"AMD Ryzen",
+				"Banco de Dados MYSQL",
+				"Acelerador e Compactador"
+			]
+		},
+		{
+			"game": "MTA",
+			"img": "/games/cards/mta.webp",
+			"name": "MTA - Plano 4",
+			"price": "R$100,00",
+			"discountPrice": "R$55,00",
+			"link": "https://app.razehost.com.br/store/mta/plano-300-slots",
+			"description": [
+				"300 slots",
+				"AMD Ryzen",
+				"Banco de Dados MYSQL",
+				"Acelerador e Compactador"
+			]
+		}
+	],
+	"valheim": [
+		{
+			"game": "Valheim",
+			"img": "/games/cards/valheim.webp",
+			"name": "Valheim 3GB",
+			"price": "R$45,00",
+			"discountPrice": "R$30,00",
+			"link": "https://app.razehost.com.br/store/valheim/valheim-3gb",
+			"description": [
+				"3GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"15GB SSD NVMe M.2",
+				"Suporte a crossplay Xbox/PC"
+			]
+		},
+		{
+			"game": "Valheim",
+			"img": "/games/cards/valheim.webp",
+			"name": "Valheim 6GB",
+			"price": "R$65,00",
+			"discountPrice": "R$50,00",
+			"link": "https://app.razehost.com.br/store/valheim/valheim-6gb",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"15GB SSD NVMe M.2",
+				"Suporte a crossplay Xbox/PC"
+			]
+		},
+		{
+			"game": "Valheim",
+			"img": "/games/cards/valheim.webp",
+			"name": "Valheim 8GB",
+			"price": "R$124,00",
+			"discountPrice": "R$80,00",
+			"link": "https://app.razehost.com.br/store/valheim/valheim-8gb",
+			"description": [
+				"8GB de RAM",
+				"AMD Ryzen",
+				"Mods e Plugins",
+				"20GB SSD NVMe M.2",
+				"Suporte a crossplay Xbox/PC"
+			]
+		},
+		{
+			"game": "Valheim",
+			"img": "/games/cards/valheim.webp",
+			"name": "Valheim 10GB",
+			"price": "R$180,00",
+			"discountPrice": "R$120,00",
+			"link": "https://app.razehost.com.br/store/valheim/valheim-10gb",
+			"description": [
+				"10GB de RAM",
+				"Mods e Plugins",
+				"AMD Ryzen",
+				"25GB SSD NVMe M.2",
+				"Suporte a crossplay Xbox/PC"
+			]
+		}
+	],
+	"armareforger": [
+		{
+			"game": "Arma Reforger",
+			"img": "/games/cards/armareforger.webp",
+			"name": "Arma Reforger 6GB",
+			"price": "R$79,90",
+			"discountPrice": "R$49,90",
+			"link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-1",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"15GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "Arma Reforger",
+			"img": "/games/cards/armareforger.webp",
+			"name": "Arma Reforger 10GB",
+			"price": "R$119,90",
+			"discountPrice": "R$89,90",
+			"link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-2",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen",
+				"20GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "Arma Reforger",
+			"img": "/games/cards/armareforger.webp",
+			"name": "Arma Reforger 16GB",
+			"price": "R$249,90",
+			"discountPrice": "R$179,90",
+			"link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-3",
+			"description": [
+				"16GB de RAM",
+				"AMD Ryzen 9 7950X",
+				"25GB SSD NVMe",
+				"Para servidores grandes"
+			]
+		},
+		{
+			"game": "Arma Reforger",
+			"img": "/games/cards/armareforger.webp",
+			"name": "Arma Reforger 32GB",
+			"price": "R$429,90",
+			"discountPrice": "R$329,90",
+			"link": "https://app.razehost.com.br/store/arma-reforger-no-brasil/host-de-arma-reforger-plano-war",
+			"description": [
+				"32GB de RAM",
+				"AMD Ryzen 9 7950X",
+				"30GB SSD NVMe",
+				"Para servidores grandes"
+			]
+		}
+	],
+	"theforest": [
+		{
+			"game": "The Forest",
+			"img": "/games/cards/theforest.webp",
+			"name": "The Forest 6GB",
+			"price": "R$79,90",
+			"discountPrice": "R$49,90",
+			"link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-1",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"15GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "The Forest",
+			"img": "/games/cards/theforest.webp",
+			"name": "The Forest 10GB",
+			"price": "R$119,90",
+			"discountPrice": "R$89,90",
+			"link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-2",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen",
+				"20GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "The Forest",
+			"img": "/games/cards/theforest.webp",
+			"name": "The Forest 16GB",
+			"price": "R$199,90",
+			"discountPrice": "R$149,90",
+			"link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-3",
+			"description": [
+				"16GB de RAM",
+				"AMD Ryzen",
+				"25GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "The Forest",
+			"img": "/games/cards/theforest.webp",
+			"name": "The Forest 32GB",
+			"price": "R$299,90",
+			"discountPrice": "R$249,90",
+			"link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-4",
+			"description": [
+				"32GB de RAM",
+				"AMD Ryzen",
+				"30GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		}
+	],
+	"enshrouded": [
+		{
+			"game": "Enshrouded",
+			"img": "/games/cards/enshrouded.webp",
+			"name": "Host de Enshrouded",
+			"price": "R$189,90",
+			"discountPrice": "R$109,90",
+			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-2-enshrouded-host",
+			"description": [
+				"2 a 4 players",
+				"AMD Ryzen",
+				"30GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "Enshrouded",
+			"img": "/games/cards/enshrouded.webp",
+			"name": "Host de Enshrouded",
+			"price": "R$249,90",
+			"discountPrice": "R$159,90",
+			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-3-enshrouded-host",
+			"description": [
+				"4 a 6 pessoas",
+				"AMD Ryzen",
+				"40GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		}
+	]
 }
