@@ -4,6 +4,7 @@ import { Card, CardBody } from "@nextui-org/react";
 import { BrainCircuit, CircleCheckBig, Cpu, HardDrive, MemoryStick, MonitorCog, ShieldCheck, Zap } from "lucide-react";
 import Image from 'next/image';
 import { PaymentsSectionsComponent } from "../_components/payments-section.component";
+import { CardPromotion } from "../_components/card-promotion";
 
 
 const vps = [
@@ -102,6 +103,7 @@ const vps = [
 export default function Games() {
     return (
         <section className="container mx-auto px-6 flex-grow pt-[2%]">
+            	<CardPromotion />
             <section>
                 <div>
                     <h1 className="text-5xl font-bold pt-2 text-center">
