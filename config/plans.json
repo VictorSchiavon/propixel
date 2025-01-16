@@ -1151,11 +1151,11 @@
 			"name": "Survivor",
 			"price": "R$189,90",
 			"discountPrice": "R$100,00",
-			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-2-enshrouded-host",
+			"link": "https://app.razehost.com.br/store/dayz-no-brasil/dayz-survival",
 			"description": [
 				"8GB de RAM",
 				"AMD Ryzen",
-				"30GB SSD NVMe",
+				"15GB SSD NVMe",
 				"Anti DDoS Incluso"
 			]
 		},
@@ -1165,11 +1165,11 @@
 			"name": "Medium",
 			"price": "R$249,90",
 			"discountPrice": "R$150,00",
-			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-3-enshrouded-host",
+			"link": "https://app.razehost.com.br/store/dayz-no-brasil/dayz-medium",
 			"description": [
 				"10GB de RAM",
 				"AMD Ryzen +",
-				"40GB SSD NVMe",
+				"20GB SSD NVMe",
 				"Anti DDoS Incluso"
 			]
 		},
@@ -1179,11 +1179,11 @@
 			"name": "Apocalipse",
 			"price": "R$249,90",
 			"discountPrice": "R$250,00",
-			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-3-enshrouded-host",
+			"link": "https://app.razehost.com.br/store/dayz-no-brasil/dayz-apocalipse",
 			"description": [
 				"16GB de RAM",
 				"AMD Ryzen ++",
-				"50GB SSD NVMe",
+				"30GB SSD NVMe",
 				"Anti DDoS Incluso"
 			]}
 	]
