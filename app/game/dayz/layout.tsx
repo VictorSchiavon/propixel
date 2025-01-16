@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Dayz",
-    description: "A melhor hospedagem de Dayz no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: "Host de Minecraft no Brasil | Java e Bedrock",
+    description: "Hospede seu servidor de Minecraft no Brasil com suporte para Java e Bedrock. Painel fácil de usar, instalação de mods, proteção Anti DDoS e desempenho incrível para jogar com amigos.",
     keywords: [
         "RazeHost.com.br",
         "RazeHost",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         "Project Zomboid server",
         "host 7 Days to Die",
         "servidor de Satisfactory",
-        "host de Terraria",
+        "servidor de Terraria",
         "servidor de MU Online",
         "host de Tibia",
         "VPS Tibia",
@@ -98,23 +98,29 @@ export const metadata: Metadata = {
         "servidor de Unturned",
         "cloud server",
         "cloud hosting",
+        "host de mta",
+        "host rust brasil",
+        "fivem brasil",
+        "servidor de minecraft",
+        "minecraft bedrock",
+        "bedrock host",
         "cloud gaming",
         "hospedagem web gamer",
         "hospedagem para site de jogos",
         "registro de domínio gamer",
         "domínio para site de jogos"
-        ],
+    ],
     openGraph: {
-        title: 'Host de Dayz | RazeHost',
-        description: 'A melhor hospedagem de Dayz no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        title: 'Host de Minecraft | RazeHost',
+        description: 'A melhor hospedagem de Minecraft no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://www.razehost.com.br/',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de Dayz | RazeHost',
-        description: 'A melhor hospedagem de Dayz no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        title: 'Host de Minecraft | RazeHost',
+        description: 'A melhor hospedagem de Minecraft no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.webp'],
     },
     icons: {
@@ -125,6 +131,29 @@ export const metadata: Metadata = {
 export default function Layout({ children }: { children: React.ReactNode; }) {
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "WebPage",
+                        name: "Host de Minecraft no Brasil | Java e Bedrock",
+                        description:
+                            "Hospede seu servidor de Minecraft no Brasil com suporte para Java e Bedrock. Painel fácil de usar, instalação de mods, proteção Anti DDoS e desempenho incrível para jogar com amigos.",
+                        url: "https://www.razehost.com.br/",
+                        author: {
+                            "@type": "Organization",
+                            name: "RazeHost",
+                        },
+                        potentialAction: {
+                            "@type": "SearchAction",
+                            target: "https://www.razehost.com.br/?s={search_term_string}",
+                            "query-input": "required name=search_term_string",
+                        },
+                    }),
+                }}
+            />
+           
             {children}
         </>
     );
