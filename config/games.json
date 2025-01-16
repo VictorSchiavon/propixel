@@ -132,25 +132,7 @@
 			"refundType": "Reembolso em até 7 dias"
 		}
 	},
-	{
-		"id": 8,
-		"name": "Dayz",
-		"img": "/games/dayz.webp",
-		"logo": "/games/logos/dayz.webp",
-		"link": "/game/dayz",
-		"price": "R$ 129,90",
-		"discountPrice": "R$ 74,90",
-		"new": false,
-		"wallpaper": "/wallpapers/dayz.webp",
-		"contents": {
-			"description": "DayZ é um jogo de sobrevivência em um mundo aberto pós-apocalíptico, onde a interação com outros jogadores é tão importante quanto enfrentar zumbis.",
-			"platform": "PC, PS4, Xbox One",
-			"developer": "Bohemia Interactive",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
+
 	{
 		"id": 9,
 		"name": "Terraria",
@@ -299,6 +281,25 @@
 			"description": "Valheim é um jogo de sobrevivência inspirado na mitologia nórdica, onde você deve explorar, construir e lutar contra monstros em um mundo aberto.",
 			"platform": "PC",
 			"developer": "Iron Gate Studio",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
+		"id": 8,
+		"name": "Dayz",
+		"img": "/games/dayz.webp",
+		"logo": "/games/logos/dayz.webp",
+		"link": "/game/dayz",
+		"price": "R$ 129,90",
+		"discountPrice": "R$ 74,90",
+		"new": false,
+		"wallpaper": "/wallpapers/dayz.webp",
+		"contents": {
+			"description": "DayZ é um jogo de sobrevivência em um mundo aberto pós-apocalíptico, onde a interação com outros jogadores é tão importante quanto enfrentar zumbis.",
+			"platform": "PC, PS4, Xbox One",
+			"developer": "Bohemia Interactive",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
