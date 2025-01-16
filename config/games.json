@@ -76,19 +76,19 @@
 		}
 	},
 	{
-		"id": 5,
-		"name": "V Rising",
-		"img": "/games/vrising.webp",
-		"logo": "/games/logos/vrising_logo.webp",
-		"link": "/game/vrising",
-		"price": "R$ 59,00",
+		"id": 23,
+		"name": "DayZ",
+		"img": "/games/dayz.webp",
+		"logo": "/games/logos/dayz.webp",
+		"link": "/game/dayz",
+		"price": "R$ 85,00",
 		"discountPrice": null,
 		"new": false,
-		"wallpaper": "/wallpapers/vrising.webp",
+		"wallpaper": "/wallpapers/dayz.webp",
 		"contents": {
-			"description": "V Rising é um jogo de ação e sobrevivência onde você assume o papel de um vampiro em um mundo sombrio, caçando e construindo seu império.",
+			"description": "DayZ é um jogo casca-grossa de sobrevivência em mundo aberto com uma só regra: continue vivo, não importa o que aconteça. ",
 			"platform": "PC",
-			"developer": "Stunlock Studios",
+			"developer": "Bohemia Interactive Studio",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
@@ -203,6 +203,25 @@
 			"description": "Satisfactory é um jogo de construção e automação, onde você cria fábricas para explorar um planeta e produzir recursos de forma eficiente.",
 			"platform": "PC",
 			"developer": "Coffee Stain Studios",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
+		"id": 5,
+		"name": "V Rising",
+		"img": "/games/vrising.webp",
+		"logo": "/games/logos/vrising_logo.webp",
+		"link": "/game/vrising",
+		"price": "R$ 59,00",
+		"discountPrice": null,
+		"new": false,
+		"wallpaper": "/wallpapers/vrising.webp",
+		"contents": {
+			"description": "V Rising é um jogo de ação e sobrevivência onde você assume o papel de um vampiro em um mundo sombrio, caçando e construindo seu império.",
+			"platform": "PC",
+			"developer": "Stunlock Studios",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
