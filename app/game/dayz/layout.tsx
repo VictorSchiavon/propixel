@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Rust no Brasil | Alta Performance e Proteção DDoS",
-    description: "Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.",
+    title: "Host de DayZ no Brasil | Alta Performance e Proteção DDoS",
+    description: "Hospede seu servidor de DayZ com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.",
     keywords: [
         "RazeHost.com.br",
         "RazeHost",
@@ -24,6 +24,7 @@ export const metadata: Metadata = {
         "VPS Minecraft",
         "host de Conan Exiles",
         "host DayZ",
+        "host de dayz no brasil",
         "VPS DayZ",
         "VPS Rust",
         "Hospedagem de Rust",
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
         "servidor para Rust com mods",
         "servidor Rust com painel",
         "servidor de Rust online",
-        "servidor Rust com mods",
+        "servidor DayZ com mods",
         "VPS para jogos",
         "host de Project Zomboid",
         "Project Zomboid server",
@@ -114,7 +115,7 @@ export const metadata: Metadata = {
         "cloud server",
         "cloud hosting",
         "host de mta",
-        "host rust brasil",
+        "host DayZ brasil",
         "fivem brasil",
         "servidor de minecraft",
         "minecraft bedrock",
@@ -126,16 +127,16 @@ export const metadata: Metadata = {
         "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Hospedagem de Rust no Brasil | RazeHost',
-        description: 'Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
-        url: 'https://razehost.com.br/game/rust',
+        title: 'Hospedagem de DayZ no Brasil | RazeHost',
+        description: 'Hospede seu servidor de DayZ com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
+        url: 'https://razehost.com.br/game/dayz',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Hospedagem de Rust no Brasil | RazeHost',
-        description: 'Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
+        title: 'Hospedagem de DayZ no Brasil | RazeHost',
+        description: 'Hospede seu servidor de DayZ com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
         images: ['/banner.webp'],
     },
     icons: {
