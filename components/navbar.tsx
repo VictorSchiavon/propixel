@@ -188,12 +188,6 @@ export const NavbarComponent = () => {
             </PopoverContent>
           </Popover>
         </NavbarItem>
-        {/* Novo Menu Contato */}
-        <NavbarItem className="mt-4">
-          <NextLink href="/colocation" className="p-0">
-            <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">Colocation</p>
-          </NextLink>
-        </NavbarItem>
       </NavbarContent>
       <NavbarContent className="flex mt-5 sm:flex" justify="end">
         <NavbarItem>
