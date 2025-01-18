@@ -188,31 +188,38 @@ export const NavbarComponent = () => {
             </PopoverContent>
           </Popover>
         </NavbarItem>
- {/* Novo Menu Contato */}
-<NavbarContent className="flex mt-5 sm:flex" justify="end">
-  <NavbarItem>
-    <NextLink href="https://app.razehost.com.br/login">
-      <Button variant="flat" size="sm" className="text-sm font-normal bg-orange-500 border-0 text-white rounded-full">Acessar minha conta</Button>
-    </NextLink>
-  </NavbarItem>
-  <NavbarItem className="sm:block hidden">
-    <a 
-      href="https://discord.gg/p8YXcEuKdH" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      className="flex items-center justify-center p-0 m-0"
-    >
-      <Image 
-        src="/discord.png" 
-        alt="Discord" 
-        width={20} 
-        height={20} 
-        className="p-0 m-0"
-      />
-    </a>
-  </NavbarItem>
-</NavbarContent>
+        {/* Novo Menu Contato */}
+        <NavbarItem className="mt-4">
+          <NextLink href="/colocation" className="p-0">
+            <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">Colocation</p>
+          </NextLink>
+        </NavbarItem>
+      </NavbarContent>
+      <NavbarContent className="flex mt-5 sm:flex" justify="end">
+        <NavbarItem>
+          <NextLink href="https://app.razehost.com.br/login">
+            <Button variant="flat" size="sm" className="text-sm font-normal bg-orange-500 border-0 text-white rounded-full">Acessar minha conta</Button>
+          </NextLink>
+        </NavbarItem>
+        <NavbarItem className="sm:block hidden">
+  <a 
+    href="https://discord.gg/p8YXcEuKdH" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="flex items-center justify-center p-0 m-0"
+  >
+    <Image 
+      src="/discord.png" 
+      alt="Discord" 
+      width={20} 
+      height={20} 
+      className="p-0 m-0"
+    />
+  </a>
+</NavbarItem>
 
+
+      </NavbarContent>
       <NavbarMenu>
         <NavbarItem key="01" className="mt-4">
           <NextLink href="/" className="p-0">
