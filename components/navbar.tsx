@@ -64,7 +64,7 @@ export const NavbarComponent = () => {
                     {[
                       { href: "/vps-trader", title: "VPS Trader", description: "Servidor veloz para traders." },
                       { href: "/vps-flex", title: "VPS Flex", description: "Servidores custo-benefício único." },
-                      { href: "/fivem", title: "VPS FiveM", description: "Servidores pra FiveM e base grátis." },
+                      { href: "/colocation", title: "Colocation", description: "Hospede seu servidor em nossa infraestrutura." },
                       { href: "/semidedicados", title: "Semidedicados", description: "Configurações superiores, para aplicação grandes." }
                     ].map((item, index) => (
                       <Link href={item.href} key={index}>
