@@ -4,7 +4,7 @@ import React from "react";
 
 export const metadata: Metadata = {
     title: "Host de Rust no Brasil | Alta Performance e Proteção DDoS",
-    description: "Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.",
+    description: "Hospede seu servidor de Aloft com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.",
     keywords: [
         "RazeHost.com.br",
         "RazeHost",
@@ -13,6 +13,7 @@ export const metadata: Metadata = {
         "RazeHost Games",
         "RazeHost VPS",
         "host de FiveM",
+        "host de aloft no brasil",
         "hospedagem de FiveM",
         "FiveM Brasil",
         "FiveM servidor dedicado",
@@ -25,11 +26,11 @@ export const metadata: Metadata = {
         "host de Conan Exiles",
         "host DayZ",
         "VPS DayZ",
-        "VPS Rust",
-        "Hospedagem de Rust",
-        "Host Rust",
-        "Rust Brasil",
-        "servidor de Rust",
+        "VPS Aloft",
+        "Hospedagem de Aloft",
+        "Host Aloft",
+        "Aloft Brasil",
+        "servidor de Aloft",
         "servidor Rust DDoS",
         "servidor Rust Brasil",
         "servidor dedicado Rust",
