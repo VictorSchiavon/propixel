@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Rust no Brasil | Alta Performance e Proteção DDoS",
+    title: "Host de Aloft no Brasil | Alta Performance",
     description: "Hospede seu servidor de Aloft com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.",
     keywords: [
         "RazeHost.com.br",
@@ -127,16 +127,16 @@ export const metadata: Metadata = {
         "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Hospedagem de Rust no Brasil | RazeHost',
-        description: 'Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
-        url: 'https://razehost.com.br/game/rust',
+        title: 'Hospedagem de Aloft no Brasil | RazeHost',
+        description: 'Hospede seu servidor de Aloft com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
+        url: 'https://razehost.com.br/game/aloft',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Hospedagem de Rust no Brasil | RazeHost',
-        description: 'Hospede seu servidor de Rust com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
+        title: 'Hospedagem de Aloft no Brasil | RazeHost',
+        description: 'Hospede seu servidor de Aloft com a melhor performance no Brasil. Com proteção DDoS, painel de gerenciamento avançado e suporte para mods, a RazeHost oferece a melhor experiência para jogos online.',
         images: ['/banner.webp'],
     },
     icons: {
