@@ -29,8 +29,8 @@ const planos = [
       "frequencia": "4.5GHz até 5.4GHz",
       "disponibilidade": true,
       "preco": 1550.00,
-      "nucleos": 16,
-      "threads": 32,
+      "nucleos": 8,
+      "threads": 16,
       "icons": [
         { "icone": <Cpu size={30} />, "titulo": "8 Núcleos", "descricao": "16 Threads" },
         { "icone": <HardDrive size={30} />, "titulo": "Armazenamento", "descricao": "2TB DE SSD NVME" },
