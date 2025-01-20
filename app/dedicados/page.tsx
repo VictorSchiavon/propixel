@@ -11,7 +11,7 @@ const planos = [
     {
       "nome": "AMD Ryzen 5 5600X",
       "frequencia": "4.5GHz até 5.7GHz",
-      "disponibilidade": true,
+      "disponibilidade": false,
       "preco": 800.00,
       "nucleos": 16,
       "threads": 32,
