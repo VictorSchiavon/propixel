@@ -57,6 +57,25 @@
 		}
 	},
 	{
+		"id": 24,
+		"name": "Aloft",
+		"img": "/games/aloft.webp",
+		"logo": "/games/logos/aloft.webp",
+		"link": "/game/aloft",
+		"price": "R$ 122,00",
+		"discountPrice": "R$ 79,40",
+		"new": false,
+		"wallpaper": "/wallpapers/aloft.webp",
+		"contents": {
+			"description": "Viaje pelos céus em Aloft, o jogo de sobrevivência livre e cooperativo em um mundo de ilhas flutuantes.",
+			"platform": "PC",
+			"developer": "Astrolabe Interactive Inc.",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
 		"id": 4,
 		"name": "Project Zomboid",
 		"img": "/games/zomboid.webp",

@@ -1143,6 +1143,49 @@
 		}
 	],
 
+	"aloft": [
+		{
+			"game": "aloft",
+			"img": "/games/cards/aloft.webp",
+			"name": "Plano 1",
+			"price": "R$189,90",
+			"discountPrice": "R$74,90",
+			"link": "https://app.razehost.com.br/store/aloft-no-brasil/aloft-plano-1",
+			"description": [
+				"8GB de RAM",
+				"AMD Ryzen",
+				"15GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "aloft",
+			"img": "/games/cards/aloft.webp",
+			"name": "Plano 2",
+			"price": "R$249,90",
+			"discountPrice": "R$114,90",
+			"link": "https://app.razehost.com.br/store/aloft-no-brasil/aloft-plano-2",
+			"description": [
+				"12GB de RAM",
+				"AMD Ryzen +",
+				"20GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "aloft",
+			"img": "/games/cards/aloft.webp",
+			"name": "Plano 3",
+			"price": "R$249,90",
+			"discountPrice": "R$154,90",
+			"link": "https://app.razehost.com.br/store/aloft-no-brasil/aloft-plano-3",
+			"description": [
+				"16GB de RAM",
+				"AMD Ryzen ++",
+				"30GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]}
+	],
 
 	"dayz": [
 		{
