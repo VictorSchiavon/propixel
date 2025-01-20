@@ -10,7 +10,7 @@ import { ArrowDownToDot, ArrowUpFromDot, Cpu, HardDrive, MemoryStick, Network, S
 const planos = [
     {
       "nome": "AMD Ryzen 5 5600X",
-      "frequencia": "4.5GHz até 5.7GHz",
+      "frequencia": "3.7GHz até 4.6GHz",
       "disponibilidade": false,
       "preco": 800.00,
       "nucleos": 6,
