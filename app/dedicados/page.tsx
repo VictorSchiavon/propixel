@@ -108,7 +108,7 @@ export default function Games() {
     return (
         <section className="container mx-auto px-6 flex-grow pt-[2%]">
             <section>
-                <h1 className="text-2xl text-gray-400 font-semibold">Confira configurações <br /> baremetal disponível na RazeHost.</h1>
+                <h1 className="text-2xl text-gray-400 font-semibold">Confira configurações <br /> baremetal disponível na RazeHost. <br /> Outras configurações podem ser encontradas, valores podem possuir descontos.</h1>
 
                 <section className="pt-10">
                     <div>
