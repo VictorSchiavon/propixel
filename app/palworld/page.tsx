@@ -13,7 +13,7 @@ export default function Home() {
                 <section className="pt-[5%]">
                     <h1 className="text-6xl font-bold pt-4">Crie seu servidor de Palworld</h1>
                     <p className="text-muted pt-5 pb-5">
-                    Ofereça uma experiência de jogo sem interrupções com servidores dedicados para Palworld, com alta performance e estabilidade. Todos os nossos servidores estão localizados em São Paulo, garantindo baixa latência e conexão rápida para jogadores do Brasil. Com suporte para diversas versões do Palworld, incluindo Java e Bedrock, além de compatibilidade com mods e plugins populares, seu servidor estará sempre otimizado para a melhor jogabilidade. Seja para jogar sozinho ou com uma grande comunidade, temos a solução perfeita para seu servidor de Palworld, com recursos escaláveis e confiabilidade garantida.                    </p>
+                    Ofereça uma experiência de jogo sem interrupções com servidores dedicados para Palworld, com alta performance e estabilidade. Todos os nossos servidores estão localizados em São Paulo, garantindo baixa latência e conexão rápida para jogadores do Brasil. Com suporte para diversas versões do Palworld, incluindo Xbox e Steam, além de compatibilidade com mods e plugins populares, seu servidor estará sempre otimizado para a melhor jogabilidade. Seja para jogar sozinho ou com uma grande comunidade, temos a solução perfeita para seu servidor de Palworld, com recursos escaláveis e confiabilidade garantida.                    </p>
                     <div className="pt-5 flex gap-3">
                     <Button className="rounded-md bg-transparent text-white border" onClick={() => window.location.href = '/game/palworld'}>Ver planos</Button>
                     <Button className="rounded-md bg-transparent text-white bg-[#18181B]" onClick={() => window.location.href = 'https://discord.gg/p8YXcEuKdH'}>Entrar em contato</Button>
@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="container mx-auto px-6 flex-grow pt-10">
                     <section>
                         <h2 className="text-4xl font-bold">Palworld Steam e Xbox</h2>
-                        <p className="text-muted pt-2 pb-5">Configure servidores para Xbox e Steam em um único painel, com fácil gerenciamento e recursos avançados. <span className="text-orange-400">Jogue JAVA e BEDROCK juntos.</span></p>
+                        <p className="text-muted pt-2 pb-5">Configure servidores para Xbox e Steam em um único painel, com fácil gerenciamento e recursos avançados. <span className="text-orange-400">Jogue XBOX, Steam juntos.</span></p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-5 pb-10">
                             <Card className="bg-[#0A0C10] rounded-sm">
