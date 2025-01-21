@@ -6,10 +6,10 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
     title: {
-        default: "A melhor hospedagem de Minecraft no Brasil | AMD Ryzen 9",
+        default: "A melhor host de Palworld no Brasil | AMD Ryzen 9",
         template: `%s - ${siteConfig.name}`,
     },
-    description: "Crie seu servidor de Minecraft na RazeHost, rode seu servidor com mods, plugins, e a versão que quiser, servidor de Minecraft é na RazeHost.",
+    description: "Crie seu servidor de Palworld na RazeHost, rode seu servidor com mods, plugins, e a versão que quiser, servidor de Palworld é na RazeHost.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     "FiveM Brasil",
     "FiveM servidor dedicado",
     "servidor de FiveM com proteção DDoS",
-    "host de Minecraft",
-    "A melhor host de Minecraft",
-    "hospedagem de Minecraft",
-    "Minecraft Brasil",
+    "host de palworld",
+    "A melhor host de palworld",
+    "hospedagem de palworld",
+    "palworld Brasil",
     "VPS Minecraft",
     "host de Conan Exiles",
     "host DayZ",
@@ -116,16 +116,16 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'A melhor hospedagem de Minecraft no Brasil | AMD Ryzen 9 | RazeHost',
-        description: 'Crie seu servidor de Minecraft na RazeHost, rode seu servidor com mods, plugins, e a versão que quiser, servidor de Minecraft é na RazeHost.',
-        url: 'https://razehost.com.br/',
+        title: 'A melhor hospedagem de Palworld no Brasil | AMD Ryzen 9 | RazeHost',
+        description: 'Crie seu servidor de Palworld na RazeHost, rode seu servidor com mods, plugins, e a versão que quiser, servidor de Palworld é na RazeHost.',
+        url: 'https://razehost.com.br/palworld',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'A melhor hospedagem de Minecraft no Brasil | AMD Ryzen 9 | RazeHost',
-        description: 'Crie seu servidor de Minecraft na RazeHost, rode seu servidor com mods, plugins, e a versão que quiser, servidor de Minecraft é na RazeHost.',
+        title: 'A melhor hospedagem de Palworld no Brasil | AMD Ryzen 9 | RazeHost',
+        description: 'Crie seu servidor de Palworld na RazeHost, rode seu servidor com mods, plugins, e a versão que quiser, servidor de Palworld é na RazeHost.',
         images: ['/banner.webp'],
     },
     icons: {
