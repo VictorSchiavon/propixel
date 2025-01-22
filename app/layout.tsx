@@ -1,4 +1,3 @@
-import Footer from "@/components/footer";
 import { NavbarComponent } from "@/components/navbar";
 import { siteConfig } from "@/config/site";
 import "@/styles/globals.css";
@@ -6,6 +5,7 @@ import clsx from "clsx";
 import { Metadata, Viewport } from "next";
 import { Inter } from 'next/font/google';
 import { Providers } from "./providers";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: {
