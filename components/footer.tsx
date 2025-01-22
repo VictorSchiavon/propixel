@@ -78,12 +78,6 @@ const Footer = () => {
                     })}
                 </div>
             </div>
-            <Script id="intercom">{`
-                window.intercomSettings = {
-                    api_base: "https://api-iam.intercom.io",
-                    app_id: "sephaq3d",
-                };
-            `}</Script>
             <Script id="ahrefs-analytics" src="https://analytics.ahrefs.com/analytics.js" data-key="BnN5UiGRCrViwc2OGU9mjQ" defer={true}></Script>
            <Script id="google-analytics">{`
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -98,6 +92,13 @@ const Footer = () => {
 
     gtag('config', 'G-DRZ3S40SFS');
 `}</Script>
+            <Script id="intercom">{`
+                window.intercomSettings = {
+                    api_base: "https://api-iam.intercom.io",
+                    app_id: "sephaq3d",
+                };
+            `}</Script>
+           
 
 
             <Script id="intercom2">{`
