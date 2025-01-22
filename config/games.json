@@ -233,7 +233,7 @@
 		"name": "Ark",
 		"img": "/games/ark.webp",
 		"logo": "/games/logos/ark.webp",
-		"link": "/game/ark_survival_evolved",
+		"link": "/game/ark",
 		"price": "R$ 150,00",
 		"discountPrice": "R$ 100,00",
 		"new": false,
