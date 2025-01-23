@@ -38,6 +38,25 @@
 		}
 	},
 	{
+		"id": 6,
+		"name": "Rust",
+		"img": "/games/rust.webp",
+		"logo": "/games/logos/rust.webp",
+		"link": "/game/rust",
+		"price": "R$ 120,00",
+		"discountPrice": "R$ 85,00",
+		"new": false,
+		"wallpaper": "/wallpapers/rust.webp",
+		"contents": {
+			"description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
+			"platform": "PC",
+			"developer": "Facepunch Studios",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
 		"id": 3,
 		"name": "7 Days to Die",
 		"img": "/games/7daystoDie.webp",
@@ -56,25 +75,7 @@
 			"refundType": "Reembolso em até 7 dias"
 		}
 	},
-	{
-		"id": 24,
-		"name": "Aloft",
-		"img": "/games/aloft.webp",
-		"logo": "/games/logos/aloft.webp",
-		"link": "/game/aloft",
-		"price": "R$ 122,00",
-		"discountPrice": "R$ 74,90",
-		"new": false,
-		"wallpaper": "/wallpapers/aloft2.webp",
-		"contents": {
-			"description": "Viaje pelos céus em Aloft, o jogo de sobrevivência livre e cooperativo em um mundo de ilhas flutuantes.",
-			"platform": "PC",
-			"developer": "Astrolabe Interactive Inc.",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
+
 	{
 		"id": 4,
 		"name": "Project Zomboid",
@@ -114,25 +115,6 @@
 		}
 	},
 	{
-		"id": 6,
-		"name": "Rust",
-		"img": "/games/rust.webp",
-		"logo": "/games/logos/rust.webp",
-		"link": "/game/rust",
-		"price": "R$ 120,00",
-		"discountPrice": "R$ 85,00",
-		"new": false,
-		"wallpaper": "/wallpapers/rust.webp",
-		"contents": {
-			"description": "Rust é um jogo de sobrevivência online onde você começa com nada e deve coletar recursos, construir bases e lutar contra outros jogadores.",
-			"platform": "PC",
-			"developer": "Facepunch Studios",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
-	{
 		"id": 7,
 		"name": "Unturned",
 		"img": "/games/unturned.webp",
@@ -166,6 +148,25 @@
 			"description": "Terraria é um jogo de ação e aventura em 2D, onde você pode explorar, minerar, lutar e construir em um mundo gerado aleatoriamente.",
 			"platform": "PC, Xbox, PlayStation, Switch",
 			"developer": "Re-Logic",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
+		"id": 24,
+		"name": "Aloft",
+		"img": "/games/aloft.webp",
+		"logo": "/games/logos/aloft.webp",
+		"link": "/game/aloft",
+		"price": "R$ 122,00",
+		"discountPrice": "R$ 74,90",
+		"new": false,
+		"wallpaper": "/wallpapers/aloft2.webp",
+		"contents": {
+			"description": "Viaje pelos céus em Aloft, o jogo de sobrevivência livre e cooperativo em um mundo de ilhas flutuantes.",
+			"platform": "PC",
+			"developer": "Astrolabe Interactive Inc.",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
