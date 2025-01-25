@@ -272,9 +272,9 @@
 		"name": "FiveM",
 		"img": "/games/cards/fivem.webp",
 		"logo": "/games/logos/gtav.webp",
-		"link": "/game/fivem",
-		"price": "R$ 39,90",
-		"discountPrice": "R$ 27,80",
+		"link": "/fivem",
+		"price": "R$ 159,90",
+		"discountPrice": "R$ 79,40",
 		"new": false,
 		"wallpaper": "/wallpapers/fivem.webp",
 		"contents": {
