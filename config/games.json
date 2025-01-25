@@ -446,7 +446,7 @@
 		"logo": "/games/logos/tf2.webp",
 		"link": "/team-fortress-2",
 		"price": "R$ 59,90",
-		"discountPrice": "R$ 39,90",
+		"discountPrice": "R$ 32",
 		"new": true,
 		"wallpaper": "/wallpapers/tf2.webp",
 		"contents": {
