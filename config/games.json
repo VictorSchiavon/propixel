@@ -38,6 +38,25 @@
 		}
 	},
 	{
+		"id": 1,
+		"name": "FiveM",
+		"img": "/games/cards/fivem.webp",
+		"logo": "/games/logos/gtav.webp",
+		"link": "/fivem",
+		"price": "R$ 159,90",
+		"discountPrice": "R$ 79,40",
+		"new": false,
+		"wallpaper": "/wallpapers/fivem.webp",
+		"contents": {
+			"description": "FiveM é uma plataforma que permite criar servidores personalizados para o jogo Grand Theft Auto V, com modos de jogo exclusivos, scripts personalizados e conteúdo modificado.",
+			"platform": "PC",
+			"developer": "Rockstar Games",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
 		"id": 6,
 		"name": "Rust",
 		"img": "/games/rust.webp",
@@ -77,25 +96,6 @@
 	},
 
 	{
-		"id": 4,
-		"name": "Project Zomboid",
-		"img": "/games/zomboid.webp",
-		"logo": "/games/logos/zomboid.webp",
-		"link": "/game/projectzomboid",
-		"price": "R$ 55,00",
-		"discountPrice": "R$ 35,00",
-		"new": false,
-		"wallpaper": "/wallpapers/zomboid.webp",
-		"contents": {
-			"description": "Project Zomboid é um jogo de sobrevivência onde você deve enfrentar um apocalipse zumbi, com ênfase em realismo e gestão de recursos.",
-			"platform": "PC",
-			"developer": "The Indie Stone",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
-	{
 		"id": 23,
 		"name": "DayZ",
 		"img": "/games/dayz.webp",
@@ -109,6 +109,25 @@
 			"description": "DayZ é um jogo casca-grossa de sobrevivência em mundo aberto com uma só regra: continue vivo, não importa o que aconteça. ",
 			"platform": "PC",
 			"developer": "Bohemia Interactive Studio",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
+		"id": 4,
+		"name": "Project Zomboid",
+		"img": "/games/zomboid.webp",
+		"logo": "/games/logos/zomboid.webp",
+		"link": "/game/projectzomboid",
+		"price": "R$ 55,00",
+		"discountPrice": "R$ 35,00",
+		"new": false,
+		"wallpaper": "/wallpapers/zomboid.webp",
+		"contents": {
+			"description": "Project Zomboid é um jogo de sobrevivência onde você deve enfrentar um apocalipse zumbi, com ênfase em realismo e gestão de recursos.",
+			"platform": "PC",
+			"developer": "The Indie Stone",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
@@ -262,25 +281,6 @@
 			"description": "Conan Exiles é um jogo de sobrevivência ambientado no universo de Conan, onde você deve construir, caçar e lutar para sobreviver em um mundo brutal.",
 			"platform": "PC, PS4, Xbox One",
 			"developer": "Funcom",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
-	{
-		"id": 1,
-		"name": "FiveM",
-		"img": "/games/cards/fivem.webp",
-		"logo": "/games/logos/gtav.webp",
-		"link": "/fivem",
-		"price": "R$ 159,90",
-		"discountPrice": "R$ 79,40",
-		"new": false,
-		"wallpaper": "/wallpapers/fivem.webp",
-		"contents": {
-			"description": "FiveM é uma plataforma que permite criar servidores personalizados para o jogo Grand Theft Auto V, com modos de jogo exclusivos, scripts personalizados e conteúdo modificado.",
-			"platform": "PC",
-			"developer": "Rockstar Games",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
