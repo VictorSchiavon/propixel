@@ -17,7 +17,7 @@ const planos = [
       "threads": 12,
       "icons": [
         { "icone": <Cpu size={30} />, "titulo": "6 Núcleos", "descricao": "12 Threads" },
-        { "icone": <HardDrive size={30} />, "titulo": "Armazenamento", "descricao": "2TB DE SSD NVME" },
+        { "icone": <HardDrive size={30} />, "titulo": "Armazenamento", "descricao": "1TB DE SSD NVME" },
         { "icone": <Network size={30} />, "titulo": "Rede", "descricao": "1GBPS UPLINK" },
         { "icone": <MemoryStick size={30} />, "titulo": "64GB DE RAM", "descricao": "DDR4" },
         { "icone": <ArrowUpFromDot size={30} />, "titulo": "Inputstream", "descricao": "20Tb Incluso" },
