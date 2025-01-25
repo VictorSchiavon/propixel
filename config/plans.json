@@ -1221,7 +1221,7 @@
 		{
 			"game": "dayz",
 			"img": "/games/cards/dayz.webp",
-			"name": "Survivor",
+			"name": "Survivor Experimental",
 			"price": "R$189,90",
 			"discountPrice": "R$100,00",
 			"link": "https://app.razehost.com.br/store/dayz-no-brasil/dayz-survival",
@@ -1235,7 +1235,7 @@
 		{
 			"game": "DayZ",
 			"img": "/games/cards/dayz.webp",
-			"name": "Medium",
+			"name": "Medium Experimental",
 			"price": "R$249,90",
 			"discountPrice": "R$150,00",
 			"link": "https://app.razehost.com.br/store/dayz-no-brasil/dayz-medium",
@@ -1249,7 +1249,7 @@
 		{
 			"game": "Enshrouded",
 			"img": "/games/cards/dayz.webp",
-			"name": "Apocalipse",
+			"name": "Apocalipse Experimental",
 			"price": "R$249,90",
 			"discountPrice": "R$250,00",
 			"link": "https://app.razehost.com.br/store/dayz-no-brasil/dayz-apocalipse",
