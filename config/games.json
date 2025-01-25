@@ -440,6 +440,25 @@
 		}
 	},
 	{
+		"id": 25,
+		"name": "Team Fortress 2",
+		"img": "/games/tf2.webp",
+		"logo": "/games/logos/tf2.webp",
+		"link": "/teamfortress2",
+		"price": "R$ 39,90",
+		"discountPrice": "R$ 19,90",
+		"new": true,
+		"wallpaper": "/wallpapers/tf2.webp",
+		"contents": {
+			"description": "Team Fortress 2 é um jogo eletrônico free-to-play multijogador de tiro em primeira pessoa desenvolvido pela Valve, baseado em equipes e com foco em combates.",
+			"platform": "PC, PlayStation 3, Xbox",
+			"developer": "Valve Corporation",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
 		"id": 22,
 		"name": "Enshrouded",
 		"img": "/games/enshrouded.webp",

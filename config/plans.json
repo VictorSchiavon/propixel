@@ -1187,6 +1187,37 @@
 			]}
 	],
 
+	"teamfortress2": [
+		{
+			"game": "teamfortress2",
+			"img": "/games/cards/tf2.webp",
+			"name": "Plano 1",
+			"price": "R$39,90",
+			"discountPrice": "R$19,90",
+			"link": "https://app.razehost.com.br/store/team-fortress-2/plano-1",
+			"description": [
+				"2GB de RAM",
+				"AMD Ryzen",
+				"20GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "teamfortress2",
+			"img": "/games/cards/tf2.webp",
+			"name": "Plano 2",
+			"price": "R$59,90",
+			"discountPrice": "R$39,90",
+			"link": "https://app.razehost.com.br/store/team-fortress-2/plano-2",
+			"description": [
+				"12GB de RAM",
+				"AMD Ryzen +",
+				"35GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+	],
+
 	"dayz": [
 		{
 			"game": "dayz",
