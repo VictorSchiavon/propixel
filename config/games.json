@@ -311,7 +311,7 @@
 		"name": "Dayz",
 		"img": "/games/dayz.webp",
 		"logo": "/games/logos/dayz.webp",
-		"link": "/game/dayz",
+		"link": "/dayz",
 		"price": "R$ 129,90",
 		"discountPrice": "R$ 74,90",
 		"new": false,
