@@ -19,7 +19,7 @@ const planos = [
         { "icone": <Cpu size={30} />, "titulo": "6 Núcleos", "descricao": "12 Threads" },
         { "icone": <HardDrive size={30} />, "titulo": "Armazenamento", "descricao": "2TB DE SSD NVME" },
         { "icone": <Network size={30} />, "titulo": "Rede", "descricao": "1GBPS UPLINK" },
-        { "icone": <MemoryStick size={30} />, "titulo": "128GB DE RAM", "descricao": "DDR5" },
+        { "icone": <MemoryStick size={30} />, "titulo": "64GB DE RAM", "descricao": "DDR4" },
         { "icone": <ArrowUpFromDot size={30} />, "titulo": "Inputstream", "descricao": "20Tb Incluso" },
         { "icone": <ArrowDownToDot size={30} />, "titulo": "Outputstream", "descricao": "20Tb Incluso" }
       ]
@@ -35,7 +35,7 @@ const planos = [
         { "icone": <Cpu size={30} />, "titulo": "8 Núcleos", "descricao": "16 Threads" },
         { "icone": <HardDrive size={30} />, "titulo": "Armazenamento", "descricao": "2TB DE SSD NVME" },
         { "icone": <Network size={30} />, "titulo": "Rede", "descricao": "1GBPS UPLINK" },
-        { "icone": <MemoryStick size={30} />, "titulo": "128GB DE RAM", "descricao": "DDR5 5200MHz" },
+        { "icone": <MemoryStick size={30} />, "titulo": "128GB DE RAM", "descricao": "DDR5" },
         { "icone": <ArrowUpFromDot size={30} />, "titulo": "Inputstream", "descricao": "20Tb Incluso" },
         { "icone": <ArrowDownToDot size={30} />, "titulo": "Outputstream", "descricao": "20Tb Incluso" }
       ]
@@ -51,7 +51,7 @@ const planos = [
         { "icone": <Cpu size={30} />, "titulo": "12 Núcleos", "descricao": "24 Threads" },
         { "icone": <HardDrive size={30} />, "titulo": "Armazenamento", "descricao": "2TB DE SSD NVME" },
         { "icone": <Network size={30} />, "titulo": "Rede", "descricao": "1GBPS UPLINK" },
-        { "icone": <MemoryStick size={30} />, "titulo": "128GB DE RAM", "descricao": "DDR5 5200MHz" },
+        { "icone": <MemoryStick size={30} />, "titulo": "128GB DE RAM", "descricao": "DDR5" },
         { "icone": <ArrowUpFromDot size={30} />, "titulo": "Inputstream", "descricao": "20Tb Incluso" },
         { "icone": <ArrowDownToDot size={30} />, "titulo": "Outputstream", "descricao": "20Tb Incluso" }
       ]
