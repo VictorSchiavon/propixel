@@ -94,26 +94,26 @@
 			"refundType": "Reembolso em até 7 dias"
 		}
 	},
-
 	{
-		"id": 23,
-		"name": "DayZ Experimental",
+		"id": 8,
+		"name": "Dayz",
 		"img": "/games/dayz.webp",
 		"logo": "/games/logos/dayz.webp",
-		"link": "/game/dayz",
-		"price": "R$ 100,00",
-		"discountPrice": null,
+		"link": "/dayz",
+		"price": "R$ 129,90",
+		"discountPrice": "R$ 74,90",
 		"new": false,
 		"wallpaper": "/wallpapers/dayz.webp",
 		"contents": {
-			"description": "DayZ é um jogo casca-grossa de sobrevivência em mundo aberto com uma só regra: continue vivo, não importa o que aconteça. ",
-			"platform": "PC",
-			"developer": "Bohemia Interactive Studio",
+			"description": "DayZ é um jogo de sobrevivência em um mundo aberto pós-apocalíptico, onde a interação com outros jogadores é tão importante quanto enfrentar zumbis.",
+			"platform": "PC, PS4, Xbox One",
+			"developer": "Bohemia Interactive",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
 		}
 	},
+
 	{
 		"id": 4,
 		"name": "Project Zomboid",
@@ -128,25 +128,6 @@
 			"description": "Project Zomboid é um jogo de sobrevivência onde você deve enfrentar um apocalipse zumbi, com ênfase em realismo e gestão de recursos.",
 			"platform": "PC",
 			"developer": "The Indie Stone",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
-	{
-		"id": 7,
-		"name": "Unturned",
-		"img": "/games/unturned.webp",
-		"logo": "/games/logos/unturned.webp",
-		"link": "/game/unturned",
-		"price": "R$ 34,90",
-		"discountPrice": null,
-		"new": false,
-		"wallpaper": "/wallpapers/unturned.webp",
-		"contents": {
-			"description": "Unturned é um jogo de sobrevivência em mundo aberto com gráficos de estilo simplificado, onde você deve lutar contra zumbis e outros jogadores.",
-			"platform": "PC",
-			"developer": "Smartly Dressed Games",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
@@ -268,6 +249,25 @@
 		}
 	},
 	{
+		"id": 7,
+		"name": "Unturned",
+		"img": "/games/unturned.webp",
+		"logo": "/games/logos/unturned.webp",
+		"link": "/game/unturned",
+		"price": "R$ 34,90",
+		"discountPrice": null,
+		"new": false,
+		"wallpaper": "/wallpapers/unturned.webp",
+		"contents": {
+			"description": "Unturned é um jogo de sobrevivência em mundo aberto com gráficos de estilo simplificado, onde você deve lutar contra zumbis e outros jogadores.",
+			"platform": "PC",
+			"developer": "Smartly Dressed Games",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
 		"id": 5,
 		"name": "V Rising",
 		"img": "/games/vrising.webp",
@@ -281,6 +281,25 @@
 			"description": "V Rising é um jogo de ação e sobrevivência onde você assume o papel de um vampiro em um mundo sombrio, caçando e construindo seu império.",
 			"platform": "PC",
 			"developer": "Stunlock Studios",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
+		"id": 23,
+		"name": "DayZ Experimental",
+		"img": "/games/dayz.webp",
+		"logo": "/games/logos/dayz.webp",
+		"link": "/game/dayz",
+		"price": "R$ 100,00",
+		"discountPrice": null,
+		"new": false,
+		"wallpaper": "/wallpapers/dayz.webp",
+		"contents": {
+			"description": "DayZ é um jogo casca-grossa de sobrevivência em mundo aberto com uma só regra: continue vivo, não importa o que aconteça. ",
+			"platform": "PC",
+			"developer": "Bohemia Interactive Studio",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
@@ -344,25 +363,7 @@
 			"refundType": "Reembolso em até 7 dias"
 		}
 	},
-	{
-		"id": 8,
-		"name": "Dayz",
-		"img": "/games/dayz.webp",
-		"logo": "/games/logos/dayz.webp",
-		"link": "/dayz",
-		"price": "R$ 129,90",
-		"discountPrice": "R$ 74,90",
-		"new": false,
-		"wallpaper": "/wallpapers/dayz.webp",
-		"contents": {
-			"description": "DayZ é um jogo de sobrevivência em um mundo aberto pós-apocalíptico, onde a interação com outros jogadores é tão importante quanto enfrentar zumbis.",
-			"platform": "PC, PS4, Xbox One",
-			"developer": "Bohemia Interactive",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
+
 	{
 		"id": 16,
 		"name": "RedM",
