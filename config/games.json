@@ -426,7 +426,7 @@
 		"name": "MTA",
 		"img": "/games/multiteftauto.webp",
 		"logo": "/games/logos/mta.webp",
-		"link": "/game/mta",
+		"link": "/mta",
 		"price": "R$ 30,00",
 		"discountPrice": "R$ 10,00",
 		"new": false,
