@@ -3,13 +3,15 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Vintage Story",
+    title: "Host de Vintage Story no Brasil",
     description: "A melhor hospedagem de Vintage Story no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
     "Raze Host",
     "RazeHost Brasil",
+    "host vintage story",
+    "host de vintage story",
     "RazeHost Games",
     "RazeHost VPS",
     "host de FiveM",
