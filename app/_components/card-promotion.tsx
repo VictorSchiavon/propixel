@@ -33,9 +33,12 @@ export const CardPromotion = () => {
 				</p>
 			</div>
 			<div className="text-center mt-10">
-				<button className="bg-amber-500 px-20 py-4 rounded-xl hover:bg-amber-600 duration-250 font-bold">
-					Aproveitar Promoção
-				</button>
+			<a href="https://app.razehost.com.br/store" target="_blank" rel="noopener noreferrer">
+  <button className="bg-amber-500 px-20 py-4 rounded-xl hover:bg-amber-600 duration-250 font-bold">
+    Aproveitar Promoção
+  </button>
+</a>
+
 			</div>
 			<div className="text-center mt-5">
 				<p className="opacity-50 text-xs">
