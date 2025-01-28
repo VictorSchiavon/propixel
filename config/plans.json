@@ -667,6 +667,40 @@
 				"FTP Web/Filezilla",
 				"30 GB SSD"
 			]
+		},
+		{
+			"game": "Rust",
+			"img": "/games/cards/rust.webp",
+			"name": "RUST - FALLOUT",
+			"price": "R$320,00",
+			"discountPrice": null,
+			"link": "https://app.razehost.com.br/store/rust/rust-fallout",
+			"description": [
+				"AMD Ryzen 9 7950X, 9 7900X3D, 9 7900X",
+				"24 GB RAM",
+				"Proteção Anti DDoS",
+				"FTP Web/Filezilla",
+				"35 GB SSD",
+				"Ping 5-25",
+				"Servidores grandes"
+			]
+		},
+		{
+			"game": "Rust",
+			"img": "/games/cards/rust.webp",
+			"name": "RUST - FINAL SURVIVAL",
+			"price": "R$440,00",
+			"discountPrice": null,
+			"link": "https://app.razehost.com.br/store/rust/rust-final-survival",
+			"description": [
+				"AMD Ryzen 9 7950X, 9 7900X3D, 9 7900X",
+				"32 GB RAM",
+				"Proteção Anti DDoS",
+				"FTP Web/Filezilla",
+				"50 GB SSD",
+				"Ping 5-25",
+				"Servidores grandes++"
+			]
 		}
 	],
 	"7daystodie": [
