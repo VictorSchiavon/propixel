@@ -480,6 +480,25 @@
 		}
 	},
 	{
+		"id": 26,
+		"name": "Ragnarok",
+		"img": "/games/ragnarok.webp",
+		"logo": "/games/logos/tf2.webp",
+		"link": "/ragnarokssh",
+		"price": "R$ 59,90",
+		"discountPrice": "R$ 29,90",
+		"new": true,
+		"wallpaper": "/wallpapers/tf2.webp",
+		"contents": {
+			"description": "Ragnarök Online é um clássico dos MMORPGs! Com acesso gratuito, aventure-se ao lado de milhares de outros jogadores no carismático mundo de Rune-Midgard.",
+			"platform": "PC",
+			"developer": "Gravity Corporation",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
 		"id": 21,
 		"name": "The Forest",
 		"img": "/games/theforest.webp",
