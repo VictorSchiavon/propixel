@@ -113,7 +113,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Host de Terraria | RazeHost',
         description: 'A melhor hospedagem de Terraria no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://razehost.com.br/',
+        url: 'https://razehost.com.br/terraria',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
