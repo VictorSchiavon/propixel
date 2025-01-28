@@ -7,7 +7,7 @@ export const CardPromotion = () => {
 	if (!isVisible) return null; // Se não for visível, não renderiza nada
 
 	return (
-		<div className="hidden fixed opacity-95 flex flex-col bottom-8 left-8 z-10 border border-zinc-800 bg-zinc-900 p-6 rounded-lg  w-[270px] md:w-[400px] overflow-hidden">
+		<div className="fixed opacity-95 flex flex-col bottom-8 left-8 z-10 border border-zinc-800 bg-zinc-900 p-6 rounded-lg w-[270px] md:w-[400px] overflow-hidden">
 			<div className="absolute right-1 top-1">
 				<button
 					onClick={() => setIsVisible(false)}
