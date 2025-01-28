@@ -672,8 +672,8 @@
 			"game": "Rust",
 			"img": "/games/cards/rust.webp",
 			"name": "RUST - FALLOUT",
-			"price": "R$320,00",
-			"discountPrice": null,
+			"price": "R$350,00",
+			"discountPrice": "R$320,00",
 			"link": "https://app.razehost.com.br/store/rust/rust-fallout",
 			"description": [
 				"AMD Ryzen 9 7950X, 9 7900X3D, 9 7900X",
@@ -689,8 +689,8 @@
 			"game": "Rust",
 			"img": "/games/cards/rust.webp",
 			"name": "RUST - FINAL SURVIVAL",
-			"price": "R$440,00",
-			"discountPrice": null,
+			"price": "R$550,00",
+			"discountPrice": "R$440,00",
 			"link": "https://app.razehost.com.br/store/rust/rust-final-survival",
 			"description": [
 				"AMD Ryzen 9 7950X, 9 7900X3D, 9 7900X",
