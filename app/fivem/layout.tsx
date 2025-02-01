@@ -4,10 +4,10 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: {
-        default: "Hospedagem de FiveM no Brasil | AMD Ryzen 9",
+        default: "Host de FiveM no Brasil | AMD Ryzen 9",
         template: `%s - ${siteConfig.name}`,
     },
-    description: "VPS FiveM com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",
+    description: "A melhor host de Fivem no Brasil processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -116,7 +116,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Hospedagem de FiveM no Brasil | AMD Ryzen 9 | RazeHost',
         description: 'A melhor host de FiveM com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.',
-        url: 'https://razehost.com.br/',
+        url: 'https://razehost.com.br/fivem',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },

@@ -9,7 +9,7 @@ import { CardPromotion } from "../_components/card-promotion";
 
 const vps = [
     {
-        "name": "VPS Hermes",
+        "name": "VPS Lester",
         "price": "R$39,90",
         "link": "https://app.razehost.com.br/store/vps/vps-hermes",
         "description": {
@@ -21,7 +21,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Hera",
+        "name": "VPS Tommy Vercetti",
         "price": "R$74,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l1",
         "description": {
@@ -32,7 +32,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Ares",
+        "name": "VPS Niko Bellic",
         "price": "R$139,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l2",
         "description": {
@@ -43,7 +43,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Athena",
+        "name": "VPS Michael",
         "price": "R$209,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l3",
         "description": {
@@ -54,7 +54,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Hades",
+        "name": "VPS Trevor",
         "price": "R$249,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l4",
         "description": {
@@ -65,7 +65,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Poseidon",
+        "name": "VPS Franklin",
         "price": "R$309,90",
         "link": "https://app.razehost.com.br/store/vps/vps-l5",
         "description": {
@@ -76,7 +76,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Zeus",
+        "name": "VPS Big Smoke",
         "price": "R$369,00",
         "link": "https://app.razehost.com.br/store/vps/vps-poseidon",
         "description": {
@@ -87,7 +87,7 @@ const vps = [
         }
     },
     {
-        "name": "VPS Mestre do Olimpo",
+        "name": "VPS CJ",
         "price": "R$419,00",
         "link": "https://app.razehost.com.br/store/vps/vps-mestre",
         "description": {
