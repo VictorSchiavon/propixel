@@ -442,25 +442,6 @@
 	},
 
 	{
-		"id": 21,
-		"name": "The Forest",
-		"img": "/games/theforest.webp",
-		"logo": "/games/logos/theforest.webp",
-		"link": "/game/theforest",
-		"price": "R$ 99,00",
-		"discountPrice": "R$ 49,90",
-		"new": true,
-		"wallpaper": "/wallpapers/theforest.webp",
-		"contents": {
-			"description": "The Forest é um jogo de sobrevivência em mundo aberto, onde o jogador deve lutar para sobreviver após um acidente de avião em uma ilha desabitada. O jogo apresenta uma mistura de construção, exploração e combate com criaturas mutantes.",
-			"platform": "PC, PlayStation 4",
-			"developer": "Endnight Games",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
-	{
 		"id": 25,
 		"name": "Team Fortress 2",
 		"img": "/games/tf2.webp",
