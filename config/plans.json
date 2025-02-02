@@ -917,7 +917,7 @@
 			"discountPrice": "R$10,00",
 			"link": "https://app.razehost.com.br/store/mta/plano-50-slots",
 			"description": [
-				"50 slots",
+				"512 MB",
 				"AMD Ryzen",
 				"Banco de Dados MYSQL",
 				"Acelerador e Compactador"
@@ -931,7 +931,7 @@
 			"discountPrice": "R$20,00",
 			"link": "https://app.razehost.com.br/store/mta/plano-100-slots",
 			"description": [
-				"100 slots",
+				"2GB RAM",
 				"AMD Ryzen",
 				"Banco de Dados MYSQL",
 				"Acelerador e Compactador"
@@ -945,7 +945,7 @@
 			"discountPrice": "R$35,00",
 			"link": "https://app.razehost.com.br/store/mta/plano-200-slots",
 			"description": [
-				"200 slots",
+				"4GB RAM",
 				"AMD Ryzen",
 				"Banco de Dados MYSQL",
 				"Acelerador e Compactador"
@@ -959,7 +959,7 @@
 			"discountPrice": "R$55,00",
 			"link": "https://app.razehost.com.br/store/mta/plano-300-slots",
 			"description": [
-				"300 slots",
+				"6GB RAM",
 				"AMD Ryzen",
 				"Banco de Dados MYSQL",
 				"Acelerador e Compactador"
