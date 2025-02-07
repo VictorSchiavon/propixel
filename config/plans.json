@@ -1148,7 +1148,7 @@
 		{
 			"game": "Enshrouded",
 			"img": "/games/cards/enshrouded.webp",
-			"name": "Host de Enshrouded",
+			"name": "Plano 1",
 			"price": "R$189,90",
 			"discountPrice": "R$109,90",
 			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-2-enshrouded-host",
@@ -1159,15 +1159,30 @@
 				"Anti DDoS Incluso"
 			]
 		},
+		
 		{
 			"game": "Enshrouded",
 			"img": "/games/cards/enshrouded.webp",
-			"name": "Host de Enshrouded",
+			"name": "Plano 2",
 			"price": "R$249,90",
 			"discountPrice": "R$159,90",
 			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-3-enshrouded-host",
 			"description": [
 				"4 a 6 pessoas",
+				"AMD Ryzen",
+				"40GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "Enshrouded",
+			"img": "/games/cards/enshrouded.webp",
+			"name": "Plano 3",
+			"price": "R$249,90",
+			"discountPrice": "R$159,90",
+			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-aventurador",
+			"description": [
+				"6 a 8 pessoas",
 				"AMD Ryzen",
 				"40GB SSD NVMe",
 				"Anti DDoS Incluso"
