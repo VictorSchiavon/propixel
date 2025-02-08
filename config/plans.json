@@ -1369,9 +1369,9 @@
 						]}
 			],
 
-			"Icarus": [
+			"icarus": [
 		{
-			"game": "Icarus",
+			"game": "icarus",
 			"img": "/games/cards/icarus.webp",
 			"name": "Plano 1",
 			"price": "R$109,90",
@@ -1385,7 +1385,7 @@
 			]
 		},
 		{
-			"game": "Icarus",
+			"game": "icarus",
 			"img": "/games/cards/icarus.webp",
 			"name": "Plano 2",
 			"price": "R$139,90",
