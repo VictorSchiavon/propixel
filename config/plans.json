@@ -1264,6 +1264,50 @@
 				]}
 			],
 
+			"arma3": [
+		{
+			"game": "arma3",
+			"img": "/games/cards/arma3.webp",
+			"name": "Plano 1",
+			"price": "R$69,90",
+			"discountPrice": "R$49,90",
+			"link": "https://app.razehost.com.br/store/arma-3-no-brasil/plano-1-1",
+			"description": [
+				"4GB de RAM",
+				"AMD Ryzen",
+				"20GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "arma3",
+			"img": "/games/cards/arma3.webp",
+			"name": "Plano 2",
+			"price": "R$99,90",
+			"discountPrice": "R$89,90",
+			"link": "https://app.razehost.com.br/store/arma-3-no-brasil/plano-2-1",
+			"description": [
+				"8GB de RAM",
+				"AMD Ryzen +",
+				"25GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+				{
+					"game": "arma3",
+					"img": "/games/cards/arma3.webp",
+					"name": "Plano 3",
+					"price": "R$149,90",
+					"discountPrice": "R$129,90",
+					"link": "https://app.razehost.com.br/store/arma-3-no-brasil/plano-3",
+					"description": [
+						"12GB de RAM",
+						"AMD Ryzen +",
+						"30GB SSD NVMe",
+						"Anti DDoS Incluso"
+						]}
+			],
+
 	"dayz": [
 		{
 			"game": "dayz",
