@@ -1264,6 +1264,36 @@
 				]}
 			],
 
+			"avorion": [
+		{
+			"game": "avorion",
+			"img": "/games/cards/avorion.webp",
+			"name": "Plano 1",
+			"price": "R$10,00",
+			"discountPrice": "R$70,00",
+			"link": "https://app.razehost.com.br/store/avorion/avorion",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"15GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "avorion",
+			"img": "/games/cards/avorion.webp",
+			"name": "Plano 2",
+			"price": "R$199,90",
+			"discountPrice": "R$116,00",
+			"link": "https://app.razehost.com.br/store/avorion/plano-avorion-2",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen +",
+				"20GB SSD NVMe",
+				"Anti DDoS Incluso"
+				]}
+			],
+
 			"arma3": [
 		{
 			"game": "arma3",
