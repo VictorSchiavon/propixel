@@ -1269,7 +1269,7 @@
 			"game": "avorion",
 			"img": "/games/cards/avorion.webp",
 			"name": "Plano 1",
-			"price": "R$10,00",
+			"price": "R$100,00",
 			"discountPrice": "R$70,00",
 			"link": "https://app.razehost.com.br/store/avorion/avorion",
 			"description": [
@@ -1293,6 +1293,37 @@
 				"Anti DDoS Incluso"
 				]}
 			],
+
+"barotrauma": [
+		{
+			"game": "barotrauma",
+			"img": "/games/cards/barotrauma.webp",
+			"name": "Plano 1",
+			"price": "R$80,00",
+			"discountPrice": "R$59,90",
+			"link": "https://app.razehost.com.br/store/barotrauma-brasil/barotrauma-6gb",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"15GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "barotrauma",
+			"img": "/games/cards/barotrauma.webp",
+			"name": "Plano 2",
+			"price": "R$129,90",
+			"discountPrice": "R$89,90",
+			"link": "https://app.razehost.com.br/store/barotrauma-brasil/barotrauma-10gb",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen +",
+				"20GB SSD NVMe",
+				"Anti DDoS Incluso"
+				]}
+			],
+
 
 			"arma3": [
 		{
