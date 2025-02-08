@@ -440,6 +440,82 @@
 			"refundType": "Reembolso em até 7 dias"
 		}
 	},
+	{
+		"id": 27,
+		"name": "Arma 3",
+		"img": "/games/arma3.webp",
+		"logo": "/games/logos/arma3.webp",
+		"link": "/arma-3",
+		"price": "R$ 69,90",
+		"discountPrice": "R$ 49,90",
+		"new": true,
+		"wallpaper": "/wallpapers/arma3.webp",
+		"contents": {
+			"description": "Em Arma 3, viva um jogo de combate realista num mundo aberto militar descomunal.",
+			"platform": "PC, PlayStation 3, Xbox",
+			"developer": "Bohemia Interactive",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
+		"id": 28,
+		"name": "Avorion",
+		"img": "/games/avorion.webp",
+		"logo": "/games/logos/avorion.webp",
+		"link": "/avorion",
+		"price": "R$ 100,00",
+		"discountPrice": "R$ 70,00",
+		"new": true,
+		"wallpaper": "/wallpapers/avorion.webp",
+		"contents": {
+			"description": "Várias centenas de anos atrás, uma catástrofe cataclísmica quase rasgou sua galáxia - um anel intransponível de tecido do hiperespaço rasgado apareceu no centro da galáxia, que os motores normais do hiperespaço podem superar.",
+			"platform": "PC",
+			"developer": "Boxelware",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
+		"id": 29,
+		"name": "Icarus",
+		"img": "/games/icarus.webp",
+		"logo": "/games/logos/icarus.webp",
+		"link": "/icarus",
+		"price": "R$ 109,90",
+		"discountPrice": "R$ 89,90",
+		"new": true,
+		"wallpaper": "/wallpapers/icarus.webp",
+		"contents": {
+			"description": "ICARUS é um jogo de sobrevivência PvE com modos de mundo aberto persistentes e baseados em missões para até oito jogadores cooperativos.",
+			"platform": "PC",
+			"developer": "RocketWerkz",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
+		"id": 30,
+		"name": "Barotrauma",
+		"img": "/games/barotrauma.webp",
+		"logo": "/games/logos/barotrauma.webp",
+		"link": "/barotrauma",
+		"price": "R$ 89,90",
+		"discountPrice": "R$ 59,90",
+		"new": true,
+		"wallpaper": "/wallpapers/barotrauma.webp",
+		"contents": {
+			"description": "Barotrauma é um simulador cooperativo em 2D de terror, sobrevivência e RPG, no espaço. .",
+			"platform": "PC",
+			"developer": "Undertow Games",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
 
 	{
 		"id": 25,
