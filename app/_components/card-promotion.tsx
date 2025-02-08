@@ -7,7 +7,7 @@ export const CardPromotion = () => {
 	if (!isVisible) return null; // Se não for visível, não renderiza nada
 
 	return (
-<div className="hidden fixed opacity-95 flex flex-col bottom-8 left-8 z-10 border border-zinc-800 bg-zinc-900 p-6 rounded-lg  w-[270px] md:w-[400px] overflow-hidden">
+<div className="fixed opacity-95 flex flex-col bottom-8 left-8 z-10 border border-zinc-800 bg-zinc-900 p-6 rounded-lg w-[270px] md:w-[400px] overflow-hidden">
 			<div className="absolute right-1 top-1">
 				<button
 					onClick={() => setIsVisible(false)}
@@ -25,11 +25,11 @@ export const CardPromotion = () => {
 			</div>
 			<div className="mt-4">
 				<h3 className="text-center text-amber-500 font-extrabold text-xs md:text-base lg:text-2xl">
-					Promoção Especial!!
+					PRIMEIRA COMPRA!
 				</h3>
 				<p className="text-xs opacity-85 mt-4 md:text-sm text-center">
-					Aproveite R$ 30,00 de desconto na sua primeira compra com o cupom
-					ESPECIAL30!
+					Aproveite 25 de desconto na sua primeira compra com o cupom
+					ESPECIAL25!
 				</p>
 			</div>
 			<div className="text-center mt-10">
