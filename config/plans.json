@@ -1369,6 +1369,50 @@
 						]}
 			],
 
+			"Icarus": [
+		{
+			"game": "Icarus",
+			"img": "/games/cards/icarus.webp",
+			"name": "Plano 1",
+			"price": "R$109,90",
+			"discountPrice": "R$89,90",
+			"link": "https://app.razehost.com.br/store/icarus-no-brasil/icarus-8gb",
+			"description": [
+				"6GB de RAM",
+				"AMD Ryzen",
+				"15GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "Icarus",
+			"img": "/games/cards/icarus.webp",
+			"name": "Plano 2",
+			"price": "R$139,90",
+			"discountPrice": "R$109,90",
+			"link": "https://app.razehost.com.br/store/icarus-no-brasil/icarus-10gb",
+			"description": [
+				"10GB de RAM",
+				"AMD Ryzen +",
+				"20GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+				{
+					"game": "Icarus",
+					"img": "/games/cards/icarus.webp",
+					"name": "Plano 3",
+					"price": "R$149,90",
+					"discountPrice": "R$139,90",
+					"link": "https://app.razehost.com.br/store/icarus-no-brasil/icarus-16gb",
+					"description": [
+						"16GB de RAM",
+						"AMD Ryzen +",
+						"25GB SSD NVMe",
+						"Anti DDoS Incluso"
+						]}
+			],
+
 	"dayz": [
 		{
 			"game": "dayz",
