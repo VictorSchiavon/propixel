@@ -8,7 +8,6 @@ import { PaymentsSectionsComponent } from "./_components/payments-section.compon
 import { useState } from "react";
 import gamesData from "@/config/games.json";
 import plansData from "@/config/plans.json";
-import { CardPromotion } from "../_components/card-promotion";
 
 
 export default function Home() {

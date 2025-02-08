@@ -13,7 +13,6 @@ import 'swiper/css/pagination';
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { calculateDiscountPercentage, CardGameComponent } from "./_components/card-game-plans.component";
-import { CardPromotion } from "../_components/card-promotion";
 
 export default function Games() {
     const gamesWithDiscount = games.filter(game => game.discountPrice !== null);
