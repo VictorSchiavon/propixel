@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { PaymentsSectionsComponent } from "../_components/payments-section.component";
-
+import { CardPromotion } from "../_components/card-promotion";
 
 const vps = [
 	{
