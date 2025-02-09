@@ -25,7 +25,7 @@ export const CardPromotion = () => {
 			</div>
 			<div className="mt-4">
 				<h3 className="text-center text-amber-500 font-extrabold text-xs md:text-base lg:text-2xl">
-					PRIMEIRA COMPRA!
+					Jogos: Primeira Compra!
 				</h3>
 				<p className="text-xs opacity-85 mt-4 md:text-sm text-center">
 					Aproveite 25 de desconto na sua primeira compra com o cupom
