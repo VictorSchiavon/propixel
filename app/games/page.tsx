@@ -13,6 +13,8 @@ import 'swiper/css/pagination';
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { calculateDiscountPercentage, CardGameComponent } from "./_components/card-game-plans.component";
+import { CardPromotion } from "../_components/card-promotion";
+
 
 export default function Games() {
     const gamesWithDiscount = games.filter(game => game.discountPrice !== null);
@@ -34,6 +36,7 @@ export default function Games() {
 
     return (
         <section className="container mx-auto px-6 flex-grow pt-[2%]">
+            <CardPromotion />
             <section>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-4">
                     <div className="flex gap-4 sm:col-span-2 lg:col-span-6 justify-start">

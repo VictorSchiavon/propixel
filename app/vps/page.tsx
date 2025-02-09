@@ -109,7 +109,7 @@ const vps = [
 export default function Games() {
 	return (
 		<section className="container mx-auto px-6 flex-grow pt-[2%]">
-			<CardPromotion />
+			{/* <CardPromotion />*/}
 			<section>
 				<div>
 					<h1 className="text-5xl font-bold pt-2 text-center">
