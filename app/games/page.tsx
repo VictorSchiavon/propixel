@@ -559,7 +559,7 @@ export default function Games() {
 				</div>
 			</div>
 
-			<div className="pt-[5%] text-white min-h-screen py-5">
+			<div className="pt-[5%] text-white min-h-screen py-10">
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 					{Object.entries(mockData).map(([category, games], idx, arr) => (
 						<div key={idx} className="flex">
@@ -592,7 +592,7 @@ export default function Games() {
 				</div>
 			</div>
 
-			<div className="pt-[5%]">
+			<div className="">
 				<h1 className="text-xl font-bold pt-2" id="jogosnovos">
 					Jogos Novos
 				</h1>
