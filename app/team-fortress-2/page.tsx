@@ -116,10 +116,9 @@ export default function Games() {
 						Qual a melhor host para Team Fortress 2?
 					</h2>
 					<p className="text-gray-400">
-						A Raze Host é referência em hospedagem de alto desempenho,
-						garantindo baixa latência e estabilidade máxima. Com proteção DDoS
-						avançada, mitigamos ataques Layer 7, assegurando a segurança e o
-						desempenho ideal do seu servidor mesmo em momentos críticos.
+						A RazeHost é a primeira hospedagem de jogos no Brasil,
+						garantimos baixa latência e hardware potente. Com proteção DDoS
+						mitagamos qualquer tipo de ataque, mantendo sua gameplay limpa.
 					</p>
 				</div>
 			</section>
