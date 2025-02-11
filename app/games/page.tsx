@@ -162,8 +162,8 @@ export default function Games() {
 			},
 			{
 				title: "ARK 2",
-				link: "teste",
-				description: "",
+				link: "https://razehost.com.br/games",
+				description: "", 
 				price: "Em breve",
 				image: "/games/ark2.webp",
 			},
@@ -574,7 +574,7 @@ export default function Games() {
 								</h2>
 								<div className="space-y-4">
 									{games.map((game, index) => (
-										<a href={game.link}>
+										<a href={game.link} className="space-y-4">
 											<div key={index} className="flex items-center space-x-4">
 											<Image
 												src={game.image!}
