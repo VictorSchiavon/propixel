@@ -141,7 +141,7 @@
 		"logo": "/games/logos/terraria.webp",
 		"link": "/terraria",
 		"price": "R$ 40,00",
-		"discountPrice": null,
+		"discountPrice": "R$ 40,00",
 		"new": false,
 		"wallpaper": "/wallpapers/terraria.webp",
 		"contents": {

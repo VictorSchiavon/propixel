@@ -74,30 +74,35 @@ export default function Games() {
 		"Mais Vendidos": [
 			{
 				title: "Palworld",
+				link: "",
 				description: "",
 				price: "R$ 69,90",
 				image: "/games/palworld.webp",
 			},
 			{
 				title: "Minecraft",
+				link: "",
 				description: "",
 				price: "R$ 13,90",
 				image: "/games/minecraft.webp",
 			},
 			{
 				title: "FiveM",
+				link: "",
 				description: "",
 				price: "R$ 74,90",
 				image: "/games/cards/fivem.webp",
 			},
 			{
 				title: "Rust",
+				link: "",
 				description: "",
 				price: "R$ 249,90",
 				image: "/games/rust.webp",
 			},
 			{
 				title: "Valheim",
+				link: "",
 				description: "",
 				price: "R$ 25,00",
 				image: "/games/valheim.webp",
@@ -106,30 +111,35 @@ export default function Games() {
 		"Jogos VPS": [
 			{
 				title: "DayZ",
+				link: "",
 				description: "",
 				price: "R$ 74,90",
 				image: "/games/dayz.webp",
 			},
 			{
 				title: "FiveM",
+				link: "",
 				description: "",
 				price: "R$ 74,90",
 				image: "/games/cards/fivem.webp",
 			},
 			{
 				title: "Tibia",
+				link: "",
 				description: "",
 				price: "R$ 74,90",
 				image: "/games/tibia.webp",
 			},
 			{
-				title: "MU Online",
+				title: "RedM",
+				link: "",
 				description: "",
 				price: "R$ 74,90",
 				image: "/games/redm.webp",
 			},
 			{
 				title: "Ragnarok",
+				link: "",
 				description: "",
 				price: "R$ 74,90",
 				image: "/games/ragnarok.webp",
@@ -138,21 +148,24 @@ export default function Games() {
 		"Próximos Títulos Mais Aguardados": [
 			{
 				title: "Hytale",
+				link: "",
 				description: "",
 				price: "R$",
-				image: "/games/aloft.webp",
+				image: "/games/hytale.webp",
 			},
 			{
 				title: "GTA 6",
+				link: "",
 				description: "",
 				price: "Em breve",
-				image: "/games/aloft.webp",
+				image: "/games/gta6.webp",
 			},
 			{
 				title: "ARK 2",
+				link: "teste",
 				description: "",
 				price: "Em breve",
-				image: "/games/aloft.webp",
+				image: "/games/ark2.webp",
 			},
 		],
 	};
@@ -364,7 +377,6 @@ export default function Games() {
 			<div className="pt-[5%]">
 				{swiperNotices ? (
 					<div className="flex justify-between pt-4 pb-4">
-						{/* <h1 className="text-xl font-bold pt-2">Todos os jogos</h1> */}
 						<div className="flex gap-2">
 							<Button
 								onClick={() => swiperNotices.slidePrev()}
@@ -562,7 +574,8 @@ export default function Games() {
 								</h2>
 								<div className="space-y-4">
 									{games.map((game, index) => (
-										<div key={index} className="flex items-center space-x-4">
+										<a href={game.link}>
+											<div key={index} className="flex items-center space-x-4">
 											<Image
 												src={game.image!}
 												alt={game.title}
@@ -576,6 +589,7 @@ export default function Games() {
 												<p className="text-gray-400">{game.price}</p>
 											</div>
 										</div>
+										</a>
 									))}
 								</div>
 							</div>
