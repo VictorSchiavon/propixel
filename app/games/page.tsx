@@ -88,7 +88,7 @@ export default function Games() {
 				title: "FiveM",
 				description: "",
 				price: "R$ 74,90",
-				image: "/games/fivem.webp",
+				image: "/games/cards/fivem.webp",
 			},
 			{
 				title: "Rust",
@@ -114,7 +114,7 @@ export default function Games() {
 				title: "FiveM",
 				description: "",
 				price: "R$ 74,90",
-				image: "/games/fivem.webp",
+				image: "/games/cards/fivem.webp",
 			},
 			{
 				title: "Tibia",
