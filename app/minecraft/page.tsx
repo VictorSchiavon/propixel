@@ -103,10 +103,9 @@ export default function Home() {
 						Qual a melhor host para Minecraft?
 					</h2>
 					<p className="text-gray-400">
-						A Raze Host é referência em hospedagem de alto desempenho,
-						garantindo baixa latência e estabilidade máxima. Com proteção DDoS
-						avançada, mitigamos ataques Layer 7, assegurando a segurança e o
-						desempenho ideal do seu servidor mesmo em momentos críticos.
+						A RazeHost é especialista em servidores de alto desempenho,
+						oferecendo estabilidade inigualável e latência mínima. Com proteção DDoS
+						avançada, mitigamos ataques de qualquer tipo, garantindo que seu servidor permaneça seguro e operando no máximo desempenho, mesmo sob pressão.
 					</p>
 				</div>
 			</section>
