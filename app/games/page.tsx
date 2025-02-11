@@ -574,8 +574,8 @@ export default function Games() {
 								</h2>
 								<div className="space-y-4">
 									{games.map((game, index) => (
-										<a href={game.link} className="space-y-4">
-											<div key={index} className="flex items-center space-x-4">
+										<a href={game.link} key={index} className="flex items-center space-x-4">
+											<div className="flex items-center space-x-4">
 											<Image
 												src={game.image!}
 												alt={game.title}
