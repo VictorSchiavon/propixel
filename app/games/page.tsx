@@ -592,7 +592,7 @@ export default function Games() {
 				</div>
 			</div>
 
-			<div className="">
+			<div className="pt-[5%]">
 				<h1 className="text-xl font-bold pt-2" id="jogosnovos">
 					Jogos Novos
 				</h1>
