@@ -10,7 +10,7 @@ import { Button } from "@nextui-org/button"
 export const PaymentsSectionsComponent = () => {
     return (
         <>
-            <section className="flex flex-col lg:flex-row pt-[5%] mb-[5%] justify-between gap-4">
+            <section className="flex flex-col lg:flex-row mb-[5%] justify-between gap-4">
                 <div className="text-center lg:text-left">
                     <Button variant="bordered" className="rounded-full" size="sm">
                         Métodos de pagamento
