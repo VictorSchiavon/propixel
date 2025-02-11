@@ -103,11 +103,11 @@ export default function Games() {
 				image: "/games/dayz.webp",
 			},
 			{
-				title: "FiveM",
-				link: "/fivem",
+				title: "Ragnarok",
+				link: "/ragnarokshh",
 				description: "",
 				price: "R$ 74,90",
-				image: "/games/cards/fivem.webp",
+				image: "/games/ragnarok.webp",
 			},
 			{
 				title: "RedM",
