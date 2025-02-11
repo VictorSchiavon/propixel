@@ -85,7 +85,7 @@ export default function Games() {
 									</p>
 									<Divider className="mt-3 mb-3" />
 									<p className="text-gray-300 text-[14px]">
-										Já uso a empresa para hospedar servidores a anos GRA RP,
+										Já uso a empresa para hospedar servidores a anos GTA RP,
 										servidores Linux, hoje estou até mesmo com meu banco de
 										dados hospedado, sem quedas e SLA perfeito.
 									</p>

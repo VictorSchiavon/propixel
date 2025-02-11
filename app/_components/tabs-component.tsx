@@ -210,24 +210,24 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({
 						<Accordion>
 							{[
 								{
-									title: "Pergunta 1",
-									content: "Resposta 1",
+									title: "Onde estão localizados os servidores?",
+									content: "Todos nossos serviços são localizados no Brasil em São Paulo.",
 								},
 								{
-									title: "Pergunta 2",
-									content: "Resposta 2",
+									title: "Como funciona o reembolso?",
+									content: "Seguimos o código do consumidor, se você não ficar satisfeito, tenha seu dinheiro de volta em até 7 dias.",
 								},
 								{
-									title: "Pergunta 3",
-									content: "Resposta 3",
+									title: "Posso rodar mods?",
+									content: "Sim, se o jogo hospedado suportar mods é possível, se tiver dificuldades basta entrar em contato conosco.",
 								},
 								{
-									title: "Pergunta 4",
-									content: "Resposta 4",
+									title: "Posso aumentar meu plano?",
+									content: "Sim, você pode fazer upgrade sem perder nenhum tipo de dado.",
 								},
 								{
-									title: "Pergunta 5",
-									content: "Resposta 5",
+									title: "Como faço pra acessar após a compra?",
+									content: "Após ter realizado o processo de compra, é enviado um e-mail para você criar uma senha de acesso ao nosso gamepanel",
 								},
 							].map((faq, index) => (
 								<AccordionItem
