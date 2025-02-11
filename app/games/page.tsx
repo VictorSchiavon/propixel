@@ -102,7 +102,7 @@ export default function Games() {
 			},
 			{
 				title: "Valheim",
-				link: "/valheim",
+				link: "/game/valheim",
 				description: "",
 				price: "R$ 25,00",
 				image: "/games/valheim.webp",
@@ -132,7 +132,7 @@ export default function Games() {
 			},
 			{
 				title: "RedM",
-				link: "/redm",
+				link: "/game/redm",
 				description: "",
 				price: "R$ 74,90",
 				image: "/games/redm.webp",
