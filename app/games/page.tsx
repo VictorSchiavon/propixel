@@ -100,7 +100,7 @@ export default function Games() {
 				title: "EA SPORTS FC™ 25 Standard Edition",
 				description: "",
 				price: "R$ 299",
-				imageimage: "/games/aloft.webp",
+				image: "/games/aloft.webp",
 			},
 		],
 		"Mais jogados": [
