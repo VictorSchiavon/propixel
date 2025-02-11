@@ -50,7 +50,7 @@ export default function Games() {
 		{
 			title: "Atualize seu jogo",
 			description:
-				"Aprenda a como atualizar o seu servidor de jogo automaticamente!",
+				"Seu servidor de jogo atualizou e você não sabe como atualizar, não se preocupe acompanhe nosso guia e atualize seu servidor em segundos!",
 			img: "https://www.razehost.com.br/wallpapers/palworld.webp",
 			link: "https://Razehost/vps",
 		},
@@ -469,7 +469,7 @@ export default function Games() {
 												className="font-semibold py-2 px-4"
 												endContent={<ExternalLink size={18} />}
 											>
-												Ver na Loja
+												Clique aqui
 											</Button>
 										</a>
 									</div>
