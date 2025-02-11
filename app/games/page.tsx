@@ -137,31 +137,19 @@ export default function Games() {
 		],
 		"Próximos Títulos Mais Aguardados": [
 			{
-				title: "Assassin’s Creed Shadows",
+				title: "Hytale",
 				description: "",
-				price: "R$ 349,99",
+				price: "R$",
 				image: "/games/aloft.webp",
 			},
 			{
-				title: "Mini Royale",
-				description: "",
-				price: "Em breve",
-				image: "/games/aloft.webp",
-			},
-			{
-				title: "33 Immortals",
+				title: "GTA 6",
 				description: "",
 				price: "Em breve",
 				image: "/games/aloft.webp",
 			},
 			{
-				title: "Sid Meier's Civilization VII",
-				description: "",
-				price: "R$ 349,90",
-				image: "/games/aloft.webp",
-			},
-			{
-				title: "Borderlands 4",
+				title: "ARK 2",
 				description: "",
 				price: "Em breve",
 				image: "/games/aloft.webp",
