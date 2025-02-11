@@ -372,24 +372,24 @@ export default function Games() {
 					<Accordion>
 						{[
 							{
-								title: "Pergunta 1",
-								content: "Resposta 1",
+								title: "Os servidores VPS são localizados no Brasil?",
+								content: "Sim, todos nossos servidores são em São Paulo, permitindo a melhor latência para o brasil inteiro.",
 							},
 							{
-								title: "Pergunta 2",
-								content: "Resposta 2",
+								title: "Se eu não gostar do serviço posso ter reembolso?",
+								content: "Sim, em até 7 dias se você não aprovar nosso serviço",
 							},
 							{
-								title: "Pergunta 3",
-								content: "Resposta 3",
+								title: "Eu posso instalar um servidor de jogo?",
+								content: "Sim, você pode rodar servidores de jogos, mas não, jogar jogo dentro da VPS.",
 							},
 							{
-								title: "Pergunta 4",
-								content: "Resposta 4",
+								title: "Tem Proteção DDoS?",
+								content: "Sim, todos os servidores possuem uma proteção DDoS padrão, e uma versão mais avançada para ataques maiores.",
 							},
 							{
-								title: "Pergunta 5",
-								content: "Resposta 5",
+								title: "Posso fazer upgrade?",
+								content: "Sim, você pode fazer upgrade sem perder nenhum tipo de dados.",
 							},
 						].map((faq, index) => (
 							<AccordionItem
