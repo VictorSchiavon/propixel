@@ -76,7 +76,7 @@ export default function Games() {
 				title: "Palworld",
 				link: "/game/palworld",
 				description: "",
-				price: "R$ 69,90",
+				price: "R$ 79,90",
 				image: "/games/palworld.webp",
 			},
 			{
