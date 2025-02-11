@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@nextui-org/button";
-import { Card, CardBody } from "@nextui-org/react";
+import { Accordion, AccordionItem, Card, CardBody } from "@nextui-org/react";
 import {
 	BrainCircuit,
 	CircleCheckBig,
@@ -14,6 +14,7 @@ import {
 import Image from "next/image";
 import { PaymentsSectionsComponent } from "../_components/payments-section.component";
 import { CardPromotion } from "../_components/card-promotion";
+import ComparisonTable from "../_components/comparison-table";
 
 const vps = [
 	{
@@ -358,6 +359,51 @@ export default function Games() {
 				</Card>
 			</section>
 
+			<section className="grid grid-cols-1 sm:grid-cols-12 gap-6 pt-[5%]">
+				<div className="col-span-1 sm:col-span-4 px-4 sm:px-0">
+					<Button variant="bordered" className="rounded-full" size="sm">
+						FAQ
+					</Button>
+					<h1 className="text-2xl sm:text-3xl font-bold pt-3">
+						Perguntas frequentes
+					</h1>
+				</div>
+				<div className="col-span-1 sm:col-span-8 px-4 sm:px-0">
+					<Accordion>
+						{[
+							{
+								title: "Pergunta 1",
+								content: "Resposta 1",
+							},
+							{
+								title: "Pergunta 2",
+								content: "Resposta 2",
+							},
+							{
+								title: "Pergunta 3",
+								content: "Resposta 3",
+							},
+							{
+								title: "Pergunta 4",
+								content: "Resposta 4",
+							},
+							{
+								title: "Pergunta 5",
+								content: "Resposta 5",
+							},
+						].map((faq, index) => (
+							<AccordionItem
+								key={index}
+								aria-label={`Accordion ${index + 1}`}
+								title={faq.title}
+							>
+								{faq.content}
+							</AccordionItem>
+						))}
+					</Accordion>
+				</div>
+			</section>
+			<ComparisonTable />
 			<PaymentsSectionsComponent />
 		</section>
 	);
