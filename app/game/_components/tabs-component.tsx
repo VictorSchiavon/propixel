@@ -1,7 +1,7 @@
 import { calculateDiscountPercentage } from "@/app/games/_components/card-game-plans.component";
 import plans from "@/config/plans.json";
 import { Button } from "@nextui-org/button";
-import { Chip, Tab, Tabs } from "@nextui-org/react";
+import { Accordion, AccordionItem, Chip, Tab, Tabs } from "@nextui-org/react";
 import Image from "next/image";
 import React from "react";
 import { CardGamePlansComponent } from "./card-game-plans.component";
@@ -174,6 +174,43 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({ displayGame }) => 
                         )}
                     </div>
                 </Tab>
+
+                <Tab key="questions" title="Perguntas frequentes">
+                                    <div className="col-span-1 sm:col-span-8 px-4 sm:px-0 mt-10">
+                                        <Accordion>
+                                            {[
+                                                {
+                                                    title: "Onde estão localizados os servidores?",
+                                                    content: "Todos nossos serviços são localizados no Brasil em São Paulo.",
+                                                },
+                                                {
+                                                    title: "Como funciona o reembolso?",
+                                                    content: "Seguimos o código do consumidor, se você não ficar satisfeito, tenha seu dinheiro de volta em até 7 dias.",
+                                                },
+                                                {
+                                                    title: "Posso rodar mods?",
+                                                    content: "Sim, se o jogo hospedado suportar mods é possível, se tiver dificuldades basta entrar em contato conosco.",
+                                                },
+                                                {
+                                                    title: "Posso aumentar meu plano?",
+                                                    content: "Sim, você pode fazer upgrade sem perder nenhum tipo de dado.",
+                                                },
+                                                {
+                                                    title: "Como faço pra acessar após a compra?",
+                                                    content: "Após ter realizado o processo de compra, é enviado um e-mail para você criar uma senha de acesso ao nosso gamepanel",
+                                                },
+                                            ].map((faq, index) => (
+                                                <AccordionItem
+                                                    key={index}
+                                                    aria-label={`Accordion ${index + 1}`}
+                                                    title={faq.title}
+                                                >
+                                                    {faq.content}
+                                                </AccordionItem>
+                                            ))}
+                                        </Accordion>
+                                    </div>
+                                </Tab>
             </Tabs>
         </>
     );
