@@ -103,7 +103,7 @@ export default function Games() {
 				image: "/games/valheim.webp",
 			},
 		],
-		"Preferidos em VPS": [
+		"Jogos VPS": [
 			{
 				title: "DayZ",
 				description: "",
