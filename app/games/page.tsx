@@ -48,10 +48,10 @@ export default function Games() {
 
 	const notices = [
 		{
-			title: "Fortnite",
+			title: "Gamepanel",
 			description:
-				"Para quebrar a maldição, use a maldição... Os feiticeiros de Jujutsu Kaisen já estão na Loja!",
-			img: "https://cdn2.unrealengine.com/en-25br-quotient-breakermodule-1920x1080-1920x1080-a0c7d5ae23c1.jpg?resize=1&w=854&h=480&quality=medium",
+				"Aprenda a como atualizar o seu servidor de jogo automaticamente!",
+			img: "https://www.razehost.com.br/wallpapers/palworld.webp",
 			link: "https://Razehost/vps",
 		},
 		{
