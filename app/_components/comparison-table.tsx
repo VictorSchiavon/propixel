@@ -68,7 +68,7 @@ const specifications = [
 	{
 		label: "Reembolsos",
 		gamer: "Nós reembolsamos em até 7 dias.",
-		intel: "Dificuldades com a devolugação do dinheiro",
+		intel: "Enrolação com a devolução do dinheiro.",
 	},
 	{
 		label: "Suporte Humanizado",
