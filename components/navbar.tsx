@@ -199,7 +199,7 @@ export const NavbarComponent = () => {
 													<div className="flex flex-col">
 														<h3 className="text-md font-bold">{item.name}</h3>
 														<p className="text-xs text-nowrap">
-															Apartir de{" "}
+															A partir de {" "}
 															<span className="font-bold">
 																{item.discountPrice}
 															</span>
