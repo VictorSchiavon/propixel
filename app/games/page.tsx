@@ -48,25 +48,25 @@ export default function Games() {
 
 	const notices = [
 		{
-			title: "Gamepanel",
+			title: "Atualize seu jogo",
 			description:
 				"Aprenda a como atualizar o seu servidor de jogo automaticamente!",
 			img: "https://www.razehost.com.br/wallpapers/palworld.webp",
 			link: "https://Razehost/vps",
 		},
 		{
-			title: "Fortnite",
+			title: "Instale Modpacks automático",
 			description:
-				"Para quebrar a maldição, use a maldição... Os feiticeiros de Jujutsu Kaisen já estão na Loja!",
-			img: "https://cdn2.unrealengine.com/en-25br-quotient-breakermodule-1920x1080-1920x1080-a0c7d5ae23c1.jpg?resize=1&w=854&h=480&quality=medium",
-			link: "https://Razehost/vps",
+				"Você não tem conhecimento em Minecraft? Isso não é um problema com nossos sistemas você pode instalar Modpacks de forma automático com apenas 1 click!",
+			img: "https://www.razehost.com.br/wallpapers/minecraft.webp",
+			link: "https://suporte.razehost.com.br/pt-BR/articles/9993474-como-instalar-modpacks-no-seu-servidor-de-minecraft",
 		},
 		{
-			title: "Fortnite",
+			title: "Abra uma cidade Roleplay",
 			description:
-				"Para quebrar a maldição, use a maldição... Os feiticeiros de Jujutsu Kaisen já estão na Loja!",
-			img: "https://cdn2.unrealengine.com/en-25br-quotient-breakermodule-1920x1080-1920x1080-a0c7d5ae23c1.jpg?resize=1&w=854&h=480&quality=medium",
-			link: "https://Razehost/vps",
+				"Pare de perder tempo, e abra seu servidor de FiveM com a RazeHost, processadores AMD Ryzen e Proteção Anti DDoS, você possui estabilidade e segurança!",
+			img: "https://www.razehost.com.br/wallpapers/fivem.webp",
+			link: "/fivem",
 		},
 	];
 
