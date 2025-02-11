@@ -73,39 +73,34 @@ export default function Games() {
 	const mockData = {
 		"Mais Vendidos": [
 			{
-				title: "Kingdom Come: Deliverance II",
-				description: "Testando",
-				price: "R$ 299",
-				image: "/games/aloft.webp",
-				link: "https://example.com/kingdom-come" // Link para o produto
-			},
-			{
-				title: "Sid Meier's Civilization VII",
+				title: "Palworld",
 				description: "",
-				price: "R$ 349,90",
-				image: "/games/aloft.webp",
-				link: "https://example.com/civilization-vii" // Link para o produto
+				price: "R$ 69,90",
+				image: "/games/palworld.webp",
 			},
 			{
-				title: "Grand Theft Auto V: Premium Edition",
+				title: "Minecraft",
 				description: "",
-				price: "R$ 82,42",
-				image: "/games/aloft.webp",
-				link: "https://example.com/gta-v-premium" // Link para o produto
+				price: "R$ 13,90",
+				image: "/games/minecraft.webp",
 			},
 			{
-				title: "Marvel's Spider-Man 2",
+				title: "FiveM",
+				description: "",
+				price: "R$ 74,90",
+				image: "/games/fivem.webp",
+			},
+			{
+				title: "Rust",
 				description: "",
 				price: "R$ 249,90",
-				image: "/games/aloft.webp",
-				link: "https://example.com/spider-man-2" // Link para o produto
+				image: "/games/rust.webp",
 			},
 			{
-				title: "EA SPORTS FC™ 25 Standard Edition",
+				title: "Valheim",
 				description: "",
-				price: "R$ 299",
-				image: "/games/aloft.webp",
-				link: "https://example.com/ea-sports-fc" // Link para o produto
+				price: "R$ 25,00",
+				image: "/games/valheim.webp",
 			},
 		],
 		"Mais jogados": [
@@ -114,35 +109,30 @@ export default function Games() {
 				description: "",
 				price: "Gratuito",
 				image: "/games/aloft.webp",
-				link: "https://example.com/fortnite" // Link para o produto
 			},
 			{
 				title: "Rocket League",
 				description: "",
 				price: "Gratuito",
 				image: "/games/aloft.webp",
-				link: "https://example.com/rocket-league" // Link para o produto
 			},
 			{
 				title: "Grand Theft Auto V: Premium Edition",
 				description: "",
 				price: "R$ 82,42",
 				image: "/games/aloft.webp",
-				link: "https://example.com/gta-v-premium" // Link para o produto
 			},
 			{
 				title: "Genshin Impact",
 				description: "",
 				price: "Gratuito",
 				image: "/games/aloft.webp",
-				link: "https://example.com/genshin-impact" // Link para o produto
 			},
 			{
 				title: "Marvel Rivals",
 				description: "",
 				price: "Gratuito",
 				image: "/games/aloft.webp",
-				link: "https://example.com/marvel-rivals" // Link para o produto
 			},
 		],
 		"Próximos Títulos Mais Aguardados": [
@@ -151,35 +141,30 @@ export default function Games() {
 				description: "",
 				price: "R$ 349,99",
 				image: "/games/aloft.webp",
-				link: "https://example.com/assassins-creed-shadows" // Link para o produto
 			},
 			{
 				title: "Mini Royale",
 				description: "",
 				price: "Em breve",
 				image: "/games/aloft.webp",
-				link: "https://example.com/mini-royale" // Link para o produto
 			},
 			{
 				title: "33 Immortals",
 				description: "",
 				price: "Em breve",
 				image: "/games/aloft.webp",
-				link: "https://example.com/33-immortals" // Link para o produto
 			},
 			{
 				title: "Sid Meier's Civilization VII",
 				description: "",
 				price: "R$ 349,90",
 				image: "/games/aloft.webp",
-				link: "https://example.com/civilization-vii" // Link para o produto
 			},
 			{
 				title: "Borderlands 4",
 				description: "",
 				price: "Em breve",
 				image: "/games/aloft.webp",
-				link: "https://example.com/borderlands-4" // Link para o produto
 			},
 		],
 	};
