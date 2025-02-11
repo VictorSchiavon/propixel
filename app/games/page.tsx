@@ -93,20 +93,6 @@ export default function Games() {
 				price: "R$ 74,90",
 				image: "/games/cards/fivem.webp",
 			},
-			{
-				title: "Rust",
-				link: "/game/rust",
-				description: "",
-				price: "R$ 249,90",
-				image: "/games/rust.webp",
-			},
-			{
-				title: "Valheim",
-				link: "/game/valheim",
-				description: "",
-				price: "R$ 25,00",
-				image: "/games/valheim.webp",
-			},
 		],
 		"Jogos VPS": [
 			{
@@ -124,25 +110,11 @@ export default function Games() {
 				image: "/games/cards/fivem.webp",
 			},
 			{
-				title: "Tibia",
-				link: "/tibia",
-				description: "",
-				price: "R$ 74,90",
-				image: "/games/tibia.webp",
-			},
-			{
 				title: "RedM",
 				link: "/game/redm",
 				description: "",
 				price: "R$ 74,90",
 				image: "/games/redm.webp",
-			},
-			{
-				title: "Ragnarok",
-				link: "/ragnarokssh",
-				description: "",
-				price: "R$ 74,90",
-				image: "/games/ragnarok.webp",
 			},
 		],
 		"Próximos Títulos Mais Aguardados": [
