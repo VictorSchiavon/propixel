@@ -126,7 +126,7 @@ export default function Games() {
 				title: "MU Online",
 				description: "",
 				price: "R$ 74,90",
-				image: "/games/mu.webp",
+				image: "/games/redm.webp",
 			},
 			{
 				title: "Ragnarok",
