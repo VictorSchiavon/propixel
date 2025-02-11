@@ -4,16 +4,16 @@ export default function ComparisonTable() {
 	return (
 		<div className="min-h-screen pt-[5%] text-white">
 			<div className="max-w-5xl mx-auto">
-				<h1 className="text-2xl font-bold text-center mb-6">INTEL vs Gamer</h1>
+				<h1 className="text-2xl font-bold text-center mb-6">Raze vs Concorrentes</h1>
 
 				<div className="grid grid-cols-1 md:grid-cols-[1fr,1.2fr,1fr] gap-0">
 					{/* Headers */}
 					<div className="hidden md:block" />
 					<div className="bg-amber-700 rounded-t-lg p-4">
-						<h2 className="text-2xl font-bold text-center">GAMER</h2>
+						<h2 className="text-2xl font-bold text-center">RAZE</h2>
 					</div>
 					<div className="p-4">
-						<h2 className="text-2xl font-bold text-center">INTEL</h2>
+						<h2 className="text-2xl font-bold text-center">CONCORRENTES</h2>
 					</div>
 
 					{specifications.map((spec) => (
@@ -52,28 +52,28 @@ export default function ComparisonTable() {
 const specifications = [
 	{
 		label: "RAM",
-		gamer: "DDR4 3200 Mhz",
+		gamer: "DDR4/DDR5",
 		intel: "DDR4/DDR3 2400/1600 Mhz",
 	},
 	{
 		label: "CPU",
-		gamer: "Ryzen 9 50xx",
+		gamer: "AMD Ryzen",
 		intel: "XEON/EPYC",
 	},
 	{
 		label: "SSD",
-		gamer: "NVMe (2500+ MB)",
-		intel: "SATA SSD/NVMe",
+		gamer: "NVMe (6000+ MB)",
+		intel: "HD ou SSD",
 	},
 	{
-		label: "Backups",
-		gamer: "Opcionais para contrato",
-		intel: "Opcionais para contrato",
+		label: "Reembolsos",
+		gamer: "Nós reembolsamos em até 7 dias.",
+		intel: "Dificuldades com a devolugação do dinheiro",
 	},
 	{
 		label: "Suporte Humanizado",
-		gamer: "para que sua VPS funcione Corretamente",
-		intel: "para que sua VPS funcione Corretamente",
+		gamer: "Suporte 24 horas por dia.",
+		intel: "Suporte meio embaraçoso.",
 	},
 	{
 		label: "Localização",
@@ -82,4 +82,4 @@ const specifications = [
 	},
 ];
 
-const features = ["Rede Premium", "Opcionais", "Mais Opções", "Proteção DDoS"];
+const features = ["Proteção DDoS"];
