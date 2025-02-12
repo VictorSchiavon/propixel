@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 
 export default function ComparisonTable() {
 	return (
-		<div className="min-h-screen pt-[5%] text-white">
+		<div className="pt-[5%] text-white">
 			<div className="max-w-5xl mx-auto">
 				<h1 className="text-2xl font-bold text-center mb-6">Raze vs Concorrentes</h1>
 
