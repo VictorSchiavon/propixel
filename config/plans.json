@@ -94,6 +94,39 @@
 				"Subdomínio GRÁTIS",
 				"SSD NVMe"
 			]
+		},
+		{
+			"game": "Minecraft",
+			"img": "/games/cards/mine.webp",
+			"name": "Plano Enterprise",
+			"price": "R$229,90",
+			"discountPrice": "R$169,90",
+			"link": "https://app.razehost.com.br/store/minecraft/enterprise",
+			"description": [
+				"24 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"Bedrock & Java",
+				"Subdomínio GRÁTIS",
+				"SSD NVMe"
+			]
+		},
+		{
+			"game": "Minecraft",
+			"img": "/games/cards/mine.webp",
+			"name": "Plano Dedicated",
+			"price": "R$349,90",
+			"discountPrice": "R$259,90",
+			"link": "https://app.razehost.com.br/store/minecraft/dedicated",
+			"description": [
+				"32 GB RAM",
+				"Mods e Plugins",
+				"FTP Web/Filezilla",
+				"Bedrock & Java",
+				"Subdomínio GRÁTIS",
+				"SSD NVMe",
+				"Suporte Premium"
+			]
 		}
 	],
 	"fivem": [
