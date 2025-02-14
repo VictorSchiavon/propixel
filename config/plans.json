@@ -414,20 +414,6 @@
 		{
 			"game": "Ark: Survival Evolved",
 			"img": "/games/ark.webp",
-			"name": "Ark: Survival Evolved 6GB",
-			"price": "R$160,00",
-			"discountPrice": "R$100,00",
-			"link": "https://app.razehost.com.br/store/ark-survival-evolved/ark-survival-evolved-2gb",
-			"description": [
-				"6GB de RAM",
-				"AMD Ryzen",
-				"Mods e Plugins",
-				"10GB SSD NVMe M.2"
-			]
-		},
-		{
-			"game": "Ark: Survival Evolved",
-			"img": "/games/ark.webp",
 			"name": "Ark: Survival Evolved 8GB",
 			"price": "R$170,00",
 			"discountPrice": "R$130,00",
