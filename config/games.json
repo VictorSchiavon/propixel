@@ -407,7 +407,7 @@
 		"name": "MU Online",
 		"img": "/games/mu.webp",
 		"logo": "/games/logos/muonline_logo.webp",
-		"link": "/game/mu",
+		"link": "/muonline",
 		"price": "R$ 150,00",
 		"discountPrice": "R$ 79,90",
 		"new": false,
