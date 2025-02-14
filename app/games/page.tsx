@@ -452,35 +452,6 @@ export default function Games() {
 				</div>
 			</div>
 
-			<div className="pt-[5%]">
-				{swiperInstanceDiscount ? (
-					<div className="flex justify-between pt-4 pb-4">
-						<h1 className="text-xl font-bold pt-2">Jogos com Descontos</h1>
-						<div className="flex gap-2">
-							<Button
-								onClick={() => swiperInstanceDiscount.slidePrev()}
-								isIconOnly
-								aria-label="Prev"
-								size="sm"
-								className="bg-[#0E131D] border border-neutral-600"
-							>
-								<LucideArrowLeft color="orange" size={15} />
-							</Button>
-							<Button
-								onClick={() => swiperInstanceDiscount.slideNext()}
-								isIconOnly
-								aria-label="Next"
-								size="sm"
-								className="bg-[#0E131D] border border-neutral-600"
-							>
-								<LucideArrowRight color="orange" size={15} />
-							</Button>
-						</div>
-					</div>
-				) : (
-					""
-				)}
-				<div>
 					<Swiper
 						onSwiper={(swiper) => setSwiperInstanceDiscount(swiper)}
 						slidesPerView={1}
