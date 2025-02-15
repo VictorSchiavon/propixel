@@ -893,7 +893,8 @@
 			"description": [
 				"10GB de RAM",
 				"AMD Ryzen",
-				"Mods e Plugins",
+				"Sem mods e plugins",
+				"Servidores casuais",
 				"20GB SSD NVMe M.2"
 			]
 		},
@@ -902,12 +903,13 @@
 			"img": "/games/cards/conanexiles.webp",
 			"name": "Conan Exiles 12GB",
 			"price": "R$275,00",
-			"discountPrice": "R$190,00",
+			"discountPrice": "R$150,00",
 			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-12gb",
 			"description": [
 				"12GB de RAM",
 				"AMD Ryzen",
 				"Mods e Plugins",
+				"Servidores casuais",
 				"25GB SSD NVMe M.2"
 			]
 		},
@@ -916,13 +918,29 @@
 			"img": "/games/cards/conanexiles.webp",
 			"name": "Conan Exiles 16GB",
 			"price": "R$350,00",
-			"discountPrice": "R$280,00",
+			"discountPrice": "R$200,00",
 			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-16gb",
 			"description": [
 				"16GB de RAM",
-				"AMD Ryzen Ilimitado",
+				"AMD Ryzen ++",
 				"Mods e Plugins",
+				"Servidores médios",
 				"25GB SSD NVMe M.2"
+			]
+		},
+		{
+			"game": "Conan Exiles",
+			"img": "/games/cards/conanexiles.webp",
+			"name": "Conan Exiles 16GB",
+			"price": "R$400,00",
+			"discountPrice": "R$380,00",
+			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-32gb",
+			"description": [
+				"32GB de RAM",
+				"AMD Ryzen 9 7950X",
+				"Mods e Plugins ilimitados",
+				"Servidores grandes",
+				"40GB SSD NVMe M.2"
 			]
 		}
 	],
