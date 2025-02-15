@@ -113,7 +113,7 @@ export default function Home() {
 						<p className="text-muted pt-2 pb-5">
 							Configure servidores para Xbox e Steam em um único painel, com
 							fácil gerenciamento e recursos avançados.{" "}
-							<span className="text-orange-400">Jogue XBOX, Steam juntos.</span>
+							<span className="text-orange-400">Jogue XBOX, Jogue STEAM.</span>
 						</p>
 
 						<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-5 pb-10">
