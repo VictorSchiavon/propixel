@@ -82,7 +82,7 @@ export default function Home() {
 												<p className="text-base font-bold">{gameInfo?.name}</p>
 											</div>
 											<div className="ml-auto">
-												<a href="https://app.razehost.com.br/games/">
+												<a href="games/">
 													<p className="sm:text-xs md:text-sm font-medium text-center text-amber-500">
 														Ver todos os planos
 													</p>
