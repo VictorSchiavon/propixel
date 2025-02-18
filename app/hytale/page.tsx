@@ -111,6 +111,8 @@ export default function Home() {
 					</p>
 				</div>
 
+				
+			</section>
 
 			<section className="bg-[#07090c] mt-10 p-5">
 				<div className="container mx-auto px-6 flex-grow pt-10">
