@@ -111,17 +111,6 @@ export default function Home() {
 					</p>
 				</div>
 
-				<div className="rounded-xl shadow-lg mt-12 p-5 bg-[#202024]">
-					<h2 className="text-lg font-semibold">
-						Qual a melhor host para 7 Days to Die?
-					</h2>
-					<p className="text-gray-400">
-						A RazeHost é a primeira hospedagem de jogos no Brasil,
-						garantimos baixa latência e hardware potente. Com proteção DDoS
-						mitagamos qualquer tipo de ataque, mantendo sua gameplay limpa.
-					</p>
-				</div>
-			</section>
 
 			<section className="bg-[#07090c] mt-10 p-5">
 				<div className="container mx-auto px-6 flex-grow pt-10">
