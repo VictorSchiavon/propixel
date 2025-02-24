@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Ark: Survival Evolved no Brasil",
-    description: "A melhor hospedagem de Ark: Survival Evolved no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: "Host de ARK: Survival Ascended no Brasil",
+    description: "A melhor hospedagem de ARK: Survival Ascended no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     "V Rising Brasil",
     "host de ARK",
     "hospedagem de ARK",
-    "ARK Survival Evolved server",
-    "servidor de ARK Survival Evolved",
+    "ARK Survival Ascended server",
+    "servidor de ARK Survival Ascended",
     "host de Unturned",
     "Unturned server",
     "hospedagem de Unturned",
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     "servidor de jogos multiplayer",
     "servidor de Terraria",
     "servidor de Satisfactory",
-    "servidor de Ark Survival Evolved",
+    "servidor de ARK Survival Ascended",
     "servidor de Valheim",
     "servidor de GTA RP",
     "servidor de Ragnarok Online",
@@ -111,16 +111,16 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de Ark: Survival Evolved | RazeHost',
-        description: 'A melhor hospedagem de Ark: Survival Evolved no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://www.razehost.com.br/ark-survival-evolved',
+        title: 'Host de ARK: Survival Ascended | RazeHost',
+        description: 'A melhor hospedagem de ARK: Survival Ascended no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        url: 'https://www.razehost.com.br/ark-survival-ascended',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de Ark: Survival Evolved | RazeHost',
-        description: 'A melhor hospedagem de Ark: Survival Evolved no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        title: 'Host de ARK: Survival Ascended | RazeHost',
+        description: 'A melhor hospedagem de ARK: Survival Ascended no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.webp'],
     },
     icons: {

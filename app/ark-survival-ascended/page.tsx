@@ -23,7 +23,7 @@ export default function Games() {
 				{displayGame ? (
 					<>
 						<TabsComponent
-							displayGame={{ ...displayGame, name: "Ark Survival Evolved" }}
+							displayGame={{ ...displayGame, name: "ARK Survival Ascended" }}
 						/>
 					</>
 				) : (
