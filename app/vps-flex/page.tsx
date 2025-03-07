@@ -9,7 +9,7 @@ import { PaymentsSectionsComponent } from "../_components/payments-section.compo
 const vps = [
     {
         "name": "VPS Fox",
-        "price": "R$29,56",
+        "price": "R$39,56",
         "link": "https://app.razehost.com.br/store/vps/vps-fox",
         "description": {
             "ram": "2 GB",
@@ -20,7 +20,7 @@ const vps = [
     },
     {
         "name": "VPS Wolf",
-        "price": "R$59,12",
+        "price": "R$79,12",
         "link": "https://app.razehost.com.br/store/vps/vps-wolf",
         "description": {
             "ram": "4 GB",
@@ -31,7 +31,7 @@ const vps = [
     },
     {
         "name": "VPS Lion",
-        "price": "R$88,68",
+        "price": "R$98,68",
         "link": "https://app.razehost.com.br/store/vps/vps-lion",
         "description": {
             "ram": "6 GB",
@@ -42,7 +42,7 @@ const vps = [
     },
     {
         "name": "VPS Dragon",
-        "price": "R$118,24",
+        "price": "R$138,24",
         "link": "https://app.razehost.com.br/store/vps/vps-dragon",
         "description": {
             "ram": "8 GB",
@@ -53,7 +53,7 @@ const vps = [
     },
     {
         "name": "VPS Tiger",
-        "price": "R$147,80",
+        "price": "R$187,80",
         "link": "https://app.razehost.com.br/store/vps/vps-tiger",
         "description": {
             "ram": "10 GB",
@@ -64,10 +64,10 @@ const vps = [
     },
     {
         "name": "VPS Eagle",
-        "price": "R$177,80",
+        "price": "R$227,80",
         "link": "https://app.razehost.com.br/store/vps/vps-eagle",
         "description": {
-            "ram": "10 GB",
+            "ram": "12 GB",
             "ssd": "80 GB",
             "cores": "6 núcleos",
             "attrs": ["Anti DDoS Incluso", "AMD Ryzen 7 5800X"]
@@ -75,7 +75,7 @@ const vps = [
     },
     {
         "name": "VPS Phoenix",
-        "price": "R$236,48",
+        "price": "R$306,48",
         "link": "https://app.razehost.com.br/store/vps/vps-phoenix",
         "description": {
             "ram": "16 GB",
