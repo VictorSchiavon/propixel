@@ -97,8 +97,8 @@ const planosXeon = [
     {
       "nome": "Intel Xeon E5-2680 v4",
       "frequencia": "2.4GHz até 3.3GHz",
-      "disponibilidade": "Disponível", // Antes era true
-      "preco": 719.90,
+      "disponibilidade": true,
+      "preco": 729.90,
       "nucleos": 14,
       "threads": 28,
       "icons": [
@@ -113,8 +113,8 @@ const planosXeon = [
     {
       "nome": "Intel Xeon E5-2680 v4",
       "frequencia": "2.4GHz até 3.3GHz",
-      "disponibilidade": "Verificar", // Novo valor adicionado
-      "preco": 799.90,
+      "disponibilidade": true,
+      "preco": 819.90,
       "nucleos": 14,
       "threads": 28,
       "icons": [
@@ -129,8 +129,8 @@ const planosXeon = [
     {
       "nome": "Intel Xeon E5-2680 v4",
       "frequencia": "2.4GHz até 3.3GHz",
-      "disponibilidade": "Indisponível", // Antes era false, mas agora como string
-      "preco": 1400.00,
+      "disponibilidade": true,
+      "preco": 1290.90,
       "nucleos": 14,
       "threads": 28,
       "icons": [
@@ -224,7 +224,7 @@ export default function Games() {
                                             </h4>
                                             <a href="https://wa.me/5511968927685?text=Gostaria%20de%20saber%20sobre%20dedicados" target="_blank" rel="noopener noreferrer">
                                                 <Button className="text-white bg-orange-400 w-[200px] mt-3 font-bold">
-                                                    <Star /> Contratar
+                                                    <Star /> Verificar disponíbilidade
                                                 </Button>
                                             </a>
                                         </div>
