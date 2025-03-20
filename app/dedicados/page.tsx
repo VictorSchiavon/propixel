@@ -4,6 +4,7 @@ import { Accordion, AccordionItem, Badge, Card, CardBody, Chip, Slider } from "@
 import { Button } from "@nextui-org/button";
 import { useState } from "react";
 import amd_logo from "@/public/amd-logo.webp"
+import intel_logo from "@/public/intel-logo.webp"; // Ajuste o caminho/nome conforme sua imagem
 import Image from "next/image";
 import { ArrowDownToDot, ArrowUpFromDot, Cpu, HardDrive, MemoryStick, Network, Star } from "lucide-react";
 
@@ -94,8 +95,40 @@ const planosAMD = [
 // Novo array de planos Intel Xeon (exemplo padrão)
 const planosXeon = [
     {
-      "nome": "Intel Xeon E5-2690 v4",
-      "frequencia": "2.6GHz até 3.5GHz",
+      "nome": "Intel Xeon E5-2680 v4",
+      "frequencia": "2.4GHz até 3.3GHz",
+      "disponibilidade": true,
+      "preco": 719.90,
+      "nucleos": 14,
+      "threads": 28,
+      "icons": [
+        { "icone": <Cpu size={30} />, "titulo": "14 Núcleos", "descricao": "28 Threads" },
+        { "icone": <HardDrive size={30} />, "titulo": "Armazenamento", "descricao": "1TB DE SSD" },
+        { "icone": <Network size={30} />, "titulo": "Rede", "descricao": "1GBPS UPLINK" },
+        { "icone": <MemoryStick size={30} />, "titulo": "128GB DE RAM", "descricao": "DDR4" },
+        { "icone": <ArrowUpFromDot size={30} />, "titulo": "Inputstream", "descricao": "20Tb Incluso" },
+        { "icone": <ArrowDownToDot size={30} />, "titulo": "Outputstream", "descricao": "20Tb Incluso" }
+      ]
+    },
+    {
+      "nome": "Intel Xeon E5-2680 v4",
+      "frequencia": "2.4GHz até 3.3GHz",
+      "disponibilidade": true,
+      "preco": 799.90,
+      "nucleos": 14,
+      "threads": 28,
+      "icons": [
+        { "icone": <Cpu size={30} />, "titulo": "14 Núcleos", "descricao": "28 Threads" },
+        { "icone": <HardDrive size={30} />, "titulo": "Armazenamento", "descricao": "1TB DE SSD NVME" },
+        { "icone": <Network size={30} />, "titulo": "Rede", "descricao": "1GBPS UPLINK" },
+        { "icone": <MemoryStick size={30} />, "titulo": "128GB DE RAM", "descricao": "DDR4" },
+        { "icone": <ArrowUpFromDot size={30} />, "titulo": "Inputstream", "descricao": "20Tb Incluso" },
+        { "icone": <ArrowDownToDot size={30} />, "titulo": "Outputstream", "descricao": "20Tb Incluso" }
+      ]
+    },
+    {
+      "nome": "Intel Xeon E5-2680 v4",
+      "frequencia": "2.4GHz até 3.3GHz",
       "disponibilidade": true,
       "preco": 1400.00,
       "nucleos": 14,
@@ -104,7 +137,7 @@ const planosXeon = [
         { "icone": <Cpu size={30} />, "titulo": "14 Núcleos", "descricao": "28 Threads" },
         { "icone": <HardDrive size={30} />, "titulo": "Armazenamento", "descricao": "2TB DE SSD NVME" },
         { "icone": <Network size={30} />, "titulo": "Rede", "descricao": "1GBPS UPLINK" },
-        { "icone": <MemoryStick size={30} />, "titulo": "128GB DE RAM", "descricao": "DDR4" },
+        { "icone": <MemoryStick size={30} />, "titulo": "256GB DE RAM", "descricao": "DDR4" },
         { "icone": <ArrowUpFromDot size={30} />, "titulo": "Inputstream", "descricao": "20Tb Incluso" },
         { "icone": <ArrowDownToDot size={30} />, "titulo": "Outputstream", "descricao": "20Tb Incluso" }
       ]
@@ -154,19 +187,21 @@ export default function Games() {
 
                 <section className="pt-10">
                     <div>
-                        {planosExibidos.map((plano, index) => (
-                            <Card key={index} className="bg-transparent mt-10">
-                                <CardBody>
-                                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12 gap-4 p-5 pt-10 pb-10">
-                                        <div className="col-span-1 sm:col-span-2 md:col-span-3 flex flex-col items-center justify-center">
-                                            <Image src={amd_logo} alt="amd-logo" />
-                                            <p className="pt-3 text-center text-gray-700 font-bold">{plano.nome}</p>
-                                            <p className="text-center pt-4 text-sm text-gray-400">{plano.frequencia}</p>
-                                            <Chip size="lg" className="mt-5 font-bold text-green-600" variant="flat" color="success">
-                                                {plano.disponibilidade ? 'Disponível' : 'Indisponível'}
-                                            </Chip>
-                                        </div>
-
+                    {planosExibidos.map((plano, index) => (
+    <Card key={index} className="bg-transparent mt-10">
+        <CardBody>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12 gap-4 p-5 pt-10 pb-10">
+                <div className="col-span-1 sm:col-span-2 md:col-span-3 flex flex-col items-center justify-center">
+                    <Image 
+                        src={tipoPlano === "AMD" ? amd_logo : intel_logo} 
+                        alt={tipoPlano === "AMD" ? "amd-logo" : "intel-logo"} 
+                    />
+                    <p className="pt-3 text-center text-gray-700 font-bold">{plano.nome}</p>
+                    <p className="text-center pt-4 text-sm text-gray-400">{plano.frequencia}</p>
+                    <Chip size="lg" className="mt-5 font-bold text-green-600" variant="flat" color="success">
+                        {plano.disponibilidade ? 'Disponível' : 'Indisponível'}
+                    </Chip>
+                </div>
                                         <div className="col-span-1 sm:col-span-2 md:col-span-6 flex-col items-center justify-center pt-5">
                                             <div className="grid grid-cols-3 gap-12">
                                                 {plano.icons.map((cpu, index) => (
