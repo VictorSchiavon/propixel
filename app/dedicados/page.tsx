@@ -98,7 +98,7 @@ const planosXeon = [
       "nome": "Intel Xeon E5-2680 v4",
       "frequencia": "2.4GHz até 3.3GHz",
       "disponibilidade": true,
-      "preco": 729.90,
+      "preco": 749.90,
       "nucleos": 14,
       "threads": 28,
       "icons": [
@@ -114,7 +114,7 @@ const planosXeon = [
       "nome": "Intel Xeon E5-2680 v4",
       "frequencia": "2.4GHz até 3.3GHz",
       "disponibilidade": true,
-      "preco": 829.90,
+      "preco": 849.90,
       "nucleos": 14,
       "threads": 28,
       "icons": [
@@ -130,7 +130,7 @@ const planosXeon = [
       "nome": "Intel Xeon E5-2680 v4",
       "frequencia": "2.4GHz até 3.3GHz",
       "disponibilidade": true,
-      "preco": 1290.90,
+      "preco": 1394.90,
       "nucleos": 14,
       "threads": 28,
       "icons": [
