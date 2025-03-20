@@ -30,7 +30,7 @@ const planosAMD = [
       "nome": "AMD Ryzen 7 7700X",
       "frequencia": "4.5GHz até 5.4GHz",
       "disponibilidade": true,
-      "preco": 1550.00,
+      "preco": 1500.00,
       "nucleos": 8,
       "threads": 16,
       "icons": [
