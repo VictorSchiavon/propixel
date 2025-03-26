@@ -112,7 +112,7 @@ export default function Games() {
 				</section>
 				<div className="rounded-xl shadow-lg mt-12 p-5 bg-[#202024]">
 					<h2 className="text-lg font-semibold">
-						Qual a melhor host para Enshrouded?
+						Qual a melhor host para Soulmask?
 					</h2>
 					<p className="text-gray-400">
 						A RazeHost é a primeira hospedagem de jogos no Brasil,

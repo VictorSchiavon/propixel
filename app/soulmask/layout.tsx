@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de Enshrouded no Brasil",
-    description: "A melhor hospedagem de Enshrouded no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: "Host de Soulmask no Brasil",
+    description: "A melhor hospedagem de Soulmask no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "RazeHost Brasil",
     "RazeHost Games",
     "host arma reforger brasil",
-    "host Enshrouded brasil",
+    "host Soulmask brasil",
     "host the forest brasil",
     "RazeHost VPS",
     "host de FiveM",
@@ -114,16 +114,16 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de Enshrouded - Hospedagem de Enshrouded | RazeHost',
-        description: 'A melhor hospedagem de Enshrouded no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://www.razehost.com.br/game/theforest',
+        title: 'Host de Soulmask - Hospedagem de Soulmask | RazeHost',
+        description: 'A melhor hospedagem de Soulmask no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        url: 'https://www.razehost.com.br/soulmask',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de Enshrouded - Hospedagem de Enshrouded | RazeHost',
-        description: 'A melhor hospedagem de Enshrouded no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        title: 'Host de Soulmask - Hospedagem de Soulmask | RazeHost',
+        description: 'A melhor hospedagem de Soulmask no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.webp'],
     },
     icons: {

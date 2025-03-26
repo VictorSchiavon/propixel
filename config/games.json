@@ -516,7 +516,25 @@
 			"refundType": "Reembolso em até 7 dias"
 		}
 	},
-
+	{
+		"id": 31,
+		"name": "Soulmask",
+		"img": "/games/soulmask.webp",
+		"logo": "/games/logos/soulmask.webp",
+		"link": "/soulmask",
+		"price": "R$ 109,90",
+		"discountPrice": "R$ 99,90",
+		"new": true,
+		"wallpaper": "/wallpapers/soulmask.webp",
+		"contents": {
+			"description": "SoulMask é um sandbox de sobrevivência autêntica. Os jogadores, últimos sobreviventes portadores da misteriosa máscara.",
+			"platform": "PC",
+			"developer": "CampFire Studio",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
 	{
 		"id": 25,
 		"name": "Team Fortress 2",

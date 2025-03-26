@@ -1361,6 +1361,37 @@
 			],
 
 
+			"soulmask": [
+		{
+			"game": "soulmask",
+			"img": "/games/cards/soulmask.webp",
+			"name": "Plano 1",
+			"price": "R$109,00",
+			"discountPrice": "R$99,90",
+			"link": "https://app.razehost.com.br/store/soulmask-brasil/soulmask-8gb",
+			"description": [
+				"8GB de RAM",
+				"AMD Ryzen",
+				"20GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "soulmask",
+			"img": "/games/cards/soulmask.webp",
+			"name": "Plano 2",
+			"price": "R$149,90",
+			"discountPrice": "R$139,90",
+			"link": "https://app.razehost.com.br/store/barotrauma-brasil/barotrauma-12gb",
+			"description": [
+				"12GB de RAM",
+				"AMD Ryzen +",
+				"30GB SSD NVMe",
+				"Anti DDoS Incluso"
+				]}
+			],
+
+
 			"arma3": [
 		{
 			"game": "arma3",
