@@ -725,10 +725,10 @@
 			"img": "/games/cards/7daystodie.webp",
 			"name": "BÁSICO - 7 DAYS TO DIE",
 			"price": "R$94,00",
-			"discountPrice": "R$64,00",
+			"discountPrice": "R$74,00",
 			"link": "https://app.razehost.com.br/store/7-days-to-die/basico",
 			"description": [
-				"6 GB RAM",
+				"8 GB RAM",
 				"20 GB de armazenamento SSD NVME",
 				"Mods e Plugins",
 				"Subdomínio personalizado"
@@ -742,7 +742,7 @@
 			"discountPrice": "R$104,00",
 			"link": "https://app.razehost.com.br/store/7-days-to-die/avancado",
 			"description": [
-				"8 GB RAM",
+				"10 GB RAM",
 				"30 GB de armazenamento SSD NVME",
 				"Mods e Plugins",
 				"Subdomínio personalizado"
