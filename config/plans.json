@@ -3,15 +3,15 @@
 		{
 			"game": "Minecraft",
 			"img": "/games/cards/mine.webp",
-			"name": "Plano Simples",
+			"name": "Plano Bedrock",
 			"price": "R$29,99",
-			"discountPrice": "R$ 13,90",
+			"discountPrice": "R$ 19,90",
 			"link": "https://app.razehost.com.br/store/minecraft/plano-simples",
 			"description": [
-				"1 GB RAM",
-				"10 GB SSD",
-				"Jogadores ilimitados",
-				"Bungecoord/Proxy",
+				"Até 5 jogadores",
+				"Exclucivo Bedrock",
+				"Suporta Addons",
+				"SSD NVMe",
 				"AMD Ryzen"
 			]
 		},
