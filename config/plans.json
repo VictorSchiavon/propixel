@@ -8,7 +8,7 @@
 			"discountPrice": "R$ 19,90",
 			"link": "https://app.razehost.com.br/store/minecraft/plano-simples",
 			"description": [
-				"Até 5 jogadores",
+				"5 jogadores",
 				"Exclucivo Bedrock",
 				"Suporta Addons",
 				"SSD NVMe",
@@ -19,11 +19,11 @@
 			"game": "Minecraft",
 			"img": "/games/cards/mine.webp",
 			"name": "Plano Basic",
-			"price": "R$69,99",
-			"discountPrice": "R$ 33,90",
+			"price": "R$49,99",
+			"discountPrice": "R$ 37,90",
 			"link": "https://app.razehost.com.br/store/minecraft/plano-basic",
 			"description": [
-				"3 GB RAM",
+				"4 GB RAM",
 				"Mods e Plugins",
 				"FTP Web/Filezilla",
 				"Bedrock & Java",
