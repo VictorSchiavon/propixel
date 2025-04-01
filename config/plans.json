@@ -1484,23 +1484,23 @@
 		{
 			"game": "dayz",
 			"img": "/games/cards/dayz.webp",
-			"name": "Survivor Experimental",
-			"price": "R$189,90",
-			"discountPrice": "R$100,00",
+			"name": "Survivor",
+			"price": "R$279,90",
+			"discountPrice": "R$249,00",
 			"link": "https://app.razehost.com.br/store/dayz-no-brasil/dayz-survival",
 			"description": [
 				"8GB de RAM",
 				"AMD Ryzen",
-				"15GB SSD NVMe",
+				"40GB SSD NVMe",
 				"Anti DDoS Incluso"
 			]
 		},
 		{
 			"game": "DayZ",
 			"img": "/games/cards/dayz.webp",
-			"name": "Medium Experimental",
-			"price": "R$249,90",
-			"discountPrice": "R$150,00",
+			"name": "Medium",
+			"price": "R$349,90",
+			"discountPrice": "R$309,00",
 			"link": "https://app.razehost.com.br/store/dayz-no-brasil/dayz-medium",
 			"description": [
 				"10GB de RAM",
@@ -1512,14 +1512,14 @@
 		{
 			"game": "Enshrouded",
 			"img": "/games/cards/dayz.webp",
-			"name": "Apocalipse Experimental",
-			"price": "R$249,90",
-			"discountPrice": "R$250,00",
+			"name": "Apocalipse",
+			"price": "R$549,90",
+			"discountPrice": "R$419,90",
 			"link": "https://app.razehost.com.br/store/dayz-no-brasil/dayz-apocalipse",
 			"description": [
 				"16GB de RAM",
 				"AMD Ryzen ++",
-				"30GB SSD NVMe",
+				"60GB SSD NVMe",
 				"Anti DDoS Incluso"
 			]}
 	]
