@@ -1122,14 +1122,14 @@
 			]
 		}
 	],
-	"theforest": [
+	"sonsoftheforest": [
 		{
-			"game": "The Forest",
+			"game": "Sons of The Forest",
 			"img": "/games/cards/theforest.webp",
-			"name": "The Forest 6GB",
-			"price": "R$79,90",
-			"discountPrice": "R$49,90",
-			"link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-1",
+			"name": "Sons of The Forest 8GB",
+			"price": "R$109,90",
+			"discountPrice": "R$89,90",
+			"link": "https://app.razehost.com.br/store/sons-of-the-forest-no-brasil/host-de-sons-of-the-forest-plano-1",
 			"description": [
 				"6GB de RAM",
 				"AMD Ryzen",
@@ -1138,11 +1138,11 @@
 			]
 		},
 		{
-			"game": "The Forest",
+			"game": "Sons of The Forest",
 			"img": "/games/cards/theforest.webp",
-			"name": "The Forest 10GB",
-			"price": "R$119,90",
-			"discountPrice": "R$89,90",
+			"name": "Sons of The Forest 10GB",
+			"price": "R$149,90",
+			"discountPrice": "R$119,90",
 			"link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-2",
 			"description": [
 				"10GB de RAM",
@@ -1152,11 +1152,11 @@
 			]
 		},
 		{
-			"game": "The Forest",
+			"game": "Sons of The Forest",
 			"img": "/games/cards/theforest.webp",
-			"name": "The Forest 16GB",
-			"price": "R$199,90",
-			"discountPrice": "R$149,90",
+			"name": "Sons of The Forest 16GB",
+			"price": "R$299,90",
+			"discountPrice": "R$169,90",
 			"link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-3",
 			"description": [
 				"16GB de RAM",
@@ -1166,11 +1166,11 @@
 			]
 		},
 		{
-			"game": "The Forest",
+			"game": "Sons of The Forest",
 			"img": "/games/cards/theforest.webp",
-			"name": "The Forest 32GB",
-			"price": "R$299,90",
-			"discountPrice": "R$249,90",
+			"name": "Sons of The Forest 32GB",
+			"price": "R$499,90",
+			"discountPrice": "R$329,90",
 			"link": "https://app.razehost.com.br/store/the-forest-no-brasil/host-de-the-forest-plano-4",
 			"description": [
 				"32GB de RAM",

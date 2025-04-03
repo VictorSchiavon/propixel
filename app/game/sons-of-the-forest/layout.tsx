@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Host de The Forest no Brasil",
-    description: "A melhor hospedagem de The Forest no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
+    title: "Host de Sons of The Forest no Brasil",
+    description: "A melhor hospedagem de Sons of The Forest no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "RazeHost Brasil",
     "RazeHost Games",
     "host arma reforger brasil",
-    "host the forest brasil",
+    "host Sons of The Forest brasil",
     "RazeHost VPS",
     "host de FiveM",
     "hospedagem de FiveM",
@@ -113,16 +113,16 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de The Forest - Hospedagem de The Forest | RazeHost',
-        description: 'A melhor hospedagem de The Forest no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
-        url: 'https://www.razehost.com.br/game/theforest',
+        title: 'Host de Sons of The Forest - Hospedagem de Sons of The Forest | RazeHost',
+        description: 'A melhor hospedagem de Sons of The Forest no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        url: 'https://www.razehost.com.br/game/sons-of-the-forest',
         siteName: 'RazeHost',
         images: ['/banner.webp']
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Host de The Forest - Hospedagem de The Forest | RazeHost',
-        description: 'A melhor hospedagem de The Forest no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
+        title: 'Host de Sons of The Forest - Hospedagem de Sons of Sons of The Forest | RazeHost',
+        description: 'A melhor hospedagem de Sons of The Forest no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         images: ['/banner.webp'],
     },
     icons: {
