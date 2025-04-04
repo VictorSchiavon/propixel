@@ -89,92 +89,89 @@ export const NavbarComponent = () => {
       </Button>
     </PopoverTrigger>
     <PopoverContent
-      className="w-[680px] p-0"
+      className="w-[700px] p-0"
       onMouseEnter={() => clearTimeout(popoverTimeout!)}
       onMouseLeave={closePopoverWithDelay}
     >
-      <div className="w-full p-6 bg-[#1c1c1c] rounded-lg shadow-xl">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {/* Bloco destaque: VPS Gamer */}
-          <Link href="/vps">
-            <div className="relative h-72 rounded-xl overflow-hidden bg-gradient-to-br from-orange-600 to-yellow-500 hover:scale-[1.02] transition">
-              <div className="absolute bottom-0 left-0 right-0 p-4 bg-black/30 backdrop-blur-sm">
-                <Image
-                  src="/logo_icon.webp"
-                  alt="logo"
-                  height="120"
-                  width="50"
-                />
-                <p className="text-lg font-bold text-white">VPS Gamer</p>
-                <p className="text-sm text-gray-200">
-                  Servidores localizados em São Paulo.
-                </p>
-              </div>
-            </div>
-          </Link>
+      <div className="w-full p-6 bg-[#1a1a1a] rounded-xl shadow-xl space-y-6">
 
-          {/* Outras opções */}
-          <div className="grid grid-cols-1 gap-3">
-            {[
-              {
-                href: "/vps-trader",
-                title: "VPS Trader",
-                description: "Servidor veloz para traders.",
-              },
-              {
-                href: "/vps-flex",
-                title: "VPS Flex",
-                description: "Servidores custo-benefício único.",
-              },
-              {
-                href: "/colocation",
-                title: "Colocation",
-                description: "Hospede seu servidor em nossa infraestrutura.",
-              },
-              {
-                href: "/semidedicados",
-                title: "Semidedicados",
-                description: "Configurações superiores para aplicações grandes.",
-              },
-            ].map((item, index) => (
-              <Link href={item.href} key={index}>
-                <div className="p-3 hover:bg-[#2a2a2a] rounded-md transition">
-                  <p className="text-base font-semibold text-white">{item.title}</p>
-                  <p className="text-sm text-gray-400">{item.description}</p>
-                </div>
-              </Link>
-            ))}
+        {/* VPS GAMER DESTAQUE */}
+        <Link href="/vps">
+          <div className="relative h-48 rounded-xl bg-gradient-to-br from-orange-600 to-yellow-500 p-4 overflow-hidden hover:scale-[1.01] transition-all">
+            <div className="absolute top-4 left-4">
+              <Image src="/logo_icon.webp" alt="logo" width={50} height={50} />
+            </div>
+            <div className="absolute bottom-4 left-4 text-white">
+              <p className="text-xl font-bold">VPS Gamer</p>
+              <p className="text-sm">Servidores localizados em São Paulo</p>
+            </div>
           </div>
+        </Link>
+
+        {/* GRID: VPS e outros */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {[
+            {
+              href: "/vps-trader",
+              title: "VPS Trader",
+              description: "Alta performance para traders e bots.",
+            },
+            {
+              href: "/vps-flex",
+              title: "VPS Flex",
+              description: "Melhor custo-benefício para projetos variados.",
+            },
+            {
+              href: "/colocation",
+              title: "Colocation",
+              description: "Hospede seu servidor em nossa infraestrutura.",
+            },
+            {
+              href: "/semidedicados",
+              title: "Semidedicados",
+              description: "Ideal para aplicações maiores com mais controle.",
+            },
+          ].map((item, index) => (
+            <Link href={item.href} key={index}>
+              <div className="p-4 bg-[#222] hover:bg-[#333] rounded-lg transition">
+                <p className="text-md font-semibold text-white">{item.title}</p>
+                <p className="text-sm text-gray-400">{item.description}</p>
+              </div>
+            </Link>
+          ))}
         </div>
 
-        {/* Seção: Dedicados */}
-        <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <Link href="/dedicados">
-            <div className="bg-[#151515] hover:bg-[#2d2d2d] p-4 rounded-lg shadow">
-              <h3 className="text-md font-bold text-white">Dedicados</h3>
-              <p className="text-sm text-gray-400">
-                Seu próprio dedicado, sem compartilhamento.
-              </p>
-            </div>
-          </Link>
+        {/* TÍTULO SEÇÃO DEDICADOS */}
+        <h4 className="text-lg text-white font-semibold border-t border-gray-700 pt-4">
+          Baremetal & Dedicados
+        </h4>
 
-          <Link href="/baremetal">
-            <div className="bg-[#151515] hover:bg-[#2d2d2d] p-4 rounded-lg shadow">
-              <h3 className="text-md font-bold text-white">Baremetal</h3>
-              <p className="text-sm text-gray-400">
-                Servidores dedicados potentes e escaláveis.
-              </p>
-            </div>
-          </Link>
-
-          <Link href="/baremetal-jogos">
-            <div className="bg-[#151515] hover:bg-[#2d2d2d] p-4 rounded-lg shadow">
-              <h3 className="text-md font-bold text-white">Dedicados pra Jogos</h3>
-              <p className="text-sm text-gray-400">
-                Ideal para hospedagem de jogos com performance máxima.
-              </p>
-            </div>
-          </Link>
+        {/* GRID: DEDICADOS */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {[
+            {
+              href: "/dedicados",
+              title: "Dedicados",
+              description: "Recursos exclusivos e máxima performance.",
+            },
+            {
+              href: "/baremetal",
+              title: "Baremetal",
+              description: "Infraestrutura robusta sem virtualização.",
+            },
+            {
+              href: "/baremetal-jogos",
+              title: "Dedicados para Jogos",
+              description: "Servidores perfeitos para games de alta demanda.",
+            },
+          ].map((item, index) => (
+            <Link href={item.href} key={index}>
+              <div className="p-4 bg-[#222] hover:bg-[#333] rounded-lg transition">
+                <p className="text-md font-semibold text-white">{item.title}</p>
+                <p className="text-sm text-gray-400">{item.description}</p>
+              </div>
+            </Link>
+          ))}
         </div>
       </div>
     </PopoverContent>
