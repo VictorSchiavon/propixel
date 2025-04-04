@@ -95,7 +95,7 @@ export const NavbarComponent = () => {
     >
       <div className="w-full p-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {/* Bloco destacado (VPS Neon) */}
+          {/* Bloco destacado (VPS) */}
           <Link href="/vps">
             <div className="relative bg-gradient-to-br from-purple-600 to-purple-900 h-72 rounded-lg overflow-hidden">
               <div className="absolute bottom-0 left-0 right-0 p-4">
@@ -106,7 +106,7 @@ export const NavbarComponent = () => {
                   width="50"
                   className="mb-2"
                 />
-                <p className="text-lg font-bold text-white">VPS Neon</p>
+                <p className="text-lg font-bold text-white">VPS Gamer</p>
                 <p className="text-sm text-gray-200">Servidores localizados em São Paulo.</p>
               </div>
             </div>
