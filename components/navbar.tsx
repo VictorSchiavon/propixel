@@ -71,113 +71,95 @@ export const NavbarComponent = () => {
 					</NextLink>
 				</NavbarItem>
 				<NavbarItem className="mt-4" onMouseLeave={closePopoverWithDelay}>
-  <Popover
-    placement="bottom"
-    offset={20}
-    showArrow
-    isOpen={activePopover === "servers"}
-  >
-    <PopoverTrigger>
-      <Button
-        className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300"
-        radius="sm"
-        variant="light"
-        endContent={<BiChevronDown />}
-        onMouseEnter={() => handlePopover("servers")}
-      >
-        Servidores
-      </Button>
-    </PopoverTrigger>
-    <PopoverContent
-      className="w-[700px] p-0"
-      onMouseEnter={() => clearTimeout(popoverTimeout!)}
-      onMouseLeave={closePopoverWithDelay}
-    >
-      <div className="w-full p-6 bg-[#1a1a1a] rounded-xl shadow-xl space-y-6">
-
-        {/* VPS GAMER DESTAQUE */}
-        <Link href="/vps">
-          <div className="relative h-48 rounded-xl bg-gradient-to-br from-orange-600 to-yellow-500 p-4 overflow-hidden hover:scale-[1.01] transition-all">
-            <div className="absolute top-4 left-4">
-              <Image src="/logo_icon.webp" alt="logo" width={50} height={50} />
-            </div>
-            <div className="absolute bottom-4 left-4 text-white">
-              <p className="text-xl font-bold">VPS Gamer</p>
-              <p className="text-sm">Servidores localizados em São Paulo</p>
-            </div>
-          </div>
-        </Link>
-
-        {/* GRID: VPS e outros */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {[
-            {
-              href: "/vps-trader",
-              title: "VPS Trader",
-              description: "Alta performance para traders e bots.",
-            },
-            {
-              href: "/vps-flex",
-              title: "VPS Flex",
-              description: "Melhor custo-benefício para projetos variados.",
-            },
-            {
-              href: "/colocation",
-              title: "Colocation",
-              description: "Hospede seu servidor em nossa infraestrutura.",
-            },
-            {
-              href: "/semidedicados",
-              title: "Semidedicados",
-              description: "Ideal para aplicações maiores com mais controle.",
-            },
-          ].map((item, index) => (
-            <Link href={item.href} key={index}>
-              <div className="p-4 bg-[#222] hover:bg-[#333] rounded-lg transition">
-                <p className="text-md font-semibold text-white">{item.title}</p>
-                <p className="text-sm text-gray-400">{item.description}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
-
-        {/* TÍTULO SEÇÃO DEDICADOS */}
-        <h4 className="text-lg text-white font-semibold border-t border-gray-700 pt-4">
-          Baremetal & Dedicados
-        </h4>
-
-        {/* GRID: DEDICADOS */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          {[
-            {
-              href: "/dedicados",
-              title: "Dedicados",
-              description: "Recursos exclusivos e máxima performance.",
-            },
-            {
-              href: "/baremetal",
-              title: "Baremetal",
-              description: "Infraestrutura robusta sem virtualização.",
-            },
-            {
-              href: "/baremetal-jogos",
-              title: "Dedicados para Jogos",
-              description: "Servidores perfeitos para games de alta demanda.",
-            },
-          ].map((item, index) => (
-            <Link href={item.href} key={index}>
-              <div className="p-4 bg-[#222] hover:bg-[#333] rounded-lg transition">
-                <p className="text-md font-semibold text-white">{item.title}</p>
-                <p className="text-sm text-gray-400">{item.description}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </PopoverContent>
-  </Popover>
-</NavbarItem>
-
+					<Popover
+						placement="bottom"
+						offset={20}
+						showArrow
+						isOpen={activePopover === "servers"}
+					>
+						<PopoverTrigger>
+							<Button
+								className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300"
+								radius="sm"
+								variant="light"
+								endContent={<BiChevronDown />}
+								onMouseEnter={() => handlePopover("servers")}
+							>
+								Servidores
+							</Button>
+						</PopoverTrigger>
+						<PopoverContent
+							className="w-[570px] p-0"
+							onMouseEnter={() => clearTimeout(popoverTimeout!)}
+							onMouseLeave={closePopoverWithDelay}
+						>
+							<div className="w-full p-5">
+								<div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+									<Link href="/vps">
+										<div className="relative bg-gradient-to-b from-orange-500 to-yellow-600 h-72 rounded-lg">
+											<div className="absolute bottom-0 left-0 right-0 p-4">
+												<Image
+													src="/logo_icon.webp"
+													alt="logo"
+													height="120"
+													width="50"
+												/>
+												<p className="text-lg font-bold">VPS Gamer</p>
+												<p>Servidores localizados em São Paulo.</p>
+											</div>
+										</div>
+									</Link>
+									<div>
+										{[
+											{
+												href: "/vps-trader",
+												title: "VPS Trader",
+												description: "Servidor veloz para traders.",
+											},
+											{
+												href: "/vps-flex",
+												title: "VPS Flex",
+												description: "Servidores custo-benefício único.",
+											},
+											{
+												href: "/colocation",
+												title: "Colocation",
+												description:
+													"Hospede seu servidor em nossa infraestrutura.",
+											},
+											{
+												href: "/semidedicados",
+												title: "Semidedicados",
+												description:
+													"Configurações superiores, para aplicação grandes.",
+											},
+										].map((item, index) => (
+											<Link href={item.href} key={index}>
+												<div className="p-2 hover:bg-[#303030] rounded-lg">
+													<p className="text-lg">{item.title}</p>
+													<p className="text-md text-gray-500">
+														{item.description}
+													</p>
+												</div>
+											</Link>
+										))}
+									</div>
+								</div>
+								<div className="mt-5">
+									<Link href="/dedicados">
+										<div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg">
+											<h3 className="text-md font-bold">Dedicados</h3>
+											<p>
+												Seu próprio dedicado, não compartilhe recursos com
+												ninguém.
+											</p>
+										</div>
+									</Link>
+								</div>
+							</div>
+						</PopoverContent>
+					</Popover>
+				</NavbarItem>
 				<NavbarItem className="mt-4" onMouseLeave={closePopoverWithDelay}>
 					<Popover
 						placement="bottom"
