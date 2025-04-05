@@ -576,13 +576,13 @@
 	{
 		"id": 21,
 		"name": "Sons of The Forest",
-		"img": "/games/theforest.webp",
-		"logo": "/games/logos/theforest.webp",
+		"img": "/games/sons-of-the-forest.webp",
+		"logo": "/games/logos/sons-of-the-forest.webp",
 		"link": "/game/sons-of-the-forest",
 		"price": "R$ 99,00",
 		"discountPrice": "R$ 89,90",
 		"new": true,
-		"wallpaper": "/wallpapers/theforest.webp",
+		"wallpaper": "/wallpapers/sons-of-the-forest.webp",
 		"contents": {
 			"description": "Sons of The Forest é um jogo de sobrevivência em mundo aberto, onde o jogador deve lutar para sobreviver após um acidente de avião em uma ilha desabitada. O jogo apresenta uma mistura de construção, exploração e combate com criaturas mutantes.",
 			"platform": "PC, PlayStation 4",
