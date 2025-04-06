@@ -12,7 +12,7 @@ const sections = [
     { title: "Servidores", links: [{ name: "VPS Gamer", url: "/vps" }, { name: "VPS FiveM", url: "/fivem" }, { name: "VPS Ryzen", url: "/vpsryzen" }, { name: "Semidedicados", url: "/semidedicados" }, { name: "Servidores Dedicados", url: "/dedicados" }, { name: "VPS Trader", url: "/vps-trader" }] },
     { title: "Recursos", links: [{ name: "Painel de jogos", url: "/painel" }, { name: "Proteção Anti DDoS", url: "/anti-ddos" }, { name: "Afilie-se", url: "#" }] },
     { title: "Jogos", links: [{ name: "Host de FiveM", url: "/game/fivem" }, { name: "Host de Minecraft", url: "/game/minecraft" }, { name: "Host de 7 Days to Die", url: "/game/7daystodie" }, { name: "Host de Project Zomboid", url: "/game/projectzomboid" }, { name: "Host de Palworld", url: "/game/palworld" }, { name: "Outros jogos", url: "/games" }] },
-    { title: "Legal", links: [{ name: "Termos e Condições", url: "https://drive.google.com/file/d/1u89J-ACHVAsE8nTUwe9zWOaw06Eaqo16/view" }, { name: "Privacidade", url: "https://drive.google.com/file/d/1u89J-ACHVAsE8nTUwe9zWOaw06Eaqo16/view" }] },
+    { title: "Legal", links: [{ name: "Termos e Condições", url: "/termos" }, { name: "Privacidade", url: "/termos" }] },
   ];
 
 const socialMedia = [

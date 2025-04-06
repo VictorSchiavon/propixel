@@ -273,7 +273,7 @@ export const NavbarComponent = () => {
 											icon: <Gamepad2 />,
 										},
 										{
-											href: "https://drive.google.com/file/d/1u89J-ACHVAsE8nTUwe9zWOaw06Eaqo16/view",
+											href: "/termos",
 											title: "Termos de Serviço",
 											description:
 												"Para garantir a melhor experiência, recomendamos a leitura completa dos termos.",
@@ -538,7 +538,7 @@ export const NavbarComponent = () => {
 											icon: <Gamepad2 />,
 										},
 										{
-											href: "https://drive.google.com/file/d/1u89J-ACHVAsE8nTUwe9zWOaw06Eaqo16/view",
+											href: "/termos",
 											title: "Termos de Serviço",
 											description:
 												"Para garantir a melhor experiência, recomendamos a leitura completa dos termos.",
