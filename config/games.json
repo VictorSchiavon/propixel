@@ -307,7 +307,7 @@
 	},
 	{
 		"id": 12,
-		"name": "Ark",
+		"name": "Ark Survival Ascended",
 		"img": "/games/ark.webp",
 		"logo": "/games/logos/ark.webp",
 		"link": "/ark-survival-ascended",
@@ -317,6 +317,25 @@
 		"wallpaper": "/wallpapers/ark.webp",
 		"contents": {
 			"description": "ARK: Survival Ascended é um jogo de sobrevivência com dinossauros, onde você coleta recursos, constrói bases e enfrenta criaturas pré-históricas.",
+			"platform": "PC, PS4, Xbox One",
+			"developer": "Studio Wildcard",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
+		"id": 12,
+		"name": "Ark Survival Evolved",
+		"img": "/games/ark.webp",
+		"logo": "/games/logos/ark.webp",
+		"link": "/ark-survival-evolved",
+		"price": "R$ 150,00",
+		"discountPrice": "R$ 100,00",
+		"new": false,
+		"wallpaper": "/wallpapers/ark.webp",
+		"contents": {
+			"description": "ARK: Survival Evolved é um jogo de sobrevivência com dinossauros, onde você coleta recursos, constrói bases e enfrenta criaturas pré-históricas.",
 			"platform": "PC, PS4, Xbox One",
 			"developer": "Studio Wildcard",
 			"mods": "Permitido",
