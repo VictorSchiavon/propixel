@@ -42,7 +42,7 @@ export default function TermsOfUse() {
                     <Card className="bg-[#0A0C10] rounded-sm"><CardBody>
                         <h2 className="font-bold text-xl pb-2">4. Cancelamentos e Reembolsos</h2>
                         <p className="text-gray-300 text-[15px]">
-                            Contas que violarem estes termos poderão ser canceladas sem reembolso. Atitudes desrespeitosas também podem gerar suspensão ou encerramento da conta. O cliente pode solicitar cancelamento a qualquer momento via Central do Assinante. Garantimos reembolso em até 7 dias para planos convencionais (Art. 49 do CDC). Não há reembolso de servidores dedicados ou proteções adicionais.
+                            Contas que violarem estes termos poderão ser canceladas sem reembolso. Atitudes desrespeitosas também podem gerar suspensão ou encerramento da conta. O cliente pode solicitar cancelamento a qualquer momento via Central do Assinante. Garantimos reembolso em até 7 dias para planos convencionais (Art. 49 do CDC). Não há reembolso de servidores dedicados [Que são feitos sobre encomendas.] ou proteções adicionais.
                         </p>
                     </CardBody></Card>
 
