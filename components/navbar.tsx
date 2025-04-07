@@ -71,95 +71,105 @@ export const NavbarComponent = () => {
 					</NextLink>
 				</NavbarItem>
 				<NavbarItem className="mt-4" onMouseLeave={closePopoverWithDelay}>
-					<Popover
-						placement="bottom"
-						offset={20}
-						showArrow
-						isOpen={activePopover === "servers"}
-					>
-						<PopoverTrigger>
-							<Button
-								className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300"
-								radius="sm"
-								variant="light"
-								endContent={<BiChevronDown />}
-								onMouseEnter={() => handlePopover("servers")}
-							>
-								Servidores
-							</Button>
-						</PopoverTrigger>
-						<PopoverContent
-							className="w-[570px] p-0"
-							onMouseEnter={() => clearTimeout(popoverTimeout!)}
-							onMouseLeave={closePopoverWithDelay}
-						>
-							<div className="w-full p-5">
-								<div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-									<Link href="/vps">
-										<div className="relative bg-gradient-to-b from-orange-500 to-yellow-600 h-72 rounded-lg">
-											<div className="absolute bottom-0 left-0 right-0 p-4">
-												<Image
-													src="/logo_icon.webp"
-													alt="logo"
-													height="120"
-													width="50"
-												/>
-												<p className="text-lg font-bold">VPS Gamer</p>
-												<p>Servidores localizados em São Paulo.</p>
-											</div>
-										</div>
-									</Link>
-									<div>
-										{[
-											{
-												href: "/vps-trader",
-												title: "VPS Trader",
-												description: "Servidor veloz para traders.",
-											},
-											{
-												href: "/vps-flex",
-												title: "VPS Flex",
-												description: "Servidores custo-benefício único.",
-											},
-											{
-												href: "/colocation",
-												title: "Colocation",
-												description:
-													"Hospede seu servidor em nossa infraestrutura.",
-											},
-											{
-												href: "/semidedicados",
-												title: "Semidedicados",
-												description:
-													"Configurações superiores, para aplicação grandes.",
-											},
-										].map((item, index) => (
-											<Link href={item.href} key={index}>
-												<div className="p-2 hover:bg-[#303030] rounded-lg">
-													<p className="text-lg">{item.title}</p>
-													<p className="text-md text-gray-500">
-														{item.description}
-													</p>
-												</div>
-											</Link>
-										))}
-									</div>
-								</div>
-								<div className="mt-5">
-									<Link href="/dedicados">
-										<div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg">
-											<h3 className="text-md font-bold">Dedicados</h3>
-											<p>
-												Seu próprio dedicado, não compartilhe recursos com
-												ninguém.
-											</p>
-										</div>
-									</Link>
-								</div>
-							</div>
-						</PopoverContent>
-					</Popover>
-				</NavbarItem>
+  <Popover
+    placement="bottom"
+    offset={20}
+    showArrow
+    isOpen={activePopover === "servers"}
+  >
+    <PopoverTrigger>
+      <Button
+        className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300"
+        radius="sm"
+        variant="light"
+        endContent={<BiChevronDown />}
+        onMouseEnter={() => handlePopover("servers")}
+      >
+        Servidores
+      </Button>
+    </PopoverTrigger>
+    <PopoverContent
+      className="w-[570px] p-0"
+      onMouseEnter={() => clearTimeout(popoverTimeout!)}
+      onMouseLeave={closePopoverWithDelay}
+    >
+      <div className="w-full p-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <Link href="/vps">
+            <div className="relative bg-gradient-to-b from-orange-500 to-yellow-600 h-72 rounded-lg">
+              <div className="absolute bottom-0 left-0 right-0 p-4">
+                <Image
+                  src="/logo_icon.webp"
+                  alt="logo"
+                  height="120"
+                  width="50"
+                />
+                <p className="text-lg font-bold">VPS Gamer</p>
+                <p>Servidores localizados em São Paulo.</p>
+              </div>
+            </div>
+          </Link>
+          <div>
+            {[
+              {
+                href: "/vps-trader",
+                title: "VPS Trader",
+                description: "Servidor veloz para traders.",
+              },
+              {
+                href: "/vps-flex",
+                title: "VPS Flex",
+                description: "Servidores custo-benefício único.",
+              },
+              {
+                href: "/colocation",
+                title: "Colocation",
+                description: "Hospede seu servidor em nossa infraestrutura.",
+              },
+              {
+                href: "/semidedicados",
+                title: "Semidedicados",
+                description: "Configurações superiores, para aplicação grandes.",
+              },
+            ].map((item, index) => (
+              <Link href={item.href} key={index}>
+                <div className="p-2 hover:bg-[#303030] rounded-lg">
+                  <p className="text-lg">{item.title}</p>
+                  <p className="text-md text-gray-500">{item.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-5">
+          <Link href="/dedicados">
+            <div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg">
+              <h3 className="text-md font-bold">Dedicados</h3>
+              <p>Seu próprio dedicado, não compartilhe recursos com ninguém.</p>
+            </div>
+          </Link>
+        </div>
+
+        {/* Linha inferior */}
+        <div className="mt-6 border-t border-gray-700 pt-4 grid grid-cols-3 gap-4">
+          {[
+            { label: "Documentation", href: "/docs" },
+            { label: "API Reference", href: "/api" },
+            { label: "Changelog", href: "/changelog" },
+          ].map((item, index) => (
+            <Link href={item.href} key={index}>
+              <div className="flex justify-between items-center text-sm font-medium text-gray-300 hover:text-white transition">
+                {item.label} <span>→</span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </PopoverContent>
+  </Popover>
+</NavbarItem>
+
 
 				<NavbarItem className="mt-4" onMouseLeave={closePopoverWithDelay}>
 					<Popover
