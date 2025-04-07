@@ -1366,11 +1366,11 @@
 			"game": "soulmask",
 			"img": "/games/cards/soulmask.webp",
 			"name": "Plano 1",
-			"price": "R$109,00",
-			"discountPrice": "R$99,90",
-			"link": "https://app.razehost.com.br/store/soulmask-brasil/soulmask-8gb",
+			"price": "R$149,00",
+			"discountPrice": "R$129,90",
+			"link": "https://app.razehost.com.br/store/soulmask-brasil/soulmask-122gb",
 			"description": [
-				"8GB de RAM",
+				"12GB de RAM",
 				"AMD Ryzen",
 				"20GB SSD NVMe",
 				"Anti DDoS Incluso"
@@ -1380,11 +1380,11 @@
 			"game": "soulmask",
 			"img": "/games/cards/soulmask.webp",
 			"name": "Plano 2",
-			"price": "R$149,90",
-			"discountPrice": "R$139,90",
-			"link": "https://app.razehost.com.br/store/soulmask-brasil/soulmask-12gb",
+			"price": "R$239,90",
+			"discountPrice": "R$169,90",
+			"link": "https://app.razehost.com.br/store/soulmask-brasil/soulmask-16gb",
 			"description": [
-				"12GB de RAM",
+				"16GB de RAM",
 				"AMD Ryzen +",
 				"30GB SSD NVMe",
 				"Anti DDoS Incluso"
