@@ -75,7 +75,7 @@ export const NavbarComponent = () => {
     placement="bottom"
     offset={20}
     showArrow
-    isOpen={activePopover === "servers"}
+    isOpen={activePopover === "products"}
   >
     <PopoverTrigger>
       <Button
@@ -83,9 +83,9 @@ export const NavbarComponent = () => {
         radius="sm"
         variant="light"
         endContent={<BiChevronDown />}
-        onMouseEnter={() => handlePopover("servers")}
+        onMouseEnter={() => handlePopover("products")}
       >
-        Servidores
+        Produtos
       </Button>
     </PopoverTrigger>
     <PopoverContent
@@ -93,43 +93,44 @@ export const NavbarComponent = () => {
       onMouseEnter={() => clearTimeout(popoverTimeout!)}
       onMouseLeave={closePopoverWithDelay}
     >
+      {/* Grid principal */}
       <div className="grid grid-cols-3 gap-6">
         {[
           {
             number: "01",
-            title: "VPS Gamer",
-            desc: "Servidores localizados em São Paulo.",
-            href: "/vps",
+            title: "Metal",
+            desc: "Automated bare metal.",
+            href: "#",
           },
           {
             number: "02",
-            title: "VPS Trader",
-            desc: "Servidor veloz para traders.",
-            href: "/vps-trader",
+            title: "Build",
+            desc: "Bespoke bare metal.",
+            href: "#",
           },
           {
             number: "03",
-            title: "VPS Flex",
-            desc: "Servidores custo-benefício único.",
-            href: "/vps-flex",
+            title: "Accelerate",
+            desc: "Dedicated GPU clusters.",
+            href: "#",
           },
           {
             number: "04",
-            title: "Colocation",
-            desc: "Hospede seu servidor em nossa infraestrutura.",
-            href: "/colocation",
+            title: "Cloud Gateway",
+            desc: "Connect to AWS and more.",
+            href: "#",
           },
           {
             number: "05",
-            title: "Semidedicados",
-            desc: "Configurações superiores para aplicações grandes.",
-            href: "/semidedicados",
+            title: "Storage",
+            desc: "A performant filesystem.",
+            href: "#",
           },
           {
             number: "06",
-            title: "Dedicados",
-            desc: "Seu próprio dedicado. Não compartilhe recursos.",
-            href: "/dedicados",
+            title: "Databases",
+            desc: "Real-time data access.",
+            href: "#",
           },
         ].map((item, index) => (
           <Link href={item.href} key={index}>
@@ -137,6 +138,54 @@ export const NavbarComponent = () => {
               <p className="text-xs text-gray-400 mb-2">{item.number}</p>
               <p className="text-lg font-semibold text-black dark:text-white">{item.title}</p>
               <p className="text-sm text-gray-600 dark:text-gray-400">{item.desc}</p>
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      {/* Seção lateral – Platform */}
+      <div className="grid grid-cols-3 gap-6 mt-6">
+        <div></div>
+        <div></div>
+        <div>
+          <h5 className="text-xs text-gray-400 font-semibold uppercase mb-3">Platform</h5>
+          <ul className="space-y-4">
+            {[
+              {
+                title: "Network",
+                desc: "Carrier-grade.",
+                href: "#",
+              },
+              {
+                title: "Locations",
+                desc: "Global deployments.",
+                href: "#",
+              },
+            ].map((item, index) => (
+              <Link href={item.href} key={index}>
+                <div className="flex justify-between items-center group hover:text-blue-600 transition cursor-pointer">
+                  <div>
+                    <p className="text-sm font-medium text-black dark:text-white">{item.title}</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">{item.desc}</p>
+                  </div>
+                  <span className="text-gray-400 group-hover:text-blue-600">→</span>
+                </div>
+              </Link>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      {/* Linha inferior */}
+      <div className="mt-6 border-t border-gray-200 dark:border-gray-800 pt-4 grid grid-cols-3 gap-4">
+        {[
+          { label: "Documentation", href: "#" },
+          { label: "API Reference", href: "#" },
+          { label: "Changelog", href: "#" },
+        ].map((item, index) => (
+          <Link href={item.href} key={index}>
+            <div className="flex justify-between items-center text-sm font-medium text-black dark:text-white hover:text-blue-600 transition">
+              {item.label} <span>→</span>
             </div>
           </Link>
         ))}
