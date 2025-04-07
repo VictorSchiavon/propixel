@@ -154,9 +154,9 @@ export const NavbarComponent = () => {
         {/* Linha inferior */}
         <div className="mt-6 border-t border-gray-700 pt-4 grid grid-cols-3 gap-4">
           {[
-            { label: "Documentation", href: "/docs" },
-            { label: "API Reference", href: "/api" },
-            { label: "Changelog", href: "/changelog" },
+            { label: "Documentação", href: "https://suporte.razehost.com.br/pt-BR/collections/9663609-servidor-vps" },
+            { label: "Redes", href: "/redes#breve" },
+            { label: "Changelog", href: "https://discord.gg/GghrUQ9vMN" },
           ].map((item, index) => (
             <Link href={item.href} key={index}>
               <div className="flex justify-between items-center text-sm font-medium text-gray-300 hover:text-white transition">
