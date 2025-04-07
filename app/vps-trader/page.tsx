@@ -179,7 +179,7 @@ export default function Games() {
                             <div>
                                 <Zap color="orange" size={26} />
                                 <h3 className="font-bold pt-3">AMD Ryzen</h3>
-                                <p className="text-gray-300 text-[14px] pt-1">Ofereça a melhor experiência de jogo com nossos servidores VPS equipados com processadores AMD Ryzen 7 5800X, otimizados para jogos exigentes e altas cargas de trabalho, garantindo desempenho superior.</p>
+                                <p className="text-gray-300 text-[14px] pt-1">Ofereça a melhor experiência de jogo com nossos servidores VPS equipados com processadores AMD Ryzen, otimizados para jogos exigentes e altas cargas de trabalho, garantindo desempenho superior.</p>
                             </div>
                         </CardBody>
                     </Card>
