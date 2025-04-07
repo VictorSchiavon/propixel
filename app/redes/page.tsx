@@ -50,7 +50,7 @@ export default function Home() {
                                     <ServerCog color="orange" size={26} />
                                     <h3 className="font-bold pt-3">Infraestrutura Confiável</h3>
                                     <p className="text-gray-300 text-[14px] pt-1">
-                                        Equipamentos das melhores marcas do mercado e opções de colocation de 1U até Cage Rack. Tudo preparado para garantir desempenho, escalabilidade e segurança.
+                                    Certificações de boas práticas para a segurança da Internet.
                                     </p>
                                 </div>
                             </CardBody>
