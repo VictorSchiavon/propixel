@@ -12,7 +12,6 @@ import {
 } from "lucide-react";
 
 // Verifique se o caminho está correto e o arquivo existe
-import styles from "../styles/minecraft.module.css";
 
 export default function Home() {
   return (
