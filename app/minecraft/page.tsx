@@ -11,13 +11,13 @@ import {
   Zap,
 } from "lucide-react";
 
-// Adicionando uma fonte estilo Minecraft (você pode baixar "Minecraft Regular" ou similar)
-import styles from "./minecraft.module.css"; // Crie um arquivo CSS para customizações
+// Importando o CSS customizado
+import styles from "./minecraft.module.css";
 
 export default function Home() {
   return (
     <>
-      <section className="container mx-auto px-6 flex-grow bg-[#3C2F2F] text-white">
+      <section className="container mx-auto px-6 flex-grow">
         <section className="pt-[5%]">
           <h1 className={`${styles.minecraftFont} text-6xl font-bold pt-4 text-[#55FF55]`}>
             Crie seu servidor de Minecraft
@@ -36,13 +36,13 @@ export default function Home() {
           </p>
           <div className="pt-5 flex gap-3">
             <Button
-              className="rounded-md bg-[#3A3A3A] text-white border border-[#55FF55] hover:bg-[#55FF55] hover:text-black transition-all"
+              className={`${styles.minecraftButton} rounded-md bg-transparent text-white border border-[#55FF55] hover:bg-[#55FF55] hover:text-black`}
               onClick={() => (window.location.href = "/game/minecraft")}
             >
               Ver planos
             </Button>
             <Button
-              className="rounded-md bg-[#3A3A3A] text-white bg-[#18181B] hover:bg-[#FFAA00] hover:text-black transition-all"
+              className={`${styles.minecraftButton} rounded-md bg-transparent text-white bg-[#18181B] hover:bg-[#FFAA00] hover:text-black`}
               onClick={() =>
                 (window.location.href = "https://discord.gg/p8YXcEuKdH")
               }
@@ -54,7 +54,7 @@ export default function Home() {
 
         <section className="pt-20">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="bg-[#2F2F2F] rounded-sm border border-[#8B4513]">
+            <Card className="bg-[#0A0C10] rounded-sm border border-[#8B4513]">
               <CardBody>
                 <div>
                   <Zap color="#FFAA00" size={26} />
@@ -69,7 +69,7 @@ export default function Home() {
                 </div>
               </CardBody>
             </Card>
-            <Card className="bg-[#2F2F2F] rounded-sm border border-[#8B4513]">
+            <Card className="bg-[#0A0C10] rounded-sm border border-[#8B4513]">
               <CardBody>
                 <div>
                   <BrainCircuit color="#FFAA00" size={26} />
@@ -84,7 +84,7 @@ export default function Home() {
                 </div>
               </CardBody>
             </Card>
-            <Card className="bg-[#2F2F2F] rounded-sm border border-[#8B4513]">
+            <Card className="bg-[#0A0C10] rounded-sm border border-[#8B4513]">
               <CardBody>
                 <div>
                   <ShieldCheck color="#FFAA00" size={26} />
@@ -101,7 +101,7 @@ export default function Home() {
             </Card>
           </div>
         </section>
-        <div className="rounded-xl shadow-lg mt-12 p-5 bg-[#4A2F1A] border border-[#8B4513]">
+        <div className="rounded-xl shadow-lg mt-12 p-5 bg-[#202024] border border-[#8B4513]">
           <h2 className={`${styles.minecraftFont} text-lg font-semibold text-[#55FF55]`}>
             Qual a melhor host para Minecraft?
           </h2>
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#1A1A1A] mt-10 p-5">
+      <section className="bg-[#07090c] mt-10 p-5">
         <div className="container mx-auto px-6 flex-grow pt-10">
           <section>
             <h2 className={`${styles.minecraftFont} text-4xl font-bold text-[#55FF55]`}>
@@ -128,7 +128,7 @@ export default function Home() {
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-5 pb-10">
-              <Card className="bg-[#2F2F2F] rounded-sm border border-[#8B4513]">
+              <Card className="bg-[#0A0C10] rounded-sm border border-[#8B4513]">
                 <CardBody>
                   <div>
                     <center>
@@ -145,7 +145,7 @@ export default function Home() {
                   </div>
                 </CardBody>
               </Card>
-              <Card className="bg-[#2F2F2F] rounded-sm border border-[#8B4513]">
+              <Card className="bg-[#0A0C10] rounded-sm border border-[#8B4513]">
                 <CardBody>
                   <div>
                     <center>
@@ -161,7 +161,7 @@ export default function Home() {
                   </div>
                 </CardBody>
               </Card>
-              <Card className="bg-[#2F2F2F] rounded-sm border border-[#8B4513]">
+              <Card className="bg-[#0A0C10] rounded-sm border border-[#8B4513]">
                 <CardBody>
                   <div>
                     <center>
