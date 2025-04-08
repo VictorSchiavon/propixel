@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("/fonts/Minecraft-Regular.ttf") format("truetype");
+  }
+  
+  .minecraftFont {
+    font-family: "Minecraft", sans-serif;
+    text-shadow: 2px 2px 0 #3A3A3A; /* Sombra estilo Minecraft */
+  }
+  
+  /* Opcional: adicionar textura de fundo */
+  body {
+    background-image: url("/textures/minecraft_dirt.png");
+    background-repeat: repeat;
+  }
