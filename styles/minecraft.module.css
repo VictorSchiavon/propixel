@@ -10,6 +10,6 @@
   
   /* Opcional: adicionar textura de fundo */
   body {
-    background-image: url("/textures/minecraft_dirt.png");
+    background-image: url("/textures/mine.webp");
     background-repeat: repeat;
   }
