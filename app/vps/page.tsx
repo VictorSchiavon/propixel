@@ -119,7 +119,7 @@ const vpsFlex = [
 			ram: "2 GB",
 			cores: "2 vCores",
 			ssd: "30 GB",
-			attrs: ["Personalizável", "Hospedado no Brasil"],
+			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -130,7 +130,7 @@ const vpsFlex = [
 			ram: "4 GB",
 			cores: "3 vCores",
 			ssd: "40 GB",
-			attrs: ["Personalizável", "Hospedado no Brasil"],
+			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -141,7 +141,7 @@ const vpsFlex = [
 			ram: "6 GB",
 			cores: "4 vCores",
 			ssd: "50 GB",
-			attrs: ["Personalizável", "Hospedado no Brasil"],
+			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -152,7 +152,7 @@ const vpsFlex = [
 			ram: "8 GB",
 			cores: "5 vCores",
 			ssd: "60 GB",
-			attrs: ["Personalizável", "Hospedado no Brasil"],
+			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -163,7 +163,7 @@ const vpsFlex = [
 			ram: "10 GB",
 			cores: "6 vCores",
 			ssd: "70 GB",
-			attrs: ["Personalizável", "Hospedado no Brasil"],
+			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -174,7 +174,7 @@ const vpsFlex = [
 			ram: "12 GB",
 			cores: "7 vCores",
 			ssd: "80 GB",
-			attrs: ["Personalizável", "Hospedado no Brasil"],
+			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -185,7 +185,7 @@ const vpsFlex = [
 			ram: "16 GB",
 			cores: "8 vCores",
 			ssd: "100 GB",
-			attrs: ["Personalizável", "Hospedado no Brasil"],
+			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 ];
