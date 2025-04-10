@@ -27,7 +27,83 @@ const vpsGamer = [
 			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
 		},
 	},
-	// ... demais planos Gamer
+	{
+		name: "VPS Hera",
+		price: "R$74,90",
+		link: "https://app.razehost.com.br/store/vps/vps-l1",
+		description: {
+			ram: "2 GB",
+			ssd: "40 GB",
+			cores: "2 núcleos",
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+		},
+	},
+	{
+		name: "VPS Ares",
+		price: "R$139,90",
+		link: "https://app.razehost.com.br/store/vps/vps-l2",
+		description: {
+			ram: "4 GB",
+			ssd: "50 GB",
+			cores: "3 núcleos",
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+		},
+	},
+	{
+		name: "VPS Athena",
+		price: "R$209,90",
+		link: "https://app.razehost.com.br/store/vps/vps-l3",
+		description: {
+			ram: "6 GB",
+			ssd: "60 GB",
+			cores: "4 núcleos",
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+		},
+	},
+	{
+		name: "VPS Hades",
+		price: "R$249,90",
+		link: "https://app.razehost.com.br/store/vps/vps-l4",
+		description: {
+			ram: "8 GB",
+			ssd: "70 GB",
+			cores: "5 núcleos",
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+		},
+	},
+	{
+		name: "VPS Poseidon",
+		price: "R$309,90",
+		link: "https://app.razehost.com.br/store/vps/vps-l5",
+		description: {
+			ram: "10 GB",
+			ssd: "80 GB",
+			cores: "6 núcleos",
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+		},
+	},
+	{
+		name: "VPS Zeus",
+		price: "R$369,00",
+		link: "https://app.razehost.com.br/store/vps/vps-poseidon",
+		description: {
+			ram: "12 GB",
+			ssd: "90 GB",
+			cores: "6 núcleos",
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+		},
+	},
+	{
+		name: "VPS Mestre do Olimpo",
+		price: "R$419,00",
+		link: "https://app.razehost.com.br/store/vps/vps-mestre",
+		description: {
+			ram: "16 GB",
+			ssd: "100 GB",
+			cores: "6 núcleos",
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+		},
+	},
 ];
 
 const vpsFlex = [
@@ -210,35 +286,5 @@ export default function Games() {
 				</div>
 			</section>
 
-			<section className="pt-20">
-				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-					<Card className="bg-[#0A0C10] rounded-sm">
-						<CardBody>
-							<div>
-								<Zap color="orange" size={26} />
-								<h3 className="font-bold pt-3">AMD Ryzen</h3>
-								<p className="text-gray-300 text-[14px] pt-1">
-									Ofereça a melhor experiência de jogo com nossos servidores VPS
-									equipados com processadores AMD Ryzen, otimizados para jogos
-									exigentes e altas cargas de trabalho, garantindo desempenho
-									superior.
-								</p>
-							</div>
-						</CardBody>
-					</Card>
-					<Card className="bg-[#0A0C10] rounded-sm">
-						<CardBody>
-							<div>
-								<BrainCircuit color="orange" size={26} />
-								<h3 className="font-bold pt-3">SSD NVMe</h3>
-								<p className="text-gray-300 text-[14px] pt-1">
-									Aproveite a velocidade do SSD NVMe em nossa VPS Gamer...
-								</p>
-							</div>
-						</CardBody>
-					</Card>
-				</div>
-			</section>
-		</section>
-	);
-}
+		}
+
