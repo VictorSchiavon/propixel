@@ -289,7 +289,7 @@ export default function Games() {
 					))}
 				</div>
 			</section>
-			<section className="pt-[5%] w-full px-4 sm:px-8 lg:px-16">
+			<section className="pt-[5%] w-full max-w-screen-xl mx-auto">
   <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">Compare nossos planos</h2>
   <Card className="bg-[#0E131D] rounded-sm">
     <CardBody className="p-8">
