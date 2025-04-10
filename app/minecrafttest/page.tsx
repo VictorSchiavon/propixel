@@ -231,14 +231,14 @@ export default function MinecraftPage() {
   }
 
   return (
-    <div className="bg-[#0A0A0A] min-h-screen text-white">
-      {/* Header com estilo Minecraft e personagem */}
-      <div className="relative w-full h-[500px] overflow-hidden bg-[#0A0A0A]">
+    <div className="bg-[rgb(11,14,19)] min-h-screen text-white">
+      {/* Header com estilo Minecraft */}
+      <div className="relative w-full h-[500px] overflow-hidden bg-[rgb(11,14,19)]">
         {/* Imagem de fundo com overlay */}
         <div className="absolute inset-0 bg-[url('/placeholder.svg?height=500&width=1200')] bg-cover bg-center opacity-30"></div>
 
         {/* Overlay gradiente */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/90 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[rgb(11,14,19)] via-[rgb(11,14,19)]/90 to-transparent"></div>
 
         {/* Conteúdo do hero */}
         <div className="container mx-auto px-6 h-full flex items-center relative z-10">
@@ -273,25 +273,13 @@ export default function MinecraftPage() {
                 height={400}
                 className="absolute bottom-0 right-0"
               />
-              {/* Servidor estilizado */}
-              <div className="absolute bottom-20 right-[250px] w-[120px] h-[200px] bg-gray-800 rounded-md border-t-4 border-orange-500 shadow-lg shadow-orange-500/20">
-                <div className="absolute top-2 left-2 w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
-                <div className="absolute top-2 right-2 w-2 h-2 rounded-full bg-blue-500 animate-pulse delay-75"></div>
-                <div className="grid grid-cols-3 gap-1 p-2 mt-6">
-                  {Array(9)
-                    .fill(0)
-                    .map((_, i) => (
-                      <div key={i} className="w-3 h-1 bg-gray-600"></div>
-                    ))}
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
 
       {/* Seção de planos com estilo Minecraft */}
-      <div className="bg-[#0A0A0A] py-20">
+      <div className="bg-[rgb(11,14,19)] py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Escolha seu plano ideal</h2>
@@ -304,9 +292,10 @@ export default function MinecraftPage() {
           <div className="flex justify-center mb-12">
             <Tabs
               selectedKey={selectedTab}
-              onSelectionChange={(key) => setSelectedTab(key.toString())}
+              onSelectionChange={(key) => setSelectedTab(key as string)}
               color="warning"
               size="lg"
+              aria-label="Minecraft Edition Tabs"
               classNames={{
                 tab: "data-[selected=true]:bg-orange-500 data-[selected=true]:text-white",
                 cursor: "bg-orange-500",
@@ -344,8 +333,14 @@ export default function MinecraftPage() {
                   className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20"
                 >
                   <div className="flex justify-center py-6">
-                    {/* Placeholder para imagem do bloco */}
-                    <div className={`w-24 h-24 ${plan.color} rounded-lg`}></div>
+                    {/* Imagens dos blocos de Minecraft */}
+                    <Image
+                      src={`/placeholder.svg?height=96&width=96`}
+                      alt={plan.name}
+                      width={96}
+                      height={96}
+                      className={`rounded-lg ${plan.color}`}
+                    />
                   </div>
                   <div className="px-6 pb-6">
                     <h3 className="text-xl font-bold text-white mb-2 text-center">{plan.name}</h3>
@@ -353,11 +348,7 @@ export default function MinecraftPage() {
                       <div className="text-sm text-gray-500 line-through">{plan.originalPrice}/mês</div>
                       <div className="text-2xl font-bold text-orange-500">{plan.price}/mês</div>
                     </div>
-                    <Button
-                      className="w-full bg-orange-500/20 text-orange-500 hover:bg-orange-500/30 border border-orange-500/50"
-                      variant="flat"
-                      onClick={() => showPlanDetails(plan)}
-                    >
+                    <Button className="w-full bg-orange-500 text-white" onClick={() => showPlanDetails(plan)}>
                       Clique para ver os detalhes
                     </Button>
                   </div>
@@ -422,7 +413,7 @@ export default function MinecraftPage() {
       </div>
 
       {/* Seção de Construtor de Network */}
-      <div className="relative w-full py-16 overflow-hidden bg-[#0D0D0D]">
+      <div className="relative w-full py-16 overflow-hidden bg-[rgb(11,14,19)]">
         {/* Imagem de fundo com overlay */}
         <div className="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=1200')] bg-cover bg-center opacity-20"></div>
 
@@ -454,7 +445,7 @@ export default function MinecraftPage() {
       </div>
 
       {/* Seção de Modpacks e Troca de Versões */}
-      <div className="bg-[#0A0A0A] py-20">
+      <div className="bg-[rgb(11,14,19)] py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Recursos exclusivos</h2>
@@ -526,7 +517,7 @@ export default function MinecraftPage() {
       </div>
 
       {/* Seção de recursos com estilo Minecraft */}
-      <div className="bg-[#0D0D0D] py-20 relative overflow-hidden">
+      <div className="bg-[rgb(11,14,19)] py-20 relative overflow-hidden">
         {/* Padrão de blocos de fundo (estilo Minecraft) */}
         <div className="absolute inset-0 opacity-5">
           <div className="grid grid-cols-12 h-full">
