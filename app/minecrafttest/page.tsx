@@ -271,7 +271,7 @@ export default function MinecraftPage() {
                 alt="Personagem Minecraft"
                 width={300}
                 height={400}
-                className="absolute bottom-0 right-0"
+                 className="w-full h-full object-contain"
               />
             </div>
           </div>
