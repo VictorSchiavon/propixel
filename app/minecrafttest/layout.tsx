@@ -4,10 +4,10 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: {
-        default: "VPS Flex no Brasil com Anti DDoS",
+        default: "Host de Minecraft no Brasil",
         template: `%s - ${siteConfig.name}`,
     },
-    description: "VPS Flex com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",
+    description: "A melhor host de Minecraft do Brasil, processadores AMD Ryzen e Proteção DDoS e seu servidor sempre seguro com a RazeHost.",
  keywords: [
     "RazeHost.com.br",
     "RazeHost",
