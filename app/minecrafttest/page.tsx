@@ -2,57 +2,153 @@
 
 import { Button } from "@nextui-org/button"
 import { Card, CardBody, Tabs, Tab } from "@nextui-org/react"
-import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap } from "lucide-react"
+import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap, Cpu } from "lucide-react"
 import { useState } from "react"
+
+// Definição dos processadores disponíveis
+const processors = [
+  { id: "5950x", name: "Ryzen 9 5950x" },
+  { id: "7950x", name: "Ryzen 9 7950x" },
+  { id: "5900x", name: "Ryzen 9 5900x" },
+  { id: "xeon", name: "Xeon 2680v4" },
+]
 
 // Planos Java
 const javaPlans = [
   {
-    name: "MC Stone",
-    price: "R$29,90",
-    link: "https://app.razehost.com.br/store/minecraft/mc-stone",
-    image: "/minecraft/steve-stone.png",
+    id: "stone",
+    name: "2GB RAM / 2vCores",
+    originalPrice: "R$27,90",
+    price: "R$21,99",
+    image: "/minecraft/coal_ore.png", // Placeholder para imagem de bloco de carvão
+    color: "bg-gray-800",
     description: {
       ram: "2 GB",
       ssd: "10 GB",
-      cores: "1 núcleo",
-      attrs: ["Anti DDoS Incluso", "Painel Pterodactyl"],
+      cores: "2 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: false,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
     },
   },
   {
-    name: "MC Iron",
-    price: "R$49,90",
-    link: "https://app.razehost.com.br/store/minecraft/mc-iron",
-    image: "/minecraft/steve-iron.png",
+    id: "iron",
+    name: "4GB RAM / 3vCores",
+    originalPrice: "R$50,00",
+    price: "R$43,99",
+    image: "/minecraft/iron_ore.png", // Placeholder para imagem de bloco de ferro
+    color: "bg-blue-700",
     description: {
       ram: "4 GB",
-      ssd: "20 GB",
-      cores: "2 núcleos",
-      attrs: ["Anti DDoS Incluso", "Painel Pterodactyl"],
+      ssd: "30 GB",
+      cores: "3 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
     },
   },
   {
-    name: "MC Diamond",
-    price: "R$79,90",
-    link: "https://app.razehost.com.br/store/minecraft/mc-diamond",
-    image: "/minecraft/steve-diamond.png",
-    description: {
-      ram: "6 GB",
-      ssd: "40 GB",
-      cores: "3 núcleos",
-      attrs: ["Anti DDoS Incluso", "Painel Pterodactyl"],
-    },
-  },
-  {
-    name: "MC Netherite",
-    price: "R$129,90",
-    link: "https://app.razehost.com.br/store/minecraft/mc-netherite",
-    image: "/minecraft/steve-netherite.png",
+    id: "gold",
+    name: "8GB RAM / 5vCores",
+    originalPrice: "R$100,00",
+    price: "R$87,99",
+    image: "/minecraft/iron_block.png", // Placeholder para imagem de bloco de ferro
+    color: "bg-gray-300",
     description: {
       ram: "8 GB",
-      ssd: "60 GB",
-      cores: "4 núcleos",
-      attrs: ["Anti DDoS Incluso", "Painel Pterodactyl"],
+      ssd: "50 GB",
+      cores: "5 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
+    },
+  },
+  {
+    id: "diamond",
+    name: "12GB RAM / 7vCores",
+    originalPrice: "R$150,00",
+    price: "R$131,99",
+    image: "/minecraft/gold_ore.png", // Placeholder para imagem de bloco de ouro
+    color: "bg-yellow-500",
+    description: {
+      ram: "12 GB",
+      ssd: "80 GB",
+      cores: "7 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
+    },
+  },
+  {
+    id: "emerald",
+    name: "16GB RAM / 9vCores",
+    originalPrice: "R$200,00",
+    price: "R$175,99",
+    image: "/minecraft/emerald_ore.png", // Placeholder para imagem de bloco de esmeralda
+    color: "bg-green-500",
+    description: {
+      ram: "16 GB",
+      ssd: "100 GB",
+      cores: "9 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
+    },
+  },
+  {
+    id: "diamond_block",
+    name: "24GB RAM / 14vCores",
+    originalPrice: "R$300,00",
+    price: "R$263,99",
+    image: "/minecraft/diamond_ore.png", // Placeholder para imagem de bloco de diamante
+    color: "bg-cyan-400",
+    description: {
+      ram: "24 GB",
+      ssd: "150 GB",
+      cores: "14 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
+    },
+  },
+  {
+    id: "obsidian",
+    name: "32GB RAM / 16vCores",
+    originalPrice: "R$400,00",
+    price: "R$351,99",
+    image: "/minecraft/obsidian.png", // Placeholder para imagem de bloco de obsidiana
+    color: "bg-gray-900",
+    description: {
+      ram: "32 GB",
+      ssd: "200 GB",
+      cores: "16 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
+    },
+  },
+  {
+    id: "bedrock",
+    name: "48GB RAM / 20vCores",
+    originalPrice: "R$600,00",
+    price: "R$527,99",
+    image: "/minecraft/bedrock.png", // Placeholder para imagem de bloco de bedrock
+    color: "bg-gray-700",
+    description: {
+      ram: "48 GB",
+      ssd: "300 GB",
+      cores: "20 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
     },
   },
 ]
@@ -60,48 +156,70 @@ const javaPlans = [
 // Planos Bedrock
 const bedrockPlans = [
   {
-    name: "Bedrock Basic",
-    price: "R$39,90",
-    link: "https://app.razehost.com.br/store/minecraft/bedrock-basic",
-    image: "/minecraft/bedrock-basic.png",
+    id: "bedrock_basic",
+    name: "4GB RAM / 3vCores",
+    originalPrice: "R$55,00",
+    price: "R$47,99",
+    image: "/minecraft/iron_ore.png", // Placeholder para imagem de bloco de ferro
+    color: "bg-blue-700",
     description: {
-      ram: "3 GB",
-      ssd: "15 GB",
-      cores: "2 núcleos",
-      attrs: ["Anti DDoS Incluso", "Painel Pterodactyl", "Suporte a Add-ons"],
-    },
-  },
-  {
-    name: "Bedrock Plus",
-    price: "R$69,90",
-    link: "https://app.razehost.com.br/store/minecraft/bedrock-plus",
-    image: "/minecraft/bedrock-plus.png",
-    description: {
-      ram: "6 GB",
+      ram: "4 GB",
       ssd: "30 GB",
-      cores: "3 núcleos",
-      attrs: ["Anti DDoS Incluso", "Painel Pterodactyl", "Suporte a Add-ons", "Backups Diários"],
+      cores: "3 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
     },
   },
   {
-    name: "Bedrock Pro",
-    price: "R$99,90",
-    link: "https://app.razehost.com.br/store/minecraft/bedrock-pro",
-    image: "/minecraft/bedrock-pro.png",
+    id: "bedrock_plus",
+    name: "8GB RAM / 5vCores",
+    originalPrice: "R$110,00",
+    price: "R$95,99",
+    image: "/minecraft/iron_block.png", // Placeholder para imagem de bloco de ferro
+    color: "bg-gray-300",
     description: {
       ram: "8 GB",
       ssd: "50 GB",
-      cores: "4 núcleos",
-      attrs: ["Anti DDoS Incluso", "Painel Pterodactyl", "Suporte a Add-ons", "Backups Diários", "Domínio Grátis"],
+      cores: "5 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
+    },
+  },
+  {
+    id: "bedrock_pro",
+    name: "16GB RAM / 9vCores",
+    originalPrice: "R$210,00",
+    price: "R$185,99",
+    image: "/minecraft/emerald_ore.png", // Placeholder para imagem de bloco de esmeralda
+    color: "bg-green-500",
+    description: {
+      ram: "16 GB",
+      ssd: "100 GB",
+      cores: "9 vCores",
+      processor: "AMD Ryzen 9 5950x/9900x",
+      additionalServer: true,
+      ddosProtection: "Proteção Anti-DDoS MagicTransit",
+      defaultPort: "Porta padrão por R$20,00",
     },
   },
 ]
 
 export default function MinecraftPage() {
   const [selectedTab, setSelectedTab] = useState("java")
+  const [selectedProcessor, setSelectedProcessor] = useState("5950x")
+  const [selectedPlan, setSelectedPlan] = useState<any>(null)
 
   // Cor laranja conforme solicitado
   const primaryColor = "rgb(251 146 60)"
+
+  // Função para mostrar detalhes do plano
+  const showPlanDetails = (plan: any) => {
+    setSelectedPlan(plan)
+  }
 
   return (
     <>
@@ -153,7 +271,7 @@ export default function MinecraftPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Escolha seu plano ideal</h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Servidores otimizados para Minecraft com processadores AMD Ryzen 9 5950X
+              Servidores otimizados para Minecraft com processadores de alta performance
             </p>
           </div>
 
@@ -191,87 +309,110 @@ export default function MinecraftPage() {
             </Tabs>
           </div>
 
-          {/* Planos baseados na tab selecionada */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {(selectedTab === "java" ? javaPlans : bedrockPlans).map((plan, index) => (
-              <div
-                key={index}
-                className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg overflow-hidden transition-all hover:-translate-y-2 hover:shadow-[0_0_15px_rgba(251,146,60,0.3)]"
-              >
-                {/* Cabeçalho do plano com imagem do personagem */}
-                <div className="h-[180px] bg-gradient-to-b from-gray-800 to-[#1A1A1A] relative overflow-hidden">
-                  {/* Placeholder para imagem do personagem */}
-                  <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[100px] h-[150px]">
-                    <div
-                      className={`w-full h-full ${
-                        plan.name.includes("Stone")
-                          ? "bg-gray-500"
-                          : plan.name.includes("Iron")
-                            ? "bg-gray-400"
-                            : plan.name.includes("Diamond")
-                              ? "bg-blue-500"
-                              : plan.name.includes("Netherite")
-                                ? "bg-purple-900"
-                                : plan.name.includes("Basic")
-                                  ? "bg-green-500"
-                                  : plan.name.includes("Plus")
-                                    ? "bg-yellow-500"
-                                    : "bg-red-500"
-                      } rounded-t-lg opacity-70`}
-                    ></div>
-                  </div>
+          {/* Seleção de processador */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold mb-6 text-center">Escolha seu processador:</h3>
+            <div className="flex flex-wrap justify-center gap-4">
+              {processors.map((processor) => (
+                <Button
+                  key={processor.id}
+                  className={`${
+                    selectedProcessor === processor.id
+                      ? "bg-orange-500 text-white"
+                      : "bg-[#1A1A1A] text-white hover:bg-[#2A2A2A]"
+                  } px-6 py-3 rounded-lg flex items-center gap-2`}
+                  onClick={() => setSelectedProcessor(processor.id)}
+                >
+                  <Cpu size={18} />
+                  <span>{processor.name}</span>
+                </Button>
+              ))}
+            </div>
+          </div>
 
-                  {/* Badge do processador */}
-                  <div className="absolute top-4 left-4 bg-black/70 text-xs text-white px-2 py-1 rounded-full">
-                    AMD Ryzen 9 5950X
+          {/* Grid de planos e painel de detalhes */}
+          <div className="flex flex-col lg:flex-row gap-8">
+            {/* Grid de planos */}
+            <div className="lg:w-3/4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+              {(selectedTab === "java" ? javaPlans : bedrockPlans).map((plan) => (
+                <div
+                  key={plan.id}
+                  className="bg-white rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20"
+                >
+                  <div className="flex justify-center py-6">
+                    {/* Placeholder para imagem do bloco */}
+                    <div className={`w-24 h-24 ${plan.color} rounded-lg`}></div>
                   </div>
-                </div>
-
-                {/* Conteúdo do plano */}
-                <div className="p-6">
-                  <div className="text-center mb-6">
-                    <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
-                    <div className="text-3xl font-bold text-orange-500 mb-1">{plan.price}</div>
-                    <div className="text-sm text-gray-500">/mês</div>
-                  </div>
-
-                  {/* Especificações principais */}
-                  <div className="flex justify-between text-center mb-6">
-                    <div>
-                      <div className="text-xl font-bold text-white">{plan.description.ram}</div>
-                      <div className="text-xs text-gray-500 mt-1">RAM</div>
+                  <div className="px-6 pb-6">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2 text-center">{plan.name}</h3>
+                    <div className="flex flex-col items-center mb-4">
+                      <div className="text-sm text-gray-500 line-through">{plan.originalPrice}/mês</div>
+                      <div className="text-2xl font-bold text-orange-500">{plan.price}/mês</div>
                     </div>
-                    <div className="h-10 w-[1px] bg-gray-800"></div>
-                    <div>
-                      <div className="text-xl font-bold text-white">{plan.description.cores}</div>
-                      <div className="text-xs text-gray-500 mt-1">vCPU</div>
-                    </div>
-                    <div className="h-10 w-[1px] bg-gray-800"></div>
-                    <div>
-                      <div className="text-xl font-bold text-white">{plan.description.ssd}</div>
-                      <div className="text-xs text-gray-500 mt-1">SSD</div>
-                    </div>
-                  </div>
-
-                  {/* Recursos adicionais */}
-                  <div className="space-y-3 mb-6">
-                    {plan.description.attrs.map((attr, idx) => (
-                      <div key={idx} className="flex items-center">
-                        <CircleCheckBig className="text-orange-500 mr-2 flex-shrink-0" size={18} />
-                        <span className="text-sm text-gray-300">{attr}</span>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* Botão de ação */}
-                  <a href={plan.link} target="_blank" rel="noopener noreferrer">
-                    <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold" size="lg">
-                      Contratar Agora
+                    <Button
+                      className="w-full bg-orange-100 text-orange-500 hover:bg-orange-200"
+                      variant="flat"
+                      onClick={() => showPlanDetails(plan)}
+                    >
+                      Clique para ver os detalhes
                     </Button>
-                  </a>
+                  </div>
                 </div>
+              ))}
+            </div>
+
+            {/* Painel de detalhes */}
+            <div className="lg:w-1/4">
+              <div className="bg-white rounded-lg p-6 shadow-lg sticky top-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Detalhes do plano</h3>
+
+                {selectedPlan ? (
+                  <>
+                    <div className="text-sm text-gray-500 mb-2">R$50,00</div>
+                    <div className="text-2xl font-bold text-orange-500 mb-6">{selectedPlan.price}/mês</div>
+
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start gap-2">
+                        <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
+                        <span className="text-gray-700">{selectedPlan.description.processor}</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
+                        <span className="text-gray-700">{selectedPlan.description.cores}</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
+                        <span className="text-gray-700">{selectedPlan.description.ram} RAM</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
+                        <span className="text-gray-700">{selectedPlan.description.ssd} SSD NVMe</span>
+                      </li>
+                      {selectedPlan.description.additionalServer && (
+                        <li className="flex items-start gap-2">
+                          <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
+                          <span className="text-gray-700">Até +1 servidor adicional</span>
+                        </li>
+                      )}
+                      <li className="flex items-start gap-2">
+                        <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
+                        <span className="text-gray-700">{selectedPlan.description.ddosProtection}</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
+                        <span className="text-gray-700">{selectedPlan.description.defaultPort}</span>
+                      </li>
+                    </ul>
+
+                    <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold" size="lg">
+                      Contratar
+                    </Button>
+                  </>
+                ) : (
+                  <div className="text-gray-500 text-center py-8">Selecione um plano para ver os detalhes</div>
+                )}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>
