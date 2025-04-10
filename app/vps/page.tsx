@@ -286,5 +286,90 @@ export default function Games() {
 				</div>
 			</section>
 
-		}
-
+			<section className="pt-20">
+				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+					<Card className="bg-[#0A0C10] rounded-sm">
+						<CardBody>
+							<div>
+								<Zap color="orange" size={26} />
+								<h3 className="font-bold pt-3">AMD Ryzen</h3>
+								<p className="text-gray-300 text-[14px] pt-1">
+									Ofereça a melhor experiência de jogo com nossos servidores VPS
+									equipados com processadores AMD Ryzen, otimizados para jogos
+									exigentes e altas cargas de trabalho, garantindo desempenho
+									superior. A diferença é que a VPS Gamer possui processadores melhores.
+								</p>
+							</div>
+						</CardBody>
+					</Card>
+					<Card className="bg-[#0A0C10] rounded-sm">
+						<CardBody>
+							<div>
+								<BrainCircuit color="orange" size={26} />
+								<h3 className="font-bold pt-3">SSD NVMe</h3>
+								<p className="text-gray-300 text-[14px] pt-1">
+									Aproveite a velocidade do SSD NVMe em nossa VPS Gamer...
+								</p>
+							</div>
+						</CardBody>
+					</Card>
+					<Card className="bg-[#0A0C10] rounded-sm">
+						<CardBody>
+							<div>
+								<BrainCircuit color="orange" size={26} />
+								<h3 className="font-bold pt-3">Proteção DDoS</h3>
+								<p className="text-gray-300 text-[14px] pt-1">
+								Mantenha seus servidores de jogos seguros com nossa proteção DDoS avançada. Garantimos que seu servidor esteja sempre protegido contra ataques, proporcionando uma jogabilidade sem interrupções.
+								</p>
+							</div>
+						</CardBody>
+					</Card>
+					<Card className="bg-[#0A0C10] rounded-sm">
+						<CardBody>
+							<div>
+								<BrainCircuit color="orange" size={26} />
+								<h3 className="font-bold pt-3">Proteção DDoS</h3>
+								<p className="text-gray-300 text-[14px] pt-1">
+								Mantenha seus servidores de jogos seguros com nossa proteção DDoS avançada. Garantimos que seu servidor esteja sempre protegido contra ataques, proporcionando uma jogabilidade sem interrupções.
+								</p>
+							</div>
+						</CardBody>
+					</Card>
+					<Card className="bg-[#0A0C10] rounded-sm">
+						<CardBody>
+							<div>
+								<BrainCircuit color="orange" size={26} />
+								<h3 className="font-bold pt-3">Sem lag</h3>
+								<p className="text-gray-300 text-[14px] pt-1">
+								Na RazeHost nos usamos equipamentos com discos SSD NVMe, e o melhor máquinas AMD Ryzen com uplinks de até 10GBPS.
+								</p>
+							</div>
+						</CardBody>
+					</Card>
+					<Card className="bg-[#0A0C10] rounded-sm">
+						<CardBody>
+							<div>
+								<BrainCircuit color="orange" size={26} />
+								<h3 className="font-bold pt-3">Baixa latência</h3>
+								<p className="text-gray-300 text-[14px] pt-1">
+								Com servidores VPS em São Paulo, garantimos baixa latência e conexão rápida para jogadores em todo o Brasil, oferecendo uma experiência de jogo sem lag e com alto desempenho.
+								</p>
+							</div>
+						</CardBody>
+					</Card>
+					<Card className="bg-[#0A0C10] rounded-sm">
+						<CardBody>
+							<div>
+								<BrainCircuit color="orange" size={26} />
+								<h3 className="font-bold pt-3">Suporte								</h3>
+								<p className="text-gray-300 text-[14px] pt-1">
+								Com 99,9% de uptime, seus servidores estarão sempre online, permitindo que você aproveite seus jogos e aplicações sem falhas, dia e noite.
+								</p>
+							</div>
+						</CardBody>
+					</Card>
+				</div>
+			</section>
+		</section>
+	);
+}
