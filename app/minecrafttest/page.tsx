@@ -309,26 +309,7 @@ export default function MinecraftPage() {
             </Tabs>
           </div>
 
-          {/* Seleção de processador */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-6 text-center">Escolha seu processador:</h3>
-            <div className="flex flex-wrap justify-center gap-4">
-              {processors.map((processor) => (
-                <Button
-                  key={processor.id}
-                  className={`${
-                    selectedProcessor === processor.id
-                      ? "bg-orange-500 text-white"
-                      : "bg-[#1A1A1A] text-white hover:bg-[#2A2A2A]"
-                  } px-6 py-3 rounded-lg flex items-center gap-2`}
-                  onClick={() => setSelectedProcessor(processor.id)}
-                >
-                  <Cpu size={18} />
-                  <span>{processor.name}</span>
-                </Button>
-              ))}
-            </div>
-          </div>
+          
 
           {/* Grid de planos e painel de detalhes */}
           <div className="flex flex-col lg:flex-row gap-8">
