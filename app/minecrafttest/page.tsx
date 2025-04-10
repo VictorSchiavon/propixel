@@ -124,7 +124,7 @@ const javaPlans = [
     name: "32GB RAM / 16vCores",
     originalPrice: "R$400,00",
     price: "R$351,99",
-    image: "/textures/carvao.webp",
+    image: "/textures/ether.webp",
     color: "bg-gray-900",
     description: {
       ram: "32 GB",
