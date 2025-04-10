@@ -292,13 +292,29 @@ export default function Games() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-300">
         <div className="col-span-1">
           <h3 className="text-lg font-bold mb-4">Recurso</h3>
-          <ul className="space-y-4">
-            <li>Processador</li>
-            <li>Upload</li>
-            <li>Desempenho para jogos</li>
-            <li>Indicado para</li>
-            <li>Preço</li>
-          </ul>
+		  <ul className="space-y-4">
+  <li className="flex items-center gap-2">
+    <Cpu className="w-4 h-4 text-orange-400" />
+    Processador
+  </li>
+  <li className="flex items-center gap-2">
+    <Upload className="w-4 h-4 text-orange-400" />
+    Upload
+  </li>
+  <li className="flex items-center gap-2">
+    <Gamepad2 className="w-4 h-4 text-orange-400" />
+    Desempenho para jogos
+  </li>
+  <li className="flex items-center gap-2">
+    <BadgeCheck className="w-4 h-4 text-orange-400" />
+    Indicado para
+  </li>
+  <li className="flex items-center gap-2">
+    <DollarSign className="w-4 h-4 text-orange-400" />
+    Preço
+  </li>
+</ul>
+
         </div>
         <div className="col-span-1">
           <h3 className="text-lg font-bold mb-4 text-orange-400">VPS Gamer</h3>
@@ -324,7 +340,7 @@ export default function Games() {
     </CardBody>
   </Card>
 </section>
-
+					
 
 			<section className="pt-20">
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
