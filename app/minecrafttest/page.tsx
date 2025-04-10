@@ -9,7 +9,10 @@ import { useState } from "react"
 
 // Definição dos processadores disponíveis
 const processors = [
+  { id: "5950x", name: "Ryzen 9 5950x" },
   { id: "7950x", name: "Ryzen 9 7950x" },
+  { id: "5900x", name: "Ryzen 9 5900x" },
+  { id: "xeon", name: "Xeon 2680v4" },
 ]
 
 // Planos Java
@@ -19,7 +22,7 @@ const javaPlans = [
     name: "2GB RAM / 2vCores",
     originalPrice: "R$27,90",
     price: "R$21,99",
-    image: "/textures/terra.webp", // Placeholder para imagem de bloco de carvão
+    image: "/textures/terra.webp",
     color: "bg-gray-800",
     description: {
       ram: "2 GB",
@@ -36,7 +39,7 @@ const javaPlans = [
     name: "4GB RAM / 3vCores",
     originalPrice: "R$50,00",
     price: "R$43,99",
-    image: "/textures/ferro.webp", // Placeholder para imagem de bloco de ferro
+    image: "/textures/ferro.webp",
     color: "bg-blue-700",
     description: {
       ram: "4 GB",
@@ -53,7 +56,7 @@ const javaPlans = [
     name: "8GB RAM / 5vCores",
     originalPrice: "R$100,00",
     price: "R$87,99",
-    image: "/textures/ouro.webp", // Placeholder para imagem de bloco de ferro
+    image: "/textures/ouro.webp",
     color: "bg-gray-300",
     description: {
       ram: "8 GB",
@@ -70,7 +73,7 @@ const javaPlans = [
     name: "12GB RAM / 7vCores",
     originalPrice: "R$150,00",
     price: "R$131,99",
-    image: "/textures/diamante.webp", // Placeholder para imagem de bloco de ouro
+    image: "/textures/diamante.webp",
     color: "bg-yellow-500",
     description: {
       ram: "12 GB",
@@ -87,7 +90,7 @@ const javaPlans = [
     name: "16GB RAM / 9vCores",
     originalPrice: "R$200,00",
     price: "R$175,99",
-    image: "/textures/esmeralda.webp", // Placeholder para imagem de bloco de esmeralda
+    image: "/textures/esmeralda.webp",
     color: "bg-green-500",
     description: {
       ram: "16 GB",
@@ -104,7 +107,7 @@ const javaPlans = [
     name: "24GB RAM / 14vCores",
     originalPrice: "R$300,00",
     price: "R$263,99",
-    image: "/textures/ametista.webp", // Placeholder para imagem de bloco de diamante
+    image: "/textures/ametista.webp",
     color: "bg-cyan-400",
     description: {
       ram: "24 GB",
@@ -121,7 +124,7 @@ const javaPlans = [
     name: "32GB RAM / 16vCores",
     originalPrice: "R$400,00",
     price: "R$351,99",
-    image: "/textures/carvao.webp", // Placeholder para imagem de bloco de obsidiana
+    image: "/textures/carvao.webp",
     color: "bg-gray-900",
     description: {
       ram: "32 GB",
@@ -138,7 +141,7 @@ const javaPlans = [
     name: "48GB RAM / 20vCores",
     originalPrice: "R$600,00",
     price: "R$527,99",
-    image: "/minecraft/bedrock.png", // Placeholder para imagem de bloco de bedrock
+    image: "/textures/carvao.webp", // Usando carvao.webp como fallback para bedrock
     color: "bg-gray-700",
     description: {
       ram: "48 GB",
@@ -159,7 +162,7 @@ const bedrockPlans = [
     name: "4GB RAM / 3vCores",
     originalPrice: "R$55,00",
     price: "R$47,99",
-    image: "/minecraft/iron_ore.png", // Placeholder para imagem de bloco de ferro
+    image: "/textures/ferro.webp",
     color: "bg-blue-700",
     description: {
       ram: "4 GB",
@@ -176,7 +179,7 @@ const bedrockPlans = [
     name: "8GB RAM / 5vCores",
     originalPrice: "R$110,00",
     price: "R$95,99",
-    image: "/minecraft/iron_block.png", // Placeholder para imagem de bloco de ferro
+    image: "/textures/ouro.webp",
     color: "bg-gray-300",
     description: {
       ram: "8 GB",
@@ -193,7 +196,7 @@ const bedrockPlans = [
     name: "16GB RAM / 9vCores",
     originalPrice: "R$210,00",
     price: "R$185,99",
-    image: "/minecraft/emerald_ore.png", // Placeholder para imagem de bloco de esmeralda
+    image: "/textures/esmeralda.webp",
     color: "bg-green-500",
     description: {
       ram: "16 GB",
@@ -232,8 +235,7 @@ export default function MinecraftPage() {
       {/* Header com estilo Minecraft */}
       <div className="relative w-full h-[500px] overflow-hidden bg-[rgb(11,14,19)]">
         {/* Imagem de fundo com overlay */}
-        <div className="absolute inset-0 bg-[url('
-        /textures/terra.webp')] bg-cover bg-center opacity-30"></div>
+        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=500&width=1200')] bg-cover bg-center opacity-30"></div>
 
         {/* Overlay gradiente */}
         <div className="absolute inset-0 bg-gradient-to-r from-[rgb(11,14,19)] via-[rgb(11,14,19)]/90 to-transparent"></div>
@@ -269,7 +271,7 @@ export default function MinecraftPage() {
                 alt="Personagem Minecraft"
                 width={300}
                 height={400}
-                 className="w-full h-full object-contain"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -333,11 +335,11 @@ export default function MinecraftPage() {
                   <div className="flex justify-center py-6">
                     {/* Imagens dos blocos de Minecraft */}
                     <Image
-                      src={`/textures/terra.webp6`}
+                      src={plan.image || "/placeholder.svg"}
                       alt={plan.name}
                       width={96}
                       height={96}
-                      className={`rounded-lg ${plan.color}`}
+                      className="rounded-lg"
                     />
                   </div>
                   <div className="px-6 pb-6">
@@ -431,7 +433,7 @@ export default function MinecraftPage() {
             <div className="md:w-1/2 flex justify-end">
               {/* Imagem 3D de Minecraft */}
               <Image
-                src="https://www.razehost.com.br/_next/image?url=%2Flogo.webp&w=96&q=75"
+                src="https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/redeemheroa/Redeem-Hero_Mobile_576x324.png"
                 alt="Minecraft Network"
                 width={400}
                 height={250}
