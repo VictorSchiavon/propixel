@@ -414,14 +414,14 @@ export default function MinecraftPage() {
 
    {/* Seção de Construtor de Network */}
 <div className="relative w-full py-16 overflow-hidden bg-[#0B0E13]">
-  {/* Conteúdo */}
-  <div className="container mx-auto px-6 relative z-10">
-    <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+  {/* Container com borda e sombra */}
+  <div className="container mx-auto px-6 relative z-10 border border-[#2b2b2b] rounded-2xl shadow-lg bg-[#0B0E13]">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-8 py-10 px-6">
       
       {/* Imagem voxel esquerda */}
       <div className="md:w-1/4 hidden md:block">
         <img
-          src="/path-to/voxel-left.png" // <- Substituir pelo voxel da esquerda
+          src="/path-to/voxel-left.png" // Substituir pela imagem da esquerda
           alt="Voxel Esquerda"
           className="mx-auto"
         />
@@ -436,7 +436,7 @@ export default function MinecraftPage() {
           Abra a sua rede de servidores de minecraft com <br />
           o melhor custo-benefício do mercado
         </p>
-        <Button className="bg-[#E9443D] hover:bg-red-600 text-white font-bold px-8 py-4 text-lg rounded-xl" size="lg">
+        <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl" size="lg">
           Abrir construtor
         </Button>
       </div>
@@ -444,7 +444,7 @@ export default function MinecraftPage() {
       {/* Imagem voxel direita */}
       <div className="md:w-1/4 hidden md:block">
         <img
-          src="/path-to/voxel-right.png" // <- Substituir pelo voxel da direita
+          src="/path-to/voxel-right.png" // Substituir pela imagem da direita
           alt="Voxel Direita"
           className="mx-auto"
         />
