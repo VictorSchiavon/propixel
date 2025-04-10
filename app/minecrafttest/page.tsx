@@ -261,22 +261,17 @@ export default function MinecraftPage() {
               </Button>
             </div>
           </div>
+{/* Dentro do header, como último filho para sobrepor no final */}
+<div className="hidden lg:block absolute right-0 bottom-0 z-10">
+  <Image
+    src="https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/redeemheroa/Redeem-Hero_Mobile_576x324.png"
+    alt="Personagem Minecraft"
+    width={300}
+    height={400}
+    className="pointer-events-none"
+  />
+</div>
 
-          {/* Imagem de personagem Minecraft */}
-          <div className="hidden lg:block absolute right-0 bottom-0">
-            <div className="relative w-[400px] h-[400px]">
-              {/* Imagem de Steve (personagem Minecraft) */}
-              <Image
-                src="/placeholder.svg?height=400&width=300"
-                alt="Personagem Minecraft"
-                width={300}
-                height={400}
-                className="absolute bottom-0 right-0"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Seção de planos com estilo Minecraft */}
       <div className="bg-[rgb(11,14,19)] py-20">
