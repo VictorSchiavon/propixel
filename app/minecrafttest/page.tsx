@@ -2,7 +2,6 @@
 
 import { useRef } from "react"
 import Image from "next/image"
-import { Button } from "@/components/ui/button";
 import { Button } from "@nextui-org/button"
 import { Card, CardBody, Tabs, Tab } from "@nextui-org/react"
 import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap } from "lucide-react"
@@ -412,45 +411,47 @@ export default function MinecraftPage() {
           </div>
         </div>
       </div>
-      <div className="relative w-full py-16 overflow-hidden bg-[#0B0E13]">
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="flex items-center justify-between gap-4">
-          {/* Lado esquerdo com imagem voxel */}
-          <div className="hidden md:block w-1/4">
-            <img
-              src="/path-to/voxel-left.png" // Substitua pela imagem do castelo à esquerda
-              alt="Voxel Left"
-              className="mx-auto"
-            />
-          </div>
 
-          {/* Texto central */}
-          <div className="w-full md:w-1/2 text-center">
-            <h2 className="text-white text-4xl md:text-5xl font-bold mb-4 drop-shadow">
-              Construtor de networks
-            </h2>
-            <p className="text-gray-300 text-lg mb-6">
-              Abra a sua rede de servidores de minecraft com<br />
-              o melhor custo-benefício do mercado
-            </p>
-            <Button className="bg-[#E9443D] hover:bg-red-600 text-white font-semibold text-lg px-8 py-4 rounded-xl">
-              Abrir construtor
-            </Button>
-          </div>
+   {/* Seção de Construtor de Network */}
+<div className="relative w-full py-16 overflow-hidden bg-[#0B0E13]">
+  {/* Conteúdo */}
+  <div className="container mx-auto px-6 relative z-10">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+      
+      {/* Imagem voxel esquerda */}
+      <div className="md:w-1/4 hidden md:block">
+        <img
+          src="/path-to/voxel-left.png" // <- Substituir pelo voxel da esquerda
+          alt="Voxel Esquerda"
+          className="mx-auto"
+        />
+      </div>
 
-          {/* Lado direito com imagem voxel */}
-          <div className="hidden md:block w-1/4">
-            <img
-              src="/path-to/voxel-right.png" // Substitua pela imagem do deserto à direita
-              alt="Voxel Right"
-              className="mx-auto"
-            />
-          </div>
-        </div>
+      {/* Texto central */}
+      <div className="md:w-1/2 text-center md:text-left">
+        <h2 className="text-white text-4xl font-extrabold mb-4 drop-shadow-md">
+          Construtor de networks
+        </h2>
+        <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+          Abra a sua rede de servidores de minecraft com <br />
+          o melhor custo-benefício do mercado
+        </p>
+        <Button className="bg-[#E9443D] hover:bg-red-600 text-white font-bold px-8 py-4 text-lg rounded-xl" size="lg">
+          Abrir construtor
+        </Button>
+      </div>
+
+      {/* Imagem voxel direita */}
+      <div className="md:w-1/4 hidden md:block">
+        <img
+          src="/path-to/voxel-right.png" // <- Substituir pelo voxel da direita
+          alt="Voxel Direita"
+          className="mx-auto"
+        />
       </div>
     </div>
-  );
-}
+  </div>
+</div>
 
       {/* Seção de Modpacks e Troca de Versões */}
       <div className="bg-[rgb(11,14,19)] py-20">
