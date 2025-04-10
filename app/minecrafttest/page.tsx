@@ -9,10 +9,7 @@ import { useState } from "react"
 
 // Definição dos processadores disponíveis
 const processors = [
-  { id: "5950x", name: "Ryzen 9 5950x" },
   { id: "7950x", name: "Ryzen 9 7950x" },
-  { id: "5900x", name: "Ryzen 9 5900x" },
-  { id: "xeon", name: "Xeon 2680v4" },
 ]
 
 // Planos Java
@@ -434,7 +431,7 @@ export default function MinecraftPage() {
             <div className="md:w-1/2 flex justify-end">
               {/* Imagem 3D de Minecraft */}
               <Image
-                src="/placeholder.svg?height=250&width=400"
+                src="https://www.razehost.com.br/_next/image?url=%2Flogo.webp&w=96&q=75"
                 alt="Minecraft Network"
                 width={400}
                 height={250}
