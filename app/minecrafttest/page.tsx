@@ -235,7 +235,8 @@ export default function MinecraftPage() {
       {/* Header com estilo Minecraft */}
       <div className="relative w-full h-[500px] overflow-hidden bg-[rgb(11,14,19)]">
         {/* Imagem de fundo com overlay */}
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=500&width=1200')] bg-cover bg-center opacity-30"></div>
+        <div className="absolute inset-0 bg-[url('
+        /textures/terra.webp')] bg-cover bg-center opacity-30"></div>
 
         {/* Overlay gradiente */}
         <div className="absolute inset-0 bg-gradient-to-r from-[rgb(11,14,19)] via-[rgb(11,14,19)]/90 to-transparent"></div>
@@ -335,7 +336,7 @@ export default function MinecraftPage() {
                   <div className="flex justify-center py-6">
                     {/* Imagens dos blocos de Minecraft */}
                     <Image
-                      src={`/placeholder.svg?height=96&width=96`}
+                      src={`/textures/terra.webp6`}
                       alt={plan.name}
                       width={96}
                       height={96}
