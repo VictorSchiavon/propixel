@@ -24,7 +24,7 @@ const vpsGamer = [
 			ram: "1 GB",
 			ssd: "30 GB",
 			cores: "1 núcleo",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -35,7 +35,7 @@ const vpsGamer = [
 			ram: "2 GB",
 			ssd: "40 GB",
 			cores: "2 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -46,7 +46,7 @@ const vpsGamer = [
 			ram: "4 GB",
 			ssd: "50 GB",
 			cores: "3 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -57,7 +57,7 @@ const vpsGamer = [
 			ram: "6 GB",
 			ssd: "60 GB",
 			cores: "4 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -68,7 +68,7 @@ const vpsGamer = [
 			ram: "8 GB",
 			ssd: "70 GB",
 			cores: "5 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -79,7 +79,7 @@ const vpsGamer = [
 			ram: "10 GB",
 			ssd: "80 GB",
 			cores: "6 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -90,7 +90,7 @@ const vpsGamer = [
 			ram: "12 GB",
 			ssd: "90 GB",
 			cores: "6 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -101,7 +101,7 @@ const vpsGamer = [
 			ram: "16 GB",
 			ssd: "100 GB",
 			cores: "6 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen"],
+			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 ];
@@ -285,7 +285,7 @@ export default function Games() {
 					))}
 				</div>
 			</section>
-			<section className="pt-[5%] container mx-auto max-w-7xl">
+			<section className="pt-[5%] w-full px-4 sm:px-8 lg:px-16">
   <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">Compare nossos planos</h2>
   <Card className="bg-[#0E131D] rounded-sm">
     <CardBody className="p-8">
@@ -324,6 +324,7 @@ export default function Games() {
     </CardBody>
   </Card>
 </section>
+
 
 			<section className="pt-20">
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
