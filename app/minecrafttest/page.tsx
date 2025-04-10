@@ -1,8 +1,10 @@
 "use client"
 
+import { useRef } from "react"
+import Image from "next/image"
 import { Button } from "@nextui-org/button"
 import { Card, CardBody, Tabs, Tab } from "@nextui-org/react"
-import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap, Cpu } from "lucide-react"
+import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap } from "lucide-react"
 import { useState } from "react"
 
 // Definição dos processadores disponíveis
@@ -212,30 +214,37 @@ export default function MinecraftPage() {
   const [selectedTab, setSelectedTab] = useState("java")
   const [selectedProcessor, setSelectedProcessor] = useState("5950x")
   const [selectedPlan, setSelectedPlan] = useState<any>(null)
+  const detailsRef = useRef<HTMLDivElement>(null)
 
   // Cor laranja conforme solicitado
   const primaryColor = "rgb(251 146 60)"
 
-  // Função para mostrar detalhes do plano
+  // Função para mostrar detalhes do plano e rolar para a seção de detalhes
   const showPlanDetails = (plan: any) => {
     setSelectedPlan(plan)
+    // Rolar para a seção de detalhes em dispositivos móveis
+    if (window.innerWidth < 1024 && detailsRef.current) {
+      setTimeout(() => {
+        detailsRef.current?.scrollIntoView({ behavior: "smooth" })
+      }, 100)
+    }
   }
 
   return (
-    <>
-      {/* Hero Section com estilo Minecraft */}
-      <div className="relative w-full h-[500px] overflow-hidden bg-black">
+    <div className="bg-[#0A0A0A] min-h-screen text-white">
+      {/* Header com estilo Minecraft e personagem */}
+      <div className="relative w-full h-[500px] overflow-hidden bg-[#0A0A0A]">
         {/* Imagem de fundo com overlay */}
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=500&width=1200')] bg-cover bg-center opacity-50"></div>
+        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=500&width=1200')] bg-cover bg-center opacity-30"></div>
 
         {/* Overlay gradiente */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/90 to-transparent"></div>
 
         {/* Conteúdo do hero */}
         <div className="container mx-auto px-6 h-full flex items-center relative z-10">
           <div className="max-w-2xl">
             <h1 className="text-5xl font-bold leading-tight mb-4">
-              Eleve o nível do seu <span className="text-orange-400">servidor</span> de minecraft
+              Eleve o nível do seu <span className="text-orange-500">servidor</span> de minecraft
             </h1>
             <p className="text-xl text-gray-300 mb-8">
               Profissionalize seu servidor com hardware de alta performance e proteção Anti-DDoS de alta capacidade!
@@ -253,20 +262,36 @@ export default function MinecraftPage() {
             </div>
           </div>
 
-          {/* Imagem de servidor com personagem Minecraft */}
+          {/* Imagem de personagem Minecraft */}
           <div className="hidden lg:block absolute right-0 bottom-0">
-            {/* Placeholder para imagem de servidor com personagem Minecraft */}
-            <div className="w-[400px] h-[400px] bg-transparent relative">
-              <div className="absolute bottom-0 right-0 w-[100px] h-[200px] bg-gray-700 rounded-t-lg"></div>
-              <div className="absolute bottom-0 right-[120px] w-[100px] h-[250px] bg-gray-800 rounded-t-lg"></div>
-              <div className="absolute bottom-0 right-[240px] w-[100px] h-[180px] bg-gray-600 rounded-t-lg"></div>
+            <div className="relative w-[400px] h-[400px]">
+              {/* Imagem de Steve (personagem Minecraft) */}
+              <Image
+                src="/placeholder.svg?height=400&width=300"
+                alt="Personagem Minecraft"
+                width={300}
+                height={400}
+                className="absolute bottom-0 right-0"
+              />
+              {/* Servidor estilizado */}
+              <div className="absolute bottom-20 right-[250px] w-[120px] h-[200px] bg-gray-800 rounded-md border-t-4 border-orange-500 shadow-lg shadow-orange-500/20">
+                <div className="absolute top-2 left-2 w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
+                <div className="absolute top-2 right-2 w-2 h-2 rounded-full bg-blue-500 animate-pulse delay-75"></div>
+                <div className="grid grid-cols-3 gap-1 p-2 mt-6">
+                  {Array(9)
+                    .fill(0)
+                    .map((_, i) => (
+                      <div key={i} className="w-3 h-1 bg-gray-600"></div>
+                    ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       {/* Seção de planos com estilo Minecraft */}
-      <div className="bg-[#121212] py-20">
+      <div className="bg-[#0A0A0A] py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Escolha seu plano ideal</h2>
@@ -309,8 +334,6 @@ export default function MinecraftPage() {
             </Tabs>
           </div>
 
-          
-
           {/* Grid de planos e painel de detalhes */}
           <div className="flex flex-col lg:flex-row gap-8">
             {/* Grid de planos */}
@@ -318,20 +341,20 @@ export default function MinecraftPage() {
               {(selectedTab === "java" ? javaPlans : bedrockPlans).map((plan) => (
                 <div
                   key={plan.id}
-                  className="bg-white rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20"
+                  className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20"
                 >
                   <div className="flex justify-center py-6">
                     {/* Placeholder para imagem do bloco */}
                     <div className={`w-24 h-24 ${plan.color} rounded-lg`}></div>
                   </div>
                   <div className="px-6 pb-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2 text-center">{plan.name}</h3>
+                    <h3 className="text-xl font-bold text-white mb-2 text-center">{plan.name}</h3>
                     <div className="flex flex-col items-center mb-4">
                       <div className="text-sm text-gray-500 line-through">{plan.originalPrice}/mês</div>
                       <div className="text-2xl font-bold text-orange-500">{plan.price}/mês</div>
                     </div>
                     <Button
-                      className="w-full bg-orange-100 text-orange-500 hover:bg-orange-200"
+                      className="w-full bg-orange-500/20 text-orange-500 hover:bg-orange-500/30 border border-orange-500/50"
                       variant="flat"
                       onClick={() => showPlanDetails(plan)}
                     >
@@ -343,45 +366,45 @@ export default function MinecraftPage() {
             </div>
 
             {/* Painel de detalhes */}
-            <div className="lg:w-1/4">
-              <div className="bg-white rounded-lg p-6 shadow-lg sticky top-4">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Detalhes do plano</h3>
+            <div className="lg:w-1/4" ref={detailsRef}>
+              <div className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg p-6 shadow-lg sticky top-4">
+                <h3 className="text-xl font-bold text-white mb-4">Detalhes do plano</h3>
 
                 {selectedPlan ? (
                   <>
-                    <div className="text-sm text-gray-500 mb-2">R$50,00</div>
+                    <div className="text-sm text-gray-500 mb-2">{selectedPlan.originalPrice}</div>
                     <div className="text-2xl font-bold text-orange-500 mb-6">{selectedPlan.price}/mês</div>
 
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start gap-2">
                         <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
-                        <span className="text-gray-700">{selectedPlan.description.processor}</span>
+                        <span className="text-gray-300">{selectedPlan.description.processor}</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
-                        <span className="text-gray-700">{selectedPlan.description.cores}</span>
+                        <span className="text-gray-300">{selectedPlan.description.cores}</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
-                        <span className="text-gray-700">{selectedPlan.description.ram} RAM</span>
+                        <span className="text-gray-300">{selectedPlan.description.ram} RAM</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
-                        <span className="text-gray-700">{selectedPlan.description.ssd} SSD NVMe</span>
+                        <span className="text-gray-300">{selectedPlan.description.ssd} SSD NVMe</span>
                       </li>
                       {selectedPlan.description.additionalServer && (
                         <li className="flex items-start gap-2">
                           <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
-                          <span className="text-gray-700">Até +1 servidor adicional</span>
+                          <span className="text-gray-300">Até +1 servidor adicional</span>
                         </li>
                       )}
                       <li className="flex items-start gap-2">
                         <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
-                        <span className="text-gray-700">{selectedPlan.description.ddosProtection}</span>
+                        <span className="text-gray-300">{selectedPlan.description.ddosProtection}</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
-                        <span className="text-gray-700">{selectedPlan.description.defaultPort}</span>
+                        <span className="text-gray-300">{selectedPlan.description.defaultPort}</span>
                       </li>
                     </ul>
 
@@ -390,7 +413,7 @@ export default function MinecraftPage() {
                     </Button>
                   </>
                 ) : (
-                  <div className="text-gray-500 text-center py-8">Selecione um plano para ver os detalhes</div>
+                  <div className="text-gray-400 text-center py-8">Selecione um plano para ver os detalhes</div>
                 )}
               </div>
             </div>
@@ -399,9 +422,9 @@ export default function MinecraftPage() {
       </div>
 
       {/* Seção de Construtor de Network */}
-      <div className="relative w-full py-16 overflow-hidden bg-black">
+      <div className="relative w-full py-16 overflow-hidden bg-[#0D0D0D]">
         {/* Imagem de fundo com overlay */}
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=1200')] bg-cover bg-center opacity-30"></div>
+        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=1200')] bg-cover bg-center opacity-20"></div>
 
         {/* Conteúdo */}
         <div className="container mx-auto px-6 relative z-10">
@@ -417,13 +440,14 @@ export default function MinecraftPage() {
             </div>
 
             <div className="md:w-1/2 flex justify-end">
-              {/* Placeholder para imagem 3D de Minecraft */}
-              <div className="w-full max-w-[400px] h-[250px] relative">
-                <div className="absolute bottom-0 left-0 w-[100px] h-[150px] bg-green-600 rounded"></div>
-                <div className="absolute bottom-0 left-[120px] w-[150px] h-[200px] bg-orange-800 rounded"></div>
-                <div className="absolute bottom-[50px] left-[80px] w-[80px] h-[80px] bg-blue-500 rounded"></div>
-                <div className="absolute bottom-[150px] left-[200px] w-[120px] h-[100px] bg-yellow-500 rounded"></div>
-              </div>
+              {/* Imagem 3D de Minecraft */}
+              <Image
+                src="/placeholder.svg?height=250&width=400"
+                alt="Minecraft Network"
+                width={400}
+                height={250}
+                className="rounded-lg border-2 border-gray-800"
+              />
             </div>
           </div>
         </div>
@@ -446,7 +470,7 @@ export default function MinecraftPage() {
                   <div className="w-16 h-16 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <Package className="text-orange-500" size={32} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">Instalação de Modpacks automáticos</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Instalação de Modpacks automáticos</h3>
                   <p className="text-gray-400 mb-6">
                     Instale modpacks populares como FTB, Tekkit, RLCraft e muitos outros com apenas um clique. Nosso
                     sistema automatizado configura tudo para você, sem complicações.
@@ -475,7 +499,7 @@ export default function MinecraftPage() {
                   <div className="w-16 h-16 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <Download className="text-orange-500" size={32} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">Troca de versões automáticas</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Troca de versões automáticas</h3>
                   <p className="text-gray-400 mb-6">
                     Mude facilmente entre diferentes versões do Minecraft sem perder seus dados. Nosso sistema preserva
                     seus mundos, plugins e configurações durante a atualização.
@@ -502,7 +526,7 @@ export default function MinecraftPage() {
       </div>
 
       {/* Seção de recursos com estilo Minecraft */}
-      <div className="bg-[#121212] py-20 relative overflow-hidden">
+      <div className="bg-[#0D0D0D] py-20 relative overflow-hidden">
         {/* Padrão de blocos de fundo (estilo Minecraft) */}
         <div className="absolute inset-0 opacity-5">
           <div className="grid grid-cols-12 h-full">
@@ -532,7 +556,7 @@ export default function MinecraftPage() {
                   <div className="w-20 h-20 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <Zap className="text-orange-500" size={36} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">Desempenho de verdade</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Desempenho de verdade</h3>
                   <p className="text-gray-400">
                     Processadores Ryzen e SSD NVMe para rodar seu servidor de Minecraft com estabilidade, TPS alto e
                     performance máxima mesmo com muitos plugins.
@@ -547,7 +571,7 @@ export default function MinecraftPage() {
                   <div className="w-20 h-20 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <MonitorIcon className="text-orange-500" size={36} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">Painel Pterodactyl</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Painel Pterodactyl</h3>
                   <p className="text-gray-400">
                     Gerencie seu servidor com praticidade através do painel Pterodactyl: instale plugins, mods e faça
                     backups com poucos cliques.
@@ -562,7 +586,7 @@ export default function MinecraftPage() {
                   <div className="w-20 h-20 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <ShieldCheck className="text-orange-500" size={36} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">Proteção e Uptime</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Proteção e Uptime</h3>
                   <p className="text-gray-400">
                     Seu servidor protegido com Anti-DDoS avançado e uptime de 99,9%. Jogue com tranquilidade e segurança
                     a qualquer hora.
@@ -596,6 +620,6 @@ export default function MinecraftPage() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
