@@ -22,13 +22,13 @@ const javaPlans = [
     name: "2GB RAM / 2vCores",
     originalPrice: "R$27,90",
     price: "R$21,99",
-    image: "/minecraft/coal_ore.png", // Placeholder para imagem de bloco de carvão
+    image: "/textures/terra.webp", // Placeholder para imagem de bloco de carvão
     color: "bg-gray-800",
     description: {
       ram: "2 GB",
       ssd: "10 GB",
       cores: "2 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: false,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -39,13 +39,13 @@ const javaPlans = [
     name: "4GB RAM / 3vCores",
     originalPrice: "R$50,00",
     price: "R$43,99",
-    image: "/minecraft/iron_ore.png", // Placeholder para imagem de bloco de ferro
+    image: "/textures/ferro.webp", // Placeholder para imagem de bloco de ferro
     color: "bg-blue-700",
     description: {
       ram: "4 GB",
       ssd: "30 GB",
       cores: "3 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -56,13 +56,13 @@ const javaPlans = [
     name: "8GB RAM / 5vCores",
     originalPrice: "R$100,00",
     price: "R$87,99",
-    image: "/minecraft/iron_block.png", // Placeholder para imagem de bloco de ferro
+    image: "/textures/ouro.webp", // Placeholder para imagem de bloco de ferro
     color: "bg-gray-300",
     description: {
       ram: "8 GB",
       ssd: "50 GB",
       cores: "5 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -73,13 +73,13 @@ const javaPlans = [
     name: "12GB RAM / 7vCores",
     originalPrice: "R$150,00",
     price: "R$131,99",
-    image: "/minecraft/gold_ore.png", // Placeholder para imagem de bloco de ouro
+    image: "/textures/diamante.webp", // Placeholder para imagem de bloco de ouro
     color: "bg-yellow-500",
     description: {
       ram: "12 GB",
       ssd: "80 GB",
       cores: "7 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -90,13 +90,13 @@ const javaPlans = [
     name: "16GB RAM / 9vCores",
     originalPrice: "R$200,00",
     price: "R$175,99",
-    image: "/minecraft/emerald_ore.png", // Placeholder para imagem de bloco de esmeralda
+    image: "/textures/esmeralda.webp", // Placeholder para imagem de bloco de esmeralda
     color: "bg-green-500",
     description: {
       ram: "16 GB",
       ssd: "100 GB",
       cores: "9 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -107,13 +107,13 @@ const javaPlans = [
     name: "24GB RAM / 14vCores",
     originalPrice: "R$300,00",
     price: "R$263,99",
-    image: "/minecraft/diamond_ore.png", // Placeholder para imagem de bloco de diamante
+    image: "/textures/ametista.webp", // Placeholder para imagem de bloco de diamante
     color: "bg-cyan-400",
     description: {
       ram: "24 GB",
       ssd: "150 GB",
       cores: "14 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -124,13 +124,13 @@ const javaPlans = [
     name: "32GB RAM / 16vCores",
     originalPrice: "R$400,00",
     price: "R$351,99",
-    image: "/minecraft/obsidian.png", // Placeholder para imagem de bloco de obsidiana
+    image: "/textures/carvao.webp", // Placeholder para imagem de bloco de obsidiana
     color: "bg-gray-900",
     description: {
       ram: "32 GB",
       ssd: "200 GB",
       cores: "16 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -147,7 +147,7 @@ const javaPlans = [
       ram: "48 GB",
       ssd: "300 GB",
       cores: "20 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -168,7 +168,7 @@ const bedrockPlans = [
       ram: "4 GB",
       ssd: "30 GB",
       cores: "3 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -185,7 +185,7 @@ const bedrockPlans = [
       ram: "8 GB",
       ssd: "50 GB",
       cores: "5 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
@@ -202,7 +202,7 @@ const bedrockPlans = [
       ram: "16 GB",
       ssd: "100 GB",
       cores: "9 vCores",
-      processor: "AMD Ryzen 9 5950x/9900x",
+      processor: "AMD Ryzen 9 7950X/9900X/7900X",
       additionalServer: true,
       ddosProtection: "Proteção Anti-DDoS MagicTransit",
       defaultPort: "Porta padrão por R$20,00",
