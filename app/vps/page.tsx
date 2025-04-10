@@ -361,5 +361,45 @@ export default function Games() {
 				</div>
 			</section>
 		</section>
+		<section className="pt-[5%] container mx-auto max-w-7xl">
+		<h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">Compare nossos planos</h2>
+		<Card className="bg-[#0E131D] rounded-sm">
+		  <CardBody className="p-8">
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-300">
+			  <div className="col-span-1">
+				<h3 className="text-lg font-bold mb-4">Recurso</h3>
+				<ul className="space-y-4">
+				  <li>Processador</li>
+				  <li>Upload</li>
+				  <li>Desempenho para jogos</li>
+				  <li>Indicado para</li>
+				  <li>Preço</li>
+				</ul>
+			  </div>
+			  <div className="col-span-1">
+				<h3 className="text-lg font-bold mb-4 text-orange-400">VPS Gamer</h3>
+				<ul className="space-y-4">
+				  <li>AMD Ryzen de última geração</li>
+				  <li>Ilimitado</li>
+				  <li>Máximo desempenho</li>
+				  <li>Jogos, servidores pesados, aplicações exigentes</li>
+				  <li>Mais alto (com foco em performance)</li>
+				</ul>
+			  </div>
+			  <div className="col-span-1">
+				<h3 className="text-lg font-bold mb-4 text-orange-400">VPS Flex</h3>
+				<ul className="space-y-4">
+				  <li>Processadores bons, porém inferiores ao Ryzen</li>
+				  <li>Limitado</li>
+				  <li>Desempenho intermediário</li>
+				  <li>Projetos leves, bots, sites e jogos menos exigentes</li>
+				  <li>Mais acessível</li>
+				</ul>
+			  </div>
+			</div>
+		  </CardBody>
+		</Card>
+	  </section>
+	  
 	);
 }
