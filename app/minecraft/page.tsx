@@ -44,8 +44,8 @@ export default function MinecraftPage() {
         {[ 
           {
             icon: <Zap color="orange" size={26} />, 
-            title: "Proteção DDoS",
-            desc: "Evite quedas e lags com nossa proteção de alta performance."
+            title: "AMD Ryzen 9 7950X/9 9900X/9 7900X3D",
+            desc: "Ou qualquer outro processador AMD Ryzen do mesmo nível."
           },
           {
             icon: <BrainCircuit color="orange" size={26} />,
