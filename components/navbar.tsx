@@ -75,11 +75,12 @@ export const NavbarComponent = () => {
     <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">
       Minecraft
     </p>
-    <span className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black text-[10px] font-bold px-2 py-0.5 rounded-full animate-pulse">
+    <span className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black text-[10px] font-bold px-2 py-0.5 rounded-full">
       AMD Ryzen 9 7950X
     </span>
   </NextLink>
 </NavbarItem>
+
 
 				<NavbarItem className="mt-4" onMouseLeave={closePopoverWithDelay}>
   <Popover
