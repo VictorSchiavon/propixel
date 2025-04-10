@@ -118,14 +118,15 @@
 			"discountPrice": "R$190,00",
 			"link": "https://app.razehost.com.br/store/minecraft/enterprise",
 			"description": [
-				"24 GB RAM",
-				"Mods e Plugins",
-				"FTP Web/Filezilla",
-				"Bedrock & Java",
-				"Subdomínio GRÁTIS",
-				"SSD NVMe"
-			]
-		},
+			  "24 GB RAM",
+			  "Mods e Plugins",
+			  "FTP Web/Filezilla",
+			  "Bedrock & Java",
+			  "Subdomínio GRÁTIS",
+			  "SSD NVMe"
+			],
+			"highlight": "AMD Ryzen 9 7950X"
+		  },		  
 		{
 			"game": "Minecraft",
 			"img": "/games/cards/mine.webp",
