@@ -302,17 +302,7 @@ export default function Games() {
 							</div>
 						</CardBody>
 					</Card>
-					<Card className="bg-[#0A0C10] rounded-sm">
-						<CardBody>
-							<div>
-								<BrainCircuit color="orange" size={26} />
-								<h3 className="font-bold pt-3">SSD NVMe</h3>
-								<p className="text-gray-300 text-[14px] pt-1">
-									Aproveite a velocidade do SSD NVMe em nossa VPS Gamer...
-								</p>
-							</div>
-						</CardBody>
-					</Card>
+		
 					<Card className="bg-[#0A0C10] rounded-sm">
 						<CardBody>
 							<div>

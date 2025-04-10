@@ -112,14 +112,9 @@ export const NavbarComponent = () => {
           <div>
             {[
               {
-                href: "/vps-trader",
-                title: "VPS Trader",
-                description: "Servidor veloz para traders.",
-              },
-              {
-                href: "/vps-flex",
-                title: "VPS Flex",
-                description: "Servidores custo-benefício único.",
+                href: "/dedicados",
+                title: "Baremetal",
+                description: "Seu próprio servidor dedicado, não divida recursos.",
               },
               {
                 href: "/colocation",
@@ -142,14 +137,6 @@ export const NavbarComponent = () => {
           </div>
         </div>
 
-        <div className="mt-5">
-          <Link href="/dedicados">
-            <div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg">
-              <h3 className="text-md font-bold">Dedicados</h3>
-              <p>Seu próprio dedicado, não compartilhe recursos com ninguém.</p>
-            </div>
-          </Link>
-        </div>
 
         {/* Linha inferior */}
         <div className="mt-6 border-t border-gray-700 pt-4 grid grid-cols-3 gap-4">
