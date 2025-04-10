@@ -262,21 +262,19 @@ export default function MinecraftPage() {
             </div>
           </div>
 
-          {/* Imagem de personagem Minecraft */}
-          <div className="hidden lg:block absolute right-0 bottom-0">
-            <div className="relative w-[400px] h-[400px]">
-              {/* Imagem de Steve (personagem Minecraft) */}
-              <Image
-                src="https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/redeemheroa/Redeem-Hero_Mobile_576x324.png"
-                alt="Personagem Minecraft"
-                width={300}
-                height={400}
-                className="absolute bottom-0 right-0"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+        {/* Imagem de personagem Minecraft */}
+<div className="hidden lg:block absolute right-0 bottom-0">
+  <div className="relative w-[300px] h-[400px]">
+    <Image
+      src="https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/redeemheroa/Redeem-Hero_Mobile_576x324.png"
+      alt="Personagem Minecraft"
+      width={300}
+      height={400}
+      className="w-full h-full object-contain"
+    />
+  </div>
+</div>
+
 
       {/* Seção de planos com estilo Minecraft */}
       <div className="bg-[rgb(11,14,19)] py-20">
