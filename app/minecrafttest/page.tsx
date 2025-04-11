@@ -404,9 +404,15 @@ export default function MinecraftPage() {
           
         </p>
         <Button asChild className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl">
-  <a href="https://discord.gg/p8YXcEuKdH" target="_blank" rel="noopener noreferrer">
-    Agendar uma reunião!
-  </a>
+        <a
+  href="https://discord.gg/p8YXcEuKdH"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl inline-block"
+>
+  Agendar uma reunião!
+</a>
+
 </Button>
 
       </div>
