@@ -238,11 +238,11 @@ export default function MinecraftPage() {
           </div>
 
           {/* Imagem de personagem Minecraft */}
-          <div className="hidden lg:block absolute right-0 bottom-0">
+          <div className="hidden lg:block absolute right-0 bottom-15">
             <div className="relative w-[400px] h-[400px]">
               {/* Imagem de Steve (personagem Minecraft) */}
               <img
-                src="https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/redeemheroa/Redeem-Hero_Mobile_576x324.png"
+                src="https://i.seadn.io/gae/z8V-LQo90C2Y_keuu1sSCIQ99CPR_a4Ah0u71OA-zfu53WLosRHNTEEp0LJAiaFJh6bGIlTjtxI6Goi5uif93T6EuXYuc-nhyNet?auto=format&dpr=1&w=1000"
                 alt="Personagem Minecraft"
                 width={300}
                 height={400}
