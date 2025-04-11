@@ -23,6 +23,7 @@ const javaPlans = [
     price: "R$37,90",
     image: "/textures/terra.webp",
     color: "bg-gray-800",
+    link: "https://app.razehost.com.br/store/minecraft/java-basic",
     description: {
       ram: "4 GB DDR5",
       ssd: "10 GB SSD NVME",
@@ -40,6 +41,7 @@ const javaPlans = [
     price: "R$49,90",
     image: "/textures/ferro.webp",
     color: "bg-blue-700",
+    link: "https://app.razehost.com.br/store/minecraft/java-advanced",
     description: {
       ram: "6 GB DDR5",
       ssd: "20 GB SSD NVME",
@@ -57,6 +59,7 @@ const javaPlans = [
     price: "R$73,90",
     image: "/textures/ouro.webp",
     color: "bg-yellow-400",
+    link: "https://app.razehost.com.br/store/minecraft/java-pro",
     description: {
       ram: "10 GB DDR5",
       ssd: "20 GB SSD NVME",
@@ -74,6 +77,7 @@ const javaPlans = [
     price: "R$94,90",
     image: "/textures/diamante.webp",
     color: "bg-green-500",
+    link: "https://app.razehost.com.br/store/minecraft/java-ultra",
     description: {
       ram: "16 GB DDR5",
       ssd: "25 GB SSD NVME",
@@ -91,6 +95,7 @@ const javaPlans = [
     price: "R$129,90",
     image: "/textures/esmeralda.webp",
     color: "bg-cyan-400",
+    link: "https://app.razehost.com.br/store/minecraft/java-plus",
     description: {
       ram: "20 GB DDR5",
       ssd: "50 GB SSD NVME",
@@ -108,6 +113,7 @@ const javaPlans = [
     price: "R$190,00",
     image: "/textures/ether.webp",
     color: "bg-gray-900",
+    link: "https://app.razehost.com.br/store/minecraft/java-enterprise",
     description: {
       ram: "24 GB DDR5",
       ssd: "60 GB SSD NVME",
@@ -125,6 +131,7 @@ const javaPlans = [
     price: "R$259,90",
     image: "/textures/carvao.webp",
     color: "bg-gray-700",
+    link: "https://app.razehost.com.br/store/minecraft/java-dedicated",
     description: {
       ram: "32 GB DDR5",
       ssd: "100 GB SSD NVME",
@@ -146,6 +153,7 @@ const bedrockPlans = [
     price: "R$19,90",
     image: "/textures/terra.webp",
     color: "bg-gray-800",
+    link: "https://app.razehost.com.br/store/minecraft/bedrock-server",
     description: {
       ram: "4 GB DDR5",
       ssd: "10 GB SSD NVME",
@@ -163,6 +171,7 @@ const bedrockPlans = [
     price: "R$29,40",
     image: "/textures/ferro.webp",
     color: "bg-blue-700",
+    link: "https://app.razehost.com.br/store/minecraft/bedrock-plus",
     description: {
       ram: "8 GB DDR5",
       ssd: "20 GB SSD NVME",
@@ -321,18 +330,9 @@ export default function MinecraftPage() {
                       <div className="text-sm text-gray-500 line-through">{plan.originalPrice}/mês</div>
                       <div className="text-2xl font-bold text-orange-500">{plan.price}/mês</div>
                     </div>
-                    <div className="flex flex-col gap-2">
-                      <Button className="w-full bg-orange-500 text-white" onClick={() => showPlanDetails(plan)}>
-                        Ver detalhes
-                      </Button>
-                      <Button
-                        as="a"
-                        href={`https://app.razehost.com.br/store/minecraft/plan/${plan.id}`}
-                        className="w-full bg-green-600 hover:bg-green-700 text-white font-bold"
-                      >
-                        CONTRATAR
-                      </Button>
-                    </div>
+                    <Button className="w-full bg-orange-500 text-white" onClick={() => showPlanDetails(plan)}>
+                      Ver detalhes
+                    </Button>
                   </div>
                 </div>
               ))}
@@ -383,7 +383,7 @@ export default function MinecraftPage() {
 
                     <Button
                       as="a"
-                      href={`https://app.razehost.com.br/store/minecraft/plan/${selectedPlan.id}`}
+                      href={selectedPlan.link}
                       className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold"
                       size="lg"
                     >
