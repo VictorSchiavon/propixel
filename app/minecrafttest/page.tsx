@@ -1,12 +1,10 @@
 "use client"
 
-import { useRef } from "react"
-import Image from "next/image"
 import { Button } from "@nextui-org/button"
 import { Card, CardBody, Tabs, Tab } from "@nextui-org/react"
-import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap } from "lucide-react"
+import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap, Cpu } from "lucide-react"
 import { useState } from "react"
-
+import Image from "next/image"
 
 // Definição dos processadores disponíveis
 const processors = [
@@ -16,6 +14,7 @@ const processors = [
   { id: "xeon", name: "Xeon 2680v4" },
 ]
 
+// Modificar a definição dos planos Java para incluir links de contratação
 const javaPlans = [
   {
     id: "basic",
@@ -24,6 +23,7 @@ const javaPlans = [
     price: "R$37,90",
     image: "/textures/terra.webp",
     color: "bg-gray-800",
+    link: "https://app.razehost.com.br/store/minecraft/basic",
     description: {
       ram: "4 GB DDR5",
       ssd: "10 GB SSD NVME",
@@ -41,6 +41,7 @@ const javaPlans = [
     price: "R$49,90",
     image: "/textures/ferro.webp",
     color: "bg-blue-700",
+    link: "https://app.razehost.com.br/store/minecraft/advanced",
     description: {
       ram: "6 GB DDR5",
       ssd: "20 GB SSD NVME",
@@ -58,6 +59,7 @@ const javaPlans = [
     price: "R$73,90",
     image: "/textures/ouro.webp",
     color: "bg-yellow-400",
+    link: "https://app.razehost.com.br/store/minecraft/pro",
     description: {
       ram: "10 GB DDR5",
       ssd: "20 GB SSD NVME",
@@ -75,6 +77,7 @@ const javaPlans = [
     price: "R$94,90",
     image: "/textures/diamante.webp",
     color: "bg-green-500",
+    link: "https://app.razehost.com.br/store/minecraft/ultra",
     description: {
       ram: "16 GB DDR5",
       ssd: "25 GB SSD NVME",
@@ -92,6 +95,7 @@ const javaPlans = [
     price: "R$129,90",
     image: "/textures/esmeralda.webp",
     color: "bg-cyan-400",
+    link: "https://app.razehost.com.br/store/minecraft/plus",
     description: {
       ram: "20 GB DDR5",
       ssd: "50 GB SSD NVME",
@@ -109,6 +113,7 @@ const javaPlans = [
     price: "R$190,00",
     image: "/textures/ether.webp",
     color: "bg-gray-900",
+    link: "https://app.razehost.com.br/store/minecraft/enterprise",
     description: {
       ram: "24 GB DDR5",
       ssd: "60 GB SSD NVME",
@@ -126,6 +131,7 @@ const javaPlans = [
     price: "R$259,90",
     image: "/textures/carvao.webp",
     color: "bg-gray-700",
+    link: "https://app.razehost.com.br/store/minecraft/dedicated",
     description: {
       ram: "32 GB DDR5",
       ssd: "100 GB SSD NVME",
@@ -147,6 +153,7 @@ const bedrockPlans = [
     price: "R$19,90",
     image: "/textures/terra.webp",
     color: "bg-gray-800",
+    link: "https://app.razehost.com.br/store/minecraft/bedrock-server",
     description: {
       ram: "4 GB DDR5",
       ssd: "10 GB SSD NVME",
@@ -164,6 +171,7 @@ const bedrockPlans = [
     price: "R$29,40",
     image: "/textures/ferro.webp",
     color: "bg-blue-700",
+    link: "https://app.razehost.com.br/store/minecraft/bedrock-plus",
     description: {
       ram: "8 GB DDR5",
       ssd: "20 GB SSD NVME",
@@ -176,85 +184,65 @@ const bedrockPlans = [
   },
 ]
 
-
 export default function MinecraftPage() {
   const [selectedTab, setSelectedTab] = useState("java")
   const [selectedProcessor, setSelectedProcessor] = useState("5950x")
   const [selectedPlan, setSelectedPlan] = useState<any>(null)
-  const detailsRef = useRef<HTMLDivElement>(null)
 
   // Cor laranja conforme solicitado
   const primaryColor = "rgb(251 146 60)"
 
-  // Função para mostrar detalhes do plano e rolar para a seção de detalhes
+  // Função para mostrar detalhes do plano
   const showPlanDetails = (plan: any) => {
     setSelectedPlan(plan)
-    // Rolar para a seção de detalhes em dispositivos móveis
-    if (window.innerWidth < 1024 && detailsRef.current) {
-      setTimeout(() => {
-        detailsRef.current?.scrollIntoView({ behavior: "smooth" })
-      }, 100)
-    }
   }
 
   return (
-    <div className="bg-[rgb(11,14,19)] min-h-screen text-white">
-      {/* Header com estilo Minecraft */}
-      <div className="relative w-full h-[500px] overflow-hidden bg-[rgb(11,14,19)]">
+    <>
+      {/* Hero Section com estilo Minecraft */}
+      <div className="relative w-full h-[500px] overflow-hidden bg-black">
         {/* Imagem de fundo com overlay */}
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=500&width=1200')] bg-cover bg-center opacity-30"></div>
+        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=500&width=1200')] bg-cover bg-center opacity-50"></div>
 
         {/* Overlay gradiente */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[rgb(11,14,19)] via-[rgb(11,14,19)]/90 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent"></div>
 
         {/* Conteúdo do hero */}
         <div className="container mx-auto px-6 h-full flex items-center relative z-10">
           <div className="max-w-2xl">
             <h1 className="text-5xl font-bold leading-tight mb-4">
-              Eleve o nível do seu <span className="text-orange-500">servidor</span> de minecraft
+              Eleve o nível do seu <span className="text-orange-400">servidor</span> de minecraft
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              Profissionalize seu servidor com AMD Ryzen 9 e proteção Anti-DDoS de alta capacidade!
+              Profissionalize seu servidor com hardware de alta performance e proteção Anti-DDoS de alta capacidade!
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-  <Button
-    as="a"
-    href="https://app.razehost.com.br/store/minecraft"
-    className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
-    size="lg"
-  >
-    Ver todos os planos
-  </Button>
-
-  <Button
-    as="a"
-    href="https://discord.gg/p8YXcEuKdH"
-    className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
-    size="lg"
-  >
-    Entrar em contato
-  </Button>
-</div>
+            <div className="flex flex-wrap gap-4">
+              <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg" size="lg">
+                Ver todos os planos
+              </Button>
+              <Button
+                className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
+                size="lg"
+              >
+                Entrar em contato
+              </Button>
+            </div>
           </div>
 
-          {/* Imagem de personagem Minecraft */}
-          <div className="hidden lg:block absolute right-0 bottom-15">
-            <div className="relative w-[400px] h-[400px]">
-              {/* Imagem de Steve (personagem Minecraft) */}
-              <img
-                src="https://i.seadn.io/gae/z8V-LQo90C2Y_keuu1sSCIQ99CPR_a4Ah0u71OA-zfu53WLosRHNTEEp0LJAiaFJh6bGIlTjtxI6Goi5uif93T6EuXYuc-nhyNet?auto=format&dpr=1&w=1000"
-                alt="Personagem Minecraft"
-                width={300}
-                height={400}
-                className="w-full h-full object-contain"
-              />
+          {/* Imagem de servidor com personagem Minecraft */}
+          <div className="hidden lg:block absolute right-0 bottom-0">
+            {/* Placeholder para imagem de servidor com personagem Minecraft */}
+            <div className="w-[400px] h-[400px] bg-transparent relative">
+              <div className="absolute bottom-0 right-0 w-[100px] h-[200px] bg-gray-700 rounded-t-lg"></div>
+              <div className="absolute bottom-0 right-[120px] w-[100px] h-[250px] bg-gray-800 rounded-t-lg"></div>
+              <div className="absolute bottom-0 right-[240px] w-[100px] h-[180px] bg-gray-600 rounded-t-lg"></div>
             </div>
           </div>
         </div>
       </div>
 
       {/* Seção de planos com estilo Minecraft */}
-      <div className="bg-[rgb(11,14,19)] py-20">
+      <div className="bg-[#121212] py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Escolha seu plano ideal</h2>
@@ -267,10 +255,9 @@ export default function MinecraftPage() {
           <div className="flex justify-center mb-12">
             <Tabs
               selectedKey={selectedTab}
-              onSelectionChange={(key) => setSelectedTab(key as string)}
+              onSelectionChange={(key) => setSelectedTab(key.toString())}
               color="warning"
               size="lg"
-              aria-label="Minecraft Edition Tabs"
               classNames={{
                 tab: "data-[selected=true]:bg-orange-500 data-[selected=true]:text-white",
                 cursor: "bg-orange-500",
@@ -298,6 +285,27 @@ export default function MinecraftPage() {
             </Tabs>
           </div>
 
+          {/* Seleção de processador */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold mb-6 text-center">Escolha seu processador:</h3>
+            <div className="flex flex-wrap justify-center gap-4">
+              {processors.map((processor) => (
+                <Button
+                  key={processor.id}
+                  className={`${
+                    selectedProcessor === processor.id
+                      ? "bg-orange-500 text-white"
+                      : "bg-[#1A1A1A] text-white hover:bg-[#2A2A2A]"
+                  } px-6 py-3 rounded-lg flex items-center gap-2`}
+                  onClick={() => setSelectedProcessor(processor.id)}
+                >
+                  <Cpu size={18} />
+                  <span>{processor.name}</span>
+                </Button>
+              ))}
+            </div>
+          </div>
+
           {/* Grid de planos e painel de detalhes */}
           <div className="flex flex-col lg:flex-row gap-8">
             {/* Grid de planos */}
@@ -323,18 +331,32 @@ export default function MinecraftPage() {
                       <div className="text-sm text-gray-500 line-through">{plan.originalPrice}/mês</div>
                       <div className="text-2xl font-bold text-orange-500">{plan.price}/mês</div>
                     </div>
-                    <Button className="w-full bg-orange-500 text-white" onClick={() => showPlanDetails(plan)}>
-                      Clique para ver os detalhes
-                    </Button>
+                    <div className="flex flex-col gap-2">
+                      <Button
+                        className="w-full bg-orange-500/20 text-orange-500 hover:bg-orange-500/30"
+                        onClick={() => showPlanDetails(plan)}
+                      >
+                        Ver detalhes
+                      </Button>
+                      <Button
+                        as="a"
+                        href={plan.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full bg-orange-500 hover:bg-orange-600 text-white"
+                      >
+                        Contratar
+                      </Button>
+                    </div>
                   </div>
                 </div>
               ))}
             </div>
 
             {/* Painel de detalhes */}
-            <div className="lg:w-1/4" ref={detailsRef}>
-              <div className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg p-6 shadow-lg sticky top-4">
-                <h3 className="text-xl font-bold text-white mb-4">Detalhes do plano</h3>
+            <div className="lg:w-1/4">
+              <div className="bg-white rounded-lg p-6 shadow-lg sticky top-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Detalhes do plano</h3>
 
                 {selectedPlan ? (
                   <>
@@ -374,7 +396,14 @@ export default function MinecraftPage() {
                       </li>
                     </ul>
 
-                    <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold" size="lg">
+                    <Button
+                      as="a"
+                      href={selectedPlan.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold"
+                      size="lg"
+                    >
                       Contratar
                     </Button>
                   </>
@@ -387,57 +416,39 @@ export default function MinecraftPage() {
         </div>
       </div>
 
-   {/* Seção de Construtor de Network */}
-<div className="relative w-full py-16 overflow-hidden bg-[#0B0E13]">
-  {/* Container com borda e sombra */}
-  <div className="container mx-auto px-6 relative z-10 border border-[#2b2b2b] rounded-2xl shadow-lg bg-[#0B0E13]">
-    <div className="flex flex-col md:flex-row items-center justify-between gap-8 py-10 px-6">
-      
-      {/* Imagem voxel esquerda */}
-      <div className="md:w-1/4 hidden md:block">
-        <img
-          src="/textures/1.webp" // Substituir pela imagem da esquerda
-          alt="Voxel Esquerda"
-          className="mx-auto"
-        />
-      </div>
+      {/* Seção de Construtor de Network */}
+      <div className="relative w-full py-16 overflow-hidden bg-black">
+        {/* Imagem de fundo com overlay */}
+        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=1200')] bg-cover bg-center opacity-30"></div>
 
-      {/* Texto central */}
-      <div className="md:w-1/2 text-center md:text-left">
-        <h2 className="text-white text-4xl font-extrabold mb-4 drop-shadow-md">
-          Seu servidor é uma network?
-        </h2>
-        <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-          Abra sua rede de servidores de Minecraf com a<br />
-          RazeHost, servidores AMD Ryzen e suporte diferenciado!
-          
-        </p>
-        <Button
-  as="a"
-  href="https://discord.gg/p8YXcEuKdH"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl"
->
-  Agendar uma reunião!
-</Button>
+        {/* Conteúdo */}
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="md:w-1/2">
+              <h2 className="text-4xl font-bold mb-4">Construtor de networks</h2>
+              <p className="text-xl text-gray-300 mb-6">
+                Abra a sua rede de servidores de minecraft com o melhor custo-benefício do mercado
+              </p>
+              <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg" size="lg">
+                Abrir construtor
+              </Button>
+            </div>
 
+            <div className="md:w-1/2 flex justify-end">
+              {/* Placeholder para imagem 3D de Minecraft */}
+              <div className="w-full max-w-[400px] h-[250px] relative">
+                <div className="absolute bottom-0 left-0 w-[100px] h-[150px] bg-green-600 rounded"></div>
+                <div className="absolute bottom-0 left-[120px] w-[150px] h-[200px] bg-orange-800 rounded"></div>
+                <div className="absolute bottom-[50px] left-[80px] w-[80px] h-[80px] bg-blue-500 rounded"></div>
+                <div className="absolute bottom-[150px] left-[200px] w-[120px] h-[100px] bg-yellow-500 rounded"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      {/* Imagem voxel direita */}
-      <div className="md:w-1/4 hidden md:block">
-        <img
-          src="/textures/2.webp" // Substituir pela imagem da direita
-          alt="Voxel Direita"
-          className="mx-auto"
-        />
-      </div>
-    </div>
-  </div>
-</div>
 
       {/* Seção de Modpacks e Troca de Versões */}
-      <div className="bg-[rgb(11,14,19)] py-20">
+      <div className="bg-[#0A0A0A] py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Recursos exclusivos</h2>
@@ -453,7 +464,7 @@ export default function MinecraftPage() {
                   <div className="w-16 h-16 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <Package className="text-orange-500" size={32} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-white">Instalação de Modpacks automáticos</h3>
+                  <h3 className="text-2xl font-bold mb-4">Instalação de Modpacks automáticos</h3>
                   <p className="text-gray-400 mb-6">
                     Instale modpacks populares como FTB, Tekkit, RLCraft e muitos outros com apenas um clique. Nosso
                     sistema automatizado configura tudo para você, sem complicações.
@@ -482,7 +493,7 @@ export default function MinecraftPage() {
                   <div className="w-16 h-16 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <Download className="text-orange-500" size={32} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-white">Troca de versões automáticas</h3>
+                  <h3 className="text-2xl font-bold mb-4">Troca de versões automáticas</h3>
                   <p className="text-gray-400 mb-6">
                     Mude facilmente entre diferentes versões do Minecraft sem perder seus dados. Nosso sistema preserva
                     seus mundos, plugins e configurações durante a atualização.
@@ -509,7 +520,7 @@ export default function MinecraftPage() {
       </div>
 
       {/* Seção de recursos com estilo Minecraft */}
-      <div className="bg-[rgb(11,14,19)] py-20 relative overflow-hidden">
+      <div className="bg-[#121212] py-20 relative overflow-hidden">
         {/* Padrão de blocos de fundo (estilo Minecraft) */}
         <div className="absolute inset-0 opacity-5">
           <div className="grid grid-cols-12 h-full">
@@ -539,9 +550,9 @@ export default function MinecraftPage() {
                   <div className="w-20 h-20 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <Zap className="text-orange-500" size={36} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-white">Desempenho de verdade</h3>
+                  <h3 className="text-2xl font-bold mb-4">Desempenho de verdade</h3>
                   <p className="text-gray-400">
-                    Processadores Ryzen 9 7950X [Ou qualquer outro com a mesma qualidade disponível] e SSD NVMe para rodar seu servidor de Minecraft com estabilidade, TPS alto e
+                    Processadores Ryzen e SSD NVMe para rodar seu servidor de Minecraft com estabilidade, TPS alto e
                     performance máxima mesmo com muitos plugins.
                   </p>
                 </div>
@@ -554,7 +565,7 @@ export default function MinecraftPage() {
                   <div className="w-20 h-20 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <MonitorIcon className="text-orange-500" size={36} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-white">Painel Pterodactyl</h3>
+                  <h3 className="text-2xl font-bold mb-4">Painel Pterodactyl</h3>
                   <p className="text-gray-400">
                     Gerencie seu servidor com praticidade através do painel Pterodactyl: instale plugins, mods e faça
                     backups com poucos cliques.
@@ -569,7 +580,7 @@ export default function MinecraftPage() {
                   <div className="w-20 h-20 rounded-lg bg-orange-500/20 flex items-center justify-center mb-6">
                     <ShieldCheck className="text-orange-500" size={36} />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-white">Proteção e Uptime</h3>
+                  <h3 className="text-2xl font-bold mb-4">Proteção e Uptime</h3>
                   <p className="text-gray-400">
                     Seu servidor protegido com Anti-DDoS avançado e uptime de 99,9%. Jogue com tranquilidade e segurança
                     a qualquer hora.
@@ -589,28 +600,20 @@ export default function MinecraftPage() {
             <p className="text-xl text-gray-300 mb-8">
               Escolha um dos nossos planos e tenha seu servidor Minecraft online em minutos!
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-  <Button
-    as="a"
-    href="https://app.razehost.com.br/store/minecraft"
-    className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
-    size="lg"
-  >
-    Ver todos os planos
-  </Button>
-
-  <Button
-    as="a"
-    href="https://discord.gg/p8YXcEuKdH"
-    className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
-    size="lg"
-  >
-    Entrar em contato
-  </Button>
-</div>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg" size="lg">
+                Ver todos os planos
+              </Button>
+              <Button
+                className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
+                size="lg"
+              >
+                Entrar em contato
+              </Button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
