@@ -140,7 +140,7 @@ const javaPlans = [
 // Planos Bedrock
 const bedrockPlans = [
   {
-    id: "bedrock_entry",
+    id: "bedrock-starter",
     name: "BEDROCK SERVER",
     originalPrice: "R$29,90",
     price: "R$19,90",
@@ -157,7 +157,7 @@ const bedrockPlans = [
     },
   },
   {
-    id: "bedrock_plus_entry",
+    id: "bedrock-plus",
     name: "BEDROCK PLUS+",
     originalPrice: "R$39,90",
     price: "R$29,40",
