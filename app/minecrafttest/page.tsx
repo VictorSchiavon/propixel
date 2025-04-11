@@ -421,7 +421,7 @@ export default function MinecraftPage() {
       {/* Imagem voxel esquerda */}
       <div className="md:w-1/4 hidden md:block">
         <img
-          src="/path-to/voxel-left.png" // Substituir pela imagem da esquerda
+          src="/textures/1.webp" // Substituir pela imagem da esquerda
           alt="Voxel Esquerda"
           className="mx-auto"
         />
@@ -444,7 +444,7 @@ export default function MinecraftPage() {
       {/* Imagem voxel direita */}
       <div className="md:w-1/4 hidden md:block">
         <img
-          src="/path-to/voxel-right.png" // Substituir pela imagem da direita
+          src="/textures/2.webp" // Substituir pela imagem da direita
           alt="Voxel Direita"
           className="mx-auto"
         />
