@@ -430,15 +430,19 @@ export default function MinecraftPage() {
       {/* Texto central */}
       <div className="md:w-1/2 text-center md:text-left">
         <h2 className="text-white text-4xl font-extrabold mb-4 drop-shadow-md">
-          Construtor de networks
+          Seu servidor é uma network?
         </h2>
         <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-          Abra a sua rede de servidores de minecraft com <br />
-          o melhor custo-benefício do mercado
+          Abra sua rede de servidores de Minecraf com a<br />
+          RazeHost, servidores AMD Ryzen e suporte diferenciado!
+          
         </p>
-        <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl" size="lg">
-          Abrir construtor
-        </Button>
+        <Button asChild className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl">
+  <a href="https://discord.gg/p8YXcEuKdH" target="_blank" rel="noopener noreferrer">
+    Agendar uma reunião!
+  </a>
+</Button>
+
       </div>
 
       {/* Imagem voxel direita */}
