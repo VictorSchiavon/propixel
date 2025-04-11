@@ -403,16 +403,15 @@ export default function MinecraftPage() {
           RazeHost, servidores AMD Ryzen e suporte diferenciado!
           
         </p>
-       
-        <a
+        <Button
+  as="a"
   href="https://discord.gg/p8YXcEuKdH"
   target="_blank"
   rel="noopener noreferrer"
-  className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl inline-block"
+  className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl"
 >
   Agendar uma reunião!
-</a>
-
+</Button>
 
       </div>
 
@@ -581,17 +580,25 @@ export default function MinecraftPage() {
             <p className="text-xl text-gray-300 mb-8">
               Escolha um dos nossos planos e tenha seu servidor Minecraft online em minutos!
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg" size="lg">
-                Ver todos os planos
-              </Button>
-              <Button
-                className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
-                size="lg"
-              >
-                Entrar em contato
-              </Button>
-            </div>
+            <div className="flex flex-col sm:flex-row gap-4">
+  <Button
+    as="a"
+    href="https://app.razehost.com.br/store/minecraft"
+    className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
+    size="lg"
+  >
+    Ver todos os planos
+  </Button>
+
+  <Button
+    as="a"
+    href="https://discord.gg/p8YXcEuKdH"
+    className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
+    size="lg"
+  >
+    Entrar em contato
+  </Button>
+</div>
           </div>
         </div>
       </div>
