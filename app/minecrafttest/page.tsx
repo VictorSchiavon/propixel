@@ -374,7 +374,7 @@ export default function MinecraftPage() {
 
                     <Button
                       as="a"
-                      href={`https://app.razehost.com.br/store/minecraft/plan/${selectedPlan.id}`}
+                      href={`https://app.razehost.com.br/store/minecraft/${selectedPlan.id}`}
                       className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold"
                       size="lg"
                     >
