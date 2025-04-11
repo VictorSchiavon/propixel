@@ -541,7 +541,7 @@ export default function MinecraftPage() {
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-white">Desempenho de verdade</h3>
                   <p className="text-gray-400">
-                    Processadores Ryzen e SSD NVMe para rodar seu servidor de Minecraft com estabilidade, TPS alto e
+                    Processadores Ryzen 9 7950X [Ou qualquer outro com a mesma qualidade disponível] e SSD NVMe para rodar seu servidor de Minecraft com estabilidade, TPS alto e
                     performance máxima mesmo com muitos plugins.
                   </p>
                 </div>
