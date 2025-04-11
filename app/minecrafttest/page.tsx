@@ -7,7 +7,6 @@ import { Card, CardBody, Tabs, Tab } from "@nextui-org/react"
 import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap } from "lucide-react"
 import { useState } from "react"
 
-
 // Definição dos processadores disponíveis
 const processors = [
   { id: "5950x", name: "Ryzen 9 5950x" },
@@ -176,7 +175,6 @@ const bedrockPlans = [
   },
 ]
 
-
 export default function MinecraftPage() {
   const [selectedTab, setSelectedTab] = useState("java")
   const [selectedProcessor, setSelectedProcessor] = useState("5950x")
@@ -217,24 +215,24 @@ export default function MinecraftPage() {
               Profissionalize seu servidor com AMD Ryzen 9 e proteção Anti-DDoS de alta capacidade!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-  <Button
-    as="a"
-    href="https://app.razehost.com.br/store/minecraft"
-    className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
-    size="lg"
-  >
-    Ver todos os planos
-  </Button>
+              <Button
+                as="a"
+                href="https://app.razehost.com.br/store/minecraft"
+                className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
+                size="lg"
+              >
+                Ver todos os planos
+              </Button>
 
-  <Button
-    as="a"
-    href="https://discord.gg/p8YXcEuKdH"
-    className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
-    size="lg"
-  >
-    Entrar em contato
-  </Button>
-</div>
+              <Button
+                as="a"
+                href="https://discord.gg/p8YXcEuKdH"
+                className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
+                size="lg"
+              >
+                Entrar em contato
+              </Button>
+            </div>
           </div>
 
           {/* Imagem de personagem Minecraft */}
@@ -323,9 +321,18 @@ export default function MinecraftPage() {
                       <div className="text-sm text-gray-500 line-through">{plan.originalPrice}/mês</div>
                       <div className="text-2xl font-bold text-orange-500">{plan.price}/mês</div>
                     </div>
-                    <Button className="w-full bg-orange-500 text-white" onClick={() => showPlanDetails(plan)}>
-                      Clique para ver os detalhes
-                    </Button>
+                    <div className="flex flex-col gap-2">
+                      <Button className="w-full bg-orange-500 text-white" onClick={() => showPlanDetails(plan)}>
+                        Ver detalhes
+                      </Button>
+                      <Button
+                        as="a"
+                        href={`https://app.razehost.com.br/store/minecraft/plan/${plan.id}`}
+                        className="w-full bg-green-600 hover:bg-green-700 text-white font-bold"
+                      >
+                        CONTRATAR
+                      </Button>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -374,8 +381,13 @@ export default function MinecraftPage() {
                       </li>
                     </ul>
 
-                    <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold" size="lg">
-                      Contratar
+                    <Button
+                      as="a"
+                      href={`https://app.razehost.com.br/store/minecraft/plan/${selectedPlan.id}`}
+                      className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold"
+                      size="lg"
+                    >
+                      CONTRATAR
                     </Button>
                   </>
                 ) : (
@@ -387,54 +399,49 @@ export default function MinecraftPage() {
         </div>
       </div>
 
-   {/* Seção de Construtor de Network */}
-<div className="relative w-full py-16 overflow-hidden bg-[#0B0E13]">
-  {/* Container com borda e sombra */}
-  <div className="container mx-auto px-6 relative z-10 border border-[#2b2b2b] rounded-2xl shadow-lg bg-[#0B0E13]">
-    <div className="flex flex-col md:flex-row items-center justify-between gap-8 py-10 px-6">
-      
-      {/* Imagem voxel esquerda */}
-      <div className="md:w-1/4 hidden md:block">
-        <img
-          src="/textures/1.webp" // Substituir pela imagem da esquerda
-          alt="Voxel Esquerda"
-          className="mx-auto"
-        />
-      </div>
+      {/* Seção de Construtor de Network */}
+      <div className="relative w-full py-16 overflow-hidden bg-[#0B0E13]">
+        {/* Container com borda e sombra */}
+        <div className="container mx-auto px-6 relative z-10 border border-[#2b2b2b] rounded-2xl shadow-lg bg-[#0B0E13]">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8 py-10 px-6">
+            {/* Imagem voxel esquerda */}
+            <div className="md:w-1/4 hidden md:block">
+              <img
+                src="/textures/1.webp" // Substituir pela imagem da esquerda
+                alt="Voxel Esquerda"
+                className="mx-auto"
+              />
+            </div>
 
-      {/* Texto central */}
-      <div className="md:w-1/2 text-center md:text-left">
-        <h2 className="text-white text-4xl font-extrabold mb-4 drop-shadow-md">
-          Seu servidor é uma network?
-        </h2>
-        <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-          Abra sua rede de servidores de Minecraf com a<br />
-          RazeHost, servidores AMD Ryzen e suporte diferenciado!
-          
-        </p>
-        <Button
-  as="a"
-  href="https://discord.gg/p8YXcEuKdH"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl"
->
-  Agendar uma reunião!
-</Button>
+            {/* Texto central */}
+            <div className="md:w-1/2 text-center md:text-left">
+              <h2 className="text-white text-4xl font-extrabold mb-4 drop-shadow-md">Seu servidor é uma network?</h2>
+              <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                Abra sua rede de servidores de Minecraf com a<br />
+                RazeHost, servidores AMD Ryzen e suporte diferenciado!
+              </p>
+              <Button
+                as="a"
+                href="https://discord.gg/p8YXcEuKdH"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl"
+              >
+                Agendar uma reunião!
+              </Button>
+            </div>
 
+            {/* Imagem voxel direita */}
+            <div className="md:w-1/4 hidden md:block">
+              <img
+                src="/textures/2.webp" // Substituir pela imagem da direita
+                alt="Voxel Direita"
+                className="mx-auto"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-
-      {/* Imagem voxel direita */}
-      <div className="md:w-1/4 hidden md:block">
-        <img
-          src="/textures/2.webp" // Substituir pela imagem da direita
-          alt="Voxel Direita"
-          className="mx-auto"
-        />
-      </div>
-    </div>
-  </div>
-</div>
 
       {/* Seção de Modpacks e Troca de Versões */}
       <div className="bg-[rgb(11,14,19)] py-20">
@@ -541,8 +548,9 @@ export default function MinecraftPage() {
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-white">Desempenho de verdade</h3>
                   <p className="text-gray-400">
-                    Processadores Ryzen 9 7950X [Ou qualquer outro com a mesma qualidade disponível] e SSD NVMe para rodar seu servidor de Minecraft com estabilidade, TPS alto e
-                    performance máxima mesmo com muitos plugins.
+                    Processadores Ryzen 9 7950X [Ou qualquer outro com a mesma qualidade disponível] e SSD NVMe para
+                    rodar seu servidor de Minecraft com estabilidade, TPS alto e performance máxima mesmo com muitos
+                    plugins.
                   </p>
                 </div>
               </CardBody>
@@ -590,24 +598,24 @@ export default function MinecraftPage() {
               Escolha um dos nossos planos e tenha seu servidor Minecraft online em minutos!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-  <Button
-    as="a"
-    href="https://app.razehost.com.br/store/minecraft"
-    className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
-    size="lg"
-  >
-    Ver todos os planos
-  </Button>
+              <Button
+                as="a"
+                href="https://app.razehost.com.br/store/minecraft"
+                className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
+                size="lg"
+              >
+                Ver todos os planos
+              </Button>
 
-  <Button
-    as="a"
-    href="https://discord.gg/p8YXcEuKdH"
-    className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
-    size="lg"
-  >
-    Entrar em contato
-  </Button>
-</div>
+              <Button
+                as="a"
+                href="https://discord.gg/p8YXcEuKdH"
+                className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
+                size="lg"
+              >
+                Entrar em contato
+              </Button>
+            </div>
           </div>
         </div>
       </div>
