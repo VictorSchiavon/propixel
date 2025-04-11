@@ -7,28 +7,6 @@ import { Card, CardBody, Tabs, Tab } from "@nextui-org/react"
 import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap } from "lucide-react"
 import { useState } from "react"
 
-// Interfaces para tipagem
-interface PlanDescription {
-  ram: string
-  ssd: string
-  cores: string
-  processor: string
-  additionalServer: boolean
-  ddosProtection: string
-  defaultPort: string
-}
-
-interface Plan {
-  id: string
-  name: string
-  originalPrice: string
-  price: string
-  image: string
-  color: string
-  link: string
-  description: PlanDescription
-}
-
 // Definição dos processadores disponíveis
 const processors = [
   { id: "5950x", name: "Ryzen 9 5950x" },
@@ -37,7 +15,7 @@ const processors = [
   { id: "xeon", name: "Xeon 2680v4" },
 ]
 
-const javaPlans: Plan[] = [
+const javaPlans = [
   {
     id: "basic",
     name: "BASIC",
@@ -45,7 +23,6 @@ const javaPlans: Plan[] = [
     price: "R$37,90",
     image: "/textures/terra.webp",
     color: "bg-gray-800",
-    link: "https://app.razehost.com.br/store/minecraft/java-basic",
     description: {
       ram: "4 GB DDR5",
       ssd: "10 GB SSD NVME",
@@ -63,7 +40,6 @@ const javaPlans: Plan[] = [
     price: "R$49,90",
     image: "/textures/ferro.webp",
     color: "bg-blue-700",
-    link: "https://app.razehost.com.br/store/minecraft/java-advanced",
     description: {
       ram: "6 GB DDR5",
       ssd: "20 GB SSD NVME",
@@ -81,7 +57,6 @@ const javaPlans: Plan[] = [
     price: "R$73,90",
     image: "/textures/ouro.webp",
     color: "bg-yellow-400",
-    link: "https://app.razehost.com.br/store/minecraft/java-pro",
     description: {
       ram: "10 GB DDR5",
       ssd: "20 GB SSD NVME",
@@ -99,7 +74,6 @@ const javaPlans: Plan[] = [
     price: "R$94,90",
     image: "/textures/diamante.webp",
     color: "bg-green-500",
-    link: "https://app.razehost.com.br/store/minecraft/java-ultra",
     description: {
       ram: "16 GB DDR5",
       ssd: "25 GB SSD NVME",
@@ -117,7 +91,6 @@ const javaPlans: Plan[] = [
     price: "R$129,90",
     image: "/textures/esmeralda.webp",
     color: "bg-cyan-400",
-    link: "https://app.razehost.com.br/store/minecraft/java-plus",
     description: {
       ram: "20 GB DDR5",
       ssd: "50 GB SSD NVME",
@@ -135,7 +108,6 @@ const javaPlans: Plan[] = [
     price: "R$190,00",
     image: "/textures/ether.webp",
     color: "bg-gray-900",
-    link: "https://app.razehost.com.br/store/minecraft/java-enterprise",
     description: {
       ram: "24 GB DDR5",
       ssd: "60 GB SSD NVME",
@@ -153,7 +125,6 @@ const javaPlans: Plan[] = [
     price: "R$259,90",
     image: "/textures/carvao.webp",
     color: "bg-gray-700",
-    link: "https://app.razehost.com.br/store/minecraft/java-dedicated",
     description: {
       ram: "32 GB DDR5",
       ssd: "100 GB SSD NVME",
@@ -167,7 +138,7 @@ const javaPlans: Plan[] = [
 ]
 
 // Planos Bedrock
-const bedrockPlans: Plan[] = [
+const bedrockPlans = [
   {
     id: "bedrock_entry",
     name: "BEDROCK SERVER",
@@ -175,7 +146,6 @@ const bedrockPlans: Plan[] = [
     price: "R$19,90",
     image: "/textures/terra.webp",
     color: "bg-gray-800",
-    link: "https://app.razehost.com.br/store/minecraft/bedrock-server",
     description: {
       ram: "4 GB DDR5",
       ssd: "10 GB SSD NVME",
@@ -193,7 +163,6 @@ const bedrockPlans: Plan[] = [
     price: "R$29,40",
     image: "/textures/ferro.webp",
     color: "bg-blue-700",
-    link: "https://app.razehost.com.br/store/minecraft/bedrock-plus",
     description: {
       ram: "8 GB DDR5",
       ssd: "20 GB SSD NVME",
@@ -209,14 +178,14 @@ const bedrockPlans: Plan[] = [
 export default function MinecraftPage() {
   const [selectedTab, setSelectedTab] = useState("java")
   const [selectedProcessor, setSelectedProcessor] = useState("5950x")
-  const [selectedPlan, setSelectedPlan] = useState<Plan | null>(null)
+  const [selectedPlan, setSelectedPlan] = useState<any>(null)
   const detailsRef = useRef<HTMLDivElement>(null)
 
   // Cor laranja conforme solicitado
   const primaryColor = "rgb(251 146 60)"
 
   // Função para mostrar detalhes do plano e rolar para a seção de detalhes
-  const showPlanDetails = (plan: Plan) => {
+  const showPlanDetails = (plan: any) => {
     setSelectedPlan(plan)
     // Rolar para a seção de detalhes em dispositivos móveis
     if (window.innerWidth < 1024 && detailsRef.current) {
@@ -353,7 +322,7 @@ export default function MinecraftPage() {
                       <div className="text-2xl font-bold text-orange-500">{plan.price}/mês</div>
                     </div>
                     <Button className="w-full bg-orange-500 text-white" onClick={() => showPlanDetails(plan)}>
-                      Ver detalhes
+                      Clique para ver os detalhes
                     </Button>
                   </div>
                 </div>
@@ -405,7 +374,7 @@ export default function MinecraftPage() {
 
                     <Button
                       as="a"
-                      href={selectedPlan.link}
+                      href={`https://app.razehost.com.br/store/minecraft/plan/${selectedPlan.id}`}
                       className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold"
                       size="lg"
                     >
