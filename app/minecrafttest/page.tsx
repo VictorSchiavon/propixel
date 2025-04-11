@@ -7,6 +7,7 @@ import { Card, CardBody, Tabs, Tab } from "@nextui-org/react"
 import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap } from "lucide-react"
 import { useState } from "react"
 
+
 // Definição dos processadores disponíveis
 const processors = [
   { id: "5950x", name: "Ryzen 9 5950x" },
@@ -213,19 +214,27 @@ export default function MinecraftPage() {
               Eleve o nível do seu <span className="text-orange-500">servidor</span> de minecraft
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              Profissionalize seu servidor com hardware de alta performance e proteção Anti-DDoS de alta capacidade!
+              Profissionalize seu servidor com AMD Ryzen 9 e proteção Anti-DDoS de alta capacidade!
             </p>
-            <div className="flex flex-wrap gap-4">
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg" size="lg">
-                Ver todos os planos
-              </Button>
-              <Button
-                className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
-                size="lg"
-              >
-                Entrar em contato
-              </Button>
-            </div>
+            <div className="flex flex-col sm:flex-row gap-4">
+  <Button
+    as="a"
+    href="https://app.razehost.com.br/store/minecraft"
+    className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
+    size="lg"
+  >
+    Ver todos os planos
+  </Button>
+
+  <Button
+    as="a"
+    href="https://discord.gg/p8YXcEuKdH"
+    className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
+    size="lg"
+  >
+    Entrar em contato
+  </Button>
+</div>
           </div>
 
           {/* Imagem de personagem Minecraft */}
