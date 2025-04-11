@@ -403,7 +403,7 @@ export default function MinecraftPage() {
           RazeHost, servidores AMD Ryzen e suporte diferenciado!
           
         </p>
-        <Button asChild className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-xl">
+       
         <a
   href="https://discord.gg/p8YXcEuKdH"
   target="_blank"
@@ -413,7 +413,6 @@ export default function MinecraftPage() {
   Agendar uma reunião!
 </a>
 
-</Button>
 
       </div>
 
