@@ -262,8 +262,9 @@ export default function MinecraftPage() {
           </div>
   
           {/* Imagem de personagem Minecraft */}
-          <div className="hidden lg:block absolute right-0 bottom-0">
+          <div className="hidden lg:block absolute right-0 bottom-">
             <div className="relative w-[400px] h-[400px]">
+              {/* Imagem de Steve (personagem Minecraft) */}
               <img
                 src="https://cdn.razehost.com.br/Sem_Titulo-2.webp"
                 alt="Personagem Minecraft"
