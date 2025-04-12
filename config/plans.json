@@ -901,14 +901,14 @@
 		{
 			"game": "Conan Exiles",
 			"img": "/games/cards/conanexiles.webp",
-			"name": "Conan Exiles 10GB",
-			"price": "R$150,00",
-			"discountPrice": "R$100,00",
+			"name": "Conan Exiles 12GB",
+			"price": "R$159,90",
+			"discountPrice": "R$119,00",
 			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-10gb",
 			"description": [
-				"10GB de RAM",
+				"12GB de RAM",
 				"AMD Ryzen",
-				"Sem mods e plugins",
+				"Não recomendado mods",
 				"Servidores casuais",
 				"20GB SSD NVMe M.2"
 			]
@@ -916,14 +916,14 @@
 		{
 			"game": "Conan Exiles",
 			"img": "/games/cards/conanexiles.webp",
-			"name": "Conan Exiles 12GB",
+			"name": "Conan Exiles 16GB",
 			"price": "R$275,00",
 			"discountPrice": "R$150,00",
-			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-12gb",
+			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-16gb",
 			"description": [
-				"12GB de RAM",
+				"16GB de RAM",
 				"AMD Ryzen",
-				"Mods e Plugins",
+				"Recomendado mods",
 				"Servidores casuais",
 				"25GB SSD NVMe M.2"
 			]
@@ -931,29 +931,29 @@
 		{
 			"game": "Conan Exiles",
 			"img": "/games/cards/conanexiles.webp",
-			"name": "Conan Exiles 16GB",
+			"name": "Conan Exiles 20GB",
 			"price": "R$350,00",
-			"discountPrice": "R$200,00",
+			"discountPrice": "R$209,90",
 			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-16gb",
 			"description": [
 				"16GB de RAM",
 				"AMD Ryzen ++",
 				"Mods e Plugins",
-				"Servidores médios",
+				"Recomendado mods",
 				"25GB SSD NVMe M.2"
 			]
 		},
 		{
 			"game": "Conan Exiles",
 			"img": "/games/cards/conanexiles.webp",
-			"name": "Conan Exiles 16GB",
+			"name": "Conan Exiles 32GB",
 			"price": "R$400,00",
-			"discountPrice": "R$380,00",
+			"discountPrice": "R$389,90",
 			"link": "https://app.razehost.com.br/store/conan-exiles/conan-exiles-32gb",
 			"description": [
 				"32GB de RAM",
-				"AMD Ryzen 9 7950X",
-				"Mods e Plugins ilimitados",
+				"AMD Ryzen 9 7950X, 9 9900X",
+				"Recomendado mods",
 				"Servidores grandes",
 				"40GB SSD NVMe M.2"
 			]
