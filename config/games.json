@@ -95,6 +95,25 @@
 		}
 	},
 	{
+		"id": 15,
+		"name": "Valheim",
+		"img": "/games/valheim.webp",
+		"logo": "/games/logos/valheim.webp",
+		"link": "/game/valheim",
+		"price": "R$ 30,00",
+		"discountPrice": null,
+		"new": false,
+		"wallpaper": "/wallpapers/valheim.webp",
+		"contents": {
+			"description": "Valheim é um jogo de sobrevivência inspirado na mitologia nórdica, onde você deve explorar, construir e lutar contra monstros em um mundo aberto.",
+			"platform": "PC",
+			"developer": "Iron Gate Studio",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
 		"id": 8,
 		"name": "Dayz",
 		"img": "/games/dayz.webp",
@@ -286,6 +305,7 @@
 			"refundType": "Reembolso em até 7 dias"
 		}
 	},
+	
 	{
 		"id": 23,
 		"name": "DayZ",
@@ -363,25 +383,7 @@
 		}
 	},
 
-	{
-		"id": 15,
-		"name": "Valheim",
-		"img": "/games/valheim.webp",
-		"logo": "/games/logos/valheim.webp",
-		"link": "/game/valheim",
-		"price": "R$ 30,00",
-		"discountPrice": null,
-		"new": false,
-		"wallpaper": "/wallpapers/valheim.webp",
-		"contents": {
-			"description": "Valheim é um jogo de sobrevivência inspirado na mitologia nórdica, onde você deve explorar, construir e lutar contra monstros em um mundo aberto.",
-			"platform": "PC",
-			"developer": "Iron Gate Studio",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
+
 
 	{
 		"id": 16,
