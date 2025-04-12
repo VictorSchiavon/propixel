@@ -48,7 +48,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "4 GB DDR5",
       ssd: "10 GB SSD NVME",
-      cores: "AMD Ryzen",
+      cores: "1vCore",
       processor: "AMD Ryzen",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -65,7 +65,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "6 GB DDR5",
       ssd: "20 GB SSD NVME",
-      cores: "AMD Ryzen",
+      cores: "2vCore",
       processor: "AMD Ryzen",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -82,7 +82,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "10 GB DDR5",
       ssd: "20 GB SSD NVME",
-      cores: "AMD Ryzen",
+      cores: "2vCore",
       processor: "AMD Ryzen",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -100,7 +100,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "16 GB DDR5",
       ssd: "25 GB SSD NVME",
-      cores: "AMD Ryzen",
+      cores: "3vCore",
       processor: "AMD Ryzen",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -118,7 +118,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "20 GB DDR5",
       ssd: "50 GB SSD NVME",
-      cores: "AMD Ryzen",
+      cores: "4vCore",
       processor: "AMD Ryzen",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -136,7 +136,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "24 GB DDR5",
       ssd: "60 GB SSD NVME",
-      cores: "AMD Ryzen 9 7950X / 7900X3D",
+      cores: "6 vCores",
       processor: "AMD Ryzen 9 7950X / 7900X3D",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -154,7 +154,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "32 GB DDR5",
       ssd: "100 GB SSD NVME",
-      cores: "AMD Ryzen 9 7950X / 7900X3D",
+      cores: "7 vCores",
       processor: "AMD Ryzen 9 7950X / 7900X3D",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
