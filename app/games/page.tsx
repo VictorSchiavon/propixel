@@ -72,21 +72,21 @@ export default function Games() {
       title: "Atualize seu jogo",
       description:
         "Seu servidor de jogo atualizou e você não sabe como atualizar, não se preocupe acompanhe nosso guia e atualize seu servidor em segundos!",
-      img: "/wallpapers/palworld.webp",
-      link: "/vps",
+      img: "https://www.razehost.com.br/wallpapers/palworld.webp",
+      link: "https://Razehost/vps",
     },
     {
       title: "Instale Modpacks automático",
       description:
         "Você não tem conhecimento em Minecraft? Isso não é um problema com nossos sistemas você pode instalar Modpacks de forma automático com apenas 1 click!",
-      img: "/wallpapers/minecraft.webp",
+      img: "https://www.razehost.com.br/wallpapers/minecraft.webp",
       link: "https://suporte.razehost.com.br/pt-BR/articles/9993474-como-instalar-modpacks-no-seu-servidor-de-minecraft",
     },
     {
       title: "Abra uma cidade Roleplay",
       description:
         "Pare de perder tempo, e abra seu servidor de FiveM com a RazeHost, processadores AMD Ryzen e Proteção Anti DDoS, você possui estabilidade e segurança!",
-      img: "/wallpapers/fivem.webp",
+      img: "https://www.razehost.com.br/wallpapers/fivem.webp",
       link: "/fivem",
     },
   ]
@@ -342,7 +342,7 @@ export default function Games() {
           <div className="col-span-1 lg:col-span-2">
             <div className="bg-gray-900/50 p-4 rounded-xl h-full">
               <h3 className="font-semibold text-sm mb-4 text-orange-400">Jogos em destaque</h3>
-              {games.slice(0, 6).map((item, index) => (
+              {games.slice(0, 8).map((item, index) => (
                 <div
                   key={index}
                   onClick={() => {
@@ -490,14 +490,14 @@ export default function Games() {
               <SwiperSlide key={index}>
                 <Card className="bg-gradient-to-b from-gray-800 to-gray-900 border border-gray-700 overflow-hidden hover:shadow-lg hover:shadow-orange-500/10 transition-all duration-300">
                   <CardBody className="p-0">
-				  <div className="relative">
-  <img
-    src={item.img || "/placeholder.svg"}
-    alt={item.title}
-    className="w-full h-48 object-cover"
-    width={800}
-    height={450}
-  />
+                    <div className="relative">
+                      <Image
+                        width={800}
+                        height={450}
+                        alt={item.title}
+                        className="w-full h-48 object-cover"
+                        src={item.img || "/placeholder.svg"}
+                      />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                     </div>
                     <div className="p-4">
@@ -520,46 +520,63 @@ export default function Games() {
         </div>
       </div>
 
-      {/* Game Categories */}
+      {/* Game Categories - Redesigned */}
       <div className="pt-[5%]">
         <div className="flex items-center gap-2 mb-6">
           <h1 className="text-xl font-bold">Categorias de Jogos</h1>
           <div className="h-1 w-24 bg-gradient-to-r from-orange-500 to-orange-400 rounded-full"></div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {Object.entries(mockData).map(([category, games], idx) => (
-            <div key={idx} className="flex">
-              {idx > 0 && <div className="border-l border-gray-700 mr-4" />}
-              <div className="w-full">
-                <h2 className="text-xl font-bold capitalize mb-4 flex gap-2 items-center text-orange-400">
-                  {category.replace(/([A-Z])/g, " $1")} <ArrowRight size={18} />
+            <div
+              key={idx}
+              className="bg-gradient-to-b from-gray-800/80 to-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:shadow-lg hover:shadow-orange-500/10 transition-all duration-300"
+            >
+              <div className="p-4 bg-gradient-to-r from-orange-500/20 to-transparent border-l-4 border-l-orange-500">
+                <h2 className="text-xl font-bold capitalize flex gap-2 items-center">
+                  {category.replace(/([A-Z])/g, " $1")}
+                  <ArrowRight size={18} className="text-orange-400" />
                 </h2>
-                <div className="space-y-4">
-                  {games.map((game, index) => (
-                    <a
-                      href={game.link}
-                      key={index}
-                      className="flex items-center space-x-4 p-2 rounded-lg hover:bg-gray-800/50 transition-all duration-200"
-                    >
-                      <div className="flex items-center space-x-4 w-full">
-                        <div className="relative w-20 h-20 overflow-hidden rounded-lg">
-                          <Image
-                            src={game.image || "/placeholder.svg"}
-                            alt={game.title}
-                            width={80}
-                            height={80}
-                            className="object-cover w-full h-full"
-                          />
-                        </div>
-                        <div className="flex-1">
-                          <p className="font-semibold">{game.title}</p>
-                          <p className="text-gray-500">{game.description}</p>
-                          <p className="text-orange-400 font-medium">{game.price}</p>
+              </div>
+
+              <div className="divide-y divide-gray-700/50">
+                {games.map((game, index) => (
+                  <a
+                    href={game.link}
+                    key={index}
+                    className="flex items-center p-4 hover:bg-gray-800/50 transition-all duration-200"
+                  >
+                    <div className="flex items-center gap-4 w-full">
+                      <div className="relative w-16 h-16 flex-shrink-0">
+                        <Image
+                          src={game.image || "/placeholder.svg"}
+                          alt={game.title}
+                          width={80}
+                          height={80}
+                          className="object-cover w-full h-full rounded-lg"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-tr from-black/40 to-transparent rounded-lg"></div>
+                      </div>
+                      <div className="flex-1">
+                        <p className="font-semibold text-white">{game.title}</p>
+                        {game.description && <p className="text-gray-400 text-sm">{game.description}</p>}
+                        <p className="text-orange-400 font-medium mt-1">{game.price}</p>
+                      </div>
+                      <div className="ml-auto">
+                        <div className="bg-gray-800 hover:bg-gray-700 p-2 rounded-full transition-colors">
+                          <ArrowRight size={16} className="text-orange-400" />
                         </div>
                       </div>
-                    </a>
-                  ))}
-                </div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+
+              <div className="p-3 bg-gray-900/50 flex justify-center">
+                <Button variant="light" className="text-orange-400 font-medium">
+                  Ver todos
+                </Button>
               </div>
             </div>
           ))}
@@ -574,10 +591,20 @@ export default function Games() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Left side: 3D Card Effect */}
+          {/* Left side: Group Navigation for New Games */}
           <div className="flex justify-center items-center">
             <div className="w-full max-w-md">
-              <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]} className="w-full">
+              <Swiper
+                effect={"cards"}
+                grabCursor={true}
+                modules={[EffectCards, Navigation]}
+                className="w-full"
+                slidesPerGroup={6}
+                navigation={{
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                }}
+              >
                 {newGames.map((game, index) => (
                   <SwiperSlide key={index} className="bg-transparent">
                     <Link href={game.link}>
@@ -631,11 +658,27 @@ export default function Games() {
                   </SwiperSlide>
                 ))}
               </Swiper>
-              <p className="text-center text-sm text-gray-400 mt-4">Deslize para ver mais jogos novos</p>
+              <div className="flex justify-center gap-4 mt-4">
+                <Button
+                  className="swiper-button-prev bg-gray-800 hover:bg-gray-700 border border-gray-700"
+                  isIconOnly
+                  size="sm"
+                >
+                  <LucideArrowLeft className="text-orange-400" size={15} />
+                </Button>
+                <Button
+                  className="swiper-button-next bg-gray-800 hover:bg-gray-700 border border-gray-700"
+                  isIconOnly
+                  size="sm"
+                >
+                  <LucideArrowRight className="text-orange-400" size={15} />
+                </Button>
+              </div>
+              <p className="text-center text-sm text-gray-400 mt-4">Navegue entre grupos de jogos novos</p>
             </div>
           </div>
 
-          {/* Right side: Features */}
+          {/* Right side: Features - Mantido como estava */}
           <div className="flex flex-col justify-center">
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl p-6">
               <h2 className="text-2xl font-bold mb-6 text-orange-400">Por que jogar os novos lançamentos?</h2>
