@@ -141,7 +141,7 @@ export default function Games() {
     "Próximos Títulos Mais Aguardados": [
       {
         title: "Hytale",
-        link: "",
+        link: "/hytale",
         description: "",
         price: "Em breve",
         image: "/games/hytale.webp",
