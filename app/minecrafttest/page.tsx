@@ -240,7 +240,7 @@ export default function MinecraftPage() {
             <div className="relative w-[400px] h-[400px]">
               {/* Imagem de Steve (personagem Minecraft) */}
               <img
-                src="https://i.seadn.io/gae/z8V-LQo90C2Y_keuu1sSCIQ99CPR_a4Ah0u71OA-zfu53WLosRHNTEEp0LJAiaFJh6bGIlTjtxI6Goi5uif93T6EuXYuc-nhyNet?auto=format&dpr=1&w=1000"
+                src="https://cdn.razehost.com.br/Sem_Titulo-2.webp"
                 alt="Personagem Minecraft"
                 width={300}
                 height={400}
