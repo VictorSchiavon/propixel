@@ -333,7 +333,7 @@ export default function MinecraftPage() {
                 >
                   {plan.isPremium && (
                     <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold text-center py-1 px-2 z-10">
-                      4x mais desempenho
+                      Indicado para Modpacks pesados
                     </div>
                   )}
                   <div className={`flex justify-center ${plan.isPremium ? "pt-10 pb-4" : "py-6"}`}>
