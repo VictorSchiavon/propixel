@@ -277,6 +277,9 @@ export default function MinecraftPage() {
         </div>
       </div>
 
+        {/* Linha horizontal vermelha no fim do header */}
+        <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-red-600"></div>
+      
       {/* Seção de planos com estilo Minecraft */}
       <div className="bg-[rgb(11,14,19)] py-20">
         <div className="container mx-auto px-6">
