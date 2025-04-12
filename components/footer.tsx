@@ -37,7 +37,7 @@ const Footer = () => {
                                 <Button className='bg-orange-400 text-white rounded-md px-8 py-4'>Confira os planos</Button>
                             </div>
                             <div className="relative h-full max-h-80 w-full max-w-[512px] place-self-center justify-self-end max-md:hidden lg:mr-4">
-                                <Image src={dashboard_footer} alt="Dashboard" style={{ position: 'absolute', height: '100%', width: '100%', inset: '0px', objectFit: 'cover', color: 'transparent' }} />
+                                <Image src={dashboard_footer} alt="Dashboard" style={{ position: 'absolute', height: '100%', width: '80%', inset: '0px', objectFit: 'cover', color: 'transparent' }} />
                             </div>
                         </div>
                     </CardBody>
