@@ -296,44 +296,7 @@ export default function MinecraftPage() {
             </Tabs>
           </div>
 
-            {/* Grid de planos e painel de detalhes */}
-      <div className="flex flex-col lg:flex-row gap-8">
-        {/* Grid de planos */}
-        <div className="lg:w-3/4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-          {(selectedTab === "java" ? javaPlans : bedrockPlans).map((plan) => (
-            <div
-              key={plan.id}
-              className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20 relative"
-            >
-              {plan.isPremium && (
-                <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold text-center py-1 px-2">
-                  4x mais desempenho
-                </div>
-              )}
-              <div className="flex justify-center py-6">
-                {/* Imagens dos blocos de Minecraft */}
-                <Image
-                  src={plan.image || "/placeholder.svg"}
-                  alt={plan.name}
-                  width={96}
-                  height={96}
-                  className="rounded-lg"
-                />
-              </div>
-              <div className="px-6 pb-6">
-                <h3 className="text-xl font-bold text-white mb-2 text-center">{plan.name}</h3>
-                <div className="flex flex-col items-center mb-4">
-                  <div className="text-sm text-gray-500 line-through">{plan.originalPrice}/mês</div>
-                  <div className="text-2xl font-bold text-orange-500">{plan.price}/mês</div>
-                </div>
-                <Button className="w-full bg-orange-500 text-white" onClick={() => showPlanDetails(plan)}>
-                  Clique para ver os detalhes
-                </Button>
-              </div>
-            </div>
-          ))}
-        </div>
-
+          
 
             {/* Painel de detalhes */}
             <div className="lg:w-1/4" ref={detailsRef}>
