@@ -7,6 +7,28 @@ import { Card, CardBody, Tabs, Tab } from "@nextui-org/react"
 import { CircleCheckBig, Download, MonitorIcon, Package, Server, ShieldCheck, Zap } from "lucide-react"
 import { useState } from "react"
 
+// Definição do tipo para os planos
+interface PlanDescription {
+  ram: string
+  ssd: string
+  cores: string
+  processor: string
+  additionalServer: boolean
+  ddosProtection: string
+  defaultPort: string
+}
+
+interface Plan {
+  id: string
+  name: string
+  originalPrice: string
+  price: string
+  image: string
+  color: string
+  description: PlanDescription
+  isPremium?: boolean // Adicionando a propriedade isPremium como opcional
+}
+
 // Definição dos processadores disponíveis
 const processors = [
   { id: "5950x", name: "Ryzen 9 5950x" },
@@ -15,7 +37,7 @@ const processors = [
   { id: "xeon", name: "Xeon 2680v4" },
 ]
 
-const javaPlans = [
+const javaPlans: Plan[] = [
   {
     id: "basic",
     name: "BASIC",
@@ -142,7 +164,7 @@ const javaPlans = [
 ]
 
 // Planos Bedrock
-const bedrockPlans = [
+const bedrockPlans: Plan[] = [
   {
     id: "bedrock-starter",
     name: "BEDROCK SERVER",
@@ -182,14 +204,14 @@ const bedrockPlans = [
 export default function MinecraftPage() {
   const [selectedTab, setSelectedTab] = useState("java")
   const [selectedProcessor, setSelectedProcessor] = useState("5950x")
-  const [selectedPlan, setSelectedPlan] = useState<any>(null)
+  const [selectedPlan, setSelectedPlan] = useState<Plan | null>(null)
   const detailsRef = useRef<HTMLDivElement>(null)
 
   // Cor laranja conforme solicitado
   const primaryColor = "rgb(251 146 60)"
 
   // Função para mostrar detalhes do plano e rolar para a seção de detalhes
-  const showPlanDetails = (plan: any) => {
+  const showPlanDetails = (plan: Plan) => {
     setSelectedPlan(plan)
     // Rolar para a seção de detalhes em dispositivos móveis
     if (window.innerWidth < 1024 && detailsRef.current) {
