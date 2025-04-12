@@ -227,10 +227,10 @@ export default function MinecraftPage() {
       <div className="relative w-full h-[500px] overflow-hidden bg-[rgb(11,14,19)]">
         {/* Imagem de fundo com overlay */}
         <div className="absolute inset-0 bg-[url('/placeholder.svg?height=500&width=1200')] bg-cover bg-center opacity-30"></div>
-  
+
         {/* Overlay gradiente */}
         <div className="absolute inset-0 bg-gradient-to-r from-[rgb(11,14,19)] via-[rgb(11,14,19)]/90 to-transparent"></div>
-  
+
         {/* Conteúdo do hero */}
         <div className="container mx-auto px-6 h-full flex items-center relative z-10">
           <div className="max-w-2xl">
@@ -249,7 +249,7 @@ export default function MinecraftPage() {
               >
                 Ver todos os planos
               </Button>
-  
+
               <Button
                 as="a"
                 href="https://discord.gg/p8YXcEuKdH"
@@ -260,7 +260,7 @@ export default function MinecraftPage() {
               </Button>
             </div>
           </div>
-  
+
           {/* Imagem de personagem Minecraft */}
           <div className="hidden lg:block absolute right-0 bottom-">
             <div className="relative w-[400px] h-[400px]">
@@ -276,12 +276,7 @@ export default function MinecraftPage() {
           </div>
         </div>
       </div>
-  
-      {/* Linha horizontal no fim do header */}
-      <div className="w-full h-px bg-orange-500" />
-    </div>
-  );
-  
+
 
       
       {/* Seção de planos com estilo Minecraft */}
