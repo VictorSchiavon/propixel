@@ -177,9 +177,9 @@ const bedrockPlans: Plan[] = [
       ssd: "10 GB SSD NVME",
       cores: "2 vCores",
       processor: "AMD Ryzen 9",
-      additionalServer: true,
+      additionalServer: false,
       ddosProtection: "Proteção Anti-DDoS",
-      defaultPort: "Suporta 5 jogadores • Addons • Todas as versões",
+      defaultPort: "Suporta 5 jogadores",
     },
   },
   {
@@ -194,9 +194,9 @@ const bedrockPlans: Plan[] = [
       ssd: "20 GB SSD NVME",
       cores: "3 vCores",
       processor: "AMD Ryzen 9",
-      additionalServer: true,
+      additionalServer: false,
       ddosProtection: "Proteção Anti-DDoS",
-      defaultPort: "Suporta 10 jogadores • Addons • Todas as versões",
+      defaultPort: "Suporta 10 jogadores",
     },
   },
 ]
@@ -385,12 +385,12 @@ export default function MinecraftPage() {
                       </li>
                       <li className="flex items-start gap-2">
                         <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
-                        <span className="text-gray-300">{selectedPlan.description.ssd} SSD NVMe</span>
+                        <span className="text-gray-300">{selectedPlan.description.ssd}</span>
                       </li>
                       {selectedPlan.description.additionalServer && (
                         <li className="flex items-start gap-2">
                           <CircleCheckBig className="text-orange-500 mt-0.5 flex-shrink-0" size={18} />
-                          <span className="text-gray-300">Até +1 servidor adicional</span>
+                          <span className="text-gray-300">Servidor em São Paulo</span>
                         </li>
                       )}
                       <li className="flex items-start gap-2">
