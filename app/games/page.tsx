@@ -490,14 +490,14 @@ export default function Games() {
               <SwiperSlide key={index}>
                 <Card className="bg-gradient-to-b from-gray-800 to-gray-900 border border-gray-700 overflow-hidden hover:shadow-lg hover:shadow-orange-500/10 transition-all duration-300">
                   <CardBody className="p-0">
-                    <div className="relative">
-                      <Image
-                        width={800}
-                        height={450}
-                        alt={item.title}
-                        className="w-full h-48 object-cover"
-                        src={item.img || "/placeholder.svg"}
-                      />
+				  <div className="relative">
+  <img
+    src={item.img || "/placeholder.svg"}
+    alt={item.title}
+    className="w-full h-48 object-cover"
+    width={800}
+    height={450}
+  />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                     </div>
                     <div className="p-4">
