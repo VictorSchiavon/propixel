@@ -74,6 +74,7 @@ const javaPlans = [
     price: "R$94,90",
     image: "/textures/diamante.webp",
     color: "bg-green-500",
+    isPremium: true,
     description: {
       ram: "16 GB DDR5",
       ssd: "25 GB SSD NVME",
@@ -91,6 +92,7 @@ const javaPlans = [
     price: "R$129,90",
     image: "/textures/esmeralda.webp",
     color: "bg-cyan-400",
+    isPremium: true,
     description: {
       ram: "20 GB DDR5",
       ssd: "50 GB SSD NVME",
@@ -108,6 +110,7 @@ const javaPlans = [
     price: "R$190,00",
     image: "/textures/ether.webp",
     color: "bg-gray-900",
+    isPremium: true,
     description: {
       ram: "24 GB DDR5",
       ssd: "60 GB SSD NVME",
@@ -125,6 +128,7 @@ const javaPlans = [
     price: "R$259,90",
     image: "/textures/carvao.webp",
     color: "bg-gray-700",
+    isPremium: true,
     description: {
       ram: "32 GB DDR5",
       ssd: "100 GB SSD NVME",
@@ -303,8 +307,13 @@ export default function MinecraftPage() {
               {(selectedTab === "java" ? javaPlans : bedrockPlans).map((plan) => (
                 <div
                   key={plan.id}
-                  className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20"
+                  className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20 relative"
                 >
+                  {plan.isPremium && (
+                    <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold text-center py-1 px-2">
+                      4x mais desempenho
+                    </div>
+                  )}
                   <div className="flex justify-center py-6">
                     {/* Imagens dos blocos de Minecraft */}
                     <Image
@@ -579,8 +588,6 @@ export default function MinecraftPage() {
           </div>
         </div>
       </div>
-
-
-        </div>
+    </div>
   )
 }
