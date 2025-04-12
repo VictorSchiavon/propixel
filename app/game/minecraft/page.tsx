@@ -269,7 +269,7 @@ export default function MinecraftPage() {
         <div className="container mx-auto px-6 h-full flex items-center relative z-10">
           <div className="max-w-2xl">
             <h1 className="text-5xl font-bold leading-tight mb-4">
-              Eleve o nível do seu <span className="text-orange-500">servidor</span> de minecraft barato!
+              Eleve o nível do seu <span className="text-orange-500">servidor</span> de minecraft
             </h1>
             <p className="text-xl text-gray-300 mb-8">
               Profissionalize seu servidor com AMD Ryzen 9 e proteção Anti-DDoS de alta capacidade!
