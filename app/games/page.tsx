@@ -72,21 +72,21 @@ export default function Games() {
       title: "Atualize seu jogo",
       description:
         "Seu servidor de jogo atualizou e você não sabe como atualizar, não se preocupe acompanhe nosso guia e atualize seu servidor em segundos!",
-      img: "https://www.razehost.com.br/wallpapers/palworld.webp",
-      link: "https://Razehost/vps",
+      img: "/wallpapers/palworld.webp",
+      link: "/vps",
     },
     {
       title: "Instale Modpacks automático",
       description:
         "Você não tem conhecimento em Minecraft? Isso não é um problema com nossos sistemas você pode instalar Modpacks de forma automático com apenas 1 click!",
-      img: "https://www.razehost.com.br/wallpapers/minecraft.webp",
+      img: "/wallpapers/minecraft.webp",
       link: "https://suporte.razehost.com.br/pt-BR/articles/9993474-como-instalar-modpacks-no-seu-servidor-de-minecraft",
     },
     {
       title: "Abra uma cidade Roleplay",
       description:
         "Pare de perder tempo, e abra seu servidor de FiveM com a RazeHost, processadores AMD Ryzen e Proteção Anti DDoS, você possui estabilidade e segurança!",
-      img: "https://www.razehost.com.br/wallpapers/fivem.webp",
+      img: "/wallpapers/fivem.webp",
       link: "/fivem",
     },
   ]
