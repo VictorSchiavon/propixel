@@ -332,11 +332,11 @@ export default function MinecraftPage() {
                   className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20 relative"
                 >
                   {plan.isPremium && (
-                    <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold text-center py-1 px-2">
+                    <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold text-center py-1 px-2 z-10">
                       4x mais desempenho
                     </div>
                   )}
-                  <div className="flex justify-center py-6">
+                  <div className={`flex justify-center ${plan.isPremium ? "pt-10 pb-4" : "py-6"}`}>
                     {/* Imagens dos blocos de Minecraft */}
                     <Image
                       src={plan.image || "/placeholder.svg"}
