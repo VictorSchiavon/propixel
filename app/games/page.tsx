@@ -115,7 +115,7 @@ export default function Games() {
         image: "/games/cards/fivem.webp",
       },
     ],
-    "Jogos VPS": [
+    "VPS": [
       {
         title: "DayZ",
         link: "/dayz",
