@@ -199,6 +199,40 @@ const bedrockPlans: Plan[] = [
       defaultPort: "Suporta 10 jogadores",
     },
   },
+  {
+    id: "bedrock-ultra",
+    name: "BEDROCK ULTRA",
+    originalPrice: "R$49,90",
+    price: "R$40,40",
+    image: "/textures/ouro.webp",
+    color: "bg-yellow-600",
+    description: {
+      ram: "12 GB DDR5",
+      ssd: "20 GB SSD NVME",
+      cores: "3 vCores",
+      processor: "AMD Ryzen 9",
+      additionalServer: false,
+      ddosProtection: "Proteção Anti-DDoS",
+      defaultPort: "Suporta 20 jogadores",
+    },
+  },
+  {
+    id: "bedrock-netherite",
+    name: "BEDROCK NETHERITE",
+    originalPrice: "R$69,90",
+    price: "R$59,40",
+    image: "/textures/netherite.webp",
+    color: "bg-gray-800",
+    description: {
+      ram: "16 GB DDR5",
+      ssd: "20 GB SSD NVME",
+      cores: "4 vCores",
+      processor: "AMD Ryzen 9",
+      additionalServer: false,
+      ddosProtection: "Proteção Anti-DDoS",
+      defaultPort: "Suporta 30+ jogadores",
+    },
+  },
 ]
 
 export default function MinecraftPage() {
@@ -235,7 +269,7 @@ export default function MinecraftPage() {
         <div className="container mx-auto px-6 h-full flex items-center relative z-10">
           <div className="max-w-2xl">
             <h1 className="text-5xl font-bold leading-tight mb-4">
-              Eleve o nível do seu <span className="text-orange-500">servidor</span> de minecraft
+              Eleve o nível do seu <span className="text-orange-500">servidor</span> de minecraft barato!
             </h1>
             <p className="text-xl text-gray-300 mb-8">
               Profissionalize seu servidor com AMD Ryzen 9 e proteção Anti-DDoS de alta capacidade!
