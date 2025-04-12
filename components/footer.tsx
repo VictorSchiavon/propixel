@@ -25,83 +25,24 @@ const socialMedia = [
 const Footer = () => {
     return (
         <>
-             <section className="container mx-auto max-w-7xl px-4 py-12">
-      <Card className="overflow-hidden border-0 bg-[#0E131D] shadow-xl relative">
-        <CardContent className="p-0">
-          <div className="grid md:grid-cols-2">
-            {/* Content Side */}
-            <div className="flex flex-col justify-center space-y-6 p-6 md:p-8 lg:p-10">
-              <div>
-                <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-[#4CAF50]">Hospedagem Premium</h2>
-                <h3 className="text-balance text-3xl font-bold leading-tight text-white md:text-4xl">
-                  Seu sonho, nossa missão!
-                </h3>
-              </div>
-
-              <div className="grid gap-4 sm:grid-cols-3">
-                <div className="flex items-center gap-2">
-                  <Gamepad2 className="h-5 w-5 text-[#FF6B00]" />
-                  <span className="text-sm text-slate-300">Minecraft</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Server className="h-5 w-5 text-[#FF6B00]" />
-                  <span className="text-sm text-slate-300">FiveM</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Code className="h-5 w-5 text-[#FF6B00]" />
-                  <span className="text-sm text-slate-300">VPS</span>
-                </div>
-              </div>
-
-              <p className="text-pretty text-base text-slate-300">
-                Oferecemos uma ampla gama de planos para atender a diversos tipos de projetos, desde hospedagem de
-                servidores de Minecraft, FiveM e outros jogos, até VPS para aplicações de sites, bots e soluções
-                digitais em geral. Nossas opções escaláveis e econômicas garantem desempenho e confiabilidade.
-              </p>
-
-              <div>
-                <Button
-                  size="lg"
-                  className="group relative overflow-hidden bg-[#FF6B00] text-white transition-all hover:bg-[#FF8C00]"
-                  onMouseEnter={() => setIsHovered(true)}
-                  onMouseLeave={() => setIsHovered(false)}
-                >
-                  <span className="relative z-10 flex items-center gap-2">
-                    Confira os planos
-                    <ArrowRight
-                      className={`h-4 w-4 transition-transform duration-300 ${isHovered ? "translate-x-1" : ""}`}
-                    />
-                  </span>
-                </Button>
-              </div>
-            </div>
-
-            {/* Image Side */}
-            <div className="relative flex items-center justify-center overflow-hidden">
-              <div className="relative h-[240px] w-full md:h-[280px] lg:h-[300px]">
-                <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mine2-2ed7yxAZu1bIu3JSRA3mQAPUH26ty6.webp"
-                  alt="Mascote RAZE"
-                  style={{
-                    objectFit: "contain",
-                    objectPosition: "center bottom", // Position at the bottom
-                    width: "100%",
-                    height: "100%", // Use full height of container
-                    maxHeight: "100%",
-                    transform: "translateY(5%) scale(1.25)", // Larger scale and adjusted position
-                  }}
-                  width={400}
-                  height={400}
-                  priority
-                />
-              </div>
-              {/* Natural cutoff with card edge instead of gradient */}
-            </div>
-          </div>
-        </CardContent>
-      </Card>
-    </section>
-  
+            <section className="container mx-auto max-w-8xl px-5 pt-10 flex-grow">
+                <Card className="bg-[#0E131D] rounded-sm">
+                    <CardBody className="p-0">
+                        <div className="grid h-full gap-12 px-4 sm:px-6 md:grid-cols-2">
+                            <div className="flex flex-col items-center justify-between gap-6 px-4 py-8 md:items-start">
+                                <h3 className="font-bold text-3xl">Seu sonho, nossa missão!</h3>
+                                <p className="text-gray-300 text-[15px] pt-4 pb-4">
+                                    Oferecemos uma ampla gama de planos para atender a diversos tipos de projetos, desde hospedagem de servidores de Minecraft, FiveM e outros jogos, até VPS para aplicações de sites, bots e soluções digitais em geral. Nossas opções escaláveis e econômicas garantem desempenho e confiabilidade, atendendo tanto a pequenas iniciativas quanto a grandes demandas de infraestrutura
+                                </p>
+                                <Button className='bg-orange-400 text-white rounded-md px-8 py-4'>Confira os planos</Button>
+                            </div>
+                            <div className="relative h-full max-h-80 w-full max-w-[512px] place-self-center justify-self-end max-md:hidden lg:mr-4">
+                                <Image src={dashboard_footer} alt="Dashboard" style={{ position: 'absolute', height: '100%', width: '100%', inset: '0px', objectFit: 'cover', color: 'transparent' }} />
+                            </div>
+                        </div>
+                    </CardBody>
+                </Card>
+            </section>
             <div className="bg-[#0B0E13] w-full mt-24 text-gray-30 border-t border-t-gray-800 border-b border-b-gray-800">
                 <div className="container mx-auto max-w-8xl flex flex-col px-2 py-4 justify-between">
                     <div className="grid grid-cols-2 md:grid-cols-6 py-8">
