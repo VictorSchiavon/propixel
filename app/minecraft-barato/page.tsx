@@ -221,7 +221,7 @@ const bedrockPlans: Plan[] = [
     name: "BEDROCK NETHERITE",
     originalPrice: "R$69,90",
     price: "R$59,40",
-    image: "/textures/netherite.webp",
+    image: "/textures/ether.webp",
     color: "bg-gray-800",
     description: {
       ram: "16 GB DDR5",
