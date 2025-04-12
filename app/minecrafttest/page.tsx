@@ -580,36 +580,6 @@ export default function MinecraftPage() {
         </div>
       </div>
 
-      {/* CTA Final */}
-      <div className="bg-gradient-to-r from-orange-900/20 to-black py-16">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">Pronto para começar sua aventura?</h2>
-            <p className="text-xl text-gray-300 mb-8">
-              Escolha um dos nossos planos e tenha seu servidor Minecraft online em minutos!
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                as="a"
-                href="https://app.razehost.com.br/store/minecraft"
-                className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
-                size="lg"
-              >
-                Ver todos os planos
-              </Button>
-
-              <Button
-                as="a"
-                href="https://discord.gg/p8YXcEuKdH"
-                className="bg-transparent border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-6 text-lg"
-                size="lg"
-              >
-                Entrar em contato
-              </Button>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
   )
 }
