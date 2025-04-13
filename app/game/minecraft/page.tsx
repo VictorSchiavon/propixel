@@ -48,7 +48,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "4 GB DDR5",
       ssd: "10 GB SSD NVME",
-      cores: "1vCore",
+      cores: "2vCore",
       processor: "AMD Ryzen 9 7950X / 9 9900X / 7900X3D",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -65,7 +65,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "6 GB DDR5",
       ssd: "20 GB SSD NVME",
-      cores: "2vCore",
+      cores: "3vCore",
       processor: "AMD Ryzen 9 7950X / 9 9900X / 7900X3D",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -82,7 +82,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "10 GB DDR5",
       ssd: "20 GB SSD NVME",
-      cores: "2vCore",
+      cores: "3vCore",
       processor: "AMD Ryzen 9 7950X / 9 9900X / 7900X3D",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -100,7 +100,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "16 GB DDR5",
       ssd: "25 GB SSD NVME",
-      cores: "3vCore",
+      cores: "4vCore",
       processor: "AMD Ryzen 9 7950X / 9 9900X / 7900X3D",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -118,7 +118,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "20 GB DDR5",
       ssd: "50 GB SSD NVME",
-      cores: "4vCore",
+      cores: "5vCore",
       processor: "AMD Ryzen 9 7950X / 9 9900X / 7900X3D",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -154,7 +154,7 @@ const javaPlans: Plan[] = [
     description: {
       ram: "32 GB DDR5",
       ssd: "100 GB SSD NVME",
-      cores: "7 vCores",
+      cores: "8 vCores",
       processor: "AMD Ryzen 9 7950X / 9 9900X / 7900X3D",
       additionalServer: false,
       ddosProtection: "Sub-domínios incluso",
@@ -193,7 +193,7 @@ const bedrockPlans: Plan[] = [
       ram: "8 GB DDR5",
       ssd: "20 GB SSD NVME",
       cores: "3 vCores",
-      processor: "AMD Ryzen 9 7950X / 9 9900X / 7900X3D",
+      processor: "AMD Ryzen 9",
       additionalServer: false,
       ddosProtection: "Proteção Anti-DDoS",
       defaultPort: "Suporta 10 jogadores",
@@ -209,7 +209,7 @@ const bedrockPlans: Plan[] = [
     description: {
       ram: "12 GB DDR5",
       ssd: "20 GB SSD NVME",
-      cores: "3 vCores",
+      cores: "4 vCores",
       processor: "AMD Ryzen 9",
       additionalServer: false,
       ddosProtection: "Proteção Anti-DDoS",
@@ -226,7 +226,7 @@ const bedrockPlans: Plan[] = [
     description: {
       ram: "16 GB DDR5",
       ssd: "20 GB SSD NVME",
-      cores: "4 vCores",
+      cores: "5 vCores",
       processor: "AMD Ryzen 9",
       additionalServer: false,
       ddosProtection: "Proteção Anti-DDoS",
