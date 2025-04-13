@@ -355,7 +355,7 @@ export default function Games() {
                   } cursor-pointer rounded-lg transition-all duration-200 mb-2`}
                 >
                   <div className="flex items-center space-x-2 p-2">
-                    <Image
+                    <img
                       src={item.img || "/placeholder.svg"}
                       alt={item.name}
                       width={100}
