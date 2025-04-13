@@ -115,7 +115,7 @@ export default function Games() {
         image: "/games/cards/fivem.webp",
       },
     ],
-    "VPS": [
+    "Jogos VPS": [
       {
         title: "DayZ",
         link: "/dayz",
@@ -141,7 +141,7 @@ export default function Games() {
     "Próximos Títulos Mais Aguardados": [
       {
         title: "Hytale",
-        link: "/hytale",
+        link: "",
         description: "",
         price: "Em breve",
         image: "/games/hytale.webp",
@@ -412,14 +412,15 @@ export default function Games() {
             modules={[Navigation, Pagination]}
             pagination={{ clickable: true, dynamicBullets: true }}
             className="mySwiper pb-10"
+            slidesPerGroup={6}
             breakpoints={{
-              320: { slidesPerView: 1, spaceBetween: 10 },
-              480: { slidesPerView: 2, spaceBetween: 15 },
-              640: { slidesPerView: 2, spaceBetween: 20 },
-              768: { slidesPerView: 3, spaceBetween: 20 },
-              1024: { slidesPerView: 4, spaceBetween: 20 },
-              1280: { slidesPerView: 5, spaceBetween: 20 },
-              1536: { slidesPerView: 6, spaceBetween: 20 },
+              320: { slidesPerView: 1, spaceBetween: 10, slidesPerGroup: 1 },
+              480: { slidesPerView: 2, spaceBetween: 15, slidesPerGroup: 2 },
+              640: { slidesPerView: 2, spaceBetween: 20, slidesPerGroup: 2 },
+              768: { slidesPerView: 3, spaceBetween: 20, slidesPerGroup: 3 },
+              1024: { slidesPerView: 4, spaceBetween: 20, slidesPerGroup: 4 },
+              1280: { slidesPerView: 5, spaceBetween: 20, slidesPerGroup: 5 },
+              1536: { slidesPerView: 6, spaceBetween: 20, slidesPerGroup: 6 },
             }}
           >
             {games.map((item, index) => (
@@ -491,7 +492,7 @@ export default function Games() {
                 <Card className="bg-gradient-to-b from-gray-800 to-gray-900 border border-gray-700 overflow-hidden hover:shadow-lg hover:shadow-orange-500/10 transition-all duration-300">
                   <CardBody className="p-0">
                     <div className="relative">
-                      <img
+                      <Image
                         width={800}
                         height={450}
                         alt={item.title}
@@ -594,17 +595,7 @@ export default function Games() {
           {/* Left side: Group Navigation for New Games */}
           <div className="flex justify-center items-center">
             <div className="w-full max-w-md">
-              <Swiper
-                effect={"cards"}
-                grabCursor={true}
-                modules={[EffectCards, Navigation]}
-                className="w-full"
-                slidesPerGroup={6}
-                navigation={{
-                  nextEl: ".swiper-button-next",
-                  prevEl: ".swiper-button-prev",
-                }}
-              >
+              <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]} className="w-full">
                 {newGames.map((game, index) => (
                   <SwiperSlide key={index} className="bg-transparent">
                     <Link href={game.link}>
@@ -658,23 +649,7 @@ export default function Games() {
                   </SwiperSlide>
                 ))}
               </Swiper>
-              <div className="flex justify-center gap-4 mt-4">
-                <Button
-                  className="swiper-button-prev bg-gray-800 hover:bg-gray-700 border border-gray-700"
-                  isIconOnly
-                  size="sm"
-                >
-                  <LucideArrowLeft className="text-orange-400" size={15} />
-                </Button>
-                <Button
-                  className="swiper-button-next bg-gray-800 hover:bg-gray-700 border border-gray-700"
-                  isIconOnly
-                  size="sm"
-                >
-                  <LucideArrowRight className="text-orange-400" size={15} />
-                </Button>
-              </div>
-              <p className="text-center text-sm text-gray-400 mt-4">Navegue entre grupos de jogos novos</p>
+              <p className="text-center text-sm text-gray-400 mt-4">Deslize para ver mais jogos novos</p>
             </div>
           </div>
 
