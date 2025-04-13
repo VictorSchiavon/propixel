@@ -104,7 +104,7 @@ export default function Games() {
         title: "Minecraft",
         link: "/game/minecraft",
         description: "",
-        price: "R$ 37,90",
+        price: "R$ 19,90",
         image: "/games/minecraft.webp",
       },
       {
