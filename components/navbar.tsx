@@ -169,80 +169,18 @@ export const NavbarComponent = () => {
   </Popover>
 </NavbarItem>
 
+<NavbarItem className="mt-4">
+	<Link href="/games">
+		<Button
+			className="p-0 bg-transparent font-semibold text-sm text-gray-300 hover:text-white"
+			radius="sm"
+			variant="light"
+		>
+			Jogos
+		</Button>
+	</Link>
+</NavbarItem>
 
-				<NavbarItem className="mt-4" onMouseLeave={closePopoverWithDelay}>
-					<Popover
-						placement="bottom"
-						offset={20}
-						showArrow
-						isOpen={activePopover === "gamers"}
-					>
-						<PopoverTrigger>
-							<Button
-								className="p-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300"
-								radius="sm"
-								variant="light"
-								endContent={<BiChevronDown />}
-								onMouseEnter={() => handlePopover("gamers")}
-							>
-								Jogos
-							</Button>
-						</PopoverTrigger>
-						<PopoverContent
-							className="w-[800px] p-0"
-							onMouseEnter={() => clearTimeout(popoverTimeout!)}
-							// onMouseLeave={closePopoverWithDelay}
-						>
-							<div className="w-full p-5">
-								<div className="grid grid-cols-3 gap-4">
-									{games.slice(0, 8).map((item, index) => (
-										<Link href={item.link} key={index}>
-											<div className="p-2 rounded-lg flex items-center h-18 h-full hover:bg-[#303030]">
-												<div className="flex items-center space-x-2">
-													<Image
-														src={item.img}
-														alt={item.name}
-														width={48}
-														height={48}
-														className="w-12 h-12 object-cover rounded-lg hover:animate-pulse"
-													/>
-													<div className="flex flex-col">
-														<h3 className="text-md font-bold">{item.name}</h3>
-														<p className="text-xs text-nowrap">
-															A partir de {" "}
-															<span className="font-bold">
-																{item.discountPrice}
-															</span>
-														</p>
-													</div>
-												</div>
-											</div>
-										</Link>
-									))}
-									<Link href="/games">
-										<div className="p-2 rounded-lg flex items-center h-18 h-full hover:bg-[#303030]">
-											<div className="flex items-center space-x-2">
-												<LayoutGrid
-													width={40}
-													height={40}
-													// fill="#fff"
-													color="#fff"
-													className="bg-amber-600 p-2 object-cover rounded-lg hover:animate-pulse"
-												/>
-												<div className="flex flex-col">
-													<h3 className="text-md font-bold">Todos jogos</h3>
-													<p className="text-xs text-nowrap">
-														Ver todos nossos jogos
-													</p>
-												</div>
-											</div>
-										</div>
-									</Link>
-								</div>
-							</div>
-						</PopoverContent>
-					</Popover>
-				</NavbarItem>
 				<NavbarItem className="mt-4" onMouseLeave={closePopoverWithDelay}>
 					<Popover
 						placement="bottom"
