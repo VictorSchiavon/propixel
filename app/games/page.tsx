@@ -492,7 +492,7 @@ export default function Games() {
                 <Card className="bg-gradient-to-b from-gray-800 to-gray-900 border border-gray-700 overflow-hidden hover:shadow-lg hover:shadow-orange-500/10 transition-all duration-300">
                   <CardBody className="p-0">
                     <div className="relative">
-                      <Image
+                      <img
                         width={800}
                         height={450}
                         alt={item.title}
