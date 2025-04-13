@@ -22,89 +22,6 @@ export default function Games() {
       <div className="flex w-full flex-col">
         {displayGame ? (
           <>
-            {/* Pequeno header com informações do jogo */}
-            <div className="mb-6 bg-[#202024] p-6 rounded-xl border border-gray-800">
-              <div className="flex flex-col md:flex-row gap-4 items-start">
-                <div className="md:w-1/4">
-                  {displayGame.image && (
-                    <div className="rounded-lg overflow-hidden">
-                      <img
-                        src={displayGame.image || "/placeholder.svg"}
-                        alt={displayGame.name}
-                        className="w-full h-auto"
-                      />
-                    </div>
-                  )}
-                </div>
-                <div className="md:w-3/4">
-                  <div className="flex items-center gap-2 mb-2">
-                    <h1 className="text-2xl font-bold">{displayGame.name}</h1>
-                    <span className="bg-emerald-600 text-white text-xs px-2 py-1 rounded-full">Disponível</span>
-                  </div>
-                  <p className="text-gray-300 mb-4">
-                    {displayGame.description ||
-                      "Experimente o melhor servidor para seu jogo favorito com hardware de ponta e suporte 24/7."}
-                  </p>
-                  <div className="flex flex-wrap gap-3 mb-4">
-                    <div className="flex items-center gap-2 bg-[#2a2a30] px-3 py-2 rounded-lg">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="#10b981"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                      </svg>
-                      <span className="text-sm">Proteção DDoS</span>
-                    </div>
-                    <div className="flex items-center gap-2 bg-[#2a2a30] px-3 py-2 rounded-lg">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="#FFB800"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-                      </svg>
-                      <span className="text-sm">Baixa Latência</span>
-                    </div>
-                    <div className="flex items-center gap-2 bg-[#2a2a30] px-3 py-2 rounded-lg">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="#3b82f6"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
-                        <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
-                        <line x1="6" y1="6" x2="6.01" y2="6"></line>
-                        <line x1="6" y1="18" x2="6.01" y2="18"></line>
-                      </svg>
-                      <span className="text-sm">Hardware de Ponta</span>
-                    </div>
-                  </div>
-                  <Button color="success" size="sm">
-                    Contratar Servidor
-                  </Button>
-                </div>
-              </div>
-            </div>
-
             <TabsComponent displayGame={displayGame} />
           </>
         ) : (
@@ -194,7 +111,7 @@ export default function Games() {
         <div className="flex justify-between items-center mb-6">
           <h3 className="font-bold text-2xl">Avaliações dos clientes</h3>
           <Link href="https://br.trustpilot.com/review/raze.host">
-            <p className="text-sm hover:text-emerald-400 transition-colors flex items-center gap-2">
+            <p className="text-sm hover:text-orange-400 transition-colors flex items-center gap-2">
               Visualizar todas as avaliações
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -215,12 +132,12 @@ export default function Games() {
           </Link>
         </div>
         <div className="pt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Card className="bg-[#202024] rounded-lg border border-gray-800 hover:border-emerald-600/50 transition-colors">
+          <Card className="bg-[#202024] rounded-lg border border-gray-800 hover:border-orange-500/50 transition-colors">
             <CardBody>
               <div className="p-4">
                 <div className="flex justify-between items-start">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-emerald-600/20 flex items-center justify-center text-emerald-500 font-bold">
+                    <div className="w-10 h-10 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-500 font-bold">
                       HJ
                     </div>
                     <div>
@@ -253,17 +170,17 @@ export default function Games() {
                   recomendo e irei utilizar muito
                 </p>
                 <div className="mt-3 flex justify-end">
-                  <span className="text-xs bg-emerald-600/20 text-emerald-500 px-2 py-1 rounded-full">Verificado</span>
+                  <span className="text-xs bg-orange-500/20 text-orange-500 px-2 py-1 rounded-full">Verificado</span>
                 </div>
               </div>
             </CardBody>
           </Card>
-          <Card className="bg-[#202024] rounded-lg border border-gray-800 hover:border-emerald-600/50 transition-colors">
+          <Card className="bg-[#202024] rounded-lg border border-gray-800 hover:border-orange-500/50 transition-colors">
             <CardBody>
               <div className="p-4">
                 <div className="flex justify-between items-start">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-emerald-600/20 flex items-center justify-center text-emerald-500 font-bold">
+                    <div className="w-10 h-10 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-500 font-bold">
                       AD
                     </div>
                     <div>
@@ -296,17 +213,17 @@ export default function Games() {
                   meu banco de dados hospedado, sem quedas e SLA perfeito.
                 </p>
                 <div className="mt-3 flex justify-end">
-                  <span className="text-xs bg-emerald-600/20 text-emerald-500 px-2 py-1 rounded-full">Verificado</span>
+                  <span className="text-xs bg-orange-500/20 text-orange-500 px-2 py-1 rounded-full">Verificado</span>
                 </div>
               </div>
             </CardBody>
           </Card>
-          <Card className="bg-[#202024] rounded-lg border border-gray-800 hover:border-emerald-600/50 transition-colors">
+          <Card className="bg-[#202024] rounded-lg border border-gray-800 hover:border-orange-500/50 transition-colors">
             <CardBody>
               <div className="p-4">
                 <div className="flex justify-between items-start">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-emerald-600/20 flex items-center justify-center text-emerald-500 font-bold">
+                    <div className="w-10 h-10 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-500 font-bold">
                       TS
                     </div>
                     <div>
@@ -339,7 +256,7 @@ export default function Games() {
                   com equipamentos muito bons também.
                 </p>
                 <div className="mt-3 flex justify-end">
-                  <span className="text-xs bg-emerald-600/20 text-emerald-500 px-2 py-1 rounded-full">Verificado</span>
+                  <span className="text-xs bg-orange-500/20 text-orange-500 px-2 py-1 rounded-full">Verificado</span>
                 </div>
               </div>
             </CardBody>
@@ -357,7 +274,7 @@ export default function Games() {
             </p>
           </div>
           <div className="md:w-1/4 flex justify-center">
-            <Button color="success" size="lg">
+            <Button color="warning" size="lg" className="bg-orange-500 text-white">
               Contratar Agora
             </Button>
           </div>
