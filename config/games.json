@@ -101,7 +101,7 @@
 		"logo": "/games/logos/valheim.webp",
 		"link": "/game/valheim",
 		"price": "R$ 30,00",
-		"discountPrice": null,
+		"discountPrice": true,
 		"new": false,
 		"wallpaper": "/wallpapers/valheim.webp",
 		"contents": {
