@@ -28,7 +28,7 @@ const vpsGamer = [
 			ram: "1 GB",
 			ssd: "30 GB",
 			cores: "1 núcleo",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
+			attrs: ["Cachê-externo","Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -39,7 +39,7 @@ const vpsGamer = [
 			ram: "2 GB",
 			ssd: "40 GB",
 			cores: "2 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
+			attrs: ["Cachê-externo","Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -50,7 +50,7 @@ const vpsGamer = [
 			ram: "4 GB",
 			ssd: "50 GB",
 			cores: "3 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
+			attrs: ["Cachê-externo","Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -61,7 +61,7 @@ const vpsGamer = [
 			ram: "6 GB",
 			ssd: "60 GB",
 			cores: "4 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
+			attrs: ["Cachê-externo","Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -72,7 +72,7 @@ const vpsGamer = [
 			ram: "8 GB",
 			ssd: "70 GB",
 			cores: "5 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
+			attrs: ["Cachê-externo","Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -83,7 +83,7 @@ const vpsGamer = [
 			ram: "10 GB",
 			ssd: "80 GB",
 			cores: "6 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
+			attrs: ["Cachê-externo","Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -94,7 +94,7 @@ const vpsGamer = [
 			ram: "12 GB",
 			ssd: "90 GB",
 			cores: "6 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
+			attrs: ["Cachê-externo","Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 	{
@@ -105,7 +105,7 @@ const vpsGamer = [
 			ram: "16 GB",
 			ssd: "100 GB",
 			cores: "6 núcleos",
-			attrs: ["Anti DDoS Incluso", "AMD Ryzen 9"],
+			attrs: ["Cachê-externo","Anti DDoS Incluso", "AMD Ryzen 9"],
 		},
 	},
 ];
@@ -119,7 +119,7 @@ const vpsFlex = [
 			ram: "2 GB",
 			cores: "2 vCores",
 			ssd: "30 GB",
-			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
+			attrs: ["Cachê-externo","Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -130,7 +130,7 @@ const vpsFlex = [
 			ram: "4 GB",
 			cores: "3 vCores",
 			ssd: "40 GB",
-			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
+			attrs: ["Cachê-externo","Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -141,7 +141,7 @@ const vpsFlex = [
 			ram: "6 GB",
 			cores: "4 vCores",
 			ssd: "50 GB",
-			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
+			attrs: ["Cachê-externo","Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -152,7 +152,7 @@ const vpsFlex = [
 			ram: "8 GB",
 			cores: "5 vCores",
 			ssd: "60 GB",
-			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
+			attrs: ["Cachê-externo","Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -163,7 +163,7 @@ const vpsFlex = [
 			ram: "10 GB",
 			cores: "6 vCores",
 			ssd: "70 GB",
-			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
+			attrs: ["Cachê-externo","Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -174,7 +174,7 @@ const vpsFlex = [
 			ram: "12 GB",
 			cores: "7 vCores",
 			ssd: "80 GB",
-			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
+			attrs: ["Cachê-externo","Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 	{
@@ -185,7 +185,7 @@ const vpsFlex = [
 			ram: "16 GB",
 			cores: "8 vCores",
 			ssd: "100 GB",
-			attrs: ["Proteção DDoS", "Hospedado no Brasil"],
+			attrs: ["Cachê-externo","Proteção DDoS", "Hospedado no Brasil"],
 		},
 	},
 ];

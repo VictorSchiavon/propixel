@@ -217,7 +217,7 @@
 		"logo": "/games/logos/enshrouded.webp",
 		"link": "/enshrouded",
 		"price": "R$ 169,00",
-		"discountPrice": "R$ 109,90",
+		"discountPrice": "R$ 89,90",
 		"new": true,
 		"wallpaper": "/wallpapers/enshrouded.webp",
 		"contents": {
@@ -236,7 +236,7 @@
 		"logo": "/games/logos/vintagestory.webp",
 		"link": "/vintage-story",
 		"price": "R$ 65,00",
-		"discountPrice": "R$ 40,00",
+		"discountPrice": "R$ 29,90",
 		"new": false,
 		"wallpaper": "/wallpapers/vintagestory.webp",
 		"contents": {
