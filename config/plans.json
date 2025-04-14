@@ -328,8 +328,8 @@
 			"game": "Vintage Story",
 			"img": "/games/cards/vintagestory.webp",
 			"name": "Vintage Story 2GB",
-			"price": "R$60,00",
-			"discountPrice": "R$40,00",
+			"price": "R$49,90",
+			"discountPrice": "R$29,90",
 			"link": "https://app.razehost.com.br/store/vintage-story/vintage-story-2gb",
 			"description": [
 				"2GB de RAM",
@@ -342,8 +342,8 @@
 			"game": "Vintage Story",
 			"img": "/games/cards/vintagestory.webp",
 			"name": "Vintage Story 4GB",
-			"price": "R$120,00",
-			"discountPrice": "R$70,00",
+			"price": "R$79,90",
+			"discountPrice": "R$49,90",
 			"link": "https://app.razehost.com.br/store/vintage-story/vintage-story-4gb",
 			"description": [
 				"4GB de RAM",
@@ -356,8 +356,8 @@
 			"game": "Vintage Story",
 			"img": "/games/cards/vintagestory.webp",
 			"name": "Vintage Story 6GB",
-			"price": "R$160,00",
-			"discountPrice": "R$100,00",
+			"price": "R$89,90",
+			"discountPrice": "R$69,90",
 			"link": "https://app.razehost.com.br/store/vintage-story/vintage-story-6gb",
 			"description": [
 				"6GB de RAM",
@@ -370,8 +370,8 @@
 			"game": "Vintage Story",
 			"img": "/games/cards/vintagestory.webp",
 			"name": "Vintage Story 10GB",
-			"price": "R$180,00",
-			"discountPrice": "R$130,00",
+			"price": "R$109,90",
+			"discountPrice": "R$99,90",
 			"link": "https://app.razehost.com.br/store/vintage-story/vintage-story-10gb",
 			"description": [
 				"10GB de RAM",
@@ -1201,7 +1201,7 @@
 			"img": "/games/cards/enshrouded.webp",
 			"name": "Plano 1",
 			"price": "R$189,90",
-			"discountPrice": "R$109,90",
+			"discountPrice": "R$89,90",
 			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-2-enshrouded-host",
 			"description": [
 				"2 a 4 players",
@@ -1216,7 +1216,7 @@
 			"img": "/games/cards/enshrouded.webp",
 			"name": "Plano 2",
 			"price": "R$249,90",
-			"discountPrice": "R$159,90",
+			"discountPrice": "R$139,90",
 			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-3-enshrouded-host",
 			"description": [
 				"4 a 6 pessoas",
@@ -1230,7 +1230,7 @@
 			"img": "/games/cards/enshrouded.webp",
 			"name": "Plano 3",
 			"price": "R$249,90",
-			"discountPrice": "R$209,90",
+			"discountPrice": "R$189,90",
 			"link": "https://app.razehost.com.br/store/hospedagem-de-enshrouded/plano-aventurador",
 			"description": [
 				"6 a 8 pessoas",
