@@ -337,7 +337,7 @@ export default function DedicatedServers() {
               onClick={() => setTipoPlano("AMD")}
               startContent={
                 <div className="w-8 h-8 mr-2 flex items-center justify-center">
-                  <Image src="/placeholder.svg?height=32&width=32" alt="AMD Logo" width={32} height={32} />
+                  <img src="/placeholder.svg?height=32&width=32" alt="AMD Logo" width={32} height={32} />
                 </div>
               }
             >
@@ -352,7 +352,7 @@ export default function DedicatedServers() {
               onClick={() => setTipoPlano("Xeon")}
               startContent={
                 <div className="w-8 h-8 mr-2 flex items-center justify-center">
-                  <Image src="/placeholder.svg?height=32&width=32" alt="Intel Logo" width={32} height={32} />
+                  <img src="/placeholder.svg?height=32&width=32" alt="Intel Logo" width={32} height={32} />
                 </div>
               }
             >
@@ -381,7 +381,7 @@ export default function DedicatedServers() {
                     {/* PROCESSOR INFO */}
                     <div className="lg:col-span-3 bg-gray-50 dark:bg-gray-900 p-6 flex flex-col items-center justify-center text-center">
                       <div className="w-24 h-24 mb-4 flex items-center justify-center">
-                        <Image
+                        <img
                           src={
                             tipoPlano === "AMD"
                               ? "/placeholder.svg?height=96&width=96"
@@ -622,33 +622,6 @@ export default function DedicatedServers() {
           </div>
         </section>
 
-        {/* CALL TO ACTION */}
-        <section className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-10 md:p-16 text-center text-white relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('/placeholder.svg?height=600&width=1200')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
-          <div className="relative z-10 max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Pronto para potencializar seu projeto?</h2>
-            <p className="text-gray-300 text-lg mb-8">
-              Nossos especialistas estão prontos para ajudar você a escolher a melhor configuração para suas
-              necessidades específicas.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://wa.me/5511968927685?text=Gostaria%20de%20saber%20sobre%20dedicados"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl shadow-lg transition-all duration-300">
-                  Falar com Especialista
-                </Button>
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-transparent border-2 border-white/30 hover:border-white/60 text-white font-bold px-8 py-3 rounded-xl transition-all duration-300">
-                  Ver Todos os Planos
-                </Button>
-              </a>
-            </div>
-          </div>
-        </section>
       </section>
     </div>
   )
