@@ -214,8 +214,6 @@ export default function Games() {
 </section>
 
             <section>
-                <h1 className="text-2xl text-gray-400 font-semibold">Confira configurações <br /> baremetal disponível na RazeHost. <br /> Outras configurações podem ser encontradas, valores podem possuir descontos.</h1>
-
                 {/* Adição dos botões para alternar entre AMD e Xeon */}
                 <div className="pt-5 flex gap-4">
                     <Button 
