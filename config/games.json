@@ -57,6 +57,25 @@
 		}
 	},
 	{
+		"id": 5,
+		"name": "V Rising",
+		"img": "/games/vrising.webp",
+		"logo": "/games/logos/vrising_logo.webp",
+		"link": "/v-rising",
+		"price": "R$ 59,00",
+		"discountPrice": null,
+		"new": false,
+		"wallpaper": "/wallpapers/vrising.webp",
+		"contents": {
+			"description": "V Rising é um jogo de ação e sobrevivência onde você assume o papel de um vampiro em um mundo sombrio, caçando e construindo seu império.",
+			"platform": "PC",
+			"developer": "Stunlock Studios",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
 		"id": 6,
 		"name": "Rust",
 		"img": "/games/rust.webp",
@@ -281,25 +300,6 @@
 			"description": "Unturned é um jogo de sobrevivência em mundo aberto com gráficos de estilo simplificado, onde você deve lutar contra zumbis e outros jogadores.",
 			"platform": "PC",
 			"developer": "Smartly Dressed Games",
-			"mods": "Permitido",
-			"processador": "AMD Ryzen",
-			"refundType": "Reembolso em até 7 dias"
-		}
-	},
-	{
-		"id": 5,
-		"name": "V Rising",
-		"img": "/games/vrising.webp",
-		"logo": "/games/logos/vrising_logo.webp",
-		"link": "/v-rising",
-		"price": "R$ 59,00",
-		"discountPrice": null,
-		"new": false,
-		"wallpaper": "/wallpapers/vrising.webp",
-		"contents": {
-			"description": "V Rising é um jogo de ação e sobrevivência onde você assume o papel de um vampiro em um mundo sombrio, caçando e construindo seu império.",
-			"platform": "PC",
-			"developer": "Stunlock Studios",
 			"mods": "Permitido",
 			"processador": "AMD Ryzen",
 			"refundType": "Reembolso em até 7 dias"
