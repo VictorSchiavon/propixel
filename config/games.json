@@ -60,11 +60,11 @@
 		"id": 5,
 		"name": "V Rising",
 		"img": "/games/vrising.webp",
-		"logo": "/games/logos/vrising_logo.webp",
+		"logo": "/games/logos/invaders-of-oakveil.webp",
 		"link": "/v-rising",
 		"price": "R$ 59,00",
 		"discountPrice": null,
-		"new": false,
+		"new": true,
 		"wallpaper": "/wallpapers/vrising.webp",
 		"contents": {
 			"description": "V Rising é um jogo de ação e sobrevivência onde você assume o papel de um vampiro em um mundo sombrio, caçando e construindo seu império.",
