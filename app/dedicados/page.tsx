@@ -6,7 +6,8 @@ import { useState } from "react";
 import amd_logo from "@/public/amd-logo.webp"
 import intel_logo from "@/public/intel-logo.webp"; // Ajuste o caminho/nome conforme sua imagem
 import Image from "next/image";
-import { ArrowDownToDot, ArrowUpFromDot, Cpu, HardDrive, MemoryStick, Network, Star } from "lucide-react";
+import { ArrowDownToDot, ArrowUpFromDot, Cpu, HardDrive, MemoryStick, Network, Star, ShieldCheck } from "lucide-react";
+
 
 // Array de planos AMD Ryzen (original, sem alterações)
 
@@ -168,19 +169,61 @@ export default function Games() {
 
     return (
         <section className="container mx-auto px-6 flex-grow pt-[2%]">
-            <section>
-                <h1 className="text-2xl text-gray-400 font-semibold">Confira configurações <br /> baremetal disponível na RazeHost. <br /> Outras configurações podem ser encontradas, valores podem possuir descontos.</h1>
+            {/* HEADER DE PROTEÇÃO DDoS */}
+<section className="bg-gray-950 py-16 px-6 text-white rounded-xl mb-10">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+    <div>
+      <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
+        Servidores Dedicados com Proteção DDoS Total
+      </h1>
+      <p className="text-gray-300 text-lg mt-4 max-w-xl">
+        Infraestrutura robusta com mitigação inteligente, sem null route, sem aumento de latência. Proteção real para projetos exigentes.
+      </p>
+      <div className="mt-6 space-y-2 text-sm text-gray-400">
+        <p><ShieldCheck className="inline-block mr-2 text-green-500" />Mitigação ativa 24/7 com IA</p>
+        <p><ShieldCheck className="inline-block mr-2 text-green-500" />296 Tbps de capacidade global</p>
+        <p><ShieldCheck className="inline-block mr-2 text-green-500" />Zero uso de blackhole/null route</p>
+        <p><ShieldCheck className="inline-block mr-2 text-green-500" />Limpeza próxima da origem do ataque</p>
+      </div>
+      <a href="https://wa.me/5511968927685?text=Gostaria%20de%20saber%20sobre%20dedicados" target="_blank" rel="noopener noreferrer">
+        <Button className="mt-6 bg-orange-500 text-white font-bold text-lg px-6 py-3 rounded-xl shadow-md hover:bg-orange-600">
+          Ver Planos Dedicados
+        </Button>
+      </a>
+    </div>
 
+    <div className="bg-gray-900 p-6 rounded-xl shadow-xl space-y-4">
+      <div className="flex items-center justify-between">
+        <div className="text-lg font-bold text-gray-100">Ataques Mitigados</div>
+        <div className="text-green-400 text-xl font-bold">3102</div>
+      </div>
+      <div className="flex items-center justify-between">
+        <div className="text-lg font-bold text-gray-100">Tráfego Mitigado</div>
+        <div className="text-blue-400 text-xl font-bold">126.54 TB</div>
+      </div>
+      <div className="flex items-center justify-between">
+        <div className="text-lg font-bold text-gray-100">Centros Globais</div>
+        <div className="text-yellow-400 text-xl font-bold">288 cidades</div>
+      </div>
+      <div className="flex items-center justify-between">
+        <div className="text-lg font-bold text-gray-100">Capacidade Total</div>
+        <div className="text-red-400 text-xl font-bold">296 Tbps</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+            <section>
                 {/* Adição dos botões para alternar entre AMD e Xeon */}
                 <div className="pt-5 flex gap-4">
                     <Button 
-                        className={w-44 ${tipoPlano === "AMD" ? "bg-orange-400 text-white" : "bg-gray-200 text-black"} font-bold}
+                        className={`w-44 ${tipoPlano === "AMD" ? "bg-orange-400 text-white" : "bg-gray-200 text-black"} font-bold`}
                         onClick={() => setTipoPlano("AMD")}
                     >
                         Planos AMD Ryzen
                     </Button>
                     <Button 
-                        className={w-44 ${tipoPlano === "Xeon" ? "bg-orange-400 text-white" : "bg-gray-200 text-black"} font-bold}
+                        className={`w-44 ${tipoPlano === "Xeon" ? "bg-orange-400 text-white" : "bg-gray-200 text-black"} font-bold`}
                         onClick={() => setTipoPlano("Xeon")}
                     >
                         Planos Intel Xeon
