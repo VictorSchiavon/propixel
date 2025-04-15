@@ -6,7 +6,8 @@ import { useState } from "react";
 import amd_logo from "@/public/amd-logo.webp"
 import intel_logo from "@/public/intel-logo.webp"; // Ajuste o caminho/nome conforme sua imagem
 import Image from "next/image";
-import { ArrowDownToDot, ArrowUpFromDot, Cpu, HardDrive, MemoryStick, Network, Star } from "lucide-react";
+import { ArrowDownToDot, ArrowUpFromDot, Cpu, HardDrive, MemoryStick, Network, Star, ShieldCheck } from "lucide-react";
+
 
 // Array de planos AMD Ryzen (original, sem alterações)
 
