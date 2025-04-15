@@ -1,15 +1,35 @@
-// src/components/Card.js
+"use client"
 
-const CardBenefitsComponent = ({ title, content, icon}: any) => {
-    return (
-        <div key={title} className="flex-1 bg-[#151515] rounded-xl p-6 flex flex-col">
-            <div className="w-12 h-12 bg-[#462408] mb-4  flex items-center justify-center rounded-full">
-                {icon}
-            </div>
-            <h3 className="text-md font-semibold">{title}</h3>
-            <p className="text-gray-500 text-xs pt-1">{content}</p>
-        </div>
-    );
-};
+import type React from "react"
+import { motion } from "framer-motion"
 
-export default CardBenefitsComponent;
+interface CardBenefitsProps {
+  icon: React.ReactNode
+  title: string
+  content: string
+}
+
+const CardBenefitsComponent: React.FC<CardBenefitsProps> = ({ icon, title, content }) => {
+  return (
+    <motion.div
+      whileHover={{ y: -5, boxShadow: "0 10px 30px rgba(138, 75, 255, 0.2)" }}
+      transition={{ duration: 0.3 }}
+      className="glass-card rounded-xl p-6 flex flex-col h-full border border-gray-800 relative overflow-hidden"
+    >
+      {/* Glowing accent */}
+      <div className="absolute -top-10 -right-10 w-20 h-20 rounded-full bg-purple-500/20 blur-xl"></div>
+
+      <div className="flex items-center mb-4">
+        <div className="p-3 rounded-lg bg-gradient-to-br from-purple-600 to-cyan-600 mr-3">{icon}</div>
+        <h3 className="text-xl font-bold text-white">{title}</h3>
+      </div>
+
+      <p className="text-gray-300 leading-relaxed">{content}</p>
+
+      {/* Animated border effect */}
+      <div className="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-purple-500 to-cyan-500 w-0 group-hover:w-full transition-all duration-700"></div>
+    </motion.div>
+  )
+}
+
+export default CardBenefitsComponent
