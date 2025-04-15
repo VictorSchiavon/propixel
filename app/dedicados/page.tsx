@@ -337,7 +337,7 @@ export default function DedicatedServers() {
               onClick={() => setTipoPlano("AMD")}
               startContent={
                 <div className="w-8 h-8 mr-2 flex items-center justify-center">
-                  <img src="/amd-logo" alt="AMD Logo" width={32} height={32} />
+                  <img src="/amd-logo.webp" alt="AMD Logo" width={32} height={32} />
                 </div>
               }
             >
@@ -352,7 +352,7 @@ export default function DedicatedServers() {
               onClick={() => setTipoPlano("Xeon")}
               startContent={
                 <div className="w-8 h-8 mr-2 flex items-center justify-center">
-                  <img src="/intel-logo" alt="Intel Logo" width={32} height={32} />
+                  <img src="/intel-logo.webp" alt="Intel Logo" width={32} height={32} />
                 </div>
               }
             >
@@ -384,8 +384,8 @@ export default function DedicatedServers() {
                         <img
                           src={
                             tipoPlano === "AMD"
-                              ? "/placeholder.svg?height=96&width=96"
-                              : "/placeholder.svg?height=96&width=96"
+                              ? "/amd-logo.webp"
+                              : "/intel-logo.webp"
                           }
                           alt={tipoPlano === "AMD" ? "AMD Logo" : "Intel Logo"}
                           width={96}
