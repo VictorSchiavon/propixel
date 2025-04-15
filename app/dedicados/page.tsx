@@ -9,6 +9,88 @@ import Image from "next/image";
 import { ArrowDownToDot, ArrowUpFromDot, Cpu, HardDrive, MemoryStick, Network, Star } from "lucide-react";
 
 // Array de planos AMD Ryzen (original, sem alterações)
+
+// Página de Servidores Dedicados com melhorias no header e seção Anti-DDoS
+import { Accordion, AccordionItem, Button, Card, CardBody, Chip, Slider } from "@nextui-org/react";
+import { useState } from "react";
+import { Cpu, HardDrive, MemoryStick, Network, ArrowUpFromDot, ArrowDownToDot, ShieldCheck } from "lucide-react";
+import Image from "next/image";
+import amd_logo from "@/public/amd-logo.webp";
+import intel_logo from "@/public/intel-logo.webp";
+
+const dadosDDoS = {
+  capacidade: "296 Tbps",
+  ataquesMitigados: 3102,
+  ataquesComparacao: "-63.82%",
+  trafegoMitigado: "126.54 TB",
+  trafegoComparacao: "+144.08%",
+  centrosMitigacao: 288,
+  paises: 36,
+};
+
+export default function ServidoresDedicados() {
+  const [ram, setRam] = useState(16);
+  const [nucleos, setNucleos] = useState([8]);
+  const [tipoPlano, setTipoPlano] = useState("AMD");
+
+  const handlerRam = (e: any) => setRam(e);
+  const handlerNucleos = (e: any) => setNucleos(e);
+
+  return (
+    <main className="bg-black text-white">
+      {/* Header Hero Section */}
+      <section className="bg-gray-950 py-16 px-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
+              Servidores Dedicados com Proteção DDoS Total
+            </h1>
+            <p className="text-gray-300 text-lg mt-4 max-w-xl">
+              Infraestrutura robusta com mitigação inteligente, sem null route, sem aumento de latência. Proteção real para projetos exigentes.
+            </p>
+            <div className="mt-6 space-y-2 text-sm text-gray-400">
+              <p><ShieldCheck className="inline-block mr-2 text-green-500" />Mitigação ativa 24/7 com IA</p>
+              <p><ShieldCheck className="inline-block mr-2 text-green-500" />296 Tbps de capacidade global</p>
+              <p><ShieldCheck className="inline-block mr-2 text-green-500" />Zero uso de blackhole/null route</p>
+              <p><ShieldCheck className="inline-block mr-2 text-green-500" />Limpeza próxima da origem do ataque</p>
+            </div>
+            <a
+              href="https://wa.me/5511968927685?text=Gostaria%20de%20saber%20sobre%20dedicados"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="mt-6 bg-orange-500 text-white font-bold text-lg px-6 py-3 rounded-xl shadow-md hover:bg-orange-600">
+                Ver Planos Dedicados
+              </Button>
+            </a>
+          </div>
+
+          <div className="bg-gray-900 p-6 rounded-xl shadow-xl space-y-4">
+            <div className="flex items-center justify-between">
+              <div className="text-lg font-bold text-gray-100">Ataques Mitigados</div>
+              <div className="text-green-400 text-xl font-bold">{dadosDDoS.ataquesMitigados}</div>
+            </div>
+            <div className="flex items-center justify-between">
+              <div className="text-lg font-bold text-gray-100">Tráfego Mitigado</div>
+              <div className="text-blue-400 text-xl font-bold">{dadosDDoS.trafegoMitigado}</div>
+            </div>
+            <div className="flex items-center justify-between">
+              <div className="text-lg font-bold text-gray-100">Centros Globais</div>
+              <div className="text-yellow-400 text-xl font-bold">{dadosDDoS.centrosMitigacao} cidades</div>
+            </div>
+            <div className="flex items-center justify-between">
+              <div className="text-lg font-bold text-gray-100">Capacidade Total</div>
+              <div className="text-red-400 text-xl font-bold">{dadosDDoS.capacidade}</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Aqui você pode adicionar os cards dos planos e sliders conforme já tinha */}
+    </main>
+  );
+}
+
 const planosAMD = [
     {
       "nome": "AMD Ryzen 5 5600X",
