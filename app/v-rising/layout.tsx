@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
+    "host de v rising",
+    "host de vrising",
     "Raze Host",
     "RazeHost Brasil",
     "host v rising",
@@ -113,7 +115,7 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'Host de VRising - Hospedagem de VRising | RazeHost',
+        title: 'Host de VRising no Brasil | RazeHost',
         description: 'A melhor hospedagem de V Rising no Brasil com o melhor painel de gerenciamento, instale mods, convide seus amigos e se divirta-se com o alto desempenho da Host.',
         url: 'https://www.razehost.com.br/',
         siteName: 'RazeHost',
