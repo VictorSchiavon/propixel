@@ -613,14 +613,30 @@
 		{
 			"game": "V Rising",
 			"img": "/games/cards/vrising.webp",
+			"name": "Plano 0 - Casual",
+			"price": "R$89,00",
+			"discountPrice": "R$59,90",
+			"link": "https://app.razehost.com.br/store/v-rising/plano-0-casual",
+			"description": [
+				"4 GB RAM",
+				"Processadores Ryzen",
+				"Recomendado até 10/20 slots/jogadores",
+				"Suporte VOIP",
+				"Mods e Plugins",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "V Rising",
+			"img": "/games/cards/vrising.webp",
 			"name": "Plano 1 - Vampiro",
 			"price": "R$89,00",
 			"discountPrice": "R$59,90",
-			"link": "https://app.razehost.com.br/store/vrising/plano-vampiro",
+			"link": "https://app.razehost.com.br/store/v-rising/iniciante-v-rising-1",
 			"description": [
 				"6 GB RAM",
 				"Processadores Ryzen",
-				"Recomendado até 20 slots/jogadores",
+				"Recomendado até 20/30 slots/jogadores",
 				"Suporte VOIP",
 				"Mods e Plugins",
 				"Anti DDoS Incluso"
@@ -631,8 +647,8 @@
 			"img": "/games/cards/vrising.webp",
 			"name": "Plano 2 - Drácula",
 			"price": "R$149,90",
-			"discountPrice": "R$119,90",
-			"link": "https://app.razehost.com.br/store/vrising/plano-dracula",
+			"discountPrice": "R$99,90",
+			"link": "https://app.razehost.com.br/store/v-rising/iniciante",
 			"description": [
 				"12 GB RAM",
 				"Processadores Ryzen",
@@ -647,8 +663,8 @@
 			"img": "/games/cards/vrising.webp",
 			"name": "Plano 3 - Hardcore Survival",
 			"price": "R$189,90",
-			"discountPrice": "R$139,90",
-			"link": "https://app.razehost.com.br/store/vrising/plano-hardcore-survival",
+			"discountPrice": "R$149,90",
+			"link": "https://app.razehost.com.br/store/v-rising/plano-3-hardcore-survival",
 			"description": [
 				"16 GB RAM",
 				"Processadores Ryzen",

@@ -63,7 +63,7 @@
 		"logo": "/games/logos/vrising_logo.webp",
 		"link": "/v-rising",
 		"price": "R$ 59,00",
-		"discountPrice": null,
+		"discountPrice": "R$ 39,90",
 		"new": false,
 		"wallpaper": "/wallpapers/invaders-of-oakveil.webp",
 		"contents": {
