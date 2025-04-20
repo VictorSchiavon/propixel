@@ -111,7 +111,6 @@ export const NavbarComponent = () => {
               className="w-[570px] p-0"
               onMouseEnter={() => clearTimeout(popoverTimeout!)}
               onMouseLeave={closePopoverWithDelay}
-              onInteractOutside={() => setActivePopover(null)}
             >
               <div className="w-full p-5">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
@@ -199,7 +198,6 @@ export const NavbarComponent = () => {
               className="w-[800px] p-0"
               onMouseEnter={() => clearTimeout(popoverTimeout!)}
               onMouseLeave={closePopoverWithDelay}
-              onInteractOutside={() => setActivePopover(null)}
             >
               <div className="w-full p-5">
                 <div className="grid grid-cols-3 gap-4">
@@ -270,7 +268,6 @@ export const NavbarComponent = () => {
               className="w-[700px] p-0"
               onMouseEnter={() => clearTimeout(popoverTimeout!)}
               onMouseLeave={closePopoverWithDelay}
-              onInteractOutside={() => setActivePopover(null)}
             >
               <div className="w-full p-5">
                 <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
@@ -379,7 +376,7 @@ export const NavbarComponent = () => {
                 Servidores
               </Button>
             </PopoverTrigger>
-            <PopoverContent className="w-[370px] p-0" onInteractOutside={() => setActivePopover(null)}>
+            <PopoverContent className="w-[370px] p-0">
               <div className="w-full p-5">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                   <Link href="/vps" onClick={handleLinkClick}>
@@ -456,7 +453,7 @@ export const NavbarComponent = () => {
                 Outros jogos
               </Button>
             </PopoverTrigger>
-            <PopoverContent className="w-[350px] p-0" onInteractOutside={() => setActivePopover(null)}>
+            <PopoverContent className="w-[350px] p-0">
               <div className="w-full p-5">
                 <div className="grid grid-cols-1 gap-4">
                   {games.slice(0, 3).map((item, index) => (
@@ -522,7 +519,7 @@ export const NavbarComponent = () => {
                 Plataforma
               </Button>
             </PopoverTrigger>
-            <PopoverContent className="w-[370px] p-0" onInteractOutside={() => setActivePopover(null)}>
+            <PopoverContent className="w-[370px] p-0">
               <div className="w-full p-5">
                 <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
                   {[
