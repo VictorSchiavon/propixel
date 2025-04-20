@@ -1,12 +1,14 @@
 "use client"
 import games from "@/config/games.json"
+import type React from "react"
+
 import { Button } from "@nextui-org/button"
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuToggle } from "@nextui-org/navbar"
 import { Popover, PopoverContent, PopoverTrigger } from "@nextui-org/react"
 import { Gamepad2, GlobeLock, Handshake, LayoutGrid, ShieldCheck } from "lucide-react"
 import Image from "next/image"
 import { default as Link, default as NextLink } from "next/link"
-import { useState, useEffect } from "react"
+import { useState, useEffect, useCallback } from "react"
 import { BiChevronDown } from "react-icons/bi"
 
 export const NavbarComponent = () => {
@@ -15,18 +17,26 @@ export const NavbarComponent = () => {
   const [popoverTimeout, setPopoverTimeout] = useState<NodeJS.Timeout | null>(null)
 
   // Improved handler for popovers that properly manages state
-  const handlePopover = (popoverKey: string) => {
-    if (popoverTimeout) {
-      clearTimeout(popoverTimeout)
-      setPopoverTimeout(null)
-    }
+  const handlePopover = useCallback(
+    (popoverKey: string, event?: React.MouseEvent) => {
+      // Stop event propagation to prevent conflicts
+      if (event) {
+        event.stopPropagation()
+      }
 
-    // Toggle popover if it's the same one, otherwise open the new one
-    setActivePopover((prev) => (prev === popoverKey ? null : popoverKey))
-  }
+      if (popoverTimeout) {
+        clearTimeout(popoverTimeout)
+        setPopoverTimeout(null)
+      }
+
+      // Toggle popover if it's the same one, otherwise open the new one
+      setActivePopover((prev) => (prev === popoverKey ? null : popoverKey))
+    },
+    [popoverTimeout],
+  )
 
   // Close popover with delay
-  const closePopoverWithDelay = () => {
+  const closePopoverWithDelay = useCallback(() => {
     if (popoverTimeout) {
       clearTimeout(popoverTimeout)
     }
@@ -36,17 +46,43 @@ export const NavbarComponent = () => {
     }, 300) // Reduced delay for better responsiveness
 
     setPopoverTimeout(timeout)
-  }
+  }, [popoverTimeout])
 
   // Close menu when a link is clicked
-  const handleLinkClick = () => {
+  const handleLinkClick = useCallback(
+    (event?: React.MouseEvent) => {
+      // Stop event propagation to prevent conflicts
+      if (event) {
+        event.stopPropagation()
+      }
+
+      setIsMenuOpen(false)
+      setActivePopover(null)
+
+      if (popoverTimeout) {
+        clearTimeout(popoverTimeout)
+        setPopoverTimeout(null)
+      }
+    },
+    [popoverTimeout],
+  )
+
+  // Force close all menus
+  const forceCloseAll = useCallback(() => {
     setIsMenuOpen(false)
     setActivePopover(null)
+
     if (popoverTimeout) {
       clearTimeout(popoverTimeout)
       setPopoverTimeout(null)
     }
-  }
+  }, [popoverTimeout])
+
+  // Handle menu toggle specifically
+  const handleMenuToggle = useCallback(() => {
+    setIsMenuOpen((prev) => !prev)
+    setActivePopover(null)
+  }, [])
 
   // Clean up timeouts when component unmounts
   useEffect(() => {
@@ -57,26 +93,62 @@ export const NavbarComponent = () => {
     }
   }, [popoverTimeout])
 
+  // Add event listener to close menus on outside click
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement
+
+      // If clicking outside navbar elements and menus are open
+      if (
+        !target.closest(".navbar-content") &&
+        !target.closest(".popover-content") &&
+        (isMenuOpen || activePopover !== null)
+      ) {
+        forceCloseAll()
+      }
+    }
+
+    document.addEventListener("click", handleClickOutside)
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside)
+    }
+  }, [isMenuOpen, activePopover, forceCloseAll])
+
   return (
-    <Navbar className="pb-4 bg-transparent" maxWidth={"2xl"} position="sticky" onMenuOpenChange={setIsMenuOpen}>
+    <Navbar
+      className="pb-4 bg-transparent"
+      maxWidth={"2xl"}
+      position="sticky"
+      onMenuOpenChange={setIsMenuOpen}
+      classNames={{
+        wrapper: "navbar-content",
+        menu: "navbar-content popover-content",
+        content: "navbar-content",
+      }}
+    >
       <NavbarContent>
-        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="sm:hidden mt-4" />
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="sm:hidden mt-4 navbar-menu-toggle"
+          onClick={handleMenuToggle}
+        />
         <NavbarBrand as="li" className="gap-3 max-w-fit pt-4">
-          <NextLink className="flex justify-start items-center gap-1" href="/" onClick={handleLinkClick}>
+          <NextLink className="flex justify-start items-center gap-1" href="/" onClick={(e) => handleLinkClick(e)}>
             <Image src="/logo.webp" alt="logo" height="80" width="80" />
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem key="01" className="mt-4">
-          <NextLink href="/" className="p-0">
+          <NextLink href="/" className="p-0" onClick={(e) => handleLinkClick(e)}>
             <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">
               Início
             </p>
           </NextLink>
         </NavbarItem>
         <NavbarItem key="minecraft" className="mt-4">
-          <NextLink href="/game/minecraft" className="p-0 flex items-center gap-2">
+          <NextLink href="/game/minecraft" className="p-0 flex items-center gap-2" onClick={(e) => handleLinkClick(e)}>
             <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">
               Minecraft
             </p>
@@ -94,6 +166,9 @@ export const NavbarComponent = () => {
             isOpen={activePopover === "servers"}
             onOpenChange={(open) => {
               if (!open) setActivePopover(null)
+            }}
+            classNames={{
+              content: "popover-content",
             }}
           >
             <PopoverTrigger>
@@ -114,7 +189,7 @@ export const NavbarComponent = () => {
             >
               <div className="w-full p-5">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                  <Link href="/vps" onClick={handleLinkClick}>
+                  <Link href="/vps" onClick={(e) => handleLinkClick(e)}>
                     <div className="relative bg-gradient-to-b from-orange-500 to-yellow-600 h-72 rounded-lg">
                       <div className="absolute bottom-0 left-0 right-0 p-4">
                         <Image src="/logo_icon.webp" alt="logo" height="120" width="50" />
@@ -141,7 +216,7 @@ export const NavbarComponent = () => {
                         description: "Configurações superiores, para aplicação grandes.",
                       },
                     ].map((item, index) => (
-                      <Link href={item.href} key={index} onClick={handleLinkClick}>
+                      <Link href={item.href} key={index} onClick={(e) => handleLinkClick(e)}>
                         <div className="p-2 hover:bg-[#303030] rounded-lg">
                           <p className="text-lg">{item.title}</p>
                           <p className="text-md text-gray-500">{item.description}</p>
@@ -161,7 +236,7 @@ export const NavbarComponent = () => {
                     { label: "Redes", href: "/redes#breve" },
                     { label: "Changelog", href: "https://discord.gg/GghrUQ9vMN" },
                   ].map((item, index) => (
-                    <Link href={item.href} key={index} onClick={handleLinkClick}>
+                    <Link href={item.href} key={index} onClick={(e) => handleLinkClick(e)}>
                       <div className="flex justify-between items-center text-sm font-medium text-gray-300 hover:text-white transition">
                         {item.label} <span>→</span>
                       </div>
@@ -181,6 +256,9 @@ export const NavbarComponent = () => {
             isOpen={activePopover === "gamers"}
             onOpenChange={(open) => {
               if (!open) setActivePopover(null)
+            }}
+            classNames={{
+              content: "popover-content",
             }}
           >
             <PopoverTrigger>
@@ -202,7 +280,7 @@ export const NavbarComponent = () => {
               <div className="w-full p-5">
                 <div className="grid grid-cols-3 gap-4">
                   {games.slice(0, 8).map((item, index) => (
-                    <Link href={item.link} key={index} onClick={handleLinkClick}>
+                    <Link href={item.link} key={index} onClick={(e) => handleLinkClick(e)}>
                       <div className="p-2 rounded-lg flex items-center h-18 h-full hover:bg-[#303030]">
                         <div className="flex items-center space-x-2">
                           <Image
@@ -222,7 +300,7 @@ export const NavbarComponent = () => {
                       </div>
                     </Link>
                   ))}
-                  <Link href="/games" onClick={handleLinkClick}>
+                  <Link href="/games" onClick={(e) => handleLinkClick(e)}>
                     <div className="p-2 rounded-lg flex items-center h-18 h-full hover:bg-[#303030]">
                       <div className="flex items-center space-x-2">
                         <LayoutGrid
@@ -251,6 +329,9 @@ export const NavbarComponent = () => {
             isOpen={activePopover === "platform"}
             onOpenChange={(open) => {
               if (!open) setActivePopover(null)
+            }}
+            classNames={{
+              content: "popover-content",
             }}
           >
             <PopoverTrigger>
@@ -297,7 +378,7 @@ export const NavbarComponent = () => {
                       icon: <ShieldCheck />,
                     },
                   ].map((item, index) => (
-                    <Link href={item.href} key={index} onClick={handleLinkClick}>
+                    <Link href={item.href} key={index} onClick={(e) => handleLinkClick(e)}>
                       <div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg flex items-center h-18 h-full">
                         <div className="mr-3">{item.icon}</div>
                         <div>
@@ -315,7 +396,7 @@ export const NavbarComponent = () => {
       </NavbarContent>
       <NavbarContent className="flex mt-5 sm:flex" justify="end">
         <NavbarItem>
-          <NextLink href="https://app.razehost.com.br/login" onClick={handleLinkClick}>
+          <NextLink href="https://app.razehost.com.br/login" onClick={(e) => handleLinkClick(e)}>
             <Button
               variant="flat"
               size="sm"
@@ -331,22 +412,22 @@ export const NavbarComponent = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center p-0 m-0"
-            onClick={handleLinkClick}
+            onClick={(e) => handleLinkClick(e)}
           >
             <Image src="/discord.png" alt="Discord" width={20} height={20} className="p-0 m-0" />
           </a>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="pt-6">
         <NavbarItem key="01" className="mt-4">
-          <NextLink href="/" className="p-0" onClick={handleLinkClick}>
+          <NextLink href="/" className="p-0" onClick={(e) => handleLinkClick(e)}>
             <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">
               Início
             </p>
           </NextLink>
         </NavbarItem>
         <NavbarItem key="minecraft" className="mt-4">
-          <NextLink href="/game/minecraft" className="p-0 flex items-center gap-2" onClick={handleLinkClick}>
+          <NextLink href="/game/minecraft" className="p-0 flex items-center gap-2" onClick={(e) => handleLinkClick(e)}>
             <p className="p-0 m-0 bg-transparent data-[hover=true]:bg-transparent font-semibold text-sm text-gray-300">
               Minecraft
             </p>
@@ -364,6 +445,9 @@ export const NavbarComponent = () => {
             onOpenChange={(open) => {
               if (!open) setActivePopover(null)
             }}
+            classNames={{
+              content: "popover-content",
+            }}
           >
             <PopoverTrigger>
               <Button
@@ -371,7 +455,7 @@ export const NavbarComponent = () => {
                 radius="sm"
                 variant="light"
                 endContent={<BiChevronDown />}
-                onClick={() => handlePopover("servers-mobile")}
+                onClick={(e) => handlePopover("servers-mobile", e)}
               >
                 Servidores
               </Button>
@@ -379,7 +463,7 @@ export const NavbarComponent = () => {
             <PopoverContent className="w-[370px] p-0">
               <div className="w-full p-5">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                  <Link href="/vps" onClick={handleLinkClick}>
+                  <Link href="/vps" onClick={(e) => handleLinkClick(e)}>
                     <div className="relative bg-gradient-to-b from-orange-500 to-yellow-600 h-72 rounded-lg">
                       <div className="absolute bottom-0 left-0 right-0 p-4">
                         <Image src="/logo_icon.webp" alt="logo" height="120" width="50" />
@@ -411,7 +495,7 @@ export const NavbarComponent = () => {
                         description: "Hospedeu seu próprio servidor em nossa infraestrutura",
                       },
                     ].map((item, index) => (
-                      <Link href={item.href} key={index} onClick={handleLinkClick}>
+                      <Link href={item.href} key={index} onClick={(e) => handleLinkClick(e)}>
                         <div className="p-2 hover:bg-[#303030] rounded-lg">
                           <p className="text-lg">{item.title}</p>
                           <p className="text-md text-gray-500">{item.description}</p>
@@ -421,7 +505,7 @@ export const NavbarComponent = () => {
                   </div>
                 </div>
                 <div className="mt-5">
-                  <Link href="/dedicados" onClick={handleLinkClick}>
+                  <Link href="/dedicados" onClick={(e) => handleLinkClick(e)}>
                     <div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg">
                       <h3 className="text-md font-bold">Dedicados</h3>
                       <p>Seu próprio dedicado, não compartilhe recursos com ninguém.</p>
@@ -441,6 +525,9 @@ export const NavbarComponent = () => {
             onOpenChange={(open) => {
               if (!open) setActivePopover(null)
             }}
+            classNames={{
+              content: "popover-content",
+            }}
           >
             <PopoverTrigger>
               <Button
@@ -448,7 +535,7 @@ export const NavbarComponent = () => {
                 radius="sm"
                 variant="light"
                 endContent={<BiChevronDown />}
-                onClick={() => handlePopover("gamers-mobile")}
+                onClick={(e) => handlePopover("gamers-mobile", e)}
               >
                 Outros jogos
               </Button>
@@ -457,7 +544,7 @@ export const NavbarComponent = () => {
               <div className="w-full p-5">
                 <div className="grid grid-cols-1 gap-4">
                   {games.slice(0, 3).map((item, index) => (
-                    <Link href={item.link} key={index} onClick={handleLinkClick}>
+                    <Link href={item.link} key={index} onClick={(e) => handleLinkClick(e)}>
                       <div className="p-2 rounded-lg flex items-center h-18 h-full">
                         <div className="flex items-center space-x-2">
                           <Image
@@ -477,7 +564,7 @@ export const NavbarComponent = () => {
                       </div>
                     </Link>
                   ))}
-                  <Link href="/games" onClick={handleLinkClick}>
+                  <Link href="/games" onClick={(e) => handleLinkClick(e)}>
                     <div className="p-2 rounded-lg flex items-center h-18 h-full">
                       <div className="flex items-center space-x-2">
                         <LayoutGrid
@@ -507,6 +594,9 @@ export const NavbarComponent = () => {
             onOpenChange={(open) => {
               if (!open) setActivePopover(null)
             }}
+            classNames={{
+              content: "popover-content",
+            }}
           >
             <PopoverTrigger>
               <Button
@@ -514,7 +604,7 @@ export const NavbarComponent = () => {
                 radius="sm"
                 variant="light"
                 endContent={<BiChevronDown />}
-                onClick={() => handlePopover("platform-mobile")}
+                onClick={(e) => handlePopover("platform-mobile", e)}
               >
                 Plataforma
               </Button>
@@ -548,7 +638,7 @@ export const NavbarComponent = () => {
                       icon: <ShieldCheck />,
                     },
                   ].map((item, index) => (
-                    <Link href={item.href} key={index} onClick={handleLinkClick}>
+                    <Link href={item.href} key={index} onClick={(e) => handleLinkClick(e)}>
                       <div className="bg-[#151515] hover:bg-[#303030] p-5 rounded-lg flex items-center h-18 h-full">
                         <div className="mr-3">{item.icon}</div>
                         <div>
