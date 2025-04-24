@@ -228,7 +228,7 @@ export default function Home() {
 									<div>
 										<h3 className="font-bold text-center">Redes</h3>
 										<h1 className="text-6xl font-bold text-center pt-5 pb-5">
-											10<span className="text-3xl font-bold">GBPS</span>
+											1-10<span className="text-3xl font-bold">GBPS</span>
 										</h1>
 										<p className="text-gray-300 text-[14px] pt-1 text-center">
 											Conexão estável e rápida, garantindo serviços sempre

@@ -391,7 +391,7 @@ export default function Games() {
 								<BrainCircuit color="orange" size={26} />
 								<h3 className="font-bold pt-3">Sem lag</h3>
 								<p className="text-gray-300 text-[14px] pt-1">
-								Na RazeHost nos usamos equipamentos com discos SSD NVMe, e o melhor máquinas AMD Ryzen com uplinks de até 10GBPS.
+								Na RazeHost nos usamos equipamentos com discos SSD NVMe, e o melhor máquinas AMD Ryzen com uplinks de até 1-10GBPS.
 								</p>
 							</div>
 						</CardBody>
