@@ -234,7 +234,7 @@ export default function DedicatedServers() {
                 </div>
                 <div className="flex items-start">
                   <Globe className="text-green-400 mr-2 mt-0.5 flex-shrink-0" size={18} />
-                  <span>296 Tbps de capacidade global</span>
+                  <span>348 Tbps de capacidade global</span>
                 </div>
                 <div className="flex items-start">
                   <Zap className="text-green-400 mr-2 mt-0.5 flex-shrink-0" size={18} />
@@ -304,7 +304,7 @@ export default function DedicatedServers() {
                 <div>
                   <div className="flex items-center justify-between mb-2">
                     <div className="text-gray-300">Capacidade Total</div>
-                    <div className="text-red-400 text-xl font-bold">296 Tbps</div>
+                    <div className="text-red-400 text-xl font-bold">348 Tbps</div>
                   </div>
                   <div className="h-2 bg-gray-700 rounded-full overflow-hidden">
                     <div

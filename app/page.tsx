@@ -256,7 +256,7 @@ export default function Home() {
 									<div>
 										<h3 className="font-bold text-center">Proteção DDoS</h3>
 										<h1 className="text-6xl font-bold text-center pt-5 pb-5">
-											296<span className="text-3xl font-bold">Tbps</span>
+											348<span className="text-3xl font-bold">Tbps</span>
 										</h1>
 										<p className="text-gray-300 text-[14px] pt-1 text-center">
 											Defesa integrada contra ataques, mantendo seus serviços
