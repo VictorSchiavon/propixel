@@ -17,18 +17,18 @@ export default function Home() {
 			<section className="container mx-auto px-6 flex-grow">
 				<section className="pt-[5%]">
 					<h1 className="text-6xl font-bold pt-4">
-						Crie seu servidor de Hytale
+						Crie seu servidor de Dune: Awakening
 					</h1>
 					<p className="text-muted pt-5 pb-5">
 						Ofereça uma experiência de jogo sem interrupções com servidores
-						dedicados para Hytale, com alta performance e estabilidade. Todos os
+						dedicados para Dune: Awakening, com alta performance e estabilidade. Todos os
 						nossos servidores estão localizados em São Paulo, garantindo baixa
 						latência e conexão rápida para jogadores do Brasil. Com suporte para
-						diversas versões do Hytale, incluindo Java e Bedrock, além de
+						diversas versões do Dune: Awakening, incluindo Java e Bedrock, além de
 						compatibilidade com mods e plugins populares, seu servidor estará
 						sempre otimizado para a melhor jogabilidade. Seja para jogar sozinho
 						ou com uma grande comunidade, temos a solução perfeita para seu
-						servidor de Hytale, com recursos escaláveis e confiabilidade
+						servidor de Dune: Awakening, com recursos escaláveis e confiabilidade
 						garantida.{" "}
 					</p>
 					<div className="pt-5 flex gap-3">
@@ -58,10 +58,10 @@ export default function Home() {
 								<div>
 									<Zap color="orange" size={26} />
 									<h3 className="font-bold pt-3">
-										Proteção DDoS para Servidores de Hytale
+										Proteção DDoS para Servidores de Dune: Awakening
 									</h3>
 									<p className="text-gray-300 text-[14px] pt-1">
-										Mantenha seu servidor de Hytale sempre online com nossa
+										Mantenha seu servidor de Dune: Awakening sempre online com nossa
 										proteção DDoS avançada, ideal para evitar lag e quedas
 										durante ataques.
 									</p>
@@ -73,12 +73,10 @@ export default function Home() {
 								<div>
 									<BrainCircuit color="orange" size={26} />
 									<h3 className="font-bold pt-3">
-										Hospedagem Hytale com Suporte a Mods e Plugins
+										Hospedagem Dune: Awakening com Suporte a Mods e Plugins
 									</h3>
 									<p className="text-gray-300 text-[14px] pt-1">
-										Oferecemos servidores totalmente compatíveis com mods como
-										Forge, Fabric, e plugins populares como Essentials e
-										WorldEdit.
+										Oferecemos servidores totalmente compatíveis
 									</p>
 								</div>
 							</CardBody>
@@ -88,12 +86,11 @@ export default function Home() {
 								<div>
 									<ShieldCheck color="orange" size={26} />
 									<h3 className="font-bold pt-3">
-										Compatível com Todas as Versões de Hytale
+										Compatível com Todas as Versões de Dune: Awakening
 									</h3>
 									<p className="text-gray-300 text-[14px] pt-1">
 										Desde as versões mais antigas até as mais recentes, nossos
-										servidores suportam Hytale Vanilla, Spigot, Paper, Bukkit e
-										Bedrock.
+										servidores suportam Dune: Awakening Vanilla.
 									</p>
 								</div>
 							</CardBody>
@@ -102,7 +99,7 @@ export default function Home() {
 				</section>
 				<div className="rounded-xl shadow-lg mt-12 p-5 bg-[#202024]">
 					<h2 className="text-lg font-semibold">
-						Qual a melhor host para Hytale?
+						Qual a melhor host para Dune: Awakening?
 					</h2>
 					<p className="text-gray-400">
 						A RazeHost é a primeira hospedagem de jogos no Brasil,
@@ -118,13 +115,12 @@ export default function Home() {
 				<div className="container mx-auto px-6 flex-grow pt-10">
 					<section>
 						<h2 className="text-4xl font-bold">
-							Hytale Java e Bedrock em um Só Lugar
+							Dune: Awakenining
 						</h2>
 						<p className="text-muted pt-2 pb-5">
-							Configure servidores para Java Edition e Bedrock Edition em um
-							único painel, com fácil gerenciamento e recursos avançados.{" "}
+							Configure servidores para Dune: Awakening.{" "}
 							<span className="text-orange-400">
-								Jogue JAVA e BEDROCK juntos.
+								
 							</span>
 						</p>
 
@@ -136,7 +132,7 @@ export default function Home() {
 											<ShieldCheck color="orange" size={26} />
 										</center>
 										<h3 className="font-bold text-center pt-3">
-											Escalabilidade para Grandes Comunidades de Hytale
+											Escalabilidade para Grandes Comunidades de Dune: Awakening
 										</h3>
 										<p className="text-gray-300 text-[14px] pt-1 text-center">
 											Seja para um servidor pequeno ou uma grande rede como
@@ -156,8 +152,7 @@ export default function Home() {
 											Gerenciamento e instalação de mods
 										</h3>
 										<p className="text-gray-300 text-[14px] pt-1 text-center">
-											Sim! Oferecemos suporte a mods como Pixelmon, RLCraft, e
-											outros pacotes customizados.
+											Sim! Oferecemos suporte a mods;
 										</p>
 									</div>
 								</CardBody>
