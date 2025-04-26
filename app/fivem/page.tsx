@@ -29,7 +29,7 @@ const vps = [
 	},
 	{
 		name: "VPS Tommy Vercetti",
-		price: "R$59,90",
+		price: "R$69,90",
 		link: "https://app.razehost.com.br/store/vps/vps-l1",
 		description: {
 			ram: "2 GB",

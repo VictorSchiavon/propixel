@@ -9,35 +9,35 @@ import { PaymentsSectionsComponent } from "../_components/payments-section.compo
 const vps = [
     {
         "name": "Semi-dedicado - L1",
-        "price": "R$500,00",
+        "price": "R$399,90",
         "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l1",
         "description": {
             "ram": "16 GB DDR5",
             "ssd": "120 GB",
             "cores": "8 núcleos",
-            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X, 7 7700X, 9 5900X", ]
+            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 9900X"]
         }
     },
     {
         "name": "Semi-dedicado - L2",
-        "price": "R$650,00",
+        "price": "R$549,90",
         "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l2",
         "description": {
             "ram": "24 GB DDR5",
             "ssd": "160 GB",
             "cores": "9 núcleos",
-            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X, 7 7700X, 9 5900X", ]
+            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 9900X"]
         }
     },
     {
         "name": "Semi-dedicado - L3",
-        "price": "R$790,00",
+        "price": "R$699,90",
         "link": "https://app.razehost.com.br/store/vps/semi-dedicado-l3",
         "description": {
             "ram": "32 GB DDR5",
             "ssd": "200 GB",
             "cores": "10 núcleos",
-            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 7900X, 7 7700X, 9 5900X", ]
+            "attrs": ["Anti DDoS Incluso", "AMD Ryzen 9 9900X"]
         }
     }
 ]
