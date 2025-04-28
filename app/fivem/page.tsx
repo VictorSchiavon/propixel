@@ -30,7 +30,7 @@ const vps = [
   {
     name: "VPS Tommy Vercetti",
     price: "R$69,90",
-    players: "40-60 jogadores",
+    players: "20 jogadores",
     link: "https://app.razehost.com.br/store/vps/vps-l1",
     description: {
       ram: "2 GB",
@@ -42,7 +42,7 @@ const vps = [
   {
     name: "VPS Niko Bellic",
     price: "R$99,90",
-    players: "60-80 jogadores",
+    players: "40-60 jogadores",
     link: "https://app.razehost.com.br/store/vps/vps-l2",
     description: {
       ram: "4 GB",
@@ -54,7 +54,7 @@ const vps = [
   {
     name: "VPS Michael",
     price: "R$159,90",
-    players: "80-100 jogadores",
+    players: "60-80 jogadores",
     link: "https://app.razehost.com.br/store/vps/vps-l3",
     description: {
       ram: "6 GB",
@@ -66,7 +66,7 @@ const vps = [
   {
     name: "VPS Trevor",
     price: "R$199,90",
-    players: "100-120 jogadores",
+    players: "80-120 jogadores",
     link: "https://app.razehost.com.br/store/vps/vps-l4",
     description: {
       ram: "8 GB",
