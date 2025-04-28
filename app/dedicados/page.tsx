@@ -35,7 +35,7 @@ const planosAMD = [
       { icone: <Network size={30} />, titulo: "Rede", descricao: "1GBPS UPLINK" },
       { icone: <MemoryStick size={30} />, titulo: "64GB DE RAM", descricao: "DDR4" },
        { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
-      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "20Tb Incluso" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
   {
@@ -52,7 +52,7 @@ const planosAMD = [
       { icone: <Network size={30} />, titulo: "Rede", descricao: "1GBPS UPLINK" },
       { icone: <MemoryStick size={30} />, titulo: "128GB DE RAM", descricao: "DDR5" },
        { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
-      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "20Tb Incluso" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
   {
@@ -69,7 +69,7 @@ const planosAMD = [
       { icone: <Network size={30} />, titulo: "Rede", descricao: "1GBPS UPLINK" },
       { icone: <MemoryStick size={30} />, titulo: "128GB DE RAM", descricao: "DDR5" },
        { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
-      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "20Tb Incluso" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
   {
@@ -86,7 +86,7 @@ const planosAMD = [
       { icone: <Network size={30} />, titulo: "Rede", descricao: "1GBPS UPLINK" },
       { icone: <MemoryStick size={30} />, titulo: "128GB DE RAM", descricao: "DDR4" },
       { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
-      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "20Tb Incluso" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
   {
@@ -103,7 +103,7 @@ const planosAMD = [
       { icone: <Network size={30} />, titulo: "Rede", descricao: "1GBPS UPLINK" },
       { icone: <MemoryStick size={30} />, titulo: "128GB DE RAM", descricao: "DDR5" },
        { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
-      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "20Tb Incluso" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
 ]
@@ -124,7 +124,7 @@ const planosXeon = [
       { icone: <Network size={30} />, titulo: "Rede", descricao: "2x1GBPS UPLINK" },
       { icone: <MemoryStick size={30} />, titulo: "128GB DE RAM", descricao: "DDR4" },
        { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
-      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "20Tb Incluso" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
   {
@@ -141,7 +141,7 @@ const planosXeon = [
       { icone: <Network size={30} />, titulo: "Rede", descricao: "2x1GBPS UPLINK" },
       { icone: <MemoryStick size={30} />, titulo: "128GB DE RAM", descricao: "DDR4" },
        { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
-      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "20Tb Incluso" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
   {
@@ -158,7 +158,7 @@ const planosXeon = [
       { icone: <Network size={30} />, titulo: "Rede", descricao: "2x1GBPS UPLINK" },
       { icone: <MemoryStick size={30} />, titulo: "128GB DE RAM", descricao: "DDR4" },
        { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
-      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "20Tb Incluso" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
 ]
