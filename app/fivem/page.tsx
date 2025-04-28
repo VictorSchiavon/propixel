@@ -132,29 +132,37 @@ export default function Games() {
 
         {/* Grid dos Planos */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-10">
-          {vps.map((vpsItem, index) => (
-            <div
-              key={index}
-              className="bg-[#0B0E13] border border-gray-800 p-4 rounded-lg shadow-lg"
-            >
-              <div className="p-2">
-                <h4 className="text-2xl font-bold">{vpsItem.name}</h4>
+        {vps.map((vpsItem, index) => (
+  <div
+    key={index}
+    className={`relative bg-[#0B0E13] border border-gray-800 p-4 rounded-lg shadow-lg ${
+      vpsItem.name === "VPS Michael" ? "border-orange-400" : ""
+    }`}
+  >
+    {/* Badge MAIS VENDIDO só no Michael */}
+    {vpsItem.name === "VPS Michael" && (
+      <div className="absolute top-0 right-0 bg-orange-400 text-white text-xs font-bold py-1 px-2 rounded-bl-lg">
+        MAIS VENDIDO
+      </div>
+    )}
 
-                {/* Badge jogadores */}
-                {vpsItem.players && (
-                  <div className="inline-block bg-orange-400 text-white text-xs font-bold py-1 px-3 rounded-full mt-2">
-                    {vpsItem.players}
-                  </div>
-                )}
+    <div className="p-2">
+      <h4 className="text-2xl font-bold">{vpsItem.name}</h4>
 
-                <h1 className="text-orange-400 font-bold text-4xl pt-2">
-                  {vpsItem.price}
-                  <span className="text-gray-400 font-normal text-sm"> /mês*</span>
-                </h1>
-                <p className="text-sm text-gray-600 pt-1">
-                  Hospedado no Brasil 🇧🇷
-                </p>
-              </div>
+      {vpsItem.players && (
+        <div className="inline-block bg-orange-400 text-white text-xs font-bold py-1 px-3 rounded-full mt-2">
+          {vpsItem.players}
+        </div>
+      )}
+
+      <h1 className="text-orange-400 font-bold text-4xl pt-2">
+        {vpsItem.price}
+        <span className="text-gray-400 font-normal text-sm"> /mês*</span>
+      </h1>
+      <p className="text-sm text-gray-600 pt-1">
+        Hospedado no Brasil 🇧🇷
+      </p>
+    </div>
 
               <div className="mt-4 border border-gray-900"></div>
 
