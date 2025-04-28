@@ -66,7 +66,7 @@ const vps = [
   {
     name: "VPS Trevor",
     price: "R$199,90",
-    players: "100-150 jogadores",
+    players: "100-120 jogadores",
     link: "https://app.razehost.com.br/store/vps/vps-l4",
     description: {
       ram: "8 GB",
@@ -78,7 +78,7 @@ const vps = [
   {
     name: "VPS Franklin",
     price: "R$249,90",
-    players: "150-200 jogadores",
+    players: "120-140 jogadores",
     link: "https://app.razehost.com.br/store/vps/vps-l5",
     description: {
       ram: "10 GB",
@@ -90,7 +90,7 @@ const vps = [
   {
     name: "VPS Big Smoke",
     price: "R$299,90",
-    players: "150-200 jogadores",
+    players: "140-160 jogadores",
     link: "https://app.razehost.com.br/store/vps/vps-poseidon",
     description: {
       ram: "12 GB",
@@ -102,7 +102,7 @@ const vps = [
   {
     name: "VPS CJ",
     price: "R$349,90",
-    players: "150-200 jogadores",
+    players: "160-200 jogadores",
     link: "https://app.razehost.com.br/store/vps/vps-mestre",
     description: {
       ram: "16 GB",
