@@ -113,7 +113,7 @@ const planosXeon = [
   {
     nome: "Intel Xeon E5-2680 v4",
     frequencia: "2.4GHz até 3.3GHz",
-    disponibilidade: true,
+    disponibilidade: false,
     preco: 749.9,
     nucleos: 14,
     threads: 28,
@@ -130,7 +130,7 @@ const planosXeon = [
   {
     nome: "Intel Xeon E5-2680 v4",
     frequencia: "2.4GHz até 3.3GHz",
-    disponibilidade: true,
+    disponibilidade: false,
     preco: 749.9,
     nucleos: 14,
     threads: 28,
@@ -147,7 +147,7 @@ const planosXeon = [
   {
     nome: "Intel Xeon E5-2680 v4",
     frequencia: "2.4GHz até 3.3GHz",
-    disponibilidade: true,
+    disponibilidade: false,
     preco: 749.9,
     nucleos: 14,
     threads: 28,
