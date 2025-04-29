@@ -30,19 +30,21 @@ export default function Home() {
 		<>
 			<section className="container mx-auto px-6 flex-grow">
 	<section className="pt-[5%] flex flex-col">
-		{/* BLOCO DE INTRODUÇÃO CLEAN + AÇÃO */}
-		<div className="text-center pt-20 pb-16">
-			<h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
-				Sua plataforma de <br className="hidden sm:block" />
-				<span className="text-amber-500">servidores de jogos</span>
+
+		{/* BLOCO EXCLUSIVO PARA MOBILE */}
+		<div className="block md:hidden text-center pt-20 pb-16">
+			<h1 className="text-4xl font-extrabold leading-tight">
+				Sua plataforma de <br />
+				<span style={{ color: "rgb(249 115 22)" }}>servidores de jogos</span>
 			</h1>
-			<p className="text-zinc-400 text-base sm:text-lg mt-4 max-w-xl mx-auto">
+			<p className="text-zinc-400 text-base mt-4 max-w-xl mx-auto">
 				Crie, gerencie e escale seus servidores com desempenho premium e suporte ágil.
 			</p>
 			<div className="mt-6 flex justify-center gap-4">
 				<a
 					href="/games"
-					className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-lg shadow hover:bg-amber-600 transition"
+					style={{ backgroundColor: "rgb(249 115 22)" }}
+					className="text-black font-semibold px-6 py-2 rounded-lg shadow hover:opacity-90 transition"
 				>
 					Comece agora
 				</a>
@@ -55,8 +57,32 @@ export default function Home() {
 			</div>
 		</div>
 
-		{/* GRADE DE JOGOS E PLANOS – OCULTO NO MOBILE */}
+		{/* BLOCO EXCLUSIVO PARA DESKTOP */}
 		<div className="hidden md:flex flex-col xl:flex-row items-center gap-16">
+			<div className="text-center mb-10">
+				<h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
+					Sua plataforma de <br className="hidden sm:block" />
+					<span className="text-amber-500">servidores de jogos</span>
+				</h1>
+				<p className="text-zinc-400 text-base sm:text-lg mt-4 max-w-xl mx-auto">
+					Crie, gerencie e escale seus servidores com desempenho premium e suporte ágil.
+				</p>
+				<div className="mt-6 flex justify-center gap-4">
+					<a
+						href="/games"
+						className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-lg shadow hover:bg-amber-600 transition"
+					>
+						Comece agora
+					</a>
+					<a
+						href="/suporte"
+						className="border border-zinc-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-zinc-800 transition"
+					>
+						Falar com suporte
+					</a>
+				</div>
+			</div>
+
 			<div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
 				{games.slice(0, 11).map((game, index) => (
 					<div
@@ -146,6 +172,7 @@ export default function Home() {
 			</div>
 		</div>
 	</section>
+</section>
 
 
 				<Divider className="mt-24" />
