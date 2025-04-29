@@ -149,7 +149,7 @@
 			"img": "/games/cards/bigsmoke.webp",
 			"name": "Plano Lester",
 			"price": "R$99,90",
-			"discountPrice": "R$74,90",
+			"discountPrice": "R$69,90",
 			"link": "https://app.razehost.com.br/store/vps/vps-l1",
 			"description": [
 				"2GB",
@@ -164,7 +164,7 @@
 			"img": "/games/cards/bigsmoke.webp",
 			"name": "Plano Tommy Vercetti",
 			"price": "R$199,90",
-			"discountPrice": "R$139,90",
+			"discountPrice": "R$99,90",
 			"link": "https://app.razehost.com.br/store/vps/vps-l2",
 			"description": [
 				"4GB",
@@ -179,7 +179,7 @@
 			"img": "/games/cards/bigsmoke.webp",
 			"name": "Plano Niko Bellic",
 			"price": "R$228,90",
-			"discountPrice": "R$209,90",
+			"discountPrice": "R$159,90",
 			"link": "https://app.razehost.com.br/store/vps/vps-l3",
 			"description": [
 				"6GB",
