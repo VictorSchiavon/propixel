@@ -28,127 +28,110 @@ export default function Home() {
 	};
 	return (
 		<>
-		<section className="container mx-auto px-6 flex-grow">
-	<section className="pt-[5%] flex flex-col">
-		<div className="mb-6 flex flex-col">
-			<h1 className="text-5xl font-bold mb-4">
-				Sua plataforma de servidores de jogos
-			</h1>
-			<p className="text-lg leading-8 max-w-full font-medium text-zinc-300 lg:max-w-4xl">
-				Com nossa plataforma, você cria servidores de jogo online com
-				facilidade. Oferecemos VPS de alto desempenho para garantir a
-				melhor experiência.
-			</p>
-
-			{/* BOTÕES EXCLUSIVOS PARA MOBILE */}
-			<div className="block md:hidden mt-6 flex justify-center gap-4">
-				<a
-					href="/games"
-					style={{ backgroundColor: "rgb(249 115 22)" }}
-					className="text-black font-semibold px-6 py-2 rounded-lg shadow hover:opacity-90 transition"
-				>
-					Comece agora
-				</a>
-				<a
-					href="/suporte"
-					className="border border-zinc-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-zinc-800 transition"
-				>
-					Falar com suporte
-				</a>
-			</div>
-		</div>
-
-		<div className="flex flex-col xl:flex-row items-center gap-16">
-			<div className="hidden md:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
-				{games.slice(0, 11).map((game, index) => (
-					<div
-						key={game.id}
-						className="flex flex-col duration-200 hover:bg-zinc-800 cursor-pointer items-center justify-center bg-tauri-dark border border-zinc-800 rounded-lg"
-						onClick={() => {
-							const gameName = game.name as keyof typeof plansGames;
-							handleGameSelect(gameName);
-						}}
-					>
-						<p className="py-4 px-14">
-							<img
-								src={game.logo}
-								alt={game.name}
-								className="w-20 h-16 object-contain"
-							/>
+			<section className="container mx-auto px-6 flex-grow">
+				<section className="pt-[5%] flex flex-col">
+					<div className="mb-6 flex flex-col">
+						<h1 className="text-5xl font-bold mb-4">
+							Sua plataforma de servidores de jogos
+						</h1>
+						<p className="text-lg leading-8 max-w-full font-medium text-zinc-300 lg:max-w-4xl">
+							Com nossa plataforma, você cria servidores de jogo online com
+							facilidade. Oferecemos VPS de alto desempenho para garantir a
+							melhor experiência.
 						</p>
+						
 					</div>
-				))}
-				<div className="flex flex-col duration-200 hover:bg-zinc-800 cursor-pointer items-center justify-center bg-tauri-dark border border-zinc-800 rounded-lg">
-					<a href="/games">
-						<p className="py-4 px-14">
-							<Plus />
-						</p>
-					</a>
-				</div>
-			</div>
-
-			<div className="hidden md:grid gap-8 grid-cols-1">
-				{isGameActive && (
-					<div className="flex flex-col items-center w-full">
-						<div className="grid gap-4 grid-cols-1 flex-grow">
-							<div className="flex items-center justify-between">
-								<div className="flex items-center">
-									<img
-										src={gameInfo?.img}
-										alt={gameInfo?.name}
-										className="w-12 h-12 mr-4 rounded-full"
-									/>
-									<p className="text-base font-bold">{gameInfo?.name}</p>
-								</div>
-								<div className="ml-auto">
-									<a href="games/">
-										<p className="sm:text-xs md:text-sm font-medium text-center text-amber-500">
-											Ver todos os planos
-										</p>
-									</a>
-								</div>
-							</div>
-							{plansGames[isGameActive]
-								.slice(0, 3)
-								.map((plan, index) => (
-									<a
-										href={plan.link}
-										key={`${index + 1}`}
-										className="overflow-hidden border border-zinc-800 bg-zinc-900 p-6 rounded-lg text-center flex h-[96px] w-[270px] md:w-[500px] items-center justify-between hover:opacity-85"
-									>
+					<div className="flex flex-col xl:flex-row items-center gap-16">
+					<div className="hidden md:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+							{games.slice(0, 11).map((game, index) => (
+								<div
+									key={game.id}
+									className="flex flex-col duration-200 hover:bg-zinc-800 cursor-pointer items-center justify-center bg-tauri-dark border border-zinc-800 rounded-lg"
+									onClick={() => {
+										const gameName = game.name as keyof typeof plansGames;
+										handleGameSelect(gameName);
+									}}
+								>
+									<p className="py-4 px-14">
 										<img
-											src={plan.img}
-											alt=""
-											className="w-8 h-8 rounded-full"
+											src={game.logo}
+											alt={game.name}
+											className="w-20 h-16 object-contain"
 										/>
-										<div className="text-start ml-5 flex-grow">
-											<h3 className="text-xs font-bold whitespace-nowrap md:text-base">
-												{plan.name.slice(0, 30)}
-											</h3>
-											<p className="text-[10px] opacity-85 mt-1.3 whitespace-nowrap md:text-sm">
-												{plan.description.slice(0, 2).join(" • ").length > 34
-													? `${plan.description.slice(0, 2).join(" • ").slice(0, 34)}`
-													: plan.description.slice(0, 2).join(" • ")}
-											</p>
+									</p>
+								</div>
+							))}
+							<div className="flex flex-col duration-200 hover:bg-zinc-800 cursor-pointer items-center justify-center bg-tauri-dark border border-zinc-800 rounded-lg">
+								<a href="/games">
+									<p className="py-4 px-14">
+										<Plus />
+									</p>
+								</a>
+							</div>
+						</div>
+						<div className="hidden md:grid gap-8 grid-cols-1">
+							{isGameActive && (
+								<div className="flex flex-col items-center w-full">
+									<div className="grid gap-4 grid-cols-1 flex-grow">
+										<div className="flex items-center justify-between">
+											<div className="flex items-center">
+												<img
+													src={gameInfo?.img}
+													alt={gameInfo?.name}
+													className="w-12 h-12 mr-4 rounded-full"
+												/>
+												<p className="text-base font-bold">{gameInfo?.name}</p>
+											</div>
+											<div className="ml-auto">
+												<a href="games/">
+													<p className="sm:text-xs md:text-sm font-medium text-center text-amber-500">
+														Ver todos os planos
+													</p>
+												</a>
+											</div>
 										</div>
-										<div className="ml-4 text-right">
-											<h3 className="font-bold -mb-2 text-xs md:text-base">
-												<span className="text-amber-500">R$ </span>
-												{plan.discountPrice.split("R$")[1]}
-											</h3>
-											<p className="text-sm font-medium opacity-85 mt-1.5 md:text-xs">
-												/Por mês
-											</p>
-										</div>
-									</a>
-								))}
+										{isGameActive &&
+											plansGames[isGameActive]
+												.slice(0, 3)
+												.map((plan, index) => (
+													<a
+														href={plan.link}
+														key={`${index + 1}`}
+														className="overflow-hidden border border-zinc-800 bg-zinc-900 p-6 rounded-lg text-center flex h-[96px] w-[270px] md:w-[500px] items-center justify-between hover:opacity-85"
+													>
+														<img
+															src={plan.img}
+															alt=""
+															className="w-8 h-8 rounded-full"
+														/>
+														<div className="text-start ml-5 flex-grow">
+															<h3 className="text-xs font-bold whitespace-nowrap md:text-base">
+																{plan.name.slice(0, 30)}
+															</h3>
+															<p className="text-[10px] opacity-85 mt-1.3 whitespace-nowrap md:text-sm">
+																{plan.description.slice(0, 2).join(" • ")
+																	.length > 34
+																	? `${plan.description.slice(0, 2).join(" • ").slice(0, 34)}`
+																	: plan.description.slice(0, 2).join(" • ")}
+															</p>
+														</div>
+														<div className="ml-4 text-right">
+															<h3 className="font-bold -mb-2 text-xs md:text-base">
+																<span className="text-amber-500">R$ </span>
+																{plan.discountPrice.split("R$")[1]}
+															</h3>
+															<p className="text-sm font-medium opacity-85 mt-1.5 md:text-xs">
+																/Por mês
+															</p>
+														</div>
+													</a>
+												))}
+									</div>
+								</div>
+							)}
 						</div>
 					</div>
-				)}
-			</div>
-		</div>
-	</section>
-</section>
+				</section>
 
 				<Divider className="mt-24" />
 				<section className="pt-[4%]">
