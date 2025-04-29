@@ -82,7 +82,7 @@ export default function Home() {
 								</a>
 							</div>
 						</div>
-						<div className="grid gap-8 grid-cols-1">
+						<div className="hidden md:grid gap-8 grid-cols-1">
 							{isGameActive && (
 								<div className="flex flex-col items-center w-full">
 									<div className="grid gap-4 grid-cols-1 flex-grow">
