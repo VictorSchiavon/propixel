@@ -30,30 +30,16 @@ export default function Home() {
 		<>
 			<section className="container mx-auto px-6 flex-grow">
 				<section className="pt-[5%] flex flex-col">
-				<div className="text-center mb-10">
-	<h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
-		Infraestrutura de jogo <br className="hidden sm:block" />
-		<span className="text-amber-500">pronta para escalar</span>
-	</h1>
-	<p className="text-zinc-400 text-base sm:text-lg mt-4 max-w-xl mx-auto">
-		Crie, gerencie e escale seus servidores com desempenho premium e suporte ágil.
-	</p>
-	<div className="mt-6 flex justify-center gap-4">
-		<a
-			href="/games"
-			className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-lg shadow hover:bg-amber-600 transition"
-		>
-			Comece agora
-		</a>
-		<a
-			href="/suporte"
-			className="border border-zinc-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-zinc-800 transition"
-		>
-			Falar com suporte
-		</a>
-	</div>
-</div>
-
+					<div className="mb-6 flex flex-col">
+						<h1 className="text-5xl font-bold mb-4">
+							Sua plataforma de servidores de jogos
+						</h1>
+						<p className="text-lg leading-8 max-w-full font-medium text-zinc-300 lg:max-w-4xl">
+							Com nossa plataforma, você cria servidores de jogo online com
+							facilidade. Oferecemos VPS de alto desempenho para garantir a
+							melhor experiência.
+						</p>
+					</div>
 					<div className="flex flex-col xl:flex-row items-center gap-16">
 					<div className="hidden md:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
 							{games.slice(0, 11).map((game, index) => (
