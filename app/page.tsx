@@ -32,8 +32,8 @@ export default function Home() {
 				<section className="pt-[5%] flex flex-col">
 				<div className="text-center mb-10">
 	<h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
-	Sua plataforma de <br className="hidden sm:block" />
-		<span className="text-amber-500">servidores de jogos</span>
+		Infraestrutura de jogo <br className="hidden sm:block" />
+		<span className="text-amber-500">pronta para escalar</span>
 	</h1>
 	<p className="text-zinc-400 text-base sm:text-lg mt-4 max-w-xl mx-auto">
 		Crie, gerencie e escale seus servidores com desempenho premium e suporte ágil.
@@ -82,7 +82,7 @@ export default function Home() {
 								</a>
 							</div>
 						</div>
-						<div className="hidden md:grid gap-8 grid-cols-1">
+						<div className="grid gap-8 grid-cols-1">
 							{isGameActive && (
 								<div className="flex flex-col items-center w-full">
 									<div className="grid gap-4 grid-cols-1 flex-grow">
