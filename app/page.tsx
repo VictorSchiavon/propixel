@@ -143,6 +143,72 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+{/* Seção: Jogos em Destaque */}
+<section className="bg-[#07090c] mt-10 p-5">
+  <div className="container mx-auto px-6 flex-grow">
+    <h1 className="text-4xl font-bold text-center pt-[5%]">
+      Jogos <span className="text-orange-400">em Destaque</span>
+    </h1>
+    <p className="text-muted pt-2 pb-5 text-center">
+      Explore os jogos mais populares com servidores otimizados para a melhor experiência.
+    </p>
+
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-[5%]">
+      {games.slice(0, 8).map((game) => (
+        <div key={game.id} className="bg-[#0A0C10] rounded-lg border border-zinc-800 hover:opacity-85 cursor-pointer p-4 flex flex-col items-center">
+          <img src={game.logo} alt={game.name} className="w-20 h-20 object-contain mb-4" />
+          <h3 className="text-center font-bold text-sm">{game.name}</h3>
+        </div>
+      ))}
+    </div>
+
+    <div className="flex justify-center mt-8">
+      <a href="/games" className="text-orange-400 font-medium hover:underline">Ver todos os jogos</a>
+    </div>
+  </div>
+</section>
+
+{/* Seção: Vantagens Exclusivas */}
+<section className="bg-[#07090c] mt-10 p-5">
+  <div className="container mx-auto px-6 flex-grow">
+    <h1 className="text-4xl font-bold text-center pt-[5%]">
+      Nossas <span className="text-orange-400">Vantagens</span>
+    </h1>
+    <p className="text-muted pt-2 pb-5 text-center">
+      Conheça os diferenciais que fazem da RazeHost a melhor escolha para o seu servidor.
+    </p>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-[5%]">
+      <Card className="bg-[#0A0C10] rounded-lg border border-zinc-800 hover:opacity-85">
+        <CardBody className="flex flex-col items-center p-6">
+          <Zap size={36} className="mb-4 text-orange-400" />
+          <h3 className="font-bold text-lg text-center mb-2">Performance Otimizada</h3>
+          <p className="text-center text-gray-300 text-sm">
+            Hardware de última geração para garantir máxima performance nos seus jogos.
+          </p>
+        </CardBody>
+      </Card>
+      <Card className="bg-[#0A0C10] rounded-lg border border-zinc-800 hover:opacity-85">
+        <CardBody className="flex flex-col items-center p-6">
+          <Zap size={36} className="mb-4 text-orange-400" />
+          <h3 className="font-bold text-lg text-center mb-2">Infraestrutura Gamer</h3>
+          <p className="text-center text-gray-300 text-sm">
+            Rede e servidores preparados para suportar jogos pesados e servidores públicos.
+          </p>
+        </CardBody>
+      </Card>
+      <Card className="bg-[#0A0C10] rounded-lg border border-zinc-800 hover:opacity-85">
+        <CardBody className="flex flex-col items-center p-6">
+          <Zap size={36} className="mb-4 text-orange-400" />
+          <h3 className="font-bold text-lg text-center mb-2">Painel Simplificado</h3>
+          <p className="text-center text-gray-300 text-sm">
+            Controle total do seu servidor em poucos cliques através de um painel intuitivo.
+          </p>
+        </CardBody>
+      </Card>
+    </div>
+  </div>
+</section>
 
 				<section className="pt-[5%]">
 					<Divider className="mb-5" />
