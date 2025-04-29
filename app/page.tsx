@@ -29,122 +29,124 @@ export default function Home() {
 	return (
 		<>
 			<section className="container mx-auto px-6 flex-grow">
-				<section className="pt-[5%] flex flex-col">
-				<div className="text-center mb-10">
-	<h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
-		Infraestrutura de jogo <br className="hidden sm:block" />
-		<span className="text-amber-500">pronta para escalar</span>
-	</h1>
-	<p className="text-zinc-400 text-base sm:text-lg mt-4 max-w-xl mx-auto">
-		Crie, gerencie e escale seus servidores com desempenho premium e suporte ágil.
-	</p>
-	<div className="mt-6 flex justify-center gap-4">
-		<a
-			href="/games"
-			className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-lg shadow hover:bg-amber-600 transition"
-		>
-			Comece agora
-		</a>
-		<a
-			href="/suporte"
-			className="border border-zinc-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-zinc-800 transition"
-		>
-			Falar com suporte
-		</a>
-	</div>
-</div>
+	<section className="pt-[5%] flex flex-col">
+		{/* BLOCO DE INTRODUÇÃO CLEAN + AÇÃO */}
+		<div className="text-center pt-20 pb-16">
+			<h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
+				Sua plataforma de <br className="hidden sm:block" />
+				<span className="text-amber-500">servidores de jogos</span>
+			</h1>
+			<p className="text-zinc-400 text-base sm:text-lg mt-4 max-w-xl mx-auto">
+				Crie, gerencie e escale seus servidores com desempenho premium e suporte ágil.
+			</p>
+			<div className="mt-6 flex justify-center gap-4">
+				<a
+					href="/games"
+					className="bg-amber-500 text-black font-semibold px-6 py-2 rounded-lg shadow hover:bg-amber-600 transition"
+				>
+					Comece agora
+				</a>
+				<a
+					href="/suporte"
+					className="border border-zinc-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-zinc-800 transition"
+				>
+					Falar com suporte
+				</a>
+			</div>
+		</div>
 
-					<div className="flex flex-col xl:flex-row items-center gap-16">
-					<div className="hidden md:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
-							{games.slice(0, 11).map((game, index) => (
-								<div
-									key={game.id}
-									className="flex flex-col duration-200 hover:bg-zinc-800 cursor-pointer items-center justify-center bg-tauri-dark border border-zinc-800 rounded-lg"
-									onClick={() => {
-										const gameName = game.name as keyof typeof plansGames;
-										handleGameSelect(gameName);
-									}}
-								>
-									<p className="py-4 px-14">
-										<img
-											src={game.logo}
-											alt={game.name}
-											className="w-20 h-16 object-contain"
-										/>
-									</p>
+		{/* GRADE DE JOGOS E PLANOS – OCULTO NO MOBILE */}
+		<div className="hidden md:flex flex-col xl:flex-row items-center gap-16">
+			<div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+				{games.slice(0, 11).map((game, index) => (
+					<div
+						key={game.id}
+						className="flex flex-col duration-200 hover:bg-zinc-800 cursor-pointer items-center justify-center bg-tauri-dark border border-zinc-800 rounded-lg"
+						onClick={() => {
+							const gameName = game.name as keyof typeof plansGames;
+							handleGameSelect(gameName);
+						}}
+					>
+						<p className="py-4 px-14">
+							<img
+								src={game.logo}
+								alt={game.name}
+								className="w-20 h-16 object-contain"
+							/>
+						</p>
+					</div>
+				))}
+				<div className="flex flex-col duration-200 hover:bg-zinc-800 cursor-pointer items-center justify-center bg-tauri-dark border border-zinc-800 rounded-lg">
+					<a href="/games">
+						<p className="py-4 px-14">
+							<Plus />
+						</p>
+					</a>
+				</div>
+			</div>
+
+			<div className="grid gap-8 grid-cols-1">
+				{isGameActive && (
+					<div className="flex flex-col items-center w-full">
+						<div className="grid gap-4 grid-cols-1 flex-grow">
+							<div className="flex items-center justify-between">
+								<div className="flex items-center">
+									<img
+										src={gameInfo?.img}
+										alt={gameInfo?.name}
+										className="w-12 h-12 mr-4 rounded-full"
+									/>
+									<p className="text-base font-bold">{gameInfo?.name}</p>
 								</div>
-							))}
-							<div className="flex flex-col duration-200 hover:bg-zinc-800 cursor-pointer items-center justify-center bg-tauri-dark border border-zinc-800 rounded-lg">
-								<a href="/games">
-									<p className="py-4 px-14">
-										<Plus />
-									</p>
-								</a>
+								<div className="ml-auto">
+									<a href="games/">
+										<p className="sm:text-xs md:text-sm font-medium text-center text-amber-500">
+											Ver todos os planos
+										</p>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div className="hidden md:grid gap-8 grid-cols-1">
-							{isGameActive && (
-								<div className="flex flex-col items-center w-full">
-									<div className="grid gap-4 grid-cols-1 flex-grow">
-										<div className="flex items-center justify-between">
-											<div className="flex items-center">
-												<img
-													src={gameInfo?.img}
-													alt={gameInfo?.name}
-													className="w-12 h-12 mr-4 rounded-full"
-												/>
-												<p className="text-base font-bold">{gameInfo?.name}</p>
-											</div>
-											<div className="ml-auto">
-												<a href="games/">
-													<p className="sm:text-xs md:text-sm font-medium text-center text-amber-500">
-														Ver todos os planos
-													</p>
-												</a>
-											</div>
+							{plansGames[isGameActive]
+								.slice(0, 3)
+								.map((plan, index) => (
+									<a
+										href={plan.link}
+										key={`${index + 1}`}
+										className="overflow-hidden border border-zinc-800 bg-zinc-900 p-6 rounded-lg text-center flex h-[96px] w-[270px] md:w-[500px] items-center justify-between hover:opacity-85"
+									>
+										<img
+											src={plan.img}
+											alt=""
+											className="w-8 h-8 rounded-full"
+										/>
+										<div className="text-start ml-5 flex-grow">
+											<h3 className="text-xs font-bold whitespace-nowrap md:text-base">
+												{plan.name.slice(0, 30)}
+											</h3>
+											<p className="text-[10px] opacity-85 mt-1.3 whitespace-nowrap md:text-sm">
+												{plan.description.slice(0, 2).join(" • ").length > 34
+													? `${plan.description.slice(0, 2).join(" • ").slice(0, 34)}`
+													: plan.description.slice(0, 2).join(" • ")}
+											</p>
 										</div>
-										{isGameActive &&
-											plansGames[isGameActive]
-												.slice(0, 3)
-												.map((plan, index) => (
-													<a
-														href={plan.link}
-														key={`${index + 1}`}
-														className="overflow-hidden border border-zinc-800 bg-zinc-900 p-6 rounded-lg text-center flex h-[96px] w-[270px] md:w-[500px] items-center justify-between hover:opacity-85"
-													>
-														<img
-															src={plan.img}
-															alt=""
-															className="w-8 h-8 rounded-full"
-														/>
-														<div className="text-start ml-5 flex-grow">
-															<h3 className="text-xs font-bold whitespace-nowrap md:text-base">
-																{plan.name.slice(0, 30)}
-															</h3>
-															<p className="text-[10px] opacity-85 mt-1.3 whitespace-nowrap md:text-sm">
-																{plan.description.slice(0, 2).join(" • ")
-																	.length > 34
-																	? `${plan.description.slice(0, 2).join(" • ").slice(0, 34)}`
-																	: plan.description.slice(0, 2).join(" • ")}
-															</p>
-														</div>
-														<div className="ml-4 text-right">
-															<h3 className="font-bold -mb-2 text-xs md:text-base">
-																<span className="text-amber-500">R$ </span>
-																{plan.discountPrice.split("R$")[1]}
-															</h3>
-															<p className="text-sm font-medium opacity-85 mt-1.5 md:text-xs">
-																/Por mês
-															</p>
-														</div>
-													</a>
-												))}
-									</div>
-								</div>
-							)}
+										<div className="ml-4 text-right">
+											<h3 className="font-bold -mb-2 text-xs md:text-base">
+												<span className="text-amber-500">R$ </span>
+												{plan.discountPrice.split("R$")[1]}
+											</h3>
+											<p className="text-sm font-medium opacity-85 mt-1.5 md:text-xs">
+												/Por mês
+											</p>
+										</div>
+									</a>
+								))}
 						</div>
 					</div>
-				</section>
+				)}
+			</div>
+		</div>
+	</section>
+
 
 				<Divider className="mt-24" />
 				<section className="pt-[4%]">
