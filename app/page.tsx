@@ -41,7 +41,7 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="flex flex-col xl:flex-row items-center gap-16">
-						<div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+					<div className="hidden md:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
 							{games.slice(0, 11).map((game, index) => (
 								<div
 									key={game.id}
