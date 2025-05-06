@@ -56,9 +56,26 @@ const planosAMD = [
     ],
   },
   {
+    nome: "AMD Ryzen 9 7950X",
+    frequencia: "4.5GHz até 5.7GHz",
+    disponibilidade: false, // ou false se quiser sinalizar "Verificar disponibilidade"
+    preco: 2000.0,
+    nucleos: 16,
+    threads: 32,
+    destaque: false,
+    icons: [
+      { icone: <Cpu size={30} />, titulo: "16 Núcleos", descricao: "32 Threads" },
+      { icone: <HardDrive size={30} />, titulo: "Armazenamento", descricao: "2TB DE SSD NVME M.2" },
+      { icone: <Network size={30} />, titulo: "Rede", descricao: "1GBPS UPLINK" },
+      { icone: <MemoryStick size={30} />, titulo: "128GB DE RAM", descricao: "DDR5" },
+      { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
+    ],
+  },  
+  {
     nome: "AMD Ryzen 9 7900X",
     frequencia: "4.7GHz até 5.6GHz",
-    disponibilidade: true,
+    disponibilidade: false,
     preco: 1600.0,
     nucleos: 12,
     threads: 24,
@@ -89,6 +106,23 @@ const planosAMD = [
       { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
+  {{
+    nome: "AMD Ryzen 9 9950X",
+    frequencia: "4.3GHz até 5.7GHz",
+    disponibilidade: false, // ou false se quiser sinalizar "Verificar disponibilidade"
+    preco: 2100.0,
+    nucleos: 16,
+    threads: 32,
+    destaque: false,
+    icons: [
+      { icone: <Cpu size={30} />, titulo: "16 Núcleos", descricao: "32 Threads" },
+      { icone: <HardDrive size={30} />, titulo: "Armazenamento", descricao: "2TB DE SSD NVME M.2" },
+      { icone: <Network size={30} />, titulo: "Rede", descricao: "1GBPS UPLINK" },
+      { icone: <MemoryStick size={30} />, titulo: "128GB DE RAM", descricao: "DDR5" },
+      { icone: <ArrowUpFromDot size={30} />, titulo: "Inputstream", descricao: "Tráfego ilimitado" },
+      { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
+    ],
+  },  
   {
     nome: "AMD Ryzen 9 9900X",
     frequencia: "4.4GHz até 5.7GHz",
