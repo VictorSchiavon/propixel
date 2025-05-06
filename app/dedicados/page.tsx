@@ -106,7 +106,7 @@ const planosAMD = [
       { icone: <ArrowDownToDot size={30} />, titulo: "Outputstream", descricao: "30Tb Incluso" },
     ],
   },
-  {{
+  {
     nome: "AMD Ryzen 9 9950X",
     frequencia: "4.3GHz até 5.7GHz",
     disponibilidade: false, // ou false se quiser sinalizar "Verificar disponibilidade"
