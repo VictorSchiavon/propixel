@@ -92,11 +92,11 @@ export default function MotdPage() {
       <div className="bg-[#1e1e1e] rounded-lg shadow-md p-6 max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-4">
           <span className="text-gray-300 font-medium">Preview da MOTD</span>
-          <button className="bg-gray-700 text-sm px-3 py-1 rounded hover:bg-gray-600">New</button>
+          <button className="bg-gray-700 text-sm px-3 py-1 rounded hover:bg-gray-600">Novo</button>
         </div>
 
         <div className="flex items-center bg-[url('/minecraft-bg.png')] bg-cover border border-neutral-700 rounded overflow-hidden">
-          <Image src="/server-icon.png" alt="Server Icon" width={64} height={64} />
+          <Image src="/server-icon.jpg" alt="Server Icon" width={64} height={64} />
           <div className="flex-1 py-2 px-4 text-sm font-mono whitespace-pre-wrap">
             <div>{parseMotd(line1)}</div>
             <div>{parseMotd(line2)}</div>
@@ -155,13 +155,13 @@ export default function MotdPage() {
 
         <div className="flex justify-center mt-6 gap-4">
           <button onClick={handleCopy} className="px-4 py-2 bg-green-600 hover:bg-green-700 rounded">
-            Get your MOTD
+            Copie seu MOTD
           </button>
           <button className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">
-            In-Game Preview
+           Teste Preview
           </button>
           <button className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">
-            Share
+            Compartilhe
           </button>
         </div>
       </div>
