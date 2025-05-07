@@ -158,12 +158,27 @@ export default function MotdPage() {
             Copie seu MOTD
           </button>
           <button className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">
-           Teste Preview
+            Teste Preview
           </button>
           <button className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">
             Compartilhe
           </button>
         </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto mt-10 text-sm text-gray-300 leading-relaxed">
+        <h2 className="text-xl font-bold text-orange-400 mb-2">O que é MOTD no Minecraft?</h2>
+        <p className="mb-3">
+          MOTD significa <strong>Message of the Day</strong> e é a mensagem exibida na lista de servidores do Minecraft antes de você entrar em um servidor. Ela é definida no arquivo <code>server.properties</code> e pode conter texto estilizado com códigos de formatação (§) para aplicar cores, negrito, itálico, entre outros.
+        </p>
+        <p className="mb-3">
+          Com este editor da RazeHost, você pode criar sua MOTD personalizada e visualizar como ela ficará no cliente Minecraft — tudo sem sair do navegador.
+        </p>
+        <h2 className="text-xl font-bold text-orange-400 mt-6 mb-2">Hospede seu servidor de Minecraft</h2>
+        <p>
+          Precisa de um servidor de Minecraft de qualidade? Conheça os planos da RazeHost com proteção DDoS de até <strong>348 Tbps</strong>, processadores <strong>AMD Ryzen</strong>, discos <strong>NVMe</strong> e suporte especializado.
+          Acesse <a href="https://razehost.com.br" className="text-blue-400 hover:underline" target="_blank">razehost.com.br</a> e comece agora mesmo!
+        </p>
       </div>
     </div>
   );
