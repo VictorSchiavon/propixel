@@ -3,28 +3,31 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-const formatCodes = [
-  { label: '§l', code: '§l' },
-  { label: '§o', code: '§o' },
-  { label: '§n', code: '§n' },
-  { label: '§m', code: '§m' },
-  { label: '§r', code: '§r' },
-  { label: '§0', code: '§0' },
-  { label: '§1', code: '§1' },
-  { label: '§2', code: '§2' },
-  { label: '§3', code: '§3' },
-  { label: '§4', code: '§4' },
-  { label: '§5', code: '§5' },
-  { label: '§6', code: '§6' },
-  { label: '§7', code: '§7' },
-  { label: '§8', code: '§8' },
-  { label: '§9', code: '§9' },
-  { label: '§a', code: '§a' },
-  { label: '§b', code: '§b' },
-  { label: '§c', code: '§c' },
-  { label: '§d', code: '§d' },
-  { label: '§e', code: '§e' },
-  { label: '§f', code: '§f' },
+const styleCodes = [
+  { label: '§l', code: '§l', name: 'Negrito' },
+  { label: '§o', code: '§o', name: 'Itálico' },
+  { label: '§n', code: '§n', name: 'Sublinhado' },
+  { label: '§m', code: '§m', name: 'Tachado' },
+  { label: '§r', code: '§r', name: 'Reset' },
+];
+
+const colorCodes = [
+  { code: '§0', color: '#000000' },
+  { code: '§1', color: '#0000AA' },
+  { code: '§2', color: '#00AA00' },
+  { code: '§3', color: '#00AAAA' },
+  { code: '§4', color: '#AA0000' },
+  { code: '§5', color: '#AA00AA' },
+  { code: '§6', color: '#FFAA00' },
+  { code: '§7', color: '#AAAAAA' },
+  { code: '§8', color: '#555555' },
+  { code: '§9', color: '#5555FF' },
+  { code: '§a', color: '#55FF55' },
+  { code: '§b', color: '#55FFFF' },
+  { code: '§c', color: '#FF5555' },
+  { code: '§d', color: '#FF55FF' },
+  { code: '§e', color: '#FFFF55' },
+  { code: '§f', color: '#FFFFFF' },
 ];
 
 export default function MotdPage() {
@@ -81,15 +84,29 @@ export default function MotdPage() {
           </div>
 
           <div>
-            <p className="text-sm mb-2">Inserir códigos de formatação:</p>
-            <div className="flex flex-wrap gap-2">
-              {formatCodes.map(({ label, code }) => (
+            <p className="text-sm mb-2">Códigos de Estilo:</p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {styleCodes.map(({ label, code }) => (
                 <button
                   key={label}
                   onClick={() => insertCode(code, setLine1, line1)}
                   className="px-2 py-1 bg-gray-700 hover:bg-gray-600 rounded text-xs"
                 >
                   {label}
+                </button>
+              ))}
+            </div>
+
+            <p className="text-sm mb-2">Códigos de Cor:</p>
+            <div className="flex flex-wrap gap-2">
+              {colorCodes.map(({ code, color }) => (
+                <button
+                  key={code}
+                  onClick={() => insertCode(code, setLine1, line1)}
+                  className="w-8 h-8 rounded text-xs font-bold border border-neutral-700"
+                  style={{ backgroundColor: color }}
+                >
+                  {code.slice(1)}
                 </button>
               ))}
             </div>
