@@ -33,10 +33,14 @@ const colorCodes = [
 export default function MotdPage() {
   const [line1, setLine1] = useState('');
   const [line2, setLine2] = useState('');
+  const [activeLine, setActiveLine] = useState<'line1' | 'line2'>('line1');
 
-  const insertCode = (code: string, lineSetter: (val: string) => void, line: string) => {
-    const newText = line + code;
-    lineSetter(newText);
+  const insertCode = (code: string) => {
+    if (activeLine === 'line1') {
+      setLine1((prev) => prev + code);
+    } else {
+      setLine2((prev) => prev + code);
+    }
   };
 
   const motdPreview = `${line1}\n${line2}`;
@@ -70,6 +74,7 @@ export default function MotdPage() {
             <label className="block mb-1 text-sm">Linha 1:</label>
             <input
               value={line1}
+              onFocus={() => setActiveLine('line1')}
               onChange={(e) => setLine1(e.target.value)}
               className="w-full p-2 rounded bg-neutral-800 border border-neutral-700 mb-3"
               placeholder="§aServidor RazeHost"
@@ -77,6 +82,7 @@ export default function MotdPage() {
             <label className="block mb-1 text-sm">Linha 2:</label>
             <input
               value={line2}
+              onFocus={() => setActiveLine('line2')}
               onChange={(e) => setLine2(e.target.value)}
               className="w-full p-2 rounded bg-neutral-800 border border-neutral-700"
               placeholder="§7A melhor hospedagem do Brasil!"
@@ -89,7 +95,7 @@ export default function MotdPage() {
               {styleCodes.map(({ label, code }) => (
                 <button
                   key={label}
-                  onClick={() => insertCode(code, setLine1, line1)}
+                  onClick={() => insertCode(code)}
                   className="px-2 py-1 bg-gray-700 hover:bg-gray-600 rounded text-xs"
                 >
                   {label}
@@ -102,7 +108,7 @@ export default function MotdPage() {
               {colorCodes.map(({ code, color }) => (
                 <button
                   key={code}
-                  onClick={() => insertCode(code, setLine1, line1)}
+                  onClick={() => insertCode(code)}
                   className="w-8 h-8 rounded text-xs font-bold border border-neutral-700"
                   style={{ backgroundColor: color }}
                 >

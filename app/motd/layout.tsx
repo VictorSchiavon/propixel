@@ -6,10 +6,10 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
     title: {
-        default: "A melhor hospedagem de Minecraft no Brasil | AMD Ryzen 9",
+        default: "Gerador de MOTD | AMD Ryzen 9",
         template: `%s - ${siteConfig.name}`,
     },
-    description: "Crie seu servidor de Minecraft na RazeHost, rode seu servidor com mods, plugins, e a versão que quiser, servidor de Minecraft é na RazeHost.",
+    description: "Gere seu MOTD de forma simples e fácil com a RazeHost.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -116,7 +116,7 @@ export const metadata: Metadata = {
     "domínio para site de jogos"
     ],
     openGraph: {
-        title: 'A melhor hospedagem de Minecraft no Brasil | AMD Ryzen 9 | RazeHost',
+        title: 'Gerador de MOTD | AMD Ryzen 9',
         description: 'Crie seu servidor de Minecraft na RazeHost, rode seu servidor com mods, plugins, e a versão que quiser, servidor de Minecraft é na RazeHost.',
         url: 'https://razehost.com.br/',
         siteName: 'RazeHost',
@@ -124,7 +124,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'A melhor hospedagem de Minecraft no Brasil | AMD Ryzen 9 | RazeHost',
+        title: 'Gerador de MOTD | AMD Ryzen 9',
         description: 'Crie seu servidor de Minecraft na RazeHost, rode seu servidor com mods, plugins, e a versão que quiser, servidor de Minecraft é na RazeHost.',
         images: ['/banner.webp'],
     },
