@@ -12,23 +12,59 @@ const styleCodes = [
 ];
 
 const colorCodes = [
-  { code: '§0', color: '#000000' },
-  { code: '§1', color: '#0000AA' },
-  { code: '§2', color: '#00AA00' },
-  { code: '§3', color: '#00AAAA' },
-  { code: '§4', color: '#AA0000' },
-  { code: '§5', color: '#AA00AA' },
-  { code: '§6', color: '#FFAA00' },
-  { code: '§7', color: '#AAAAAA' },
-  { code: '§8', color: '#555555' },
-  { code: '§9', color: '#5555FF' },
-  { code: '§a', color: '#55FF55' },
-  { code: '§b', color: '#55FFFF' },
-  { code: '§c', color: '#FF5555' },
-  { code: '§d', color: '#FF55FF' },
-  { code: '§e', color: '#FFFF55' },
-  { code: '§f', color: '#FFFFFF' },
+  { code: '§0', color: '#000000' }, { code: '§1', color: '#0000AA' },
+  { code: '§2', color: '#00AA00' }, { code: '§3', color: '#00AAAA' },
+  { code: '§4', color: '#AA0000' }, { code: '§5', color: '#AA00AA' },
+  { code: '§6', color: '#FFAA00' }, { code: '§7', color: '#AAAAAA' },
+  { code: '§8', color: '#555555' }, { code: '§9', color: '#5555FF' },
+  { code: '§a', color: '#55FF55' }, { code: '§b', color: '#55FFFF' },
+  { code: '§c', color: '#FF5555' }, { code: '§d', color: '#FF55FF' },
+  { code: '§e', color: '#FFFF55' }, { code: '§f', color: '#FFFFFF' },
 ];
+
+function parseMotd(text: string): JSX.Element[] {
+  const parts: JSX.Element[] = [];
+  const colorMap: { [code: string]: string } = Object.fromEntries(
+    colorCodes.map(({ code, color }) => [code[1], color])
+  );
+  const styleMap: { [code: string]: React.CSSProperties } = {
+    l: { fontWeight: 'bold' },
+    o: { fontStyle: 'italic' },
+    n: { textDecoration: 'underline' },
+    m: { textDecoration: 'line-through' },
+    r: {} // reset
+  };
+
+  let i = 0;
+  let style: React.CSSProperties = {};
+  let color: string = '#FFFFFF';
+
+  while (i < text.length) {
+    if (text[i] === '§' && i + 1 < text.length) {
+      const code = text[i + 1];
+      i += 2;
+      if (colorMap[code]) {
+        color = colorMap[code];
+        style = { ...style, color };
+      } else if (styleMap[code]) {
+        if (code === 'r') {
+          style = {};
+          color = '#FFFFFF';
+        } else {
+          style = { ...style, ...styleMap[code] };
+        }
+      }
+    } else {
+      let chunk = '';
+      while (i < text.length && text[i] !== '§') {
+        chunk += text[i++];
+      }
+      parts.push(<span style={style} key={parts.length}>{chunk}</span>);
+    }
+  }
+
+  return parts;
+}
 
 export default function MotdPage() {
   const [line1, setLine1] = useState('');
@@ -42,8 +78,6 @@ export default function MotdPage() {
       setLine2((prev) => prev + code);
     }
   };
-
-  const motdPreview = `${line1}\n${line2}`;
 
   const handleCopy = () => {
     const motd = line2 ? `${line1}\\n${line2}` : line1;
@@ -64,8 +98,8 @@ export default function MotdPage() {
         <div className="flex items-center bg-[url('/minecraft-bg.png')] bg-cover border border-neutral-700 rounded overflow-hidden">
           <Image src="/server-icon.png" alt="Server Icon" width={64} height={64} />
           <div className="flex-1 py-2 px-4 text-sm font-mono whitespace-pre-wrap">
-            <div>{line1}</div>
-            <div>{line2}</div>
+            <div>{parseMotd(line1)}</div>
+            <div>{parseMotd(line2)}</div>
           </div>
         </div>
 
