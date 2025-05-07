@@ -139,7 +139,7 @@ export default function Games() {
                                 </div>
                                 <div className="bg-transparent border border-gray-900 w-full text-center p-2 rounded-lg">
                                     <p className="font-bold text-sm flex justify-center items-center gap-1"><HardDrive size={16} /> {vpsItem.description.ssd}</p>
-                                    <p className="font-bold text-xs text-gray-500">ARMAZENAMENTO</p>
+                                    <p className="font-bold text-xs text-gray-500">SSD NVMe</p>
                                 </div>
                             </div>
 
