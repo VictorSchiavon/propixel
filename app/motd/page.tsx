@@ -177,7 +177,7 @@ export default function MotdPage() {
         <h2 className="text-xl font-bold text-orange-400 mt-6 mb-2">Hospede seu servidor de Minecraft</h2>
         <p>
           Precisa de um servidor de Minecraft de qualidade? Conheça os planos da RazeHost com proteção DDoS de até <strong>348 Tbps</strong>, processadores <strong>AMD Ryzen</strong>, discos <strong>NVMe</strong> e suporte especializado.
-          Acesse <a href="https://razehost.com.br" className="text-blue-400 hover:underline" target="_blank">razehost.com.br</a> e comece agora mesmo!
+          Acesse <a href="https://razehost.com.br" className="text-blue-400 hover:underline" target="_blank">razehost.com.br/game/minecraft</a> e comece agora mesmo!
         </p>
       </div>
     </div>
