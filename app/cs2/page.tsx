@@ -88,7 +88,7 @@ const cs2VpsPlans: Plan[] = [
     color: "bg-purple-700",
     description: {
       ram: "2 GB",
-      ssd: "50 GB SSD NVME",
+      ssd: "40 GB SSD NVME",
       slots: "Ilimitados",
       location: "São Paulo",
       tickRate: "Configurável",
@@ -105,7 +105,7 @@ const cs2VpsPlans: Plan[] = [
     recommended: true,
     description: {
       ram: "4 GB",
-      ssd: "80 GB SSD NVME",
+      ssd: "50 GB SSD NVME",
       slots: "Ilimitados",
       location: "São Paulo",
       tickRate: "Configurável",
@@ -121,7 +121,7 @@ const cs2VpsPlans: Plan[] = [
     color: "bg-green-600",
     description: {
       ram: "6 GB",
-      ssd: "120 GB SSD NVME",
+      ssd: "60 GB SSD NVME",
       slots: "Ilimitados",
       location: "São Paulo",
       tickRate: "Configurável",
