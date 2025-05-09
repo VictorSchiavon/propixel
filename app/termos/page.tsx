@@ -28,7 +28,7 @@ export default function TermsOfUse() {
                     <Card className="bg-[#0A0C10] rounded-sm"><CardBody>
                         <h2 className="font-bold text-xl pb-2">2. Pagamentos</h2>
                         <p className="text-gray-300 text-[15px]">
-                            É responsabilidade do cliente manter seus pagamentos em dia. Para métodos que exigem comprovação (ex: depósito/transferência bancária), é necessário o envio do comprovante. Consulte o setor financeiro para informações sobre multas e juros por atraso. Serviços serão suspensos após 1 dia de atraso. Após 3 dias, os serviços serão cancelados permanentemente e os dados excluídos. Pendências em serviços adicionais causam suspensão geral. A RazeHost pode alterar valores e equipamentos para manter o equilíbrio econômico-financeiro, mediante aviso prévio.
+                            É responsabilidade do cliente manter seus pagamentos em dia. Para métodos que exigem comprovação (ex: depósito/transferência bancária), é necessário o envio do comprovante. Consulte o setor financeiro para informações sobre multas e juros por atraso. Serviços serão suspensos após 1 dia de atraso. Após 6 dias, os serviços serão cancelados permanentemente e os dados excluídos. Pendências em serviços adicionais causam suspensão geral. A RazeHost pode alterar valores e equipamentos para manter o equilíbrio econômico-financeiro, mediante aviso prévio.
                         </p>
                     </CardBody></Card>
 
