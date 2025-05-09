@@ -18,7 +18,6 @@ import {
   CheckCircle2,
   Rocket,
 } from "lucide-react"
-import Image from "next/image"
 import { PaymentsSectionsComponent } from "../_components/payments-section.component"
 import { CardPromotion } from "../_components/card-promotion"
 
@@ -162,7 +161,11 @@ export default function Games() {
       {/* Hero Section */}
       <div className="relative w-full h-[500px] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black z-10"></div>
-        <Image src="https://files.tecnoblog.net/wp-content/uploads/2019/07/gta-v-001.jpg" alt="FiveM Server Hosting" fill className="object-cover" priority />
+        <img
+          src="https://files.tecnoblog.net/wp-content/uploads/2019/07/gta-v-001.jpg"
+          alt="FiveM Server Hosting"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
         <div className="relative z-20 container mx-auto px-6 h-full flex flex-col justify-center items-center text-center">
           <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 rounded-full px-4 py-1 mb-4">
             <Rocket size={16} className="text-orange-400" />
@@ -419,15 +422,16 @@ export default function Games() {
               <div className="flex justify-center">
                 <div className="relative w-full max-w-md">
                   <div className="absolute inset-0 bg-orange-500 rounded-full blur-3xl opacity-20"></div>
-                  <Image
-                    src="/network-speed.webp"
+                  <img
+                    src="/cache-externo.png"
                     alt="Cachê-externo 10GBPS"
-                    width={500}
-                    height={500}
-                    className="relative z-10 rounded-lg"
+                    className="relative z-10 rounded-lg w-full h-auto"
                   />
                   <div className="absolute top-4 right-4 bg-orange-500 text-white text-xl font-bold p-3 rounded-full z-20 shadow-lg">
                     10GBPS
+                  </div>
+                  <div className="absolute bottom-4 right-4 bg-orange-500/80 text-white p-4 rounded-full z-20 shadow-lg">
+                    <Wifi size={60} />
                   </div>
                 </div>
               </div>
@@ -438,22 +442,19 @@ export default function Games() {
         {/* Baixa Latência Destacada */}
         <section className="mt-12 relative overflow-hidden rounded-2xl">
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-800/80 z-0"></div>
-          <div className="absolute inset-0 bg-[url('/latencia.png')] bg-cover bg-center opacity-20 z-0"></div>
+          <div className="absolute inset-0 bg-[url('/latency-bg.webp')] bg-cover bg-center opacity-20 z-0"></div>
 
           <div className="relative z-10 p-8 md:p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1 flex justify-center">
                 <div className="relative w-full max-w-md">
                   <div className="absolute inset-0 bg-green-500 rounded-full blur-3xl opacity-20"></div>
-                  <Image
-                    src="/low-latency.webp"
-                    alt="Baixa Latência"
-                    width={500}
-                    height={500}
-                    className="relative z-10 rounded-lg"
-                  />
+                  <img src="/latencia.png" alt="Baixa Latência" className="relative z-10 rounded-lg w-full h-auto" />
                   <div className="absolute top-4 left-4 bg-green-500 text-white text-xl font-bold p-3 rounded-full z-20 shadow-lg">
                     5ms
+                  </div>
+                  <div className="absolute bottom-4 left-4 bg-green-500/80 text-white p-4 rounded-full z-20 shadow-lg">
+                    <Clock size={60} />
                   </div>
                 </div>
               </div>
@@ -526,7 +527,7 @@ export default function Games() {
                     className="col-span-1 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-110"
                   >
                     <div className="w-16 h-16 flex items-center justify-center bg-gray-800/50 rounded-full p-3 mb-4">
-                      <Image src={item.img || "/placeholder.svg"} alt={item.title} width={50} height={50} />
+                      <img src={item.img || "/placeholder.svg"} alt={item.title} className="w-[50px] h-[50px]" />
                     </div>
                     <p className="text-sm font-bold">{item.title}</p>
                   </div>
