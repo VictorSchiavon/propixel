@@ -35,8 +35,8 @@ const cs2HostPlans: Plan[] = [
     color: "bg-gray-700",
     description: {
       ram: "2 GB",
-      ssd: "15 GB SSD NVME",
-      slots: "12 slots",
+      ssd: "10 GB SSD NVME",
+      slots: "4-8 slots",
       location: "São Paulo",
       tickRate: "64 tick",
       ddosProtection: true,
@@ -53,7 +53,7 @@ const cs2HostPlans: Plan[] = [
     description: {
       ram: "4 GB",
       ssd: "25 GB SSD NVME",
-      slots: "20 slots",
+      slots: "8-20 slots",
       location: "São Paulo",
       tickRate: "128 tick",
       ddosProtection: true,
