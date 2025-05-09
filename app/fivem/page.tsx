@@ -162,7 +162,7 @@ export default function Games() {
       {/* Hero Section */}
       <div className="relative w-full h-[500px] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black z-10"></div>
-        <Image src="/fivem-hero.webp" alt="FiveM Server Hosting" fill className="object-cover" priority />
+        <Image src="https://files.tecnoblog.net/wp-content/uploads/2019/07/gta-v-001.jpg" alt="FiveM Server Hosting" fill className="object-cover" priority />
         <div className="relative z-20 container mx-auto px-6 h-full flex flex-col justify-center items-center text-center">
           <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 rounded-full px-4 py-1 mb-4">
             <Rocket size={16} className="text-orange-400" />
@@ -438,7 +438,7 @@ export default function Games() {
         {/* Baixa Latência Destacada */}
         <section className="mt-12 relative overflow-hidden rounded-2xl">
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-800/80 z-0"></div>
-          <div className="absolute inset-0 bg-[url('/latency-bg.webp')] bg-cover bg-center opacity-20 z-0"></div>
+          <div className="absolute inset-0 bg-[url('/latencia.png')] bg-cover bg-center opacity-20 z-0"></div>
 
           <div className="relative z-10 p-8 md:p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
