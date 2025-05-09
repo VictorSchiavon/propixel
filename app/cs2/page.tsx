@@ -191,7 +191,7 @@ export default function CS2HostingPage() {
           <div className="hidden lg:block absolute right-0 bottom-0">
             <div className="relative w-[400px] h-[400px]">
               <img
-                src="/placeholder.svg?height=400&width=400"
+                src="https://static.gamersclub.com.br/assets/eva-06-1.png"
                 alt="Counter Strike 2 Character"
                 width={400}
                 height={400}
