@@ -2,7 +2,7 @@
 
 import React from "react"
 import { useRef } from "react"
-import { CheckCircle2, Shield, Zap, Server, Cpu, Globe, HeadsetIcon } from "lucide-react"
+import { CheckCircle2, Shield, Zap, Server, Cpu, Globe, HeadsetIcon, HardDrive } from "lucide-react"
 
 // Definição do tipo para os planos
 interface PlanDescription {
@@ -25,8 +25,8 @@ interface Plan {
   recommended?: boolean
 }
 
-// Planos de CS2
-const cs2Plans: Plan[] = [
+// Planos de CS2 Host
+const cs2HostPlans: Plan[] = [
   {
     id: "basic",
     name: "BÁSICO",
@@ -78,8 +78,62 @@ const cs2Plans: Plan[] = [
   },
 ]
 
+// Planos de CS2 VPS
+const cs2VpsPlans: Plan[] = [
+  {
+    id: "vps-basic",
+    name: "VPS BÁSICO",
+    originalPrice: "R$79,90",
+    price: "R$69,90",
+    color: "bg-purple-700",
+    description: {
+      ram: "2 GB",
+      ssd: "50 GB SSD NVME",
+      slots: "Ilimitados",
+      location: "São Paulo",
+      tickRate: "Configurável",
+      ddosProtection: true,
+      support: "Suporte padrão",
+    },
+  },
+  {
+    id: "vps-advanced",
+    name: "VPS AVANÇADO",
+    originalPrice: "R$119,90",
+    price: "R$99,90",
+    color: "bg-orange-500",
+    recommended: true,
+    description: {
+      ram: "4 GB",
+      ssd: "80 GB SSD NVME",
+      slots: "Ilimitados",
+      location: "São Paulo",
+      tickRate: "Configurável",
+      ddosProtection: true,
+      support: "Suporte prioritário",
+    },
+  },
+  {
+    id: "vps-pro",
+    name: "VPS PROFISSIONAL",
+    originalPrice: "R$179,90",
+    price: "R$159,90",
+    color: "bg-green-600",
+    description: {
+      ram: "6 GB",
+      ssd: "120 GB SSD NVME",
+      slots: "Ilimitados",
+      location: "São Paulo",
+      tickRate: "Configurável",
+      ddosProtection: true,
+      support: "Suporte premium 24/7",
+    },
+  },
+]
+
 export default function CS2HostingPage() {
   const [selectedPlan, setSelectedPlan] = React.useState<Plan | null>(null)
+  const [planType, setPlanType] = React.useState<"host" | "vps">("host")
   const detailsRef = useRef<HTMLDivElement>(null)
 
   // Função para mostrar detalhes do plano e rolar para a seção de detalhes
@@ -92,6 +146,9 @@ export default function CS2HostingPage() {
       }, 100)
     }
   }
+
+  // Obter os planos ativos com base no tipo selecionado
+  const activePlans = planType === "host" ? cs2HostPlans : cs2VpsPlans
 
   return (
     <div className="bg-[rgb(11,14,19)] min-h-screen text-white">
@@ -192,14 +249,63 @@ export default function CS2HostingPage() {
             </p>
           </div>
 
+          {/* Seletor de tipo de plano */}
+          <div className="flex justify-center mb-12">
+            <div className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg p-1 flex">
+              <button
+                onClick={() => setPlanType("host")}
+                className={`px-6 py-3 rounded-md font-medium text-lg transition-all ${
+                  planType === "host"
+                    ? "bg-orange-500 text-white"
+                    : "bg-transparent text-gray-400 hover:text-white hover:bg-gray-800"
+                }`}
+              >
+                <div className="flex items-center gap-2">
+                  <Server size={20} />
+                  <span>Host CS2</span>
+                </div>
+              </button>
+              <button
+                onClick={() => setPlanType("vps")}
+                className={`px-6 py-3 rounded-md font-medium text-lg transition-all ${
+                  planType === "vps"
+                    ? "bg-orange-500 text-white"
+                    : "bg-transparent text-gray-400 hover:text-white hover:bg-gray-800"
+                }`}
+              >
+                <div className="flex items-center gap-2">
+                  <HardDrive size={20} />
+                  <span>VPS CS2</span>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          {/* Descrição do tipo de plano */}
+          <div className="text-center mb-12">
+            {planType === "host" ? (
+              <p className="text-gray-300 max-w-3xl mx-auto">
+                Nossos planos <span className="text-orange-500 font-bold">Host CS2</span> são otimizados para jogadores
+                que desejam um servidor gerenciado e fácil de configurar, ideal para comunidades e partidas casuais.
+              </p>
+            ) : (
+              <p className="text-gray-300 max-w-3xl mx-auto">
+                Nossos planos <span className="text-orange-500 font-bold">VPS CS2</span> oferecem controle total sobre o
+                servidor, com acesso root e recursos dedicados, perfeito para competições e servidores personalizados.
+              </p>
+            )}
+          </div>
+
           {/* Grid de planos e painel de detalhes */}
           <div className="flex flex-col lg:flex-row gap-8">
             {/* Grid de planos */}
             <div className="lg:w-3/4 grid grid-cols-1 md:grid-cols-3 gap-6">
-              {cs2Plans.map((plan) => (
+              {activePlans.map((plan) => (
                 <div
                   key={plan.id}
-                  className={`bg-[#1A1A1A] border-2 ${plan.recommended ? "border-orange-500" : "border-gray-800"} rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20 relative`}
+                  className={`bg-[#1A1A1A] border-2 ${
+                    plan.recommended ? "border-orange-500" : "border-gray-800"
+                  } rounded-lg overflow-hidden shadow-lg transition-all hover:-translate-y-1 hover:shadow-orange-500/20 relative`}
                 >
                   {plan.recommended && (
                     <div className="absolute top-0 left-0 right-0 bg-orange-500 text-white font-bold text-center py-1 px-2 z-10">
@@ -210,7 +316,11 @@ export default function CS2HostingPage() {
                     <div
                       className={`w-16 h-16 mx-auto rounded-full ${plan.color} flex items-center justify-center mb-2`}
                     >
-                      <Server size={32} className="text-white" />
+                      {planType === "host" ? (
+                        <Server size={32} className="text-white" />
+                      ) : (
+                        <HardDrive size={32} className="text-white" />
+                      )}
                     </div>
                   </div>
                   <div className="px-6 pb-6">
@@ -301,8 +411,89 @@ export default function CS2HostingPage() {
         </div>
       </div>
 
-      {/* Seção de recursos para CS2 */}
+      {/* Seção de comparação de planos */}
       <div className="bg-[rgb(15,18,23)] py-20">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-4">Comparação de planos</h2>
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+              Entenda as diferenças entre nossos planos Host e VPS para Counter Strike 2
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr>
+                  <th className="p-4 text-left bg-[#1A1A1A] border border-gray-800"></th>
+                  <th className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <div className="flex flex-col items-center">
+                      <Server size={24} className="text-orange-500 mb-2" />
+                      <span className="font-bold text-lg">Host CS2</span>
+                    </div>
+                  </th>
+                  <th className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <div className="flex flex-col items-center">
+                      <HardDrive size={24} className="text-orange-500 mb-2" />
+                      <span className="font-bold text-lg">VPS CS2</span>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="p-4 bg-[#1A1A1A] border border-gray-800 font-medium">Facilidade de uso</td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-green-500 font-bold">Muito fácil</span>
+                  </td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-yellow-500 font-bold">Requer conhecimento técnico</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-4 bg-[#1A1A1A] border border-gray-800 font-medium">Controle</td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-gray-300">Painel de controle específico</span>
+                  </td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-green-500 font-bold">Acesso root completo</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-4 bg-[#1A1A1A] border border-gray-800 font-medium">Personalização</td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-gray-300">Plugins e configurações básicas</span>
+                  </td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-green-500 font-bold">Personalização total</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-4 bg-[#1A1A1A] border border-gray-800 font-medium">Preço</td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-green-500 font-bold">A partir de R$29,90</span>
+                  </td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-gray-300">A partir de R$69,90</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-4 bg-[#1A1A1A] border border-gray-800 font-medium">Ideal para</td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-gray-300">Comunidades e jogos casuais</span>
+                  </td>
+                  <td className="p-4 text-center bg-[#1A1A1A] border border-gray-800">
+                    <span className="text-gray-300">Competições e servidores avançados</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      {/* Seção de recursos para CS2 */}
+      <div className="bg-[rgb(11,14,19)] py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Recursos exclusivos para seu servidor CS2</h2>
@@ -370,7 +561,7 @@ export default function CS2HostingPage() {
       </div>
 
       {/* Seção de depoimentos */}
-      <div className="bg-[rgb(11,14,19)] py-20">
+      <div className="bg-[rgb(15,18,23)] py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">O que nossos clientes dizem</h2>
@@ -432,7 +623,7 @@ export default function CS2HostingPage() {
       </div>
 
       {/* Seção de FAQ */}
-      <div className="bg-[rgb(15,18,23)] py-20">
+      <div className="bg-[rgb(11,14,19)] py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Perguntas frequentes</h2>
@@ -451,18 +642,18 @@ export default function CS2HostingPage() {
             </div>
 
             <div className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3">Posso instalar plugins no meu servidor?</h3>
+              <h3 className="text-xl font-bold mb-3">Qual a diferença entre Host e VPS?</h3>
               <p className="text-gray-400">
-                Sim, todos os nossos planos de hospedagem CS2 permitem a instalação de plugins populares como AdminMod,
-                StatTrak e outros para personalizar sua experiência de jogo.
+                O Host CS2 é uma solução gerenciada e fácil de usar, ideal para comunidades e jogos casuais. Já o VPS
+                oferece controle total com acesso root, perfeito para competições e configurações avançadas.
               </p>
             </div>
 
             <div className="bg-[#1A1A1A] border-2 border-gray-800 rounded-lg p-6">
               <h3 className="text-xl font-bold mb-3">Qual plano é recomendado para competições?</h3>
               <p className="text-gray-400">
-                Para competições e jogos oficiais, recomendamos o plano Avançado ou Profissional, que oferecem 128 tick
-                e recursos suficientes para garantir estabilidade mesmo em momentos de alta demanda.
+                Para competições e jogos oficiais, recomendamos o plano VPS Avançado ou Profissional, que oferecem maior
+                controle e recursos suficientes para garantir estabilidade mesmo em momentos de alta demanda.
               </p>
             </div>
 
@@ -478,7 +669,7 @@ export default function CS2HostingPage() {
       </div>
 
       {/* Seção de contato */}
-      <div id="contact" className="bg-[rgb(11,14,19)] py-20">
+      <div id="contact" className="bg-[rgb(15,18,23)] py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto bg-[#1A1A1A] border-2 border-gray-800 rounded-lg p-8">
             <div className="text-center mb-8">
@@ -524,7 +715,7 @@ export default function CS2HostingPage() {
                 <li>Host CS2 Básico - 2GB</li>
                 <li>Host CS2 Avançado - 4GB</li>
                 <li>Host CS2 Profissional - 6GB</li>
-                <li>Host Counter Strike 2 Personalizado</li>
+                <li>VPS CS2 - Controle total</li>
               </ul>
             </div>
 
@@ -542,8 +733,8 @@ export default function CS2HostingPage() {
               <h3 className="text-xl font-bold mb-4">Contato</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>Discord: discord.gg/p8YXcEuKdH</li>
-                <li>Email: suporte@razehost.com.br</li>
-                <li>WhatsApp: (11) 99999-9999</li>
+                <li>Email: contato@raze.host</li>
+                <li>WhatsApp: (11) 96892-7685</li>
               </ul>
             </div>
           </div>
@@ -552,6 +743,7 @@ export default function CS2HostingPage() {
             <p>© 2025 RazeHost - A melhor hospedagem para Counter Strike 2 (CS2) do Brasil</p>
             <p className="mt-2 text-sm">
               Hospedagem de CS2 | Host de Counter Strike 2 | Servidores CS2 | Servidor CS2 128 tick | Host CS2 Anti-DDoS
+              | VPS CS2
             </p>
           </div>
         </div>
