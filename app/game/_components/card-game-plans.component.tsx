@@ -1,6 +1,6 @@
 import type React from "react"
 import { calculateDiscountPercentage } from "@/app/games/_components/card-game-plans.component"
-import { Button, Card, CardBody, CardFooter, CardHeader } from "@nextui-org/react"
+import { Button, Card, CardBody, CardFooter } from "@nextui-org/react"
 import Link from "next/link"
 import { BiCheck } from "react-icons/bi"
 
@@ -33,18 +33,16 @@ export const CardGamePlansComponent: React.FC<CardGamePlansComponentProps> = ({
 
   return (
     <Link href={link} className="block h-full">
-      <Card className="bg-[#121212] h-full flex flex-col">
+      <Card className="bg-[#121212] h-full flex flex-col rounded-lg overflow-hidden">
         {/* Cabeçalho com imagem */}
-        <CardHeader className="p-0 overflow-hidden h-[300px]">
-          <div 
-            className="w-full h-full bg-center bg-cover"
-            style={{
-              backgroundImage: `url('${img || "/placeholder.svg?height=300&width=400"}')`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
+        <div className="relative w-full h-[220px] overflow-hidden">
+          <img
+            src={img || "/placeholder.svg?height=300&width=400"}
+            alt={title}
+            className="w-full h-full object-cover"
           />
-        </CardHeader>
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-24"></div>
+        </div>
 
         {/* Conteúdo do card */}
         <CardBody className="p-4 flex-grow">
@@ -92,7 +90,7 @@ export const CardGamePlansComponent: React.FC<CardGamePlansComponentProps> = ({
 
           {/* Botão de contratar */}
           <Button
-            className="w-full bg-gradient-to-r from-dark-600 to-orange-500 text-white font-medium py-3"
+            className="w-full bg-gradient-to-r from-purple-600 to-orange-500 text-white font-medium py-3"
             radius="sm"
             size="lg"
           >
