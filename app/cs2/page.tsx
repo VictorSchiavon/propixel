@@ -668,35 +668,6 @@ export default function CS2HostingPage() {
         </div>
       </div>
 
-      {/* Seção de contato */}
-      <div id="contact" className="bg-[rgb(15,18,23)] py-20">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto bg-[#1A1A1A] border-2 border-gray-800 rounded-lg p-8">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold mb-4">Precisa de ajuda para escolher?</h2>
-              <p className="text-xl text-gray-400">
-                Nossa equipe especializada em Counter Strike 2 está pronta para ajudar
-              </p>
-            </div>
-
-            <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
-              <a
-                href="https://discord.gg/p8YXcEuKdH"
-                className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 text-lg rounded-md inline-block text-center"
-              >
-                Entrar no Discord
-              </a>
-
-              <a
-                href="mailto:suporte@razehost.com.br"
-                className="border-2 border-orange-500 text-white hover:bg-orange-500/20 font-bold px-8 py-4 text-lg rounded-md inline-block text-center"
-              >
-                Enviar e-mail
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Footer com SEO */}
       <footer className="bg-[rgb(8,10,15)] py-12 border-t border-gray-800">
@@ -740,7 +711,6 @@ export default function CS2HostingPage() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-500">
-            <p>© 2025 RazeHost - A melhor hospedagem para Counter Strike 2 (CS2) do Brasil</p>
             <p className="mt-2 text-sm">
               Hospedagem de CS2 | Host de Counter Strike 2 | Servidores CS2 | Servidor CS2 128 tick | Host CS2 Anti-DDoS
               | VPS CS2
