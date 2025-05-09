@@ -1361,6 +1361,35 @@
 				]}
 			],
 
+			"corekeeper": [
+		{
+			"game": "corekeeper",
+			"img": "/games/cards/corekeeper.webp",
+			"name": "Plano 1",
+			"price": "R$39,90",
+			"discountPrice": "R$19,90",
+			"link": "https://app.razehost.com.br/store/core-keeper/core-keeper-2gb",
+			"description": [
+				"2GB de RAM",
+				"AMD Ryzen",
+				"5GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]
+		},
+		{
+			"game": "corekeeper",
+			"img": "/games/cards/corekeeper.webp",
+			"name": "Plano 1",
+			"price": "R$59,90",
+			"discountPrice": "R$39,90",
+			"link": "https://app.razehost.com.br/store/core-keeper/core-keeper-4gb",
+			"description": [
+				"4GB de RAM",
+				"AMD Ryzen",
+				"10GB SSD NVMe",
+				"Anti DDoS Incluso"
+			]}
+			],
 "barotrauma": [
 		{
 			"game": "barotrauma",

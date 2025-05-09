@@ -538,6 +538,25 @@
 		}
 	},
 	{
+		"id": 33,
+		"name": "Core Keeper",
+		"img": "/games/corekeeper.webp",
+		"logo": "/games/logos/corekeeper.webp",
+		"link": "/core-keeper",
+		"price": "R$ 39,90",
+		"discountPrice": "R$ 19,90",
+		"new": false,
+		"wallpaper": "/wallpapers/corekeeper.webp",
+		"contents": {
+			"description": "Explore uma vasta caverna de criaturas, relíquias e recursos em uma aventura de sandbox de mineração.",
+			"platform": "PC",
+			"developer": "Pugstorm",
+			"mods": "Permitido",
+			"processador": "AMD Ryzen",
+			"refundType": "Reembolso em até 7 dias"
+		}
+	},
+	{
 		"id": 30,
 		"name": "Barotrauma",
 		"img": "/games/barotrauma.webp",
