@@ -56,7 +56,7 @@ export const CardGamePlansComponent: React.FC<CardGamePlansComponentProps> = ({
           <div className="space-y-3">
             {features?.map((item, index) => (
               <div key={index} className="flex items-start gap-2">
-                <BiCheck size={20} className="text-purple-500 mt-0.5 flex-shrink-0" />
+                <BiCheck size={20} className="text-orange-500 mt-0.5 flex-shrink-0" />
                 <span className="text-white text-sm">{item}</span>
               </div>
             ))}
@@ -90,7 +90,7 @@ export const CardGamePlansComponent: React.FC<CardGamePlansComponentProps> = ({
 
           {/* Botão de contratar */}
           <Button
-            className="w-full bg-gradient-to-r from-purple-600 to-orange-500 text-white font-medium py-3"
+            className="w-full bg-gradient-to-r from-orange-600 to-orange-500 text-white font-medium py-3"
             radius="sm"
             size="lg"
           >
