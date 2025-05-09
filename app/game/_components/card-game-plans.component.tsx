@@ -92,7 +92,7 @@ export const CardGamePlansComponent: React.FC<CardGamePlansComponentProps> = ({
 
           {/* Botão de contratar */}
           <Button
-            className="w-full bg-gradient-to-r from-purple-600 to-orange-500 text-white font-medium py-3"
+            className="w-full bg-gradient-to-r from-dark-600 to-orange-500 text-white font-medium py-3"
             radius="sm"
             size="lg"
           >
