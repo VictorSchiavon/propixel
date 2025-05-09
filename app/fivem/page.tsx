@@ -25,6 +25,7 @@ const vps = [
   {
     name: "VPS Lester",
     price: "R$39,90",
+    players: "Testes",
     link: "https://app.razehost.com.br/store/vps/vps-hermes",
     description: {
       ram: "1 GB",
@@ -162,8 +163,8 @@ export default function Games() {
       <div className="relative w-full h-[500px] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black z-10"></div>
         <img
-          src="https://files.tecnoblog.net/wp-content/uploads/2019/07/gta-v-001.jpg"
-          alt="FiveM Server Hosting"
+          src="https://images.squarespace-cdn.com/content/v1/5bccd5717788971625e09ffc/1613495458341-Q1PMJDEVOICALUSJ3NSY/Motorcycle_Shooting_Car_3000px.jpg?format=1500w"
+          alt="Host de FiveM"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative z-20 container mx-auto px-6 h-full flex flex-col justify-center items-center text-center">
@@ -233,7 +234,7 @@ export default function Games() {
               <Server size={16} className="text-orange-400" />
               <span className="text-sm font-medium text-orange-400">Planos Personalizados</span>
             </div>
-            <h2 className="text-4xl font-bold">VPS FiveM no Brasil com Anti DDoS Incluso</h2>
+            <h2 className="text-4xl font-bold">Host de FiveM no Brasil com Anti DDoS Incluso</h2>
             <p className="text-gray-400 mt-4 text-lg">
               Escolha o plano ideal para seu servidor e evolua conforme sua comunidade cresce. Todos os planos incluem
               cachê-externo de 10GBPS para uma experiência de jogo perfeita.
