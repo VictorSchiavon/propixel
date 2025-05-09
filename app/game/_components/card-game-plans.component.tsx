@@ -21,7 +21,7 @@ export const CardGamePlansComponent: React.FC<CardGamePlansComponentProps> = ({
   price,
   features,
   priceDiscount,
-  players = "30 jogadores",
+  players = "Proteção Cloudflare Magic Transit",
 }) => {
   // Calcular a porcentagem de desconto
   const discountPercentage = priceDiscount
