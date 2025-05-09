@@ -201,19 +201,14 @@ export const NavbarComponent = () => {
                   <div>
                     {[
                       {
-                        href: "/fivem",
-                        title: "FiveM",
-                        description: "Hospede seu servidor de FiveM com AMD Ryzen 9.",
-                      },
-                      {
                         href: "/dedicados",
                         title: "Baremetal",
                         description: "Seu próprio servidor dedicado, não divida recursos.",
                       },
                       {
-                        href: "/colocation",
-                        title: "Colocation",
-                        description: "Hospede seu servidor em nossa infraestrutura.",
+                        href: "/fivem",
+                        title: "FiveM",
+                        description: "Hospede seu servidor de FiveM com AMD Ryzen 9.",
                       },
                       {
                         href: "/semidedicados",
@@ -235,10 +230,10 @@ export const NavbarComponent = () => {
                 <div className="mt-6 border-t border-gray-700 pt-4 grid grid-cols-3 gap-4">
                   {[
                     {
-                      label: "Documentação",
-                      href: "https://suporte.razehost.com.br/pt-BR/collections/9663609-servidor-vps",
+                      label: "Colocation",
+                      href: "/colocation",
                     },
-                    { label: "Redes", href: "/redes" },
+                    { label: "Redes", href: "/redes#breve" },
                     { label: "Changelog", href: "https://discord.gg/GghrUQ9vMN" },
                   ].map((item, index) => (
                     <Link href={item.href} key={index} onClick={(e) => handleLinkClick(e)}>
