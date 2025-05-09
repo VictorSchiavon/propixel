@@ -40,6 +40,26 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({ displayGame }) => 
     setSelected(key.toString())
   }
 
+  // Mapeamento de planos para número de jogadores (exemplo)
+  const playerCounts = {
+    básico: "30 jogadores",
+    avançado: "50 jogadores",
+    premium: "80 jogadores",
+    ultimate: "100 jogadores",
+  }
+
+  // Função para determinar o número de jogadores com base no nome do plano
+  const getPlayerCount = (planName: string) => {
+    const nameLower = planName.toLowerCase()
+
+    if (nameLower.includes("básico") || nameLower.includes("basic")) return "30 jogadores"
+    if (nameLower.includes("avançado") || nameLower.includes("advanced")) return "50 jogadores"
+    if (nameLower.includes("premium")) return "80 jogadores"
+    if (nameLower.includes("ultimate")) return "100 jogadores"
+
+    return "30 jogadores" // valor padrão
+  }
+
   return (
     <>
       <h1 className="text-3xl font-bold mb-3">{displayGame.name}</h1>
@@ -157,18 +177,23 @@ export const TabsComponent: React.FC<TabsComponentProps> = ({ displayGame }) => 
 
         {/* Tab de planos */}
         <Tab key="plans" title="Planos">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
-            {getPlans(plans, displayGame.name.toLowerCase().replace(/\s+/g, ""))?.map((plan: any, index: number) => (
-              <CardGamePlansComponent
-                key={index}
-                title={plan.name}
-                price={plan.price}
-                priceDiscount={plan.discountPrice}
-                link={plan.link}
-                features={plan.description}
-                img={plan.img}
-              />
-            ))}
+          <div className="bg-[#0A0A0A] p-6 rounded-lg mt-6 mb-10">
+            <h2 className="text-2xl font-bold text-center mb-8">Escolha o plano ideal para seu servidor</h2>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {getPlans(plans, displayGame.name.toLowerCase().replace(/\s+/g, ""))?.map((plan: any, index: number) => (
+                <CardGamePlansComponent
+                  key={index}
+                  title={plan.name}
+                  price={plan.price}
+                  priceDiscount={plan.discountPrice}
+                  link={plan.link}
+                  features={plan.description}
+                  img={plan.img}
+                  players={getPlayerCount(plan.name)}
+                />
+              ))}
+            </div>
           </div>
         </Tab>
 
