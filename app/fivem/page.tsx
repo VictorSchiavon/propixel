@@ -217,7 +217,7 @@ export default function Games() {
               <p className="text-gray-300 mt-2">Suporte Técnico</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-orange-400">5ms</h3>
+              <h3 className="text-3xl md:text-4xl font-bold text-orange-400">15ms</h3>
               <p className="text-gray-300 mt-2">Latência Média</p>
             </div>
           </div>
@@ -447,7 +447,7 @@ export default function Games() {
                   <div className="absolute inset-0 bg-green-500 rounded-full blur-3xl opacity-20"></div>
                   <img src="/latencia.png" alt="Baixa Latência" className="relative z-10 rounded-lg w-full h-auto" />
                   <div className="absolute top-4 left-4 bg-green-500 text-white text-xl font-bold p-3 rounded-full z-20 shadow-lg">
-                    5ms
+                    15ms
                   </div>
                   <div className="absolute bottom-4 left-4 bg-green-500/80 text-white p-4 rounded-full z-20 shadow-lg">
                     <Clock size={60} />
@@ -465,13 +465,13 @@ export default function Games() {
                 </h2>
                 <p className="text-gray-300 mt-4 text-lg leading-relaxed">
                   Nossos servidores estão localizados em São Paulo, garantindo a menor latência possível para jogadores
-                  brasileiros, com média de apenas 5ms de ping.
+                  brasileiros, com média de apenas 15ms de ping.
                 </p>
 
                 <div className="mt-8 space-y-4">
                   {[
                     "Servidores localizados em São Paulo",
-                    "Média de 5ms de ping para jogadores brasileiros",
+                    "Média de 15ms de ping para jogadores brasileiros",
                     "Conexões otimizadas para reduzir jitter e packet loss",
                     "Compatível com Exitlag para otimização adicional",
                   ].map((item, idx) => (
@@ -497,7 +497,7 @@ export default function Games() {
           </p>
           <p className="text-gray-300 mt-4 leading-relaxed">
             Nosso diferencial está no cachê-externo com velocidade de 10GBPS, que proporciona carregamento ultrarrápido
-            de recursos e mods, além da baixa latência média de 5ms para jogadores brasileiros. Tudo isso com suporte
+            de recursos e mods, além da baixa latência média de 15ms para jogadores brasileiros. Tudo isso com suporte
             técnico especializado 24/7 para garantir a melhor experiência para você e sua comunidade.
           </p>
         </div>
