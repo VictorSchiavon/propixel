@@ -201,6 +201,11 @@ export const NavbarComponent = () => {
                   <div>
                     {[
                       {
+                        href: "/fivem",
+                        title: "FiveM",
+                        description: "Hospede seu servidor de FiveM com AMD Ryzen 9.",
+                      },
+                      {
                         href: "/dedicados",
                         title: "Baremetal",
                         description: "Seu próprio servidor dedicado, não divida recursos.",
@@ -233,7 +238,7 @@ export const NavbarComponent = () => {
                       label: "Documentação",
                       href: "https://suporte.razehost.com.br/pt-BR/collections/9663609-servidor-vps",
                     },
-                    { label: "Redes", href: "/redes#breve" },
+                    { label: "Redes", href: "/redes" },
                     { label: "Changelog", href: "https://discord.gg/GghrUQ9vMN" },
                   ].map((item, index) => (
                     <Link href={item.href} key={index} onClick={(e) => handleLinkClick(e)}>
