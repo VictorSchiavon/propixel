@@ -422,11 +422,6 @@ export default function Games() {
               <div className="flex justify-center">
                 <div className="relative w-full max-w-md">
                   <div className="absolute inset-0 bg-orange-500 rounded-full blur-3xl opacity-20"></div>
-                  <img
-                    src="/cache-externo.png"
-                    alt="Cachê-externo 10GBPS"
-                    className="relative z-10 rounded-lg w-full h-auto"
-                  />
                   <div className="absolute top-4 right-4 bg-orange-500 text-white text-xl font-bold p-3 rounded-full z-20 shadow-lg">
                     10GBPS
                   </div>
