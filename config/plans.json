@@ -1364,7 +1364,7 @@
 			"corekeeper": [
 		{
 			"game": "corekeeper",
-			"img": "/games/cards/corekeeper.webp",
+			"img": "/games/cards/corekeeper2.webp",
 			"name": "Plano 1",
 			"price": "R$39,90",
 			"discountPrice": "R$19,90",
@@ -1378,7 +1378,7 @@
 		},
 		{
 			"game": "corekeeper",
-			"img": "/games/cards/corekeeper.webp",
+			"img": "/games/cards/corekeeper2.webp",
 			"name": "Plano 1",
 			"price": "R$59,90",
 			"discountPrice": "R$39,90",
