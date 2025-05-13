@@ -1,62 +1,44 @@
-import { Card, CardBody, Chip, Image } from "@nextui-org/react";
-import Link from "next/link";
+"use client";
 
-export function calculateDiscountPercentage(
-	originalPrice: number,
-	discountPrice: number | null,
-): number {
-	if (originalPrice && discountPrice !== null) {
-		const discountAmount = originalPrice - discountPrice;
-		const discountPercentage = (discountAmount / originalPrice) * 100;
-		return parseFloat(discountPercentage.toFixed(2));
-	}
-	return 0;
+import Link from "next/link";
+import Image from "next/image";
+import { Card, CardBody } from "@nextui-org/react";
+
+interface CardGameProps {
+  img: string;
+  name: string;
+  price: string;
+  priceDiscount: string | null;
+  link: string;
 }
 
-export const CardGameComponent = ({
-	name,
-	img,
-	link,
-	price,
-	priceDiscount,
-}: any) => {
-	return (
-		<>
-			<Link href={link}>
-				<Card className="bg-[#0B0E13] border-none shadow-none">
-					<CardBody className="overflow-visible p-0 border-none bg-transparent">
-						<div>
-							<Image
-								width="100%"
-								alt={name}
-								className="w-full object-cover h-72"
-								src={img}
-							/>
-						</div>
-						<div className="pt-2 pl-2">
-							<h1 className="font-bold pb-2">{name}</h1>
-							{!priceDiscount ? (
-								<p className="truncate md:whitespace-normal">
-									A partir de {price}
-								</p>
-							) : (
-								<div className="flex flex-wrap gap-2 items-center">
-									<Chip className="text-white" size="sm" color="warning">
-										-
-										{calculateDiscountPercentage(
-											parseFloat(price.replace("R$", "")),
-											parseFloat(priceDiscount.replace("R$", "")),
-										)}
-										%
-									</Chip>
-									<p className="line-through text-gray-400 text-xs">{price}</p>
-									<p>{priceDiscount}</p>
-								</div>
-							)}
-						</div>
-					</CardBody>
-				</Card>
-			</Link>
-		</>
-	);
-};
+export function CardGameComponent({ img, name, price, priceDiscount, link }: CardGameProps) {
+  return (
+    <Card isPressable className="bg-[#0B0E13] border-gray-800 hover:border-orange-500/50 transition-all duration-300">
+      <Link href={link}>
+        <CardBody className="p-0">
+          <Image
+            shadow="sm"
+            radius="lg"
+            width="100%"
+            height={140}
+            src={img || "/placeholder.svg"}
+            alt={name}
+            className="w-full object-cover h-48"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-bold text-white">{name}</h3>
+            {priceDiscount ? (
+              <div className="flex items-center gap-2">
+                <span className="text-gray-500 line-through">{price}</span>
+                <span className="text-orange-500 font-bold">{priceDiscount}</span>
+              </div>
+            ) : (
+              <p className="text-orange-500 font-bold">{price}</p>
+            )}
+          </div>
+        </CardBody>
+      </Link>
+    </Card>
+  );
+}
