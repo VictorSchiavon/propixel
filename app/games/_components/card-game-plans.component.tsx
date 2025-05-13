@@ -42,3 +42,8 @@ export function CardGameComponent({ img, name, price, priceDiscount, link }: Car
     </Card>
   );
 }
+
+export const calculateDiscountPercentage = (price: number, discountPrice: number): number => {
+  const discount = ((price - discountPrice) / price) * 100;
+  return Math.round(discount);
+};

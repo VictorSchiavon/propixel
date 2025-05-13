@@ -7,8 +7,8 @@ import { Button } from "@nextui-org/react"
 import { Chip, Card, CardBody } from "@nextui-org/react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
-// Usando o componente de card existente
-import { CardGameComponent } from "@/components/card-game-plans.component"
+// Importando o componente de card diretamente - ajuste o caminho conforme sua estrutura de projeto
+import { CardGameComponent, calculateDiscountPercentage } from "../_components/card-game-plans.component"
 
 export default function GamesPage() {
   const [activeGame, setActiveGame] = useState<Game | null>(null)
@@ -30,20 +30,6 @@ export default function GamesPage() {
       window.removeEventListener("resize", checkIfMobile)
     }
   }, [])
-
-  // Função para calcular desconto
-  const calculateDiscount = (originalPrice: string, discountPrice: string): number => {
-    const original = Number.parseFloat(originalPrice)
-    const discount = Number.parseFloat(discountPrice)
-
-    if (original && discount) {
-      const discountAmount = original - discount
-      const discountPercentage = (discountAmount / original) * 100
-      return Math.round(discountPercentage)
-    }
-
-    return 0
-  }
 
   return (
     <div className="flex min-h-screen bg-[#0B0E13]">
@@ -70,7 +56,12 @@ export default function GamesPage() {
                     {activeGame.discountPrice ? (
                       <>
                         <Chip className="text-white" color="warning">
-                          -{calculateDiscount(activeGame.price, activeGame.discountPrice)}%
+                          -
+                          {calculateDiscountPercentage(
+                            Number.parseFloat(activeGame.price),
+                            Number.parseFloat(activeGame.discountPrice),
+                          )}
+                          %
                         </Chip>
                         <span className="text-white/60 line-through text-sm">R$ {activeGame.price}</span>
                         <span className="text-white font-bold">R$ {activeGame.discountPrice}/mês</span>
