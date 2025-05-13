@@ -7,8 +7,19 @@ import { Button } from "@nextui-org/react"
 import { Chip, Card, CardBody } from "@nextui-org/react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
-// Importando o componente de card diretamente - ajuste o caminho conforme sua estrutura de projeto
-import { CardGameComponent, calculateDiscountPercentage } from "../_components/card-game-plans.component"
+// Função para calcular desconto
+function calculateDiscount(originalPrice: string, discountPrice: string): number {
+  const original = Number.parseFloat(originalPrice)
+  const discount = Number.parseFloat(discountPrice)
+
+  if (original && discount) {
+    const discountAmount = original - discount
+    const discountPercentage = (discountAmount / original) * 100
+    return Math.round(discountPercentage)
+  }
+
+  return 0
+}
 
 export default function GamesPage() {
   const [activeGame, setActiveGame] = useState<Game | null>(null)
@@ -56,12 +67,7 @@ export default function GamesPage() {
                     {activeGame.discountPrice ? (
                       <>
                         <Chip className="text-white" color="warning">
-                          -
-                          {calculateDiscountPercentage(
-                            Number.parseFloat(activeGame.price),
-                            Number.parseFloat(activeGame.discountPrice),
-                          )}
-                          %
+                          -{calculateDiscount(activeGame.price, activeGame.discountPrice)}%
                         </Chip>
                         <span className="text-white/60 line-through text-sm">R$ {activeGame.price}</span>
                         <span className="text-white font-bold">R$ {activeGame.discountPrice}/mês</span>
@@ -124,14 +130,32 @@ export default function GamesPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6">
             {games.map((game) => (
-              <CardGameComponent
-                key={game.id}
-                name={game.name}
-                img={game.image}
-                link={game.link}
-                price={`R$ ${game.price}`}
-                priceDiscount={game.discountPrice ? `R$ ${game.discountPrice}` : null}
-              />
+              <div key={game.id}>
+                <Card className="bg-[#0B0E13] border-gray-800 hover:border-orange-500/50 transition-all duration-300">
+                  <Link href={game.link}>
+                    <CardBody className="p-0">
+                      <Image
+                        src={game.image || "/placeholder.svg?height=200&width=300"}
+                        alt={game.name}
+                        width={300}
+                        height={200}
+                        className="w-full object-cover h-48"
+                      />
+                      <div className="p-4">
+                        <h3 className="text-lg font-bold text-white">{game.name}</h3>
+                        {game.discountPrice ? (
+                          <div className="flex items-center gap-2">
+                            <span className="text-gray-500 line-through">R$ {game.price}</span>
+                            <span className="text-orange-500 font-bold">R$ {game.discountPrice}</span>
+                          </div>
+                        ) : (
+                          <p className="text-orange-500 font-bold">R$ {game.price}</p>
+                        )}
+                      </div>
+                    </CardBody>
+                  </Link>
+                </Card>
+              </div>
             ))}
           </div>
         </section>
@@ -145,14 +169,32 @@ export default function GamesPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6">
             {survivalGames.map((game) => (
-              <CardGameComponent
-                key={game.id}
-                name={game.name}
-                img={game.image}
-                link={game.link}
-                price={`R$ ${game.price}`}
-                priceDiscount={game.discountPrice ? `R$ ${game.discountPrice}` : null}
-              />
+              <div key={game.id}>
+                <Card className="bg-[#0B0E13] border-gray-800 hover:border-orange-500/50 transition-all duration-300">
+                  <Link href={game.link}>
+                    <CardBody className="p-0">
+                      <Image
+                        src={game.image || "/placeholder.svg?height=200&width=300"}
+                        alt={game.name}
+                        width={300}
+                        height={200}
+                        className="w-full object-cover h-48"
+                      />
+                      <div className="p-4">
+                        <h3 className="text-lg font-bold text-white">{game.name}</h3>
+                        {game.discountPrice ? (
+                          <div className="flex items-center gap-2">
+                            <span className="text-gray-500 line-through">R$ {game.price}</span>
+                            <span className="text-orange-500 font-bold">R$ {game.discountPrice}</span>
+                          </div>
+                        ) : (
+                          <p className="text-orange-500 font-bold">R$ {game.price}</p>
+                        )}
+                      </div>
+                    </CardBody>
+                  </Link>
+                </Card>
+              </div>
             ))}
           </div>
         </section>
