@@ -28,8 +28,8 @@ const vps = [
     users: "Até 100 espectadores",
     link: "https://app.razehost.com.br/store/vps/vps-hermes",
     description: {
-      ram: "2 GB DDR5",
-      ssd: "40 GB NVMe",
+      ram: "1 GB",
+      ssd: "30 GB",
       cores: "1 núcleo",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
@@ -40,8 +40,8 @@ const vps = [
     users: "Até 500 espectadores",
     link: "https://app.razehost.com.br/store/vps/vps-l1",
     description: {
-      ram: "4 GB DDR5",
-      ssd: "60 GB NVMe",
+      ram: "2 GB",
+      ssd: "40 GB",
       cores: "2 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
@@ -52,8 +52,8 @@ const vps = [
     users: "Até 1000 espectadores",
     link: "https://app.razehost.com.br/store/vps/vps-l2",
     description: {
-      ram: "8 GB DDR5",
-      ssd: "80 GB NVMe",
+      ram: "4 GB",
+      ssd: "50 GB",
       cores: "3 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
@@ -65,8 +65,8 @@ const vps = [
     users: "Até 2000 espectadores",
     link: "https://app.razehost.com.br/store/vps/vps-l3",
     description: {
-      ram: "16 GB DDR5",
-      ssd: "120 GB NVMe",
+      ram: "6 GB",
+      ssd: "60 GB",
       cores: "4 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
@@ -77,9 +77,9 @@ const vps = [
     users: "Até 5000 espectadores",
     link: "https://app.razehost.com.br/store/vps/vps-l4",
     description: {
-      ram: "32 GB DDR5",
-      ssd: "200 GB NVMe",
-      cores: "6 núcleos",
+      ram: "8 GB",
+      ssd: "70 GB",
+      cores: "5 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -89,9 +89,9 @@ const vps = [
     users: "Até 8000 espectadores",
     link: "https://app.razehost.com.br/store/vps/vps-l5",
     description: {
-      ram: "48 GB DDR5",
-      ssd: "300 GB NVMe",
-      cores: "8 núcleos",
+      ram: "10 GB",
+      ssd: "80 GB",
+      cores: "6 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -101,9 +101,9 @@ const vps = [
     users: "Até 12000 espectadores",
     link: "https://app.razehost.com.br/store/vps/vps-poseidon",
     description: {
-      ram: "64 GB DDR5",
-      ssd: "400 GB NVMe",
-      cores: "10 núcleos",
+      ram: "12 GB",
+      ssd: "90 GB",
+      cores: "6 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -113,9 +113,9 @@ const vps = [
     users: "Até 20000 espectadores",
     link: "https://app.razehost.com.br/store/vps/vps-mestre",
     description: {
-      ram: "96 GB DDR5",
-      ssd: "500 GB NVMe",
-      cores: "12 núcleos",
+      ram: "16 GB",
+      ssd: "100 GB",
+      cores: "6 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -140,7 +140,7 @@ const features = [
   {
     icon: <Wifi className="text-orange-500" size={26} />,
     title: "Uplink até 1Gbps",
-    text: "Transmissão sem interrupções com uplink até 1Gbps, ideal para streaming em alta resolução para milhares de espectadores.",
+    text: "Transmissão sem interrupções com uplink de até 1Gbps, ideal para streaming em alta resolução para milhares de espectadores.",
     highlight: true,
   },
   {
@@ -176,7 +176,7 @@ export default function Streaming() {
             VPS para Streaming com <span className="text-orange-400">AMD Ryzen 9 e DDR5</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
-            Hospedagem otimizada para lives, com uplink de 1Gbps e proteção Anti-DDoS para transmissões estáveis e de alta qualidade.
+            Hospedagem otimizada para lives, com uplink de até 1Gbps e proteção Anti-DDoS para transmissões estáveis e de alta qualidade.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button
@@ -235,7 +235,7 @@ export default function Streaming() {
             </div>
             <h2 className="text-4xl font-bold">Hospedagem de Streaming no Brasil com Anti-DDoS</h2>
             <p className="text-gray-400 mt-4 text-lg">
-              Escolha o plano perfeito para suas lives e expanda sua audiência com desempenho impecável. Todos os planos incluem uplink de 1Gbps.
+              Escolha o plano perfeito para suas lives e expanda sua audiência com desempenho impecável. Todos os planos incluem uplink de até 1Gbps.
             </p>
           </div>
 
@@ -271,7 +271,7 @@ export default function Streaming() {
                 </div>
                 <div className="mt-4 border-t border-gray-800 pt-4"></div>
                 <div className="mt-4">
-                  <Tooltip content="Memória DDR5 para streaming de alta performance">
+                  <Tooltip content="Memória para streaming de alta performance">
                     <div className="bg-[#0A0C10] border border-gray-800 w-full text-center p-3 rounded-lg hover:border-orange-400/50 transition-colors">
                       <p className="font-bold text-sm flex justify-center items-center gap-2">
                         <MemoryStick size={18} className="text-orange-400" /> {vpsItem.description.ram}
@@ -289,12 +289,12 @@ export default function Streaming() {
                       <p className="font-bold text-xs text-gray-500 mt-1">CPU</p>
                     </div>
                   </Tooltip>
-                  <Tooltip content="Armazenamento SSD NVMe para arquivos de mídia">
+                  <Tooltip content="Armazenamento SSD para arquivos de mídia">
                     <div className="bg-[#0A0C10] border border-gray-800 w-full text-center p-3 rounded-lg hover:border-orange-400/50 transition-colors">
                       <p className="font-bold text-sm flex justify-center items-center gap-2">
                         <HardDrive size={18} className="text-orange-400" /> {vpsItem.description.ssd}
                       </p>
-                      <p className="font-bold text-xs text-gray-500 mt-1">SSD NVMe</p>
+                      <p className="font-bold text-xs text-gray-500 mt-1">SSD</p>
                     </div>
                   </Tooltip>
                 </div>
@@ -379,9 +379,9 @@ export default function Streaming() {
                   <Wifi size={16} className="text-orange-400" />
                   <span className="text-sm font-medium text-orange-400">Velocidade Máxima</span>
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-white">Uplink de 1Gbps para Streaming</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-white">Uplink de até 1Gbps para Streaming</h2>
                 <p className="text-gray-300 mt-4 text-lg leading-relaxed">
-                  Nosso uplink de 1Gbps garante transmissões em alta resolução sem buffering, mesmo para grandes audiências.
+                  Nosso uplink de até 1Gbps garante transmissões em alta resolução sem buffering, mesmo para grandes audiências.
                 </p>
                 <div className="mt-8 space-y-4">
                   {[
@@ -403,8 +403,8 @@ export default function Streaming() {
                   <div className="absolute top-4 right-4 bg-orange-500 text-white text-xl font-bold p-3 rounded-full z-20 shadow-lg">
                     1Gbps
                   </div>
-                  <div className="absolute Oppenheimer
-                    <Wifi size={60} className="text-orange-400" />
+                  <div className="absolute bottom-4 right-4 bg-orange-500/80 text-white p-4 rounded-full z-20 shadow-lg">
+                    <Wifi size={60} />
                   </div>
                 </div>
               </div>
@@ -461,7 +461,7 @@ export default function Streaming() {
         <div className="rounded-xl shadow-lg mt-16 p-8 bg-gradient-to-br from-[#202024] to-[#1A1D23] border border-gray-800">
           <h2 className="text-2xl font-bold text-white">Qual a melhor hospedagem para streaming?</h2>
           <p className="text-gray-300 mt-4 leading-relaxed">
-            A RazeHost é a escolha ideal para streamers no Brasil, oferecendo servidores otimizados com AMD Ryzen 9, memória DDR5 e SSD NVMe. Nosso uplink de 1Gbps garante transmissões em alta qualidade, enquanto a proteção Anti-DDoS mantém suas lives seguras.
+            A RazeHost é a escolha ideal para streamers no Brasil, oferecendo servidores otimizados com AMD Ryzen 9, memória DDR5 e SSD NVMe. Nosso uplink de até 1Gbps garante transmissões em alta qualidade, enquanto a proteção Anti-DDoS mantém suas lives seguras.
           </p>
           <p className="text-gray-300 mt-4 leading-relaxed">
             Com servidores em São Paulo e latência média de 15ms, proporcionamos uma experiência fluida para você e sua audiência. Nosso suporte 24/7 está pronto para ajudar com configurações de OBS, plataformas de streaming e muito mais.
