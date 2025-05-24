@@ -31,7 +31,7 @@ const vps = [
       ram: "2 GB DDR5",
       ssd: "40 GB NVMe",
       cores: "1 núcleo",
-      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+      attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
   {
@@ -43,7 +43,7 @@ const vps = [
       ram: "4 GB DDR5",
       ssd: "60 GB NVMe",
       cores: "2 núcleos",
-      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+      attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
   {
@@ -55,7 +55,7 @@ const vps = [
       ram: "8 GB DDR5",
       ssd: "80 GB NVMe",
       cores: "3 núcleos",
-      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+      attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
     popular: true,
   },
@@ -68,7 +68,7 @@ const vps = [
       ram: "16 GB DDR5",
       ssd: "120 GB NVMe",
       cores: "4 núcleos",
-      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+      attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
   {
@@ -80,7 +80,7 @@ const vps = [
       ram: "32 GB DDR5",
       ssd: "200 GB NVMe",
       cores: "6 núcleos",
-      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+      attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
   {
@@ -92,7 +92,7 @@ const vps = [
       ram: "48 GB DDR5",
       ssd: "300 GB NVMe",
       cores: "8 núcleos",
-      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+      attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
   {
@@ -104,7 +104,7 @@ const vps = [
       ram: "64 GB DDR5",
       ssd: "400 GB NVMe",
       cores: "10 núcleos",
-      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+      attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
   {
@@ -116,7 +116,7 @@ const vps = [
       ram: "96 GB DDR5",
       ssd: "500 GB NVMe",
       cores: "12 núcleos",
-      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+      attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
 ]
@@ -139,8 +139,8 @@ const features = [
   },
   {
     icon: <Wifi className="text-orange-500" size={26} />,
-    title: "Uplink 1Gbps",
-    text: "Transmissão sem interrupções com uplink de 1Gbps, ideal para streaming em alta resolução para milhares de espectadores.",
+    title: "Uplink até 1Gbps",
+    text: "Transmissão sem interrupções com uplink até 1Gbps, ideal para streaming em alta resolução para milhares de espectadores.",
     highlight: true,
   },
   {
