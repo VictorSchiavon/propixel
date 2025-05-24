@@ -57,7 +57,6 @@ const vps = [
       cores: "3 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
-    popular: true,
   },
   {
     name: "Stream Master",
@@ -118,6 +117,7 @@ const vps = [
       cores: "6 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
+        popular: true,
   },
 ]
 
