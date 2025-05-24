@@ -42,7 +42,7 @@ const vps = [
     description: {
       ram: "2 GB",
       ssd: "40 GB",
-      cores: "2 núcleos",
+      cores: "1 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -54,7 +54,7 @@ const vps = [
     description: {
       ram: "4 GB",
       ssd: "50 GB",
-      cores: "3 núcleos",
+      cores: "2 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
     popular: true,
@@ -67,7 +67,7 @@ const vps = [
     description: {
       ram: "6 GB",
       ssd: "60 GB",
-      cores: "4 núcleos",
+      cores: "3 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -79,7 +79,7 @@ const vps = [
     description: {
       ram: "8 GB",
       ssd: "70 GB",
-      cores: "5 núcleos",
+      cores: "3 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -91,7 +91,7 @@ const vps = [
     description: {
       ram: "10 GB",
       ssd: "80 GB",
-      cores: "6 núcleos",
+      cores: "3 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -103,7 +103,7 @@ const vps = [
     description: {
       ram: "12 GB",
       ssd: "90 GB",
-      cores: "6 núcleos",
+      cores: "3 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -115,7 +115,7 @@ const vps = [
     description: {
       ram: "16 GB",
       ssd: "100 GB",
-      cores: "6 núcleos",
+      cores: "4 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
