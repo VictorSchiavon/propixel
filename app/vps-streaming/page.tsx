@@ -24,9 +24,9 @@ import { CardPromotion } from "../_components/card-promotion"
 const vps = [
   {
     name: "Stream Starter",
-    price: "R$49,90",
+    price: "R$39,90",
     users: "Até 100 espectadores",
-    link: "https://app.razehost.com.br/store/vps/stream-starter",
+    link: "https://app.razehost.com.br/store/vps/vps-hermes",
     description: {
       ram: "2 GB DDR5",
       ssd: "40 GB NVMe",
@@ -36,9 +36,9 @@ const vps = [
   },
   {
     name: "Stream Pro",
-    price: "R$89,90",
+    price: "R$69,90",
     users: "Até 500 espectadores",
-    link: "https://app.razehost.com.br/store/vps/stream-pro",
+    link: "https://app.razehost.com.br/store/vps/vps-l1",
     description: {
       ram: "4 GB DDR5",
       ssd: "60 GB NVMe",
@@ -48,9 +48,9 @@ const vps = [
   },
   {
     name: "Stream Elite",
-    price: "R$149,90",
+    price: "R$99,90",
     users: "Até 1000 espectadores",
-    link: "https://app.razehost.com.br/store/vps/stream-elite",
+    link: "https://app.razehost.com.br/store/vps/vps-l2",
     description: {
       ram: "8 GB DDR5",
       ssd: "80 GB NVMe",
@@ -61,9 +61,9 @@ const vps = [
   },
   {
     name: "Stream Master",
-    price: "R$249,90",
+    price: "R$159,90",
     users: "Até 2000 espectadores",
-    link: "https://app.razehost.com.br/store/vps/stream-master",
+    link: "https://app.razehost.com.br/store/vps/vps-l3",
     description: {
       ram: "16 GB DDR5",
       ssd: "120 GB NVMe",
@@ -73,13 +73,49 @@ const vps = [
   },
   {
     name: "Stream Ultra",
-    price: "R$349,90",
+    price: "R$199,90",
     users: "Até 5000 espectadores",
-    link: "https://app.razehost.com.br/store/vps/stream-ultra",
+    link: "https://app.razehost.com.br/store/vps/vps-l4",
     description: {
       ram: "32 GB DDR5",
       ssd: "200 GB NVMe",
       cores: "6 núcleos",
+      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+    },
+  },
+  {
+    name: "Stream Max",
+    price: "R$249,90",
+    users: "Até 8000 espectadores",
+    link: "https://app.razehost.com.br/store/vps/vps-l5",
+    description: {
+      ram: "48 GB DDR5",
+      ssd: "300 GB NVMe",
+      cores: "8 núcleos",
+      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+    },
+  },
+  {
+    name: "Stream Titan",
+    price: "R$299,90",
+    users: "Até 12000 espectadores",
+    link: "https://app.razehost.com.br/store/vps/vps-poseidon",
+    description: {
+      ram: "64 GB DDR5",
+      ssd: "400 GB NVMe",
+      cores: "10 núcleos",
+      attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
+    },
+  },
+  {
+    name: "Stream Legend",
+    price: "R$349,90",
+    users: "Até 20000 espectadores",
+    link: "https://app.razehost.com.br/store/vps/vps-mestre",
+    description: {
+      ram: "96 GB DDR5",
+      ssd: "500 GB NVMe",
+      cores: "12 núcleos",
       attrs: ["Uplink 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
   },
@@ -464,9 +500,9 @@ export default function Streaming() {
         </section>
 
         {/* CTA Section */}
-        <section className="my-20 relative overflow-hiddradient-to-r from-purple-600/30 to-blue-900/30 z-0"></div>
-          <div className="absolute inset-0 bg-[url('/streaen rounded-2xl">
-          <div className="absolute inset-0 bg-gming-cta-bg.webp')] bg-cover bg-center opacity-20 z-0"></div>
+        <section className="my-20 relative overflow-hidden rounded-2xl">
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-600/30 to-blue-900/30 z-0"></div>
+          <div className="absolute inset-0 bg-[url('/streaming-cta-bg.webp')] bg-cover bg-center opacity-20 z-0"></div>
           <div className="relative z-10 p-8 md:p-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white max-w-3xl mx-auto">
               Pronto para levar suas lives ao próximo nível?
