@@ -25,7 +25,7 @@ const vps = [
   {
     name: "Stream Starter",
     price: "R$39,90",
-    users: "Até 100 espectadores",
+    users: "Até 1 página",
     link: "https://app.razehost.com.br/store/vps/vps-hermes",
     description: {
       ram: "1 GB",
@@ -37,7 +37,7 @@ const vps = [
   {
     name: "Stream Pro",
     price: "R$69,90",
-    users: "Até 500 espectadores",
+    users: "Até 5 páginas",
     link: "https://app.razehost.com.br/store/vps/vps-l1",
     description: {
       ram: "2 GB",
@@ -49,7 +49,7 @@ const vps = [
   {
     name: "Stream Elite",
     price: "R$99,90",
-    users: "Até 1000 espectadores",
+    users: "té 10 páginas",
     link: "https://app.razehost.com.br/store/vps/vps-l2",
     description: {
       ram: "4 GB",
@@ -57,11 +57,12 @@ const vps = [
       cores: "3 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
+    popular: true,
   },
   {
     name: "Stream Master",
     price: "R$159,90",
-    users: "Até 2000 espectadores",
+    users: "Até 20 páginas",
     link: "https://app.razehost.com.br/store/vps/vps-l3",
     description: {
       ram: "6 GB",
@@ -73,7 +74,7 @@ const vps = [
   {
     name: "Stream Ultra",
     price: "R$199,90",
-    users: "Até 5000 espectadores",
+    users: "Até 30 páginas",
     link: "https://app.razehost.com.br/store/vps/vps-l4",
     description: {
       ram: "8 GB",
@@ -85,7 +86,7 @@ const vps = [
   {
     name: "Stream Max",
     price: "R$249,90",
-    users: "Até 8000 espectadores",
+    users: "Até 40 páginas",
     link: "https://app.razehost.com.br/store/vps/vps-l5",
     description: {
       ram: "10 GB",
@@ -97,7 +98,7 @@ const vps = [
   {
     name: "Stream Titan",
     price: "R$299,90",
-    users: "Até 12000 espectadores",
+    users: "Até 50 páginas",
     link: "https://app.razehost.com.br/store/vps/vps-poseidon",
     description: {
       ram: "12 GB",
@@ -109,7 +110,7 @@ const vps = [
   {
     name: "Stream Legend",
     price: "R$349,90",
-    users: "Até 20000 espectadores",
+    users: "Até 60 páginas",
     link: "https://app.razehost.com.br/store/vps/vps-mestre",
     description: {
       ram: "16 GB",
@@ -117,9 +118,8 @@ const vps = [
       cores: "6 núcleos",
       attrs: ["Uplink até 1Gbps", "Anti DDoS Incluso", "AMD Ryzen 9"],
     },
-        popular: true,
   },
-]
+] 
 
 const features = [
   {
