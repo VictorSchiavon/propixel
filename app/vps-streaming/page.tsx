@@ -123,34 +123,34 @@ const vps = [
 
 const features = [
   {
-    icon: <Zap className="text-purple-500" size={26} />,
+    icon: <Zap className="text-orange-500" size={26} />,
     title: "AMD Ryzen 9",
     text: "Potência máxima com processadores AMD Ryzen 9, perfeitos para codificação de vídeo em tempo real e streaming de alta qualidade.",
   },
   {
-    icon: <BrainCircuit className="text-purple-500" size={26} />,
+    icon: <BrainCircuit className="text-orange-500" size={26} />,
     title: "Memória DDR5",
     text: "Aproveite a velocidade da memória DDR5 para garantir desempenho fluido em transmissões ao vivo e multitarefa intensiva.",
   },
   {
-    icon: <HardDrive className="text-purple-500" size={26} />,
+    icon: <HardDrive className="text-orange-500" size={26} />,
     title: "SSD NVMe",
     text: "Armazenamento NVMe ultrarrápido para carregamento instantâneo de conteúdos e gerenciamento eficiente de grandes arquivos de mídia.",
   },
   {
-    icon: <Wifi className="text-purple-500" size={26} />,
+    icon: <Wifi className="text-orange-500" size={26} />,
     title: "Uplink 1Gbps",
     text: "Transmissão sem interrupções com uplink de 1Gbps, ideal para streaming em alta resolução para milhares de espectadores.",
     highlight: true,
   },
   {
-    icon: <ShieldCheck className="text-purple-500" size={26} />,
+    icon: <ShieldCheck className="text-orange-500" size={26} />,
     title: "Proteção DDoS",
     text: "Mantenha suas lives seguras com proteção Anti-DDoS avançada, garantindo estabilidade mesmo sob ataques.",
     highlight: true,
   },
   {
-    icon: <Server className="text-purple-500" size={26} />,
+    icon: <Server className="text-orange-500" size={26} />,
     title: "Suporte 24/7",
     text: "Suporte técnico especializado 24/7 para resolver qualquer problema e manter suas transmissões sempre online.",
   },
@@ -168,19 +168,19 @@ export default function Streaming() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative z-20 container mx-auto px-6 h-full flex flex-col justify-center items-center text-center">
-          <div className="inline-flex items-center gap-2 bg-purple-500/20 border border-purple-500/30 rounded-full px-4 py-1 mb-4">
-            <Rocket size={16} className="text-purple-400" />
-            <span className="text-sm font-medium text-purple-400">A melhor hospedagem para streaming</span>
+          <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 rounded-full px-4 py-1 mb-4">
+            <Rocket size={16} className="text-orange-400" />
+            <span className="text-sm font-medium text-orange-400">A melhor hospedagem para streaming</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 max-w-4xl">
-            VPS para Streaming com <span className="text-purple-400">AMD Ryzen 9 e DDR5</span>
+            VPS para Streaming com <span className="text-orange-400">AMD Ryzen 9 e DDR5</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mb-8">
             Hospedagem otimizada para lives, com uplink de 1Gbps e proteção Anti-DDoS para transmissões estáveis e de alta qualidade.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button
-              className="bg-purple-500 hover:bg-purple-600 text-white font-bold px-8 py-6 text-lg"
+              className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
               size="lg"
               as="a"
               href="#planos"
@@ -200,23 +200,23 @@ export default function Streaming() {
       </div>
 
       {/* Stats Section */}
-      <div className="bg-gradient-to-r from-purple-500/10 to-blue-600/10 border-y border-purple-500/20">
+      <div className="bg-gradient-to-r from-orange-500/10 to-orange-600/10 border-y border-orange-500/20">
         <div className="container mx-auto px-6 py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="flex flex-col items-center justify-center text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-purple-400">99.9%</h3>
+              <h3 className="text-3xl md:text-4xl font-bold text-orange-400">99.9%</h3>
               <p className="text-gray-300 mt-2">Uptime Garantido</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-purple-400">1Gbps</h3>
+              <h3 className="text-3xl md:text-4xl font-bold text-orange-400">1Gbps</h3>
               <p className="text-gray-300 mt-2">Uplink</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-purple-400">24/7</h3>
+              <h3 className="text-3xl md:text-4xl font-bold text-orange-400">24/7</h3>
               <p className="text-gray-300 mt-2">Suporte Técnico</p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-purple-400">15ms</h3>
+              <h3 className="text-3xl md:text-4xl font-bold text-orange-400">15ms</h3>
               <p className="text-gray-300 mt-2">Latência Média</p>
             </div>
           </div>
@@ -229,9 +229,9 @@ export default function Streaming() {
         {/* Título e descrição */}
         <section id="planos" className="pt-12">
           <div className="text-center max-w-3xl mx-auto">
-            <div className="inline-flex items-center gap-2 bg-purple-500/20 border border-purple-500/30 rounded-full px-4 py-1 mb-4">
-              <Server size={16} className="text-purple-400" />
-              <span className="text-sm font-medium text-purple-400">Planos para Streaming</span>
+            <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 rounded-full px-4 py-1 mb-4">
+              <Server size={16} className="text-orange-400" />
+              <span className="text-sm font-medium text-orange-400">Planos para Streaming</span>
             </div>
             <h2 className="text-4xl font-bold">Hospedagem de Streaming no Brasil com Anti-DDoS</h2>
             <p className="text-gray-400 mt-4 text-lg">
@@ -245,22 +245,22 @@ export default function Streaming() {
               <div
                 key={index}
                 className={`relative bg-gradient-to-b from-[#0B0E13] to-[#0F1319] border ${
-                  vpsItem.popular ? "border-purple-400" : "border-gray-800"
-                } p-4 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-purple-500/10`}
+                  vpsItem.popular ? "border-orange-400" : "border-gray-800"
+                } p-4 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-orange-500/10`}
               >
                 {vpsItem.popular && (
-                  <div className="absolute -top-3 -right-3 bg-purple-400 text-white text-xs font-bold py-1 px-3 rounded-full shadow-lg">
+                  <div className="absolute -top-3 -right-3 bg-orange-400 text-white text-xs font-bold py-1 px-3 rounded-full shadow-lg">
                     MAIS VENDIDO
                   </div>
                 )}
                 <div className="p-2">
                   <h4 className="text-2xl font-bold">{vpsItem.name}</h4>
                   {vpsItem.users && (
-                    <div className="inline-block bg-purple-400/20 border border-purple-400/30 text-purple-400 text-xs font-bold py-1 px-3 rounded-full mt-2">
+                    <div className="inline-block bg-orange-400/20 border border-orange-400/30 text-orange-400 text-xs font-bold py-1 px-3 rounded-full mt-2">
                       {vpsItem.users}
                     </div>
                   )}
-                  <h1 className="text-purple-400 font-bold text-4xl pt-4">
+                  <h1 className="text-orange-400 font-bold text-4xl pt-4">
                     {vpsItem.price}
                     <span className="text-gray-400 font-normal text-sm"> /mês*</span>
                   </h1>
@@ -272,9 +272,9 @@ export default function Streaming() {
                 <div className="mt-4 border-t border-gray-800 pt-4"></div>
                 <div className="mt-4">
                   <Tooltip content="Memória DDR5 para streaming de alta performance">
-                    <div className="bg-[#0A0C10] border border-gray-800 w-full text-center p-3 rounded-lg hover:border-purple-400/50 transition-colors">
+                    <div className="bg-[#0A0C10] border border-gray-800 w-full text-center p-3 rounded-lg hover:border-orange-400/50 transition-colors">
                       <p className="font-bold text-sm flex justify-center items-center gap-2">
-                        <MemoryStick size={18} className="text-purple-400" /> {vpsItem.description.ram}
+                        <MemoryStick size={18} className="text-orange-400" /> {vpsItem.description.ram}
                       </p>
                       <p className="font-bold text-xs text-gray-500 mt-1">RAM</p>
                     </div>
@@ -282,17 +282,17 @@ export default function Streaming() {
                 </div>
                 <div className="flex gap-4 mt-5">
                   <Tooltip content="Núcleos de processador AMD Ryzen 9">
-                    <div className="bg-[#0A0C10] border border-gray-800 w-full text-center p-3 rounded-lg hover:border-purple-400/50 transition-colors">
+                    <div className="bg-[#0A0C10] border border-gray-800 w-full text-center p-3 rounded-lg hover:border-orange-400/50 transition-colors">
                       <p className="font-bold text-sm flex justify-center items-center gap-2">
-                        <Cpu size={18} className="text-purple-400" /> {vpsItem.description.cores}
+                        <Cpu size={18} className="text-orange-400" /> {vpsItem.description.cores}
                       </p>
                       <p className="font-bold text-xs text-gray-500 mt-1">CPU</p>
                     </div>
                   </Tooltip>
                   <Tooltip content="Armazenamento SSD NVMe para arquivos de mídia">
-                    <div className="bg-[#0A0C10] border border-gray-800 w-full text-center p-3 rounded-lg hover:border-purple-400/50 transition-colors">
+                    <div className="bg-[#0A0C10] border border-gray-800 w-full text-center p-3 rounded-lg hover:border-orange-400/50 transition-colors">
                       <p className="font-bold text-sm flex justify-center items-center gap-2">
-                        <HardDrive size={18} className="text-purple-400" /> {vpsItem.description.ssd}
+                        <HardDrive size={18} className="text-orange-400" /> {vpsItem.description.ssd}
                       </p>
                       <p className="font-bold text-xs text-gray-500 mt-1">SSD NVMe</p>
                     </div>
@@ -316,7 +316,7 @@ export default function Streaming() {
                 <div className="pt-6">
                   <a href={vpsItem.link} target="_blank" rel="noopener noreferrer">
                     <Button
-                      className={`w-full ${vpsItem.popular ? "bg-purple-400" : "bg-[#1A1D23] hover:bg-purple-400/80"} text-white text-md font-bold transition-all duration-300`}
+                      className={`w-full ${vpsItem.popular ? "bg-orange-400" : "bg-[#1A1D23] hover:bg-orange-400/80"} text-white text-md font-bold transition-all duration-300`}
                       size="lg"
                     >
                       Adquirir
@@ -331,9 +331,9 @@ export default function Streaming() {
         {/* Benefícios adicionais */}
         <section id="beneficios" className="pt-24">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <div className="inline-flex items-center gap-2 bg-purple-500/20 border border-purple-500/30 rounded-full px-4 py-1 mb-4">
-              <Award size={16} className="text-purple-400" />
-              <span className="text-sm font-medium text-purple-400">Diferenciais Exclusivos</span>
+            <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 rounded-full px-4 py-1 mb-4">
+              <Award size={16} className="text-orange-400" />
+              <span className="text-sm font-medium text-orange-400">Diferenciais Exclusivos</span>
             </div>
             <h2 className="text-4xl font-bold">Por que escolher a RazeHost para Streaming?</h2>
             <p className="text-gray-400 mt-4 text-lg">
@@ -344,20 +344,20 @@ export default function Streaming() {
             {features.map((feature, idx) => (
               <Card
                 key={idx}
-                className={`bg-gradient-to-br ${feature.highlight ? "from-[#0A0C10] to-[#141A26] border-purple-500/30" : "from-[#0A0C10] to-[#0F1319] border-gray-800/50"} border rounded-xl shadow-lg hover:shadow-purple-500/10 transition-all duration-300 hover:scale-105`}
+                className={`bg-gradient-to-br ${feature.highlight ? "from-[#0A0C10] to-[#141A26] border-orange-500/30" : "from-[#0A0C10] to-[#0F1319] border-gray-800/50"} border rounded-xl shadow-lg hover:shadow-orange-500/10 transition-all duration-300 hover:scale-105`}
               >
                 <CardBody className="p-6">
                   <div
-                    className={`p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4 ${feature.highlight ? "bg-purple-500/20" : "bg-gray-800/50"}`}
+                    className={`p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4 ${feature.highlight ? "bg-orange-500/20" : "bg-gray-800/50"}`}
                   >
                     {feature.icon}
                   </div>
-                  <h3 className={`font-bold text-xl ${feature.highlight ? "text-purple-400" : "text-white"}`}>
+                  <h3 className={`font-bold text-xl ${feature.highlight ? "text-orange-400" : "text-white"}`}>
                     {feature.title}
                   </h3>
                   <p className="text-gray-300 text-[15px] mt-3 leading-relaxed">{feature.text}</p>
                   {feature.highlight && (
-                    <div className="mt-4 flex items-center gap-2 text-purple-400 text-sm font-medium">
+                    <div className="mt-4 flex items-center gap-2 text-orange-400 text-sm font-medium">
                       <CheckCircle2 size={16} />
                       <span>Recurso Premium</span>
                     </div>
@@ -370,14 +370,14 @@ export default function Streaming() {
 
         {/* Uplink Destacado */}
         <section className="mt-20 relative overflow-hidden rounded-2xl">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-blue-900/20 z-0"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-orange-600/20 to-orange-900/20 z-0"></div>
           <div className="absolute inset-0 bg-[url('/network-bg.webp')] bg-cover bg-center opacity-20 z-0"></div>
           <div className="relative z-10 p-8 md:p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="inline-flex items-center gap-2 bg-purple-500/30 border border-purple-500/40 rounded-full px-4 py-1 mb-4">
-                  <Wifi size={16} className="text-purple-400" />
-                  <span className="text-sm font-medium text-purple-400">Velocidade Máxima</span>
+                <div className="inline-flex items-center gap-2 bg-orange-500/30 border border-orange-500/40 rounded-full px-4 py-1 mb-4">
+                  <Wifi size={16} className="text-orange-400" />
+                  <span className="text-sm font-medium text-orange-400">Velocidade Máxima</span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white">Uplink de 1Gbps para Streaming</h2>
                 <p className="text-gray-300 mt-4 text-lg leading-relaxed">
@@ -391,7 +391,7 @@ export default function Streaming() {
                     "Otimizado para OBS e outros softwares de streaming",
                   ].map((item, idx) => (
                     <div key={idx} className="flex items-start gap-3">
-                      <CheckCircle2 size={20} className="text-purple-400 flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 size={20} className="text-orange-400 flex-shrink-0 mt-0.5" />
                       <p className="text-gray-300">{item}</p>
                     </div>
                   ))}
@@ -399,12 +399,12 @@ export default function Streaming() {
               </div>
               <div className="flex justify-center">
                 <div className="relative w-full max-w-md">
-                  <div className="absolute inset-0 bg-purple-500 rounded-full blur-3xl opacity-20"></div>
-                  <div className="absolute top-4 right-4 bg-purple-500 text-white text-xl font-bold p-3 rounded-full z-20 shadow-lg">
+                  <div className="absolute inset-0 bg-orange-500 rounded-full blur-3xl opacity-20"></div>
+                  <div className="absolute top-4 right-4 bg-orange-500 text-white text-xl font-bold p-3 rounded-full z-20 shadow-lg">
                     1Gbps
                   </div>
-                  <div className="absolute bottom-4 right-4 bg-purple-500/80 text-white p-4 rounded-full z-20 shadow-lg">
-                    <Wifi size={60} />
+                  <div className="absolute Oppenheimer
+                    <Wifi size={60} className="text-orange-400" />
                   </div>
                 </div>
               </div>
@@ -501,7 +501,7 @@ export default function Streaming() {
 
         {/* CTA Section */}
         <section className="my-20 relative overflow-hidden rounded-2xl">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-600/30 to-blue-900/30 z-0"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-orange-600/30 to-orange-900/30 z-0"></div>
           <div className="absolute inset-0 bg-[url('/streaming-cta-bg.webp')] bg-cover bg-center opacity-20 z-0"></div>
           <div className="relative z-10 p-8 md:p-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white max-w-3xl mx-auto">
@@ -512,7 +512,7 @@ export default function Streaming() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Button
-                className="bg-purple-500 hover:bg-purple-600 text-white font-bold px-8 py-6 text-lg"
+                className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-6 text-lg"
                 size="lg"
                 as="a"
                 href="#planos"
