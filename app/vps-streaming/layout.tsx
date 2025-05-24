@@ -7,7 +7,7 @@ export const metadata: Metadata = {
         default: "VPS para Streaming no Brasil",
         template: `%s - ${siteConfig.name}`,
     },
-    description: "VPS para Streaming com processadores AMD Ryzen e Proteção Anti DDoS para aplicações de alto nível e servidores de jogos.",
+    description: "VPS para Streaming com processadores AMD Ryzen e rede alto nível para diversas páginas.",
   keywords: [
     "RazeHost.com.br",
     "RazeHost",
@@ -16,6 +16,8 @@ export const metadata: Metadata = {
     "RazeHost Games",
     "RazeHost VPS",
     "host de FiveM",
+    "vps pra streaming",
+    "vps para lives",
     "hospedagem de FiveM",
     "FiveM Brasil",
     "FiveM servidor dedicado",
